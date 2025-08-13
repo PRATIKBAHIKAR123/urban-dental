@@ -79,11 +79,11 @@ export default function AboutUs() {
     <div className="w-full min-h-screen bg-background text-foreground font-sans overflow-x-hidden relative">
       <div className='details-page-header-section'>
                   <Fade direction='up' duration={1000}>
-                    <h1>About Us</h1>
+                    <h1>Meet Urban Dental – Your Local Dentist in Bayonne, NJ</h1>
                   </Fade>
                   <Fade direction='down' duration={1000}>
                     <p className="text-center">
-                      Cosmetic & Family Dentist in Harrisburg, PA
+                      Innovative care for a smile you’ll love
                     </p>
                   </Fade>
                 </div>
@@ -93,18 +93,20 @@ export default function AboutUs() {
 
           <Fade delay={200}>
             <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold text-primary leading-tight">
-              About Maple Dental Harrisburg
+              Focused on Your Smile, Committed to Your Comfort
             </h2>
           </Fade>
           <Fade delay={500}>
             <p>
-              Looking for a reliable dentist near you in Harrisburg, PA? At Maple Dental Harrisburg, we’re committed to delivering high-quality, affordable dental care in a comfortable and welcoming environment. Located at 2017 Eg Drive, Suite 200, our practice proudly serves patients from Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Penbrook (17103), Paxtang (17111), Progress (17109, 17111), Lawnton (17111), and Linglestown (17112) - helping families and individuals maintain healthy, confident smiles.
+              At Urban Dental Bayonne, we believe dental care goes far beyond cleanings and checkups-it’s about building lifelong confidence through a healthy, radiant smile. As a trusted dentist near you in Bayonne, our skilled team offers a full spectrum of services, including preventive, cosmetic, orthodontic, and restorative dentistry.
             </p>
           </Fade>
           <Fade delay={700}>
             <p>
-              Whether you need a routine checkup or advanced cosmetic treatment, our expert team offers comprehensive services using the latest dental technology. From preventive care to smile makeovers, we tailor each treatment plan to your unique needs and goals.
+            We pride ourselves on offering personalized care that fits your lifestyle. From flexible appointment times to same-day emergency treatments, our goal is to make quality dental care accessible and stress-free for everyone. Most insurance plans, including Medicaid, are accepted, and we provide budget-friendly payment plans.
             </p>
+            <p>Your comfort is our priority. With modern technology and a warm, inviting atmosphere, you can expect pain-free treatments and compassionate care at every visit.
+              </p>
           </Fade>
 
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-4 sm:mt-6 items-start sm:items-center">

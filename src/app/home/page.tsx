@@ -130,7 +130,7 @@ export default function HomePage() {
         <div>
         <section 
       ref={bannerRef}
-      className="relative w-full h-140 md:h-[92vh] min-h-[600px] max-h-[900px] overflow-hidden bg-gradient-to-br from-primary via-primary-500 to-secondary"
+      className="relative w-full h-140 md:h-[100vh] min-h-[650px] max-h-[950px] overflow-hidden bg-gradient-to-br from-primary via-primary-500 to-secondary"
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}
@@ -193,6 +193,7 @@ export default function HomePage() {
             style={{ backgroundImage: `url(${banner.image})` }}
           >
             {/* Professional Overlay */}
+            <div className="absolute inset-0 bg-white/5 backdrop-blur-xs"></div>
             <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-black/20"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/30"></div>
           </div>

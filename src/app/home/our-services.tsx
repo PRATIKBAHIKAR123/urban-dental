@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
 export default function OurOffers (){
@@ -79,11 +80,15 @@ export default function OurOffers (){
               {/* Image Section */}
               <div className="relative h-72 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent z-10"></div>
-                <img 
-                  src={offer.image}
-                  alt={offer.title}
-                  className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
-                />
+<div className="relative overflow-hidden group w-full h-full">
+  <img 
+    src={offer.image}
+    alt={offer.title}
+    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+  />
+  <span className="absolute inset-0 bg-emerald-500 opacity-30 transform scale-y-0 origin-top transition-transform duration-500 group-hover:scale-y-100"></span>
+  <span className="absolute inset-0 bg-emerald-500 opacity-30 transform scale-y-0 origin-bottom transition-transform duration-500 group-hover:scale-y-100 delay-100"></span>
+</div>
                 
                 {/* Animated Overlay */}
                 <div className={`absolute inset-0 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 transition-opacity duration-500 ${
@@ -112,14 +117,19 @@ export default function OurOffers (){
 
                 {/* CTA Button */}
                 <div className="mt-8">
-                  <button className="w-full bg-gradient-to-r from-primary via-primary-500 to-primary hover:from-blue-700 hover:to-cyan-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg group-hover:shadow-blue-500/25">
+                  {/* <button className="w-full bg-gradient-to-r from-primary via-primary-500 to-primary hover:from-blue-700 hover:to-cyan-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg group-hover:shadow-blue-500/25">
                     <span className="flex items-center justify-center gap-2">
                       {offer.buttonText}
                       <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                       </svg>
                     </span>
-                  </button>
+                  </button> */}
+                  <Button className="w-full">
+                    <span className="inline-block transform transition-transform duration-300 group-hover:-translate-y-4">
+                    {offer.buttonText} 
+                    </span>
+                  </Button>
                 </div>
               </div>
 
@@ -158,7 +168,7 @@ export default function OurOffers (){
 
       {/* Floating Elements */}
       <div className="absolute top-20 left-10 h-12 md:w-64 w-12 md:h-64 bg-secondary/30 rounded-full animate-pulse"></div>
-      <div className="absolute bottom-32 right-16 h-12 md:w-64 w-12 md:h-64 bg-primary/40 rounded-full animate-bounce"></div>
+      <div className="absolute bottom-32 right-16 h-12 md:w-64 w-12 md:h-64 bg-primary/10 rounded-full animate-bounce"></div>
       <div className="absolute top-1/3 right-8 w-16 h-16 bg-primary rounded-full animate-pulse" style={{animationDelay: '1s'}}></div>
     </section>
   );

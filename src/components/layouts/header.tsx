@@ -62,8 +62,8 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 bg-white shadow transition-all duration-300 ${
-        isScrolled ? "py-2 lg:py-4" : "py-3 lg:py-6"
+      className={`fixed top-0 w-full z-50 shadow transition-all duration-300 bg-white/5 backdrop-blur-xs ${
+        isScrolled ? "py-2 lg:py-4 bg-white" : "py-3 lg:py-6"
       }`}
     >
       <div className=" mx-auto flex items-center justify-between px-4 lg:px-8">
@@ -86,7 +86,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex gap-6 text-sm font-medium text-gray-700">
+        <nav className="hidden lg:flex gap-6 text-sm font-medium text-white">
           <Link href="/" className="hover:text-primary transition">
             Home
           </Link>

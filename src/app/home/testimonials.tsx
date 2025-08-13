@@ -415,6 +415,7 @@ const ModernTestimonialsSection: React.FC = () => {
   };
   const autoplay = Autoplay({ delay: 3000, stopOnInteraction: false });
     const carouselRef = useRef<any>(null);
+      const [api, setApi] = React.useState<any>(null)
 
   // Autoplay logic
   useEffect(() => {
@@ -459,21 +460,7 @@ const ModernTestimonialsSection: React.FC = () => {
                   Client Feedback
                 </h2>
                 
-                {/* Navigation Arrows - Left */}
-                <div className="flex space-x-3 lg:hidden">
-                  <button
-                    onClick={() => handleNavigation('prev')}
-                    className="w-12 h-12 bg-emerald-500 hover:bg-secondary rounded-full flex items-center justify-center transition-all duration-300 shadow-lg hover:shadow-xl group"
-                  >
-                    <ChevronLeft className="w-6 h-6 text-white group-hover:scale-110 transition-transform" />
-                  </button>
-                  <button
-                    onClick={() => handleNavigation('next')}
-                    className="w-12 h-12 bg-emerald-500 hover:bg-secondary rounded-full flex items-center justify-center transition-all duration-300 shadow-lg hover:shadow-xl group"
-                  >
-                    <ChevronRight className="w-6 h-6 text-white group-hover:scale-110 transition-transform" />
-                  </button>
-                </div>
+                
               </div>
 
               {/* Client Info */}
@@ -543,13 +530,13 @@ const ModernTestimonialsSection: React.FC = () => {
         </h2>
         <div className="hidden lg:flex space-x-3">
           <button
-            onClick={() => carouselRef.current?.scrollPrev()}
+            onClick={() => api?.scrollPrev()}
             className="w-12 h-12 bg-emerald-500 hover:bg-secondary rounded-full flex items-center justify-center transition-all duration-300 shadow-lg hover:shadow-xl group"
           >
             <ChevronLeft className="w-6 h-6 text-white group-hover:scale-110 transition-transform" />
           </button>
           <button
-            onClick={() => carouselRef.current?.scrollNext()}
+            onClick={() => api?.scrollNext()}
             className="w-12 h-12 bg-emerald-500 hover:bg-secondary rounded-full flex items-center justify-center transition-all duration-300 shadow-lg hover:shadow-xl group"
           >
             <ChevronRight className="w-6 h-6 text-white group-hover:scale-110 transition-transform" />
@@ -560,6 +547,7 @@ const ModernTestimonialsSection: React.FC = () => {
       {/* Carousel */}
       <div className="bg-slate-700/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-600">
          <Carousel
+          setApi={setApi}
       ref={carouselRef}
       plugins={[autoplay]}
       opts={{
