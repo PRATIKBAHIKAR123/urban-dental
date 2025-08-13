@@ -126,7 +126,7 @@ export default function OurOffers (){
                     </span>
                   </button> */}
                   <Button className="w-full">
-                    <span className="inline-block transform transition-transform duration-300 group-hover:-translate-y-4">
+                    <span className="inline-block transform transition-transform duration-300 group-hover:-translate-y-12">
                     {offer.buttonText} 
                     </span>
                   </Button>

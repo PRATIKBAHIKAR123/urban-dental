@@ -5,8 +5,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-primary/70 to-secondary/70 text-white py-8 px-2 sm:px-4 md:px-8">
-      <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
+    <footer className="relative bg-gradient-to-br from-primary to-secondary text-white py-8 px-2 sm:px-4 md:px-8">
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-black/40 pointer-events-none" />
+      <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 relative z-10">
         {/* Left: Logo & About */}
         <div className="space-y-4 col-span-1">
           <div className="flex items-center gap-2 mb-2">
@@ -80,7 +82,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Row */}
-      <div className="border-t border-white/20 mt-8 pt-4 flex flex-col md:flex-row items-center justify-between text-xs text-gray-300 gap-2 text-center md:text-left">
+      <div className="border-t border-white/20 mt-8 pt-4 flex flex-col md:flex-row items-center justify-between text-xs text-gray-300 gap-2 text-center md:text-left relative z-10">
         <div>
           &copy; {new Date().getFullYear()} Maple Dental. All rights reserved.
         </div>
