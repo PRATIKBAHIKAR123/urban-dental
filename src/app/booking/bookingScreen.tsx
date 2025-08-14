@@ -222,7 +222,7 @@ const BookingModalContent: React.FC<BookingModalProps> = ({ open, setOpen }) => 
 // Main Booking Modal Component with Suspense wrapper
 const BookingModal: React.FC<BookingModalProps> = ({ open, setOpen }) => {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div></div>}>
       <BookingModalContent open={open} setOpen={setOpen} />
     </Suspense>
   );
