@@ -75,6 +75,7 @@ export default function Header() {
             width={isScrolled ? 180 : 220}
             height={isScrolled ? 90 : 110}
             className="hidden lg:block transition-all duration-300"
+            priority
           />
           <Image
             src="/Images/cropped-urban-dental-scaled-1.webp"
@@ -82,6 +83,7 @@ export default function Header() {
             width={isScrolled ? 42 : 42}
             height={isScrolled ? 24 : 24}
             className="block lg:hidden transition-all duration-300"
+            priority
           />
         </Link>
 
