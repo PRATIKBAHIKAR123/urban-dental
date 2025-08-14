@@ -69,21 +69,19 @@ export default function Header() {
         }`}>
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <Image
+          <img
             src="/Images/urban-dental-2048x609.webp"
             alt="Maple Dental Logo"
             width={isScrolled ? 180 : 220}
             height={isScrolled ? 90 : 110}
-            className="hidden lg:block transition-all duration-300"
-            priority
+            className="hidden lg:block transition-all duration-300"            
           />
-          <Image
+          <img
             src="/Images/cropped-urban-dental-scaled-1.webp"
             alt="Maple Dental Logo"
             width={isScrolled ? 42 : 42}
             height={isScrolled ? 24 : 24}
-            className="block lg:hidden transition-all duration-300"
-            priority
+            className="block lg:hidden transition-all duration-300"            
           />
         </Link>
 

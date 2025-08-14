@@ -94,7 +94,7 @@ const BookingModalContent: React.FC<BookingModalProps> = ({ open, setOpen }) => 
 
     // Construct the new URL with current path and updated query
     const newUrl = `${pathname}?${params.toString()}`;
-    router.push(newUrl); // ✅ Updates the URL without full navigation
+    router.push(newUrl, { scroll: false }); // ✅ Updates the URL without full navigation
   }, [open]);
 
   return (
