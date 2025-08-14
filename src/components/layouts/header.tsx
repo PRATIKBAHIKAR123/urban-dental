@@ -198,9 +198,9 @@ export default function Header() {
             </div>
           </div>
         </nav>
-        <div className="hidden md:flex flex-col gap-3 justify-end items-end">
-          <div className={`flex justify-between items-center gap-8 ${isScrolled ? "text-black" : "text-white"}`}>
-            <div className="flex gap-2"><MapPin /> 66 Broklyne Golden Street, USA</div>
+        <div className="hidden lg:flex flex-col gap-3 justify-end items-end">
+          <div className={`sm:flex md:hidden lg:flex flex justify-between items-center gap-8 ${isScrolled ? "text-black" : "text-white"}`}>
+            <div className="flex gap-2"><MapPin /> 393 Avenue C, Bayonne, NJ 07002, USA</div>
             <div className="flex gap-2"><Mail /> urbandental@mail.com</div>
           </div>
           {/* Desktop Buttons */}

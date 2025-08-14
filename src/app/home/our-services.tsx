@@ -125,10 +125,13 @@ export default function OurOffers (){
                       </svg>
                     </span>
                   </button> */}
-                  <Button className="w-full">
-                    <span className="inline-block transform transition-transform duration-300 group-hover:-translate-y-12">
-                    {offer.buttonText} 
-                    </span>
+                  <Button className="w-full group relative">
+                        <span className="block absolute inset-0 flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-full">
+    {offer.buttonText}
+  </span>
+  <span className="block absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-300 group-hover:translate-y-0">
+    {offer.buttonText}
+  </span>
                   </Button>
                 </div>
               </div>
