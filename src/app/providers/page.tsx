@@ -12,9 +12,19 @@ import clsx from "clsx";
 
 const providers = [
     {
-        name: "Dr. Simranjeet Dhaliwal, D.D.S.",
-        image: "/Images/Dr-Dhariwal1.png",
-        link: "/providers/simranjeet-dhaliwal",
+        name: "Dr. Hala Elsamna, DMD",
+        image: "/Images/Team/Hala Elsamna.webp",
+        link: "/providers/hala-elsamna-bayonne-nj-dentist",
+    },
+        {
+        name: "Dr. Dalia Khan, DDS",
+        image: "/Images/Team/Dalia Khan.webp",
+        link: "/providers/dalia-khan-bayonne-nj-dentist",
+    },
+            {
+        name: "Dr. Steven Reff, DDS",
+        image: "/Images/Team/Steven Reff.webp",
+        link: "/providers/steven-reff-bayonne-nj-dentist",
     },
 ];
 
@@ -23,20 +33,19 @@ export default function ProvidersPage() {
         <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white pb-12">
             {/* Header Section with blue background */}
             <div className="details-page-header-section">
-                <h1 >Meet Our Trusted Dental Providers in Harrisburg, PA</h1>
-                <h2>Compassionate, Experienced Care from the Maple Dental Team</h2>
+                <h1 >Meet the Expert Dentists at Urban Dental Bayonne </h1>
+                <h2>Dedicated Professionals Committed to Your Smile</h2>
             </div>
             <div className="max-w-7xl mt-6 mx-auto px-2 sm:px-4 md:px-8">
                 <div
-                    className="flex gap-8 md:gap-12 items-center justify-center"
+                    className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-8 md:gap-3 "
                 >
                     {providers.map((provider, idx) => (
                         <div
                             key={provider.name}
                             className={clsx(
                                 "relative bg-white rounded-xl shadow-lg overflow-hidden flex flex-col items-center w-full transition-transform hover:-translate-y-2 hover:shadow-xl border border-blue-100",
-                                "md:w-1/3 h-72 sm:h-80 md:h-80 lg:h-72 xl:h-80",
-                                "mx-auto"
+                                
                             )}
                         >
                             <div className="w-full h-2/3 relative min-h-[140px]">

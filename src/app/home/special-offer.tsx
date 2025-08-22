@@ -13,9 +13,10 @@ const SpecialOffersSection = () => {
       price: "$55",
       originalPrice: "$120",
       features: [
-        "Emergency consultation",
-        "Pain relief treatment",
-        "Immediate care"
+        "$55 Emergency Exam & X-ray",
+        "$79 New Patient Special (Cleaning, Exam & X-rays)",
+        "Interest-Free Financing (Up to 12 Months)",
+        "Senior Discounts During Special Hours"
       ],
       conditions: [
         "For new patients without insurance",
@@ -25,24 +26,24 @@ const SpecialOffersSection = () => {
       badgeColor: "bg-red-500",
       icon: "🚨"
     },
-    {
-      id: 2,
-      title: "New Patient Special",
-      price: "$79",
-      originalPrice: "$280",
-      features: [
-        "Complete oral examination",
-        "Digital X-rays",
-        "Treatment consultation"
-      ],
-      conditions: [
-        "Exams, Cleaning & X-Rays",
-        "For new patients without insurance"
-      ],
-      badge: "Popular",
-      badgeColor: "bg-green-500",
-      icon: "⭐"
-    }
+    // {
+    //   id: 2,
+    //   title: "New Patient Special",
+    //   price: "$79",
+    //   originalPrice: "$280",
+    //   features: [
+    //     "Complete oral examination",
+    //     "Digital X-rays",
+    //     "Treatment consultation"
+    //   ],
+    //   conditions: [
+    //     "Exams, Cleaning & X-Rays",
+    //     "For new patients without insurance"
+    //   ],
+    //   badge: "Popular",
+    //   badgeColor: "bg-green-500",
+    //   icon: "⭐"
+    // }
   ];
 
   const languages = [
@@ -65,22 +66,22 @@ const SpecialOffersSection = () => {
           </div> */}
           <h2 className="text-4xl font-bold text-white mb-4">
             <Bounce>
-            Limited-Time Savings
+            Special Offers for New & Existing Patients
             </Bounce>
           </h2>
           <Fade>
           <p className="text-3xl text-blue-100 max-w-2xl mx-auto text-center">
-            For Patients Without Insurance
+            To make dentistry accessible for everyone, we proudly offer:
           </p>
           </Fade>
         </div>
 
         {/* Offers Grid */}
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        <div className="flex flex-col md:flex-row gap-8 mb-16 items-center justify-center">
           {offers.map((offer) => (
             <div key={offer.id} className="group relative">
               {/* Card */}
-              <div className="bg-white rounded-md p-4 md:p-16 shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2 border border-white/20">
+              <div className="bg-white rounded-md p-4 md:p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2 border border-white/20">
                 {/* Badge */}
                 {/* <div className={`inline-flex items-center gap-2 ${offer.badgeColor} text-white px-4 py-2 rounded-full text-sm font-medium mb-6`}>
                   <span>{offer.icon}</span>
@@ -88,12 +89,12 @@ const SpecialOffersSection = () => {
                 </div> */}
 
                 {/* Title */}
-                <h3 className="text-lg md:text-4xl font-normal text-gray-900 mb-4">
+                {/* <h3 className="text-lg md:text-4xl font-normal text-gray-900 mb-4">
                   {offer.title}
-                </h3>
+                </h3> */}
 
                 {/* Price */}
-                <div className="flex items-baseline gap-3 mb-6">
+                {/* <div className="flex items-baseline gap-3 mb-6">
                   <span className="text-2xl md:text-5xl font-bold text-primary">
                     {offer.price}
                   </span>
@@ -103,7 +104,7 @@ const SpecialOffersSection = () => {
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
                     Save {Math.round(((parseInt(offer.originalPrice.slice(1)) - parseInt(offer.price.slice(1))) / parseInt(offer.originalPrice.slice(1))) * 100)}%
                   </span>
-                </div>
+                </div> */}
 
                 {/* Features */}
                 <div className="space-y-3 mb-8">
@@ -116,14 +117,14 @@ const SpecialOffersSection = () => {
                 </div>
 
                 {/* Conditions */}
-                <div className="border-t pt-6 space-y-2">
+                {/* <div className="border-t pt-6 space-y-2">
                   {offer.conditions.map((condition, index) => (
                     <p key={index} className="text-sm text-gray-500 flex items-center gap-2">
                       <Clock className="w-4 h-4" />
                       {condition}
                     </p>
                   ))}
-                </div>
+                </div> */}
 
                 {/* CTA Button */}
                 <div className='text-center mt-2'>
@@ -135,16 +136,11 @@ const SpecialOffersSection = () => {
         </div>
 
         {/* Language Section */}
-        <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-3 md:p-8 border border-white/20">
+        {/* <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-3 md:p-8 border border-white/20">
           <div className="text-center">
-            {/* <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-full mb-6">
-              <Globe className="w-8 h-8 text-white" />
-            </div> */}
             <h3 className="text-2xl font-bold text-white mb-4">
               Our staff speak 6 languages!
             </h3>
-            
-            {/* Language Tags */}
             <div className="flex flex-wrap justify-center gap-3 mb-6">
               {languages.map((language, index) => (
                 <span 
@@ -160,7 +156,7 @@ const SpecialOffersSection = () => {
               We are here to help you in your preferred language. Call us today!
             </p>
 
-            {/* Call to Action */}
+           
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a href="tel:717-745-2700" className="inline-flex items-center justify-center gap-3 bg-white text-primary font-semibold py-4 px-8 rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg hover:shadow-xl w-full sm:w-auto min-w-[200px] h-[56px]">
                 <Phone className="w-5 h-5" />
@@ -172,7 +168,7 @@ const SpecialOffersSection = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <BookingModal open={isBookingOpen} setOpen={setIsBookingOpen}/>
     </section>

@@ -24,7 +24,7 @@ export default function LoaderProvider({ children }: { children: React.ReactNode
       if (typeof document !== 'undefined') {
         document.body.classList.remove('loading');
       }
-    }, 800); // adjust based on animation time
+    }, 500); // adjust based on animation time
 
     return () => {
       clearTimeout(timeout);

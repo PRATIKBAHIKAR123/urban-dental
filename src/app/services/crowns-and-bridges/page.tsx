@@ -57,9 +57,9 @@ export default function CrownsPage() {
                         <h1>Dental Crowns & Bridges in Harrisburg, PA</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
-                        <p className="text-center">
+                        <h2 className="text-center">
                             Tooth Restoration in Harrisburg | Maple Dental | Family & Cosmetic Dentist
-                        </p>
+                        </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
                     </div>
@@ -106,7 +106,7 @@ export default function CrownsPage() {
                           Top Reasons
                         </div>
                         <div className='wcu-title'>
-                          Why Choose Maple Dental for Crowns & Bridges?
+                          <h2>Why Choose Maple Dental for Crowns & Bridges?</h2>
                         </div>
                         <div className='wcu-points-section'>
                           <ul className='wcu-points'>
@@ -156,12 +156,12 @@ export default function CrownsPage() {
                               </div>
                             </div>
     <div className='faq-section'>
-           <h4 className='faq-heading'>Crowns & Bridges Q&A</h4>
+           <h2 className='faq-heading'>Crowns & Bridges Q&A</h2>
            <div className="faq-acc-container">
             <Accordion type="single" className="w-full space-y-5">
         
         <AccordionItem value="q1" className="faq-acc">
-          <AccordionTrigger className='faq-qn'>What is a dental crown?</AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What is a dental crown?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>A dental crown is a custom-made cap that fits over a damaged, cracked, or weakened tooth to restore its shape, strength, and appearance. It’s often used after a root canal, large filling, or to protect a fractured tooth.</p>
             
@@ -169,7 +169,7 @@ export default function CrownsPage() {
         </AccordionItem>
 
         <AccordionItem value="q2" className="faq-acc">
-          <AccordionTrigger className='faq-qn'>What is a dental bridge?</AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What is a dental bridge?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>A bridge is used to replace one or more missing teeth. It’s made up of one or more artificial teeth anchored in place using crowns on the adjacent natural teeth or dental implants.</p>
             
@@ -177,7 +177,7 @@ export default function CrownsPage() {
         </AccordionItem>
 
         <AccordionItem value="q3" className="faq-acc">
-          <AccordionTrigger className='faq-qn'>How long do crowns and bridges last?</AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long do crowns and bridges last?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>With proper care, dental crowns and bridges can last 10–15 years or more. Good oral hygiene, routine dental visits, and avoiding hard foods help extend their lifespan.</p>
             
@@ -185,7 +185,7 @@ export default function CrownsPage() {
         </AccordionItem>
 
         <AccordionItem value="q4" className="faq-acc">
-          <AccordionTrigger className='faq-qn'>Are crowns and bridges covered by insurance?</AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Are crowns and bridges covered by insurance?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>
                 Most dental insurance plans cover a portion of the cost of crowns and bridges, especially if they are deemed medically necessary. Our team will work with your plan to maximize your benefits.
@@ -194,7 +194,7 @@ export default function CrownsPage() {
         </AccordionItem>
 
         <AccordionItem value="q5" className="faq-acc">
-          <AccordionTrigger className='faq-qn'>Is the procedure painful?</AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Is the procedure painful?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>
                 No. The procedure is done under local anesthesia, and most patients experience minimal discomfort. We also offer sedation options for those with dental anxiety.
@@ -213,7 +213,7 @@ export default function CrownsPage() {
                     Looking for Crowns or Bridges Near You in Harrisburg?
                   </h2>
                   <p className="features-description">
-                    Let Maple Dental Harrisburg restore your smile with durable, natural-looking dental crowns and bridges. Call 717-745-2700 to schedule your consultation and discover tooth restoration that fits your life and budget.
+                    Let Maple Dental Harrisburg restore your smile with durable, natural-looking dental crowns and bridges. Call <a href="tel:7177452700" className="text-primary hover:underline">717-745-2700</a> to schedule your consultation and discover tooth restoration that fits your life and budget.
                   </p>
                 </Fade>
               </div>

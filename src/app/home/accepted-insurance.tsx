@@ -165,10 +165,10 @@ const InsuranceSection = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-primary mb-6">
-            Insurance Providers
+            Insurance & Payment Options
           </h2>
           <p className="text-lg max-w-3xl mx-auto leading-relaxed">
-            Our office accepts most major dental insurance providers. For additional questions regarding insurance, please contact our office.
+            We want dental care to be stress-free, not stressful. That’s why we accept most dental insurance plans-including Medicaid-and help you maximize your benefits. For patients without insurance, our flexible financing options and budget-friendly specials make it easier to get the treatment you need.
           </p>
         </div>
 

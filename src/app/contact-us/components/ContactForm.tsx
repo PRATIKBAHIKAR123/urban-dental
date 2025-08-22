@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { FileText, Mail, MessageSquare, Phone, Send, User, CheckCircle, AlertCircle } from 'lucide-react'
 import { apiService } from '@/lib/apiService'
+import PhoneInput from 'react-phone-input-2';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -26,6 +27,19 @@ export default function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Validate required fields
+    if (!formData.phoneNumber.trim()) {
+      setSubmitStatus('error');
+      setStatusMessage('Phone number is required.');
+      return;
+    }
+    
+    if (!formData.message.trim()) {
+      setSubmitStatus('error');
+      setStatusMessage('Message is required.');
+      return;
+    }
     
     setIsSubmitting(true);
     setSubmitStatus('idle');
@@ -145,19 +159,29 @@ export default function ContactForm() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="group">
             <label className="block text-sm font-semibold text-gray-700 mb-2">
-              Phone Number
+              Phone Number <span className="text-red-500">*</span>
             </label>
-            <div className="relative">
-              <Phone className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400 group-focus-within:text-cyan-500 transition-colors" />
-              <input
-                name="phoneNumber"
-                type="tel"
-                value={formData.phoneNumber}
-                onChange={handleChange}
-                placeholder="+1 (555) 000-0000"
-                className="w-full pl-12 pr-4 py-4 border-2 border-gray-200 rounded-xl focus:border-cyan-500 focus:ring-4 focus:ring-cyan-500/10 transition-all duration-300 bg-gray-50 focus:bg-white placeholder-gray-400"
-              />
-            </div>
+            <PhoneInput
+  country={'us'}
+  value={formData.phoneNumber}
+  onChange={(phone) =>
+    setFormData({ ...formData, phoneNumber: phone })
+  }
+  placeholder="+1 (555) 000-0000"
+  inputStyle={{
+    width: '100%',
+    height: '56px', // same as py-4 roughly
+    border: '2px solid #e5e7eb', // border-gray-200
+    borderRadius: '0.75rem', // rounded-xl
+    paddingLeft: '3rem', // space for icon if you add it
+    backgroundColor: '#f9fafb', // bg-gray-50
+    fontSize: '1rem',
+  }}
+  containerStyle={{
+    width: '100%',
+  }}
+/>
+
           </div>
 
           <div className="group">
@@ -182,7 +206,7 @@ export default function ContactForm() {
         {/* Message Field */}
         <div className="group">
           <label className="block text-sm font-semibold text-gray-700 mb-2">
-            Message
+            Message <span className="text-red-500">*</span>
           </label>
           <div className="relative">
             <MessageSquare className="absolute left-3 top-4 w-5 h-5 text-gray-400 group-focus-within:text-cyan-500 transition-colors" />
@@ -192,6 +216,7 @@ export default function ContactForm() {
               onChange={handleChange}
               placeholder="Tell us more about your inquiry..."
               rows={3}
+              required
               className="w-full pl-12 pr-4 py-4 border-2 border-gray-200 rounded-xl focus:border-cyan-500 focus:ring-4 focus:ring-cyan-500/10 transition-all duration-300 bg-gray-50 focus:bg-white placeholder-gray-400 resize-none"
             />
           </div>

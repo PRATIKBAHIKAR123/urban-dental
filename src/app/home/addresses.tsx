@@ -25,16 +25,16 @@ const locations = [
   // },
     {
     id: "nj",
-    name: "New Jersey, NJ",
+    name: "Bayonne, NJ",
     address: "393 Avenue C, Bayonne, NJ 07002",
-    phone: "717-745-2700",
+    phone: "(201) 479-2100",
     hours: [
       "Monday: 9:00 AM - 6:00 PM",
       "Tuesday: 9:00 AM - 6:00 PM",
       "Wednesday: 9:00 AM - 6:00 PM",
       "Thursday: 9:00 AM - 6:00 PM",
       "Friday: 9:00 AM - 6:00 PM",
-      "Saturday: 9:00 AM - 3:30 PM",
+      "Saturday: 8:30 AM - 3:30 PM",
       "Sunday: Closed",
     ],
     mapUrl:
@@ -98,7 +98,7 @@ const [isBookingOpen, setIsBookingOpen] = useState(false);
       <div className="flex flex-col md:flex-row items-center justify-center gap-4">
 
       {/* Info Block */}
-      <div className="flex-1 text-center relative bg-gradient-to-br from-primary via-secondary-500 to-secondary rounded-lg p-8 text-white shadow-lg overflow-hidden space-y-4">
+      <div className="flex-1 text-center relative bg-primary rounded-lg p-8 text-white shadow-lg overflow-hidden space-y-4">
         <Bounce>
         <h2 className="text-2xl font-bold">{selected.name}</h2>
         </Bounce>
@@ -111,7 +111,7 @@ const [isBookingOpen, setIsBookingOpen] = useState(false);
             const isToday = new Date().getDay() === (i + 1) % 7;
             return(
             <li key={i} className={`text-white ${
-                    isToday ? 'bg-white/10 border-2 rounded-md border-secondary' : ''
+                    isToday ? 'bg-white/10 border-2 rounded-md border-white' : ''
                   }`}>{hour}</li>
             )
 })}

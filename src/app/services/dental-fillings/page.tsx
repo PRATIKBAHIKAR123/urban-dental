@@ -13,7 +13,7 @@ export default function DentalFillingPage() {
 
   const features = [
     {
-      icon: "/Images/icons/Immediate Pain Relief & Comfort.png",
+      icon: "/Images/icons/Immediate Pain Relief.png",
       title: "What Are Dental Fillings Used For?",
       description: "Dental fillings aren’t just for cavities. They’re also used to restore cracked, chipped, or worn-down teeth and to replace old metal (amalgam) fillings. We offer composite (white) fillings for a more aesthetic and biocompatible solution.",
       points: [
@@ -21,14 +21,14 @@ export default function DentalFillingPage() {
         "Fill gaps left by cavities",
         "Strengthen weakened tooth structure",
         "Restore tooth shape and function",
-        "Replace older, unsightly fillings"
+        
       ]
     },
     {
       icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
       title: "The Dental Filling Process",
       description:
-        "Getting a filling is a simple and painless procedure. Our team ensures you're comfortable throughout the visit—from diagnosis to final polish",
+        "Getting a filling is a simple and painless procedure. Our team ensures you're comfortable throughout the visit—from diagnosis to final polish.",
       points: [
         "Numbing the area for a pain-free experience",
         "Removing decay and cleaning the cavity",
@@ -41,7 +41,7 @@ export default function DentalFillingPage() {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
       title: "Serving Harrisburg & Nearby Communities",
       description:
-        "If you’re in Harrisburg (17110, 17109, 17111, 17112), or live nearby in Colonial Park, Penbrook, Progress, Paxtang, Lawnton, or Linglestown, our centrally located dental office is here for you. We provide quick, effective cavity care for kids, teens, and adults",
+        "If you’re in Harrisburg (17110, 17109, 17111, 17112), or live nearby in Colonial Park, Penbrook, Progress, Paxtang, Lawnton, or Linglestown, our centrally located dental office is here for you. We provide quick, effective cavity care for kids, teens, and adults.",
       points: [
         "Convenient Harrisburg location",
         "Family-friendly, gentle dental care",
@@ -59,9 +59,9 @@ export default function DentalFillingPage() {
               <h1>Dental Fillings in Harrisburg, PA</h1>
             </Fade>
             <Fade direction='down' duration={1000}>
-              <p className="text-center">
+              <h2 className="text-center">
                 Dental Fillings & Cavity Treatments in Harrisburg | Maple Dental | Family & Cosmetic Dentist
-              </p>
+              </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
           </div>
@@ -108,7 +108,7 @@ export default function DentalFillingPage() {
                   Top Reasons
                 </div>
                 <div className='wcu-title'>
-                  Why Choose Maple Dental for Dental Fillings?
+                  <h2>Why Choose Maple Dental for Dental Fillings?</h2>
                 </div>
                 <div className='wcu-points-section'>
                   <ul className='wcu-points'>
@@ -159,12 +159,12 @@ export default function DentalFillingPage() {
             </div>
           </div>
           <div className='faq-section'>
-            <h4 className='faq-heading'>Dental Fillings Q&A</h4>
+            <h2 className='faq-heading'>Dental Fillings Q&A</h2>
             <div className="faq-acc-container">
               <Accordion type="single" className="w-full space-y-5">
 
                 <AccordionItem value="q1" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'>What are composite fillings?</AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What are composite fillings?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
                     <p>Composite fillings are made of a tooth-colored resin that bonds directly to your tooth. Unlike metal fillings, they blend with your natural enamel for a seamless look and feel. They’re strong, safe, and preferred by most patients.</p>
 
@@ -172,7 +172,7 @@ export default function DentalFillingPage() {
                 </AccordionItem>
 
                 <AccordionItem value="q5" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'>How do I know if I need a filling? </AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How do I know if I need a filling? </h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
                     <p>
                       Common signs include tooth sensitivity, pain when chewing, visible dark spots, or holes in your teeth. However, many cavities don’t show symptoms early on, so regular dental exams are key for early detection.
@@ -182,7 +182,7 @@ export default function DentalFillingPage() {
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'>How long do fillings last?</AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long do fillings last?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
                     <p>With good oral hygiene and regular checkups, composite fillings can last 7–10 years or longer. Avoid chewing on hard objects and follow your dentist’s care instructions to extend their life.</p>
 
@@ -190,7 +190,7 @@ export default function DentalFillingPage() {
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'>Do dental fillings hurt?</AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Do dental fillings hurt?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
                     <p>Not at all. We use local anesthetic to ensure a comfortable experience. Most patients feel little to no discomfort during or after the procedure.</p>
 
@@ -198,7 +198,7 @@ export default function DentalFillingPage() {
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'>Are dental fillings covered by insurance?</AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Are dental fillings covered by insurance?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
                     <p>
                       Yes, most dental insurance plans cover fillings either fully or partially. Maple Dental Harrisburg also offers affordable payment options for those without insurance.

@@ -438,45 +438,36 @@ const ModernTestimonialsSection: React.FC = () => {
   const techChunks = chunkArray(tech, 6);
 
   return (
-    <section className="relative w-full py-16 px-4 bg-gradient-to-br from-primary via-secondary-500 to-secondary overflow-hidden">
+    <section className="relative w-full py-16 px-4 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full -translate-x-48 -translate-y-48"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full translate-x-48 translate-y-48"></div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto">
+      <div className="relative max-w-5xl mx-auto">
         {/* Main Container */}
-        <div className="bg-slate-800 rounded-3xl shadow-2xl p-8 md:p-12 relative overflow-hidden">
+        <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 relative overflow-hidden">
           {/* Decorative Elements */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-secondary/20 to-transparent rounded-full translate-x-32 -translate-y-32"></div>
           <div className="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-blue-400/20 to-transparent rounded-full -translate-x-24 translate-y-24"></div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-start relative z-10">
+          <div className="flex items-center relative z-10">
             {/* Left Side - Testimonial Content */}
-            <div className="space-y-6">
-              <div className="flex items-center justify-between">
-                <h2 className="text-3xl md:text-4xl font-bold text-white">
+            <div className='w-full space-y-6'>
+              <div className="flex items-center justify-center">
+                <h2 className="text-3xl md:text-4xl font-bold ">
                   Client Feedback
                 </h2>
                 
                 
               </div>
-
+              <div className='flex items-start gap-2 justify-between'>
+                <div className='w-full '>
               {/* Client Info */}
-              <div className="flex items-center space-x-4">
-                {/* <div className="relative">
-                  <img
-                    src={currentTestimonial.avatar}
-                    alt={currentTestimonial.name}
-                    className="w-16 h-16 rounded-full border-3 border-secondary object-cover"
-                  />
-                  <div className="absolute -top-1 -right-1 w-5 h-5 bg-secondary rounded-full flex items-center justify-center">
-                    <Quote className="w-3 h-3 text-slate-800" />
-                  </div>
-                </div> */}
+              <div className="flex items-center space-x-2">
                 <div>
-                  <h3 className="text-xl font-bold text-white">
+                  <h3 className="text-xl font-bold">
                     {currentTestimonial.name}
                   </h3>
                   <p className="text-secondary text-sm">
@@ -497,33 +488,34 @@ const ModernTestimonialsSection: React.FC = () => {
                   {currentTestimonial.rating}.0 / 5.0
                 </span>
               </div>
-
+</div>
               {/* Testimonial Text */}
-              <blockquote className="text-white text-lg leading-relaxed font-medium relative">
-                <span className="text-6xl text-secondary/30 absolute -top-4 -left-2 font-serif">"</span>
+              <div className='w-auto'>
+              <blockquote className=" text-lg leading-relaxed font-medium relative">
+                
                 <span className="relative z-10">{currentTestimonial.content}</span>
               </blockquote>
-
+              </div>
+</div>
               {/* Bottom Navigation Arrows - Mobile */}
               <div className="flex justify-center space-x-3 mt-8">
                 <button
                   onClick={() => handleNavigation('prev')}
-                  className="w-12 h-12 bg-slate-700 hover:bg-slate-600 rounded-full flex items-center justify-center transition-all duration-300 border border-slate-600 hover:border-secondary"
+                  className="w-12 h-12 bg-white hover:bg-secondary rounded-full flex items-center justify-center transition-all duration-300 border border-primary"
                 >
-                  <ChevronLeft className="w-5 h-5 text-secondary" />
+                  <ChevronLeft className="w-5 h-5 text-primary " />
                 </button>
                 <button
                   onClick={() => handleNavigation('next')}
-                  className="w-12 h-12 bg-slate-700 hover:bg-slate-600 rounded-full flex items-center justify-center transition-all duration-300 border border-slate-600 hover:border-secondary"
+                  className="w-12 h-12 bg-white hover:bg-secondary rounded-full flex items-center justify-center transition-all duration-300 border border-primary"
                 >
-                  <ChevronRight className="w-5 h-5 text-secondary" />
+                  <ChevronRight className="w-5 h-5 text-primary" />
                 </button>
               </div>
             </div>
 
             {/* Right Side - Client Details */}
-            <div className="space-y-6">
-      {/* Title & Buttons */}
+            {/* <div className="space-y-6">
       <div className="flex items-center justify-between">
         <h2 className="text-3xl md:text-4xl font-bold text-white">
           Tech We are Using
@@ -544,7 +536,6 @@ const ModernTestimonialsSection: React.FC = () => {
         </div>
       </div>
 
-      {/* Carousel */}
       <div className="bg-slate-700/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-600">
          <Carousel
           setApi={setApi}
@@ -578,7 +569,7 @@ const ModernTestimonialsSection: React.FC = () => {
       </CarouselContent>
     </Carousel>
       </div>
-    </div>
+    </div> */}
           </div>
 
           {/* Progress Indicator */}

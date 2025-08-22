@@ -1,12 +1,14 @@
-"use client";
+import type { Metadata } from "next";
 import React from "react";
 import { Fade, Slide, Zoom } from "react-awesome-reveal";
 import ContactForm from './components/ContactForm'
 import ContactInfo from './components/ContactInfo'
 import MapSection from './components/MapSection'
+import { generatePageMetadata } from '@/lib/metadata';
 // import PartnerLogos from './components/PartnerLogos'
 // import NewsletterSection from './components/NewsletterSection'
 
+export const metadata: Metadata = generatePageMetadata("contact-us", "/Images/Maple-logo.jpeg");
 
 export default function ContactUsPage() {
   return (
@@ -19,9 +21,9 @@ export default function ContactUsPage() {
                           </h1>
                         </Fade>
             <Fade delay={500}>
-                          <p>
+                          <h2>
                             We’re Here to Help—Reach Out Today
-                          </p>
+                          </h2>
                         </Fade>
           </div>
       {/* Contact Us Section */}

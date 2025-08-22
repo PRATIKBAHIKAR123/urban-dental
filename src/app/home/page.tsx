@@ -10,7 +10,7 @@ import LocationTabs from './addresses';
 import { Fade, Slide, Zoom } from 'react-awesome-reveal';
 import FloatingFormButton from '@/components/ui/floatingButton';
 import FloatingTextForm from '@/components/ui/floatingButton';
-import { InfoIcon, MessageCircle, Stethoscope, User } from 'lucide-react';
+import { InfoIcon, MessageCircle, Phone, Stethoscope, User, Users } from 'lucide-react';
 import Link from 'next/link';
 import { useInView } from 'react-intersection-observer';
 import CountUp from 'react-countup';
@@ -20,32 +20,33 @@ import { services as allServices } from '../services/serviceList';
 import OurOffers from './our-services';
 import TestimonialsSwiper from './testimonials';
 import Blogs from './blogs';
+import TechCompanies from './tech-comp';
 
 
 
 const banners = [
     {
-        image: '/Images/banners/portrait-smiling-child-with-braces-dentist-s-office-scaled.webp',
-        title: 'Bright Smiles for Little Ones',
-        subtitle: 'Tiny teeth, big care! Fun, gentle dentistry for kids.',
+        image: '/Images/banners/banner-1.webp',
+        title: 'Welcome to Urban Dental Bayonne',
+        subtitle: 'Your Local Dentist in Bayonne, NJ for Healthy & Beautiful Smiles',
         image2: '/Images/Banner1.jpg',
     },
     {
-        image: '/Images/banners/girl-with-braces-routine-dental-examination.webp',
-        title: 'Complete Family Dental Care Under One Roof!',
-        subtitle: 'From cleanings and fillings to braces and whitening—we do it all in one convenient place!',
+        image: '/Images/banners/banner-2.webp',
+        title: 'Emergency Dental Visit - Just $55',
+        subtitle: 'Fast relief for toothaches or dental pain - includes exam & X-ray, no insurance needed.',
         image2: '/Images/Emergency Dentistry.jpg',
     },
     {
-        image: '/Images/banners/european-young-woman-smiling-while-looking-at-mirror-in-dental-clinic.jpg',
-        title: '$20 Exam & X-rays for New Patients',
-        subtitle: 'Smile brighter for just $20—Book your visit today!',
+        image: '/Images/banners/banner-3.webp',
+        title: 'New Patient Special - Only $79',
+        subtitle: 'Get a full dental exam, professional cleaning, and digital X-rays - perfect for first-time visitors.',
         image2: '/Images/Banner3.webp',
     },
     {
-        image: '/Images/banners/mid-adult-patient-receiving-dental-treatment-with-tools-from-female-dentist-clinic-scaled.webp',
-        title: 'Affordable Payment Options for All',
-        subtitle: 'No insurance? No worries! Easy plans, zero stress.',
+        image: '/Images/banners/banner-4.webp',
+        title: 'Professional Teeth Whitening - Only $299',
+        subtitle: 'Brighten your smile with our limited-time in-office whitening treatment.',
         image2: '/Images/young-surprised-woman-with-hand-her-face.webp',
     },
 ];
@@ -67,6 +68,10 @@ const services = [
     title: "Braces",
   },
 ];
+
+  const languages = [
+    "English", "Spanish", "Portuguese","Arabic", "Hindi", "Creole", 
+  ];
 
 export default function HomePage() {
       const [isBookingOpen, setIsBookingOpen] = useState(false);
@@ -210,7 +215,7 @@ export default function HomePage() {
                 </div>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-                  <span className="bg-gradient-to-r from-white via-blue-100 to-blue-200 bg-clip-text text-transparent">
+                  <span className="text-white">
                     {banner.title}
                   </span>
                 </h1>
@@ -297,7 +302,7 @@ export default function HomePage() {
             Our Services
           </div> */}
           <h2 className="text-3xl md:text-5xl font-semibold leading-tight">
-            Comprehensive Dental Solutions for Every Need
+            Comprehensive Dental Services
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Healthy, beautiful smiles start here! Explore our wide range of treatments designed for comfort, precision, and long-lasting results.
@@ -320,7 +325,7 @@ export default function HomePage() {
               >
                 <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-white to-primary-50/50 border border-blue-100/50 shadow-sm hover:shadow-lg transition-all duration-300 group-hover:border-blue-300/50">
                   {/* Service Card */}
-                  <div className="px-6 py-4 relative">
+                  <div className="px-8 py-6 relative">
                     {/* Hover Glow Effect */}
                     <div className="absolute inset-0 bg-gradient-to-r from-primary-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     
@@ -334,12 +339,12 @@ export default function HomePage() {
                       </div>
                       
                       {/* Service Name */}
-                      <span className="text-sm md:text-base font-semibold text-gray-700 group-hover:text-blue-600 transition-colors duration-300 whitespace-nowrap">
+                      <span className="text-md md:text-2xl font-semibold text-gray-700 group-hover:text-secondary transition-colors duration-300 whitespace-nowrap">
                         {service.name}
                       </span>
                       
                       {/* Arrow Icon */}
-                      <svg className="w-4 h-4 text-gray-400 group-hover:text-blue-500 group-hover:translate-x-1 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-4 h-4 text-gray-400 group-hover:text-secondary group-hover:translate-x-1 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
                     </div>
@@ -382,7 +387,7 @@ export default function HomePage() {
                     {/* Left Side - Image */}
                     <Slide direction="right" className="w-full md:w-1/2 h-64 md:h-120">
                         <img
-                            src="/Images/banners/beautiful-girl-dentist-2048x1365.webp"
+                            src="/Images/banners/about-us.webp"
                             alt="dental-banner"
                             className="rounded-md md:rounded-xl w-full h-full object-cover shadow-md"
                         />
@@ -392,26 +397,26 @@ export default function HomePage() {
                     <div className="w-full md:w-1/2 text-center md:text-left space-y-6">
                         <Fade delay={200}>
                             <h2 className="text-3xl md:text-5xl font-semibold text-primary leading-tight">
-                                Exceptional Care, Modern Comfort
+                                Compassionate Care, Lasting Smiles
                             </h2>
                         </Fade>
 
                         <Fade delay={500}>
                             <p>
-                                At Urban Dental, we provide expert care with state-of-the-art technology at our Bayonne NJ location. From routine cleanings to advanced cosmetic and restorative treatments, we offer comprehensive dental services to keep your smile healthy.
+                                At Urban Dental & Braces, we take pride in being a trusted dentist in Bayonne for families and individuals of all ages. Conveniently located at 393 Avenue C, Bayonne, NJ 07002, our practice combines advanced technology with compassionate care to keep your smile healthy, bright, and confident.
                             </p>
                         </Fade>
 
                         <Fade delay={700}>
                             <p >
-                                With flexible scheduling, same-day emergency visits, and 24/7 online booking, we make dental care convenient for you. We accept most insurance plans, including Medicaid, to ensure high-quality care remains affordable.
+                                Whether you’re searching for a dentist near me for routine checkups, preventive care, cosmetic dentistry, braces, or advanced restorations, our experienced team is here to provide personalized treatment in a comfortable and welcoming environment. We focus on delivering gentle, stress-free dental care that fits your lifestyle and budget.
                             </p>
                         </Fade>
 
                         
                         <Fade delay={700}>
                             <p >
-                                Our modern, comfortable offices provide a stress-free experience with the latest in pain-free treatments. Whether you need preventive care, crowns, root canals, or orthodontics, we’re here for you.
+                                Using the latest dental technology, we ensure precise diagnoses, minimally invasive treatments, and pain-free visits. We proudly serve patients from Bayonne (07002), Greenville (07305), and surrounding neighborhoods, making quality dentistry convenient and accessible.
                             </p>
                         </Fade>
 
@@ -438,53 +443,188 @@ export default function HomePage() {
             <HomepageSections />
 
                   <Slide direction="up" triggerOnce>
-                     <section className="py-16 px-4 md:px-16 max-w-7xl mx-auto">
-    <div className="flex flex-col md:flex-row items-center justify-center gap-8">
-      {services.map((service, index) => {
-        // const { ref, inView } = useInView({
-        //   threshold: 0.1,
-        // });
+                <section className="py-16 px-4 md:px-16 max-w-7xl mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {services.map((service, index) => {
+                            // const { ref, inView } = useInView({
+                            //   threshold: 0.1,
+                            // });
 
-        return (
-          <div
-            key={index}
-            ref={ref}
-            className="flex items-center justify-center bg-gradient-to-r rounded-full shadow-lg hover:shadow-xl transition-shadow from-primary via-primary-500 to-secondary   h-48 w-48 md:h-64 md:w-64"
-          >
-            <div className='bg-card rounded-full  flex flex-col items-center justify-center text-center h-[85%] w-[85%]'>
-            <img src={service.icon} alt={service.title} className="w-6 md:w-16 h-6 md:h-16 mb-4" />
-            
-            <div className="text-lg md:text-3xl font-bold text-primary mb-2">
-              ${inView ? (
-                service.price.includes('/') ? (
-                  service.price
-                ) : (
-                  <CountUp end={parseInt(service.price)} duration={1.5} separator="," />
-                )
-              ) : (
-                service.price.includes('/') ? '0' : '0'
-              )}
-            </div>
-            
-            <div className="text-base md:text-lg font-semibold">
-              {service.title}
-            </div>
-            </div>
-          </div>
-        );
-      })}
-    </div>
-  </section>
-                  </Slide>
+                            return (
+                                <div
+                                    key={index}
+                                    ref={ref}
+                                    className="bg-card rounded-lg p-6 flex flex-col items-center text-center shadow-lg hover:shadow-xl transition-shadow"
+                                >
+                                    <img src={service.icon} alt={service.title} className="w-16 h-16 mb-4" />
 
-            <ServicesSection />
+                                    <div className="text-3xl font-bold text-primary mb-2">
+                                        ${inView ? (
+                                            service.price.includes('/') ? (
+                                                <CountUp
+                                                    end={parseInt(service.price.split('/')[0])}
+                                                    duration={1.5}
+                                                    separator=","
+                                                    suffix="/month"
+                                                />
+                                            ) : (
+                                                <CountUp end={parseInt(service.price)} duration={1.5} separator="," />
+                                            )
+                                        ) : (
+                                            service.price.includes('/') ? '0/month' : '0'
+                                        )}
+                                    </div>
+
+                                    <div className="text-lg font-semibold">
+                                        {service.title}
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </section>
+            </Slide>
+
+            {/* <ServicesSection /> */}
+            <section className="relative w-full mt-10 mx-auto px-4">
+              <Fade delay={200}>
+                      <h2 className="text-center text-3xl md:text-5xl font-extrabold my-10">
+                        Need Emergency Dental Care in Bayonne?
+                      </h2>
+                    </Fade>
+                    <Fade delay={500}>
+                      <h4 className="text-center text-md md:text-2xl mb-5">
+                        Severe toothache, cracked tooth, or dental injury? We offer same-day emergency appointments so you can get relief fast.
+                      </h4>
+                    </Fade>
+                    <Fade delay={600}>
+                      <div className="text-center">
+                        <Button onClick={() => setIsBookingOpen(true)} size={'lg'}>Book Online </Button>
+                      </div>
+                    </Fade>
+            </section>
 
             <InsuranceSection />
+<section className=" bg-primary py-20 overflow-hidden">
+  
+            <div className="relative max-w-4xl mx-auto px-4 bg-white/10 backdrop-blur-sm rounded-2xl p-3 md:p-8 border border-white/20">
+          <div className="text-center">
+            {/* <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-full mb-6">
+              <Globe className="w-8 h-8 text-white" />
+            </div> */}
+            <h3 className="text-2xl font-bold text-white mb-4">
+              Our Staff Speak Multiple Languages
+            </h3>
+            
+            {/* Language Tags */}
+            <div className="flex flex-wrap justify-center gap-3 mb-6">
+              {languages.map((language, index) => (
+                <span 
+                  key={index}
+                  className="bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium border border-white/30 hover:bg-white/30 transition-colors duration-200"
+                >
+                  {language}
+                </span>
+              ))}
+            </div>
 
+            <p className="text-blue-100 text-lg mb-8 text-center">
+              We’re here to help you in your preferred language. Call us today to schedule your visit.
+            </p>
+
+            {/* Call to Action */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <a href="tel:717-745-2700" className="inline-flex items-center justify-center gap-3 bg-white text-primary font-semibold py-4 px-8 rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg hover:shadow-xl w-full sm:w-auto min-w-[200px] h-[56px]">
+                <Phone className="w-5 h-5" />
+                Call Now
+              </a>
+              <button onClick={()=>setIsBookingOpen(true)} className="inline-flex items-center justify-center gap-3 bg-transparent border-2 border-white text-white font-semibold py-4 px-8 rounded-xl hover:bg-white/10 transition-colors duration-200 w-full sm:w-auto min-w-[200px] h-[56px]">
+                <Users className="w-5 h-5" />
+                Book Online
+              </button>
+            </div>
+          </div>
+        </div>
+</section>
+<section className="w-full bg-gradient-to-br from-white to-sky-50 relative overflow-hidden py-10 md:py-20">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-20 px-6 md:px-8">
+
+                    {/* Left Side - Image */}
+                    <Slide direction="right" className="w-full md:w-1/2 h-64 md:h-80">
+                        <img
+                            src="/Images/banners/Bayonne.webp"
+                            alt="dental-banner"
+                            className="rounded-md md:rounded-xl w-full h-full object-cover shadow-md"
+                        />
+                    </Slide>
+
+                    {/* Right Side - Text */}
+                    <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                        <Fade delay={200}>
+                            <h2 className="text-3xl md:text-5xl font-semibold text-primary leading-tight">
+                                Special Offers for New & Existing Patients
+                            </h2>
+                        </Fade>
+
+                        <Fade delay={500}>
+                            <p className="text-lg ">
+                                To make dentistry accessible for everyone, we proudly offer:
+                            </p>
+                        </Fade>
+
+                        <Fade delay={700}>
+                            <p className="text-base text-left leading-relaxed">
+                                <ul className='list-disc gap-3 mt-2 px-6'>
+                                    <li className="list-disc">
+                                        <div className="flex gap-2 ">
+                                            <Fade delay={800}>
+                                                <span><strong>$55 Emergency Exam & X-ray</strong>{' '}</span>
+                                            </Fade>
+                                        </div>
+                                    </li>
+                                    <li className="list-disc">
+                                        <div className="flex gap-2">
+                                            <Fade delay={1000}>
+                                                <span><strong>$79 New Patient Special (Cleaning, Exam & X-rays)</strong>{' '}
+                                                </span>
+                                            </Fade>
+                                        </div>
+                                    </li>
+                                    <li className="list-disc">
+                                        <div className="flex gap-2">
+                                            <Fade delay={1200}>
+                                                <span><strong>Interest-Free Financing (Up to 12 Months)</strong>{' '}
+                                                  </span>
+                                            </Fade>
+                                        </div>
+                                    </li>
+                                    <li className="list-disc">
+                                        <div className="flex gap-2">
+                                            <Fade delay={1200}>
+                                                <strong>Senior Discounts During Special Hours</strong>
+                                            </Fade>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </p>
+                        </Fade>
+
+                        <Fade delay={800}>
+                            <a href="tel:(201) 479-2100">
+                                <Button>CALL TODAY</Button>
+                            </a>
+                        </Fade>
+
+                    </div>
+                </div>
+
+            </section>
             {/* <SpecialOffersSection /> */}
-
+            
 
             <TestimonialsSwiper/>
+            <TechCompanies/>
             <Blogs/>
             <LocationTabs />
             <FloatingTextForm />
@@ -497,10 +637,10 @@ export default function HomePage() {
 
 function HomepageSections() {
     const sections = [
-        { label: 'About Us', icon: <InfoIcon />, bg: 'bg-gradient-to-br from-primary to-secondary', href: '/about-us' },
-        { label: 'Our Providers', icon: <User />, bg: 'bg-gradient-to-br from-primary/70 to-secondary/70', href: '/providers' },
-        { label: 'Our Services', icon: <Stethoscope />, bg: 'bg-gradient-to-br from-secondary to-primary', href: '/services' },
-        { label: 'Contact Us', icon: <MessageCircle />, bg: 'bg-gradient-to-br from-secondary/70 to-primary/70', href: '/contact-us' },
+        { label: 'About Us', icon: <InfoIcon />, bg: 'bg-primary', href: '/about-us' },
+        { label: 'Our Providers', icon: <User />, bg: 'bg-primary/70', href: '/providers' },
+        { label: 'Our Services', icon: <Stethoscope />, bg: 'bg-secondary', href: '/services' },
+        { label: 'Contact Us', icon: <MessageCircle />, bg: 'bg-secondary/70', href: '/contact-us' },
     ];
 
     return (

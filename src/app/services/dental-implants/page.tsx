@@ -1,6 +1,4 @@
-"use client"
-
-
+import type { Metadata } from "next";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import React from 'react';
 import Reveal, { Fade, Zoom } from 'react-awesome-reveal';
@@ -8,6 +6,9 @@ import Link from 'next/link';
 import ServiceSidebar from '@/components/ServiceSidebar';
 import BookCallBtn from '../book-call-btn';
 import { CheckCircle } from 'lucide-react';
+import { generateServiceMetadata } from '@/lib/metadata';
+
+export const metadata: Metadata = generateServiceMetadata("dental-implants", "/Images/Dental Implants.webp");
 
 export default function DentalImplantsPage() {
     const features = [
@@ -57,9 +58,9 @@ export default function DentalImplantsPage() {
                         <h1>Dental Implants in Harrisburg, PA</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
-                        <p className="text-center">
+                        <h2 className="text-center">
                             Permanent Tooth Replacement in Harrisburg | Maple Dental | Family & Cosmetic Dentist
-                        </p>
+                        </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
                     </div>
@@ -106,7 +107,7 @@ export default function DentalImplantsPage() {
                       Top Reasons
                     </div>
                     <div className='wcu-title'>
-                      Why Choose Maple Dental for Dental Implants?
+                      <h2>Why Choose Maple Dental for Dental Implants?</h2>
                     </div>
                     <div className='wcu-points-section'>
                       <ul className='wcu-points'>
@@ -156,12 +157,12 @@ export default function DentalImplantsPage() {
                           </div>
                         </div>
     <div className='faq-section'>
-                <h4 className='faq-heading'>Dental Implants Q&A</h4>
+                <h2 className='faq-heading'>Dental Implants Q&A</h2>
                 <div className="faq-acc-container">
                   <Accordion type="single" collapsible className="w-full space-y-6">
                     <AccordionItem value="q1" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        Am I a candidate for dental implants?
+                        <h3 className='text-lg'>Am I a candidate for dental implants?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans ">
                         Most adults in good health with sufficient jawbone are candidates for dental implants. During your consultation, we’ll assess your oral and overall health to determine the best treatment for you.
@@ -169,7 +170,7 @@ export default function DentalImplantsPage() {
                     </AccordionItem>
                     <AccordionItem value="q2" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        How long do dental implants last?
+                        <h3 className='text-lg'>How long do dental implants last?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p className="mt-2">
@@ -180,7 +181,7 @@ export default function DentalImplantsPage() {
                     </AccordionItem>
                     <AccordionItem value="q3" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        Are dental implants painful?
+                        <h3 className='text-lg'>Are dental implants painful?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p>
@@ -190,7 +191,7 @@ export default function DentalImplantsPage() {
                     </AccordionItem>
                     <AccordionItem value="q5" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        What if I’m missing multiple teeth?
+                        <h3 className='text-lg'>What if I’m missing multiple teeth?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p className="mt-2">We offer implant-supported bridges and full-arch implant dentures for patients missing several or all of their teeth. These options provide greater stability and a more natural feel than traditional dentures.</p>
@@ -198,7 +199,7 @@ export default function DentalImplantsPage() {
                     </AccordionItem>
                     <AccordionItem value="q6" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        How much do dental implants cost?
+                        <h3 className='text-lg'>How much do dental implants cost?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p className="mt-2">Costs can vary depending on the number of implants and complexity of treatment. We offer transparent pricing, accept most dental insurance, and have financing options to fit your budget.</p>

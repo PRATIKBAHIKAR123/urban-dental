@@ -36,11 +36,11 @@ const doctors = [
     
     Dedicated to creating a comfortable and reassuring environment, Dr. Dhaliwal strives to make every patient's experience as painless and stress-free as possible. She takes great pride in helping her patients regain their confidence with a healthy, radiant smile.
 
-Dr. Dhaliwal is passionate about treating entire families – from children to grandparents – and believes that when families approach oral health as a unit, they can motivate and support one another developing a lifelong healthy habits.
+    Dr. Dhaliwal is passionate about treating entire families – from children to grandparents – and believes that when families approach oral health as a unit, they can motivate and support one another in developing lifelong healthy habits.
 
-Dr. Dhaliwal earned her Doctor of Dental Surgery (DDS) degree from the University of Washington, School of Dentistry (UW). Prior to moving to the United States, she practiced as a licensed dentist in India beginning in 2010. During her time at UW, she completed her externship with the Indian Health Services in Omak, Washington, and actively volunteered in various community outreach programs. One of her most meaningful experiences was volunteering at a senior assisted living center – a role that combined with her clinical expertise, has given her a special affinity for working with geriatric patients. Her gentle approach and empathetic nature help put patients at ease, especially before beginning treatment.
+    Dr. Dhaliwal earned her Doctor of Dental Surgery (DDS) degree from the University of Washington, School of Dentistry (UW). Prior to moving to the United States, she had been practicing as a licensed dentist in India since 2010. During her time at UW, she completed her externship with the Indian Health Services in Omak, Washington, and actively volunteered in various community outreach programs. One of her most meaningful experiences was volunteering at a senior assisted living center – a role that, combined with her clinical expertise, has given her a special affinity for working with geriatric patients. Her gentle approach and empathetic nature help put patients at ease, especially before beginning treatment.
 
-Outside of dentistry, Dr. Dhaliwal enjoys traveling and spending quality time with her family and friends. She lives in Pennsylvania with her husband and their two wonderful children.`
+    Outside of dentistry, Dr. Dhaliwal enjoys traveling and spending quality time with her family and friends. She lives in Pennsylvania with her husband and their two wonderful children.`
   },
   // {
   //   slug: "bhavneet-singh",

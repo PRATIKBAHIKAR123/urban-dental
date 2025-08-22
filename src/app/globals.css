@@ -50,9 +50,9 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: #015a9c;
+  --primary: #27AAE2;
   --primary-foreground: #ffff;
-  --secondary: #79BD4F;
+  --secondary: #09B585;
   --secondary-foreground: 210 100% 50%;
   --accent: 210 40% 96%;
   --accent-foreground: 210 100% 50%;
@@ -123,10 +123,6 @@
     font-family: 'Poppins';
   }
 
-  .bg-my-gradient {
-  background-color: linear-gradient(to bottom left, var(--primary), var(--secondary), var(--primary));
-}
-
   button {
     cursor: pointer;
   }
@@ -187,7 +183,7 @@
 
   .details-page-header-section {
     width: 100%;
-    background-color: var(--secondary);
+    background-color: var(--primary);
     color: #fff;
     padding-left: 2rem;
     padding-right: 2rem;

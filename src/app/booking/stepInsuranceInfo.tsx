@@ -3,11 +3,14 @@ import { Check, Clock, Loader2 } from "lucide-react";
 import { useState, useEffect } from "react";
 import { apiService, Insurance } from "@/lib/apiService";
 
+
+
+// Step 3: Insurance Info Component
 const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any) => {
   const [insuranceData, setInsuranceData] = useState({
     hasInsurance: formData.hasInsurance || 'yes',
     insuranceProvider: formData.insuranceProvider || '',
-    insuranceId: formData.insuranceId || '', // Add insurance ID
+    insuranceId: formData.insuranceId || null, // Add insurance ID
     memberId: formData.memberId || '',
     groupNumber: formData.groupNumber || '',
     ...formData
@@ -16,6 +19,8 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [validationErrors, setValidationErrors] = useState<{[key: string]: boolean}>({});
   
   const provider = formData.provider;
 
@@ -24,7 +29,7 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
     setInsuranceData({
       hasInsurance: formData.hasInsurance || 'yes',
       insuranceProvider: formData.insuranceProvider || '',
-      insuranceId: formData.insuranceId || '',
+      insuranceId: formData.insuranceId || null,
       memberId: formData.memberId || '',
       groupNumber: formData.groupNumber || '',
       ...formData
@@ -51,8 +56,25 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
   }, []);
 
   const handleChange = (field: string, value: string) => {
-    const updatedInsuranceData = { ...insuranceData, [field]: value };
+    let updatedInsuranceData = { ...insuranceData, [field]: value };
+    
+    // If insurance is set to "no", clear all insurance-related fields
+    if (field === 'hasInsurance' && value === 'no') {
+      updatedInsuranceData = {
+        ...updatedInsuranceData,
+        insuranceId: null,
+        insuranceProvider: '',
+        memberId: '',
+        groupNumber: ''
+      };
+    }
+    
     setInsuranceData(updatedInsuranceData);
+    
+    // Clear validation error for this field when user starts typing
+    if (validationErrors[field]) {
+      setValidationErrors(prev => ({ ...prev, [field]: false }));
+    }
     
     // Save to formData immediately to persist state
     setFormData({
@@ -66,9 +88,14 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
     const updatedInsuranceData = { 
       ...insuranceData, 
       insuranceProvider: selectedInsurance?.name || '',
-      insuranceId: value
+      insuranceId: value || null
     };
     setInsuranceData(updatedInsuranceData);
+    
+    // Clear validation error for insurance when user selects one
+    if (validationErrors.insuranceId) {
+      setValidationErrors(prev => ({ ...prev, insuranceId: false }));
+    }
     
     // Save to formData immediately to persist state
     setFormData({
@@ -77,7 +104,32 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
     });
   };
 
+  const validateForm = () => {
+    const errors: {[key: string]: boolean} = {};
+    
+    if (insuranceData.hasInsurance === 'yes') {
+      if (!insuranceData.insuranceId) {
+        errors.insuranceId = true;
+      }
+      if (!insuranceData.memberId.trim()) {
+        errors.memberId = true;
+      }
+      if (!insuranceData.groupNumber.trim()) {
+        errors.groupNumber = true;
+      }
+    }
+    
+    setValidationErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+
   const handleSubmit = async () => {
+    // Validate form before submitting
+    if (!validateForm()) {
+      return;
+    }
+
+    setIsLoading(true);
     try {
       setSubmitting(true);
       // Update form data with insurance information
@@ -92,10 +144,23 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
         groupNumber: insuranceData.groupNumber
       } : undefined;
 
+      // Ensure insuranceId is null when no insurance
+      if (insuranceData.hasInsurance === 'no') {
+        updatedFormData.insuranceId = null;
+      }
+
       // Log the form data for debugging
       console.log('Form data being sent:', {
         ...updatedFormData,
         insuranceInfo
+      });
+      
+      // Debug logging for insurance data
+      console.log('Insurance data debug:', {
+        hasInsurance: insuranceData.hasInsurance,
+        insuranceId: insuranceData.insuranceId,
+        insuranceInfo,
+        updatedFormData
       });
 
       // Convert form data to booking format
@@ -103,6 +168,9 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
         ...updatedFormData,
         insuranceInfo
       });
+      
+      // Debug logging for final booking data
+      console.log('Final booking data:', bookingData);
 
       console.log('Booking data converted:', bookingData);
 
@@ -147,11 +215,15 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
       alert(errorMessage);
     } finally {
       setSubmitting(false);
+      setIsLoading(false);
     }
   };
 
   return (
-    <div className="mt-4">
+    <>
+
+      
+      <div className="mt-4">
         <div className="flex items-start gap-3">
                     {/* Avatar */}
                     <div className="w-10 h-10 sm:w-12 sm:h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -240,11 +312,17 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
         {insuranceData.hasInsurance === 'yes' && (
           <>
             <div>
-            <label className="block text-sm text-gray-600 mb-1">Insurance</label>
+            <label className="block text-sm text-gray-600 mb-1">
+              Insurance <span className="text-gray-500">*</span>
+            </label>
             <select
               value={insuranceData.insuranceId}
               onChange={(e) => handleInsuranceChange(e.target.value)}
-              className="w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-teal-500 focus:border-teal-500"
+              className={`w-full px-3 py-2 border rounded text-sm focus:outline-none focus:ring-1 focus:ring-teal-500 focus:border-teal-500 ${
+                validationErrors.insuranceId 
+                  ? 'border-red-500 ring-1 ring-red-500' 
+                  : 'border-gray-300'
+              }`}
             >
               <option value="">Select Insurance</option>
               {loading ? (
@@ -260,26 +338,47 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
               )}
               
             </select>
+            {validationErrors.insuranceId && (
+              <p className="text-red-500 text-xs mt-1">Please select an insurance provider</p>
+            )}
           </div>
 
             <div>
-              <label className="block text-sm text-gray-600 mb-1">Member ID</label>
+              <label className="block text-sm text-gray-600 mb-1">
+                Member ID <span className="text-gray-500">*</span>
+              </label>
               <input
                 type="text"
                 value={insuranceData.memberId}
                 onChange={(e) => handleChange('memberId', e.target.value)}
-                className="w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-teal-500 focus:border-teal-500"
+                className={`w-full px-3 py-2 border rounded text-sm focus:outline-none focus:ring-1 focus:ring-teal-500 focus:border-teal-500 ${
+                  validationErrors.memberId 
+                    ? 'border-red-500 ring-1 ring-red-500' 
+                    : 'border-gray-300'
+                }`}
               />
+              {validationErrors.memberId && (
+                <p className="text-red-500 text-xs mt-1">Please enter your member ID</p>
+              )}
             </div>
 
             <div>
-              <label className="block text-sm text-gray-600 mb-1">Group Number (optional)</label>
+              <label className="block text-sm text-gray-600 mb-1">
+                Group Number <span className="text-gray-500">*</span>
+              </label>
               <input
                 type="text"
                 value={insuranceData.groupNumber}
                 onChange={(e) => handleChange('groupNumber', e.target.value)}
-                className="w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-teal-500 focus:border-teal-500"
+                className={`w-full px-3 py-2 border rounded text-sm focus:outline-none focus:ring-1 focus:ring-teal-500 focus:border-teal-500 ${
+                  validationErrors.groupNumber 
+                    ? 'border-red-500 ring-1 ring-red-500' 
+                    : 'border-gray-300'
+                }`}
               />
+              {validationErrors.groupNumber && (
+                <p className="text-red-500 text-xs mt-1">Please enter your group number</p>
+              )}
             </div>
           </>
         )}
@@ -310,6 +409,7 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
         </Button>
       </div>
     </div>
+    </>
   );
 };
 
