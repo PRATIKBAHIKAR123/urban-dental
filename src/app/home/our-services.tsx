@@ -130,12 +130,9 @@ export default function OurOffers (){
                   </button> */}
                   <div className="mb-2 flex items-center gap-2 justify-center text-center"><Clock className="w-4 h-4" /> For new patients without insurance</div>
                   <Button className="w-full group relative" onClick={()=>setIsBookingOpen(true)}>
-                        <span className="block absolute inset-0 flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-full">
+                      
     {offer.buttonText}
-  </span>
-  <span className="block absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-300 group-hover:translate-y-0">
-    {offer.buttonText}
-  </span>
+  
                   </Button>
                 </div>
               </div>
