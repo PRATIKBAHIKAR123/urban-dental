@@ -183,14 +183,14 @@
 
   .details-page-header-section {
     width: 100%;
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
     color: #fff;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 3.75rem;
     padding-bottom: 3.75rem;
     text-align: center;
-    background-image:
+    /* background-image:
       repeating-linear-gradient(0deg,
         rgba(255, 255, 255, 0.05) 0px,
         rgba(255, 255, 255, 0.05) 1px,
@@ -200,7 +200,10 @@
         rgba(255, 255, 255, 0.05) 0px,
         rgba(255, 255, 255, 0.05) 1px,
         transparent 1px,
-        transparent 20px);
+        transparent 20px); */
+        background-image: url('/Images/banners/top-banner.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
   }
 
   .details-page-header-section h1 {

@@ -219,7 +219,7 @@ export default function AboutUsClient() {
                   loading="lazy"
                 />
                 <h3 className="text-sm sm:text-base lg:text-lg font-bold text-primary mb-1">{member.name}</h3>
-                <div className="flex gap-1 font-bold items-center text-xs sm:text-sm">
+                {/* <div className="flex gap-1 font-bold items-center text-xs sm:text-sm">
                   {Array.from({ length: 5 }).map((_, i) => (
                     <svg
                       key={i}
@@ -231,7 +231,7 @@ export default function AboutUsClient() {
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.204 3.707a1 1 0 00.95.69h3.905c.969 0 1.371 1.24.588 1.81l-3.158 2.294a1 1 0 00-.364 1.118l1.204 3.707c.3.921-.755 1.688-1.538 1.118l-3.158-2.294a1 1 0 00-1.176 0l-3.158 2.294c-.783.57-1.838-.197-1.538-1.118l1.204-3.707a1 1 0 00-.364-1.118L2.322 9.134c-.783-.57-.38-1.81.588-1.81h3.905a1 1 0 00.95-.69l1.204-3.707z" />
                     </svg>
                   ))} {' '}5.0 Rating
-                </div>
+                </div> */}
               </Link>
             ))}
           </div>
@@ -243,15 +243,15 @@ export default function AboutUsClient() {
         <section className="py-8 sm:py-12 lg:py-16 px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto">
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
             <a href="tel:(201) 479-2100" className="w-full flex flex-col border border-primary text-primary rounded-lg px-4 py-3 hover:opacity-50 text-xs text-center sm:text-sm font-medium transition">
-              <span className="text-sm sm:text-base">Call us for Booking</span>
+              <span className="text-sm sm:text-base">Call Us Today</span>
               (201) 479-2100
             </a>
             <button
               onClick={() => setIsBookingOpen(true)}
               className="w-full flex flex-col bg-primary text-white rounded-lg px-4 py-3 hover:bg-secondary text-xs sm:text-sm font-medium transition"
             >
-              Book Now
-              <span className="text-sm sm:text-base">Click Here for Appointment</span>
+              Book Online
+              <span className="text-sm sm:text-base">Schedule Your Appointment Now</span>
             </button>
           </div>
         </section>

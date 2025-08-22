@@ -5,10 +5,10 @@ export default function SitemapPage() {
   const pages = {
     "Main Pages": [
       { name: "Home", link: "/" },
-              { name: "About Us", link: "/about-maple-dental-harrisburg-pa" },
+              { name: "About Us", link: "/about-urban-dental-bayonne-nj" },
       { name: "Contact Us", link: "/contact-maple-dental-harrisburg-pa" },
       { name: "Blog", link: "/dental-blog" },
-      { name: "Reviews", link: "/patient-reviews-harrisburg-pa" },
+      { name: "Reviews", link: "/patient-reviews-bayonne-nj" },
       { name: "Providers", link: "/providers" },
       { name: "Services", link: "/services" },
       { name: "Offers", link: "/offers" },

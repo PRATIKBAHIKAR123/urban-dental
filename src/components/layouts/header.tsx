@@ -291,7 +291,7 @@ export default function Header() {
                 Home
               </Link>
               <Link
-                href="/about-maple-dental-harrisburg-pa"
+                href="/about-urban-dental-bayonne-nj"
                 className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-primary transition border-b"
                 onClick={closeMobileMenu}
               >
@@ -353,7 +353,7 @@ export default function Header() {
               </div>
 
               <Link
-                href="/patient-reviews-harrisburg-pa"
+                href="/patient-reviews-bayonne-nj"
                 className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-primary transition border-b"
                 onClick={closeMobileMenu}
               >

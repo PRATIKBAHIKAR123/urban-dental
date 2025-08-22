@@ -56,10 +56,10 @@ export default function ClientPage() {
           </div>
           {/* Doctor Info */}
           <div className="flex-1 w-full">
-            <h2 className="text-3xl font-semibold mb-2">Meet {doctor.name}</h2>
-            <div className="text-lg text-gray-700 mb-2">{doctor.title}</div>
-            <StarRating rating={5} />
-            <hr className="mb-6" />
+            <h2 className="text-3xl font-semibold mb-2">{doctor.name}</h2>
+            {/* <div className="text-lg text-gray-700 mb-2">{doctor.title}</div> */}
+            {/* <StarRating rating={5} /> */}
+            {/* <hr className="mb-6" /> */}
             <p className="leading-relaxed whitespace-pre-line text-justify">
               {doctor.description}
             </p>

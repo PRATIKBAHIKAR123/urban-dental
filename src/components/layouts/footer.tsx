@@ -10,10 +10,10 @@ export default function Footer() {
         {/* Left: Logo & About */}
         <div className="space-y-4 col-span-1">
           <div className="flex items-center gap-2 mb-2">
-            <Image src="/Images/urban-dental-2048x609.webp" alt="Maple Dental Logo" width={160} height={100} className="w-32 sm:w-40 md:w-48 h-auto" />
+            <Image src="/Images/urban-dental-2048x609.webp" alt="urban Dental Logo" width={160} height={100} className="w-32 sm:w-40 md:w-48 h-auto" />
           </div>
           <p className="text-xs sm:text-sm text-gray-200">
-            Maple Dental is your trusted dentist in Harrisburg, providing comprehensive dental care with advanced treatments and personalized service. Our team offers routine checkups, restorative procedures, and serves as your reliable emergency dentist Harrisburg residents trust for urgent needs. We help families achieve lasting oral health through compassionate care and modern technology.
+            Urban Dental & Braces is your trusted dentist in Bayonne, NJ, delivering personalized family, cosmetic, and restorative dental care. From preventive checkups, cleanings, and fillings to advanced services like teeth whitening, veneers, dental implants, orthodontics, and same-day emergency dentistry, our team is here to keep your smile healthy and confident. Conveniently located at 393 Avenue C, Bayonne, NJ 07002, we proudly care for patients from Bayonne (07002), Greenville (07305), and nearby communities. With modern technology, gentle techniques, and compassionate service, Urban Dental & Braces makes every visit comfortable and stress-free.
           </p>
           <div className="flex items-center gap-3 mt-4">
             <a href="#" onClick={(e) => e.preventDefault()}>
@@ -50,7 +50,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-3 text-base sm:text-lg">Importance</h4>
             <ul className="space-y-2 text-xs sm:text-sm">
-              <li><Link href="/about-maple-dental-harrisburg-pa" className="hover:underline">About us</Link></li>
+              <li><Link href="/about-urban-dental-bayonne-nj" className="hover:underline">About us</Link></li>
               <li><Link href="/dental-blog" className="hover:underline">Blogs</Link></li>
               <li><Link href="/terms-and-conditions" className="hover:underline">Terms and Conditions</Link></li>
               <li><Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link></li>
@@ -71,10 +71,10 @@ export default function Footer() {
         <div className="space-y-4 col-span-1">
           <h4 className="font-semibold mb-3 text-base sm:text-lg">Contact Us</h4>
           <div className="text-xs sm:text-sm text-gray-200">
-            <p className="mb-2 text-sm text-[#FFFFFF] flex gap-2 items-start"><MapPin size={16} className="mt-0.5" />
-              393 Avenue C, Bayonne, NJ 07002</p>
+            <a className="mb-2 text-sm text-[#FFFFFF] flex gap-2 items-start underline" href="https://www.google.com/maps/place/393+Avenue+C,+Bayonne,+NJ+07002,+USA/@40.6608404,-74.127117,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25201fb17c6d3:0x7fc050ff8741ed96!8m2!3d40.6608404!4d-74.1245421!16s%2Fg%2F11bw4cjj0_?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"><MapPin size={16} className="mt-0.5" />
+              393 Avenue C, Bayonne, NJ 07002</a>
             <p className="mb-2 text-sm text-[#FFFFFF] flex gap-2 items-center"><Phone size={16} /> <a href="tel:(201) 479-2100" className="underline">(201) 479-2100</a></p>
-            <p className="mb-2 text-sm text-[#FFFFFF] flex gap-2 items-center"><Mail size={16} /> <a href="mailto:harrisburg@mapledentalpa.com" className="underline">harrisburg@mapledentalpa.com</a></p>
+            {/* <p className="mb-2 text-sm text-[#FFFFFF] flex gap-2 items-center"><Mail size={16} /> <a href="mailto:harrisburg@mapledentalpa.com" className="underline">harrisburg@mapledentalpa.com</a></p> */}
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@ export default function Footer() {
       <div className="border-t border-white/20 mt-8 pt-4 flex flex-col md:flex-row items-center justify-between text-xs text-gray-300 gap-2">
         <div className="flex items-center ">
           {/* <div className="flex items-center"> */}
-          <span>&copy; {new Date().getFullYear()} Maple Dental. All rights reserved.</span>
+          <span>&copy; {new Date().getFullYear()} Urban Dental. All rights reserved.</span>
           {/* <span className="hidden md:inline"></span> */}
           {/* <span> */}
         </div>

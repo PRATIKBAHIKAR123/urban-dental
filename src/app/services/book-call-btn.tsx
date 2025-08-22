@@ -12,12 +12,12 @@ const BookCallBtn: React.FC = () => {
                     <section className="py-6 px-4 md:px-16 max-w-7xl mx-auto">
                       <div className="flex gap-3">
                         <a href="tel:(201) 479-2100" className="w-full flex flex-col border border-primary text-primary text-center rounded-lg px-2 md:px-4 py-3 hover:opacity-50 text-sm font-medium transition">
-                          <span className="text-[12px] md:text-base">Call Us for Booking</span>
+                          <span className="text-[12px] md:text-base">Call Us Today</span>
                           (201) 479-2100
                         </a>
                         <button onClick={() => setIsBookingOpen(true)} className="w-full flex flex-col bg-primary text-white rounded-lg px-1 md:px-4 py-3 hover:bg-secondary text-sm font-medium transition">
-                          Book Now
-                          <span className="text-[10px] md:text-base">Click Here for Appointment</span>
+                          Book Online
+                          <span className="text-[10px] md:text-base">Schedule Your Appointment Now</span>
                         </button>
                       </div>
                     </section>

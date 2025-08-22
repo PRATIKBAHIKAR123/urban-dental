@@ -1,9 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Clock } from "lucide-react";
 import { useState } from "react";
+import BookingModal from "../booking/bookingScreen";
 
 export default function OurOffers (){
       const [activeCard, setActiveCard] = useState<number | null>(null);
+      const [isBookingOpen, setIsBookingOpen] = useState(false);
 
   const offers = [
     {
@@ -13,7 +15,7 @@ export default function OurOffers (){
       description: "Fast Relief, Expert Care – Emergency Treatment You Can Trust!",
       image: "/Images/banners/offer-1.webp",
       badge: "Special Offer",
-      buttonText: "Learn More"
+      buttonText: "Book Now"
     },
     {
       id: 2,
@@ -22,7 +24,7 @@ export default function OurOffers (){
       description: "Comprehensive Exams, Cleaning & X-Rays – Your Healthy Smile Starts Here!",
       image: "/Images/banners/offer-2.webp",
       badge: "New Patient",
-      buttonText: "Learn More"
+      buttonText: "Book Now"
     }
   ];
 
@@ -127,7 +129,7 @@ export default function OurOffers (){
                     </span>
                   </button> */}
                   <div className="mb-2 flex items-center gap-2 justify-center text-center"><Clock className="w-4 h-4" /> For new patients without insurance</div>
-                  <Button className="w-full group relative">
+                  <Button className="w-full group relative" onClick={()=>setIsBookingOpen(true)}>
                         <span className="block absolute inset-0 flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-full">
     {offer.buttonText}
   </span>
@@ -175,6 +177,7 @@ export default function OurOffers (){
       {/* <div className="absolute top-20 left-10 h-12 md:w-64 w-12 md:h-64 bg-secondary/30 rounded-full animate-pulse"></div>
       <div className="absolute bottom-32 right-16 h-12 md:w-64 w-12 md:h-64 bg-primary/10 rounded-full animate-bounce"></div>
       <div className="absolute top-1/3 right-8 w-16 h-16 bg-primary rounded-full animate-pulse" style={{animationDelay: '1s'}}></div> */}
+      <BookingModal open={isBookingOpen} setOpen={setIsBookingOpen}/>
     </section>
   );
 }

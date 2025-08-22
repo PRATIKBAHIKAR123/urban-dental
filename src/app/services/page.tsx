@@ -119,10 +119,10 @@ export default function ServicesPage() {
       <div className="w-full details-page-header-section py-8 sm:py-12 px-4 md:px-0 mb-8 sm:mb-12">
         <div className="text-center">
           <h1 >
-            Comprehensive Dental Services in Harrisburg, PA
+            Complete Dental Care Services in Bayonne, NJ 
           </h1>
           <h2 className="text-center">
-            Family, Cosmetic & Restorative Dentistry Tailored to Your Needs
+            Family, Cosmetic & Restorative Treatments for Every Smile
           </h2>
         </div>
       </div>

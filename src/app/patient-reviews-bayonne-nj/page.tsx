@@ -5,45 +5,45 @@ import clsx from "clsx";
 
 const reviews = [
   {
-    name: "Amanda R.",
+    name: "Maria S.",
     date: "Jul 10, 2025",
     rating: 5,
-    text: "I've always been nervous about going to the dentist, but Maple Dental changed that. Dr. Simran and the staff were so welcoming and patient with me. The office is clean, modern, and they really care about your comfort. I highly recommend them!",
+    text: "Dr. Hala Elsamna is absolutely amazing! She took the time to explain my treatment plan and made me feel at ease throughout my visit. The office is clean, modern, and welcoming. I finally found a dentist in Bayonne who truly cares about patients.",
     image: "/Images/836.jpg",
   },
   {
-    name: "Mike T.",
+    name: "Thomas K.",
     date: "Apr 30, 2025",
     rating: 5,
-    text: "Professional, efficient, and friendly! I had a routine cleaning and was in and out in under an hour. The hygienist explained everything clearly and made sure I was comfortable throughout the visit.",
+    text: "I brought my son in for a checkup with Dr. Dalia Khan, and she was so patient and kind. He usually hates going to the dentist, but she made the experience fun and stress-free. I’m grateful to have found a family-friendly dental office right here in Bayonne.",
     image: "/Images/837.jpg",
   },
   {
-    name: "Jessica L.",
+    name: "Aisha R.",
     date: "Mar 04, 2025",
     rating: 4,
-    text: "Maple Dental is a gem in Harrisburg. My kids actually look forward to their checkups now! The pediatric staff is wonderful, and they do a great job making it a positive experience for little ones.",
+    text: "Dr. Steven Reff helped me with a dental emergency, and I couldn’t be more thankful. I was in a lot of pain, but he quickly diagnosed the issue and took care of it the same day. The whole team is professional and compassionate.",
     image: "/Images/836.jpg",
   },
   {
-    name: "Ryan C.",
+    name: "Kevin D.",
     date: "Feb 14, 2025",
     rating: 5,
-    text: "I had a dental emergency and they got me in the same day. Dr. Simran took the time to explain what was going on and gave me options without pressure. Great service and compassionate care!",
+    text: "From the front desk to the hygienists and doctors, Urban Dental & Braces is top-notch. My cleaning was thorough, and Dr. Elsamna followed up to make sure I was comfortable. You can tell they prioritize patient care and comfort.",
     image: "/Images/837.jpg",
   },
   {
-    name: "Stephanie D.",
+    name: "Stephanie M. ",
     date: "Jan 19, 2025",
     rating: 5,
-    text: "The team at Maple Dental is top-notch. From the front desk to the dental chair, everyone was friendly and professional. My teeth have never felt cleaner!",
+    text: "I recently got Invisalign with Dr. Khan, and the results are incredible. She explained the process clearly and made the journey so easy. I love my new smile! Highly recommend Urban Dental to anyone in Bayonne or Greenville.",
     image: "/Images/836.jpg",
   },
   {
-    name: "Daniel W.",
+    name: "Daniel P. ",
     date: "Dec 22, 2024",
     rating: 5,
-    text: "I recently had a crown done here and the experience was painless—literally and figuratively. Everything was explained thoroughly and the results look amazing. Wouldn't go anywhere else.",
+    text: "The best dental office I’ve ever been to! Dr. Reff is gentle, knowledgeable, and always ensures I understand my options. Whether it’s a simple cleaning or something more advanced, I know I’m in good hands here.",
     image: "/Images/837.jpg",
   },
 ];
@@ -73,9 +73,9 @@ export default function PatientReviewsPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white pb-12">
       {/* Header Section */}
       <div className="details-page-header-section">
-        <h1>What Patients Are Saying About Maple Dental</h1>
+        <h1>Patient Experiences at Urban Dental & Braces </h1>
         <h2>
-          Real Reviews from Families Across Harrisburg
+          Why Bayonne Families Trust Our Dentists
         </h2>
       </div>
       <div className="max-w-7xl mt-10 mx-auto px-2 sm:px-4 md:px-8">
@@ -92,7 +92,7 @@ export default function PatientReviewsPage() {
                   <StarRating rating={review.rating} />
                 </div>
                 <p className="text-sm sm:text-base  mb-1 leading-relaxed flex-1 flex ">
-                  {review.text}
+                  "{review.text}"
                 </p>
                 <div className="mt-auto text-xs sm:text-sm text-gray-500 text-center w-full">
                   <span className="font-semibold">{review.name}</span> | {review.date}

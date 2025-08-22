@@ -284,50 +284,50 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Emma's Mom",
+    name: "Maria S.",
     title: "Parent",
     company: "Urban Dental Patient",
-    content: "My daughter was really anxious about her first dental visit, but the team at Urban Dental was incredible! They made her feel safe, showed her all the tools, and even let her 'help' with the exam. Now she actually looks forward to her check-ups!",
+    content: "Dr. Hala Elsamna is absolutely amazing! She took the time to explain my treatment plan and made me feel at ease throughout my visit. The office is clean, modern, and welcoming. I finally found a dentist in Bayonne who truly cares about patients.",
     avatar: "/api/placeholder/80/80",
     rating: 5,
     companyLogos: ["/Images/tech-companies/123577.png", "/Images/tech-companies/12357910.png", "/api/placeholder/120/60"]
   },
   {
     id: 2,
-    name: "Leslie J.",
+    name: "Thomas K.",
     title: "Orthodontic Patient",
     company: "Urban Dental",
-    content: "I just finished my aligners treatment, and I can't stop smiling! The trays were easy to wear, and my teeth straightened so much faster than I expected. The team was always supportive, answering all my questions and making sure I stayed on track.",
+    content: "I brought my son in for a checkup with Dr. Dalia Khan, and she was so patient and kind. He usually hates going to the dentist, but she made the experience fun and stress-free. I’m grateful to have found a family-friendly dental office right here in Bayonne.",
     avatar: "/api/placeholder/80/80",
     rating: 5,
     companyLogos: ["/api/placeholder/120/60", "/api/placeholder/120/60", "/api/placeholder/120/60"]
   },
   {
     id: 3,
-    name: "Michelle D.",
+    name: "Aisha R.",
     title: "Whitening Patient",
     company: "Urban Dental",
-    content: "I've always been self-conscious about my stained teeth, but after a professional whitening session at Urban Dental, I feel so much more confident. The results were instant, and my smile looks amazing!",
+    content: "Dr. Steven Reff helped me with a dental emergency, and I couldn’t be more thankful. I was in a lot of pain, but he quickly diagnosed the issue and took care of it the same day. The whole team is professional and compassionate.",
     avatar: "/api/placeholder/80/80",
     rating: 5,
     companyLogos: ["/api/placeholder/120/60", "/api/placeholder/120/60", "/api/placeholder/120/60"]
   },
   {
     id: 4,
-    name: "David R.",
+    name: "Kevin D.",
     title: "General Patient",
     company: "Urban Dental",
-    content: "The entire staff is professional and caring. They explained every procedure clearly and made sure I was comfortable throughout my visit. Highly recommend Urban Dental for anyone looking for quality dental care.",
+    content: "From the front desk to the hygienists and doctors, Urban Dental & Braces is top-notch. My cleaning was thorough, and Dr. Elsamna followed up to make sure I was comfortable. You can tell they prioritize patient care and comfort.",
     avatar: "/api/placeholder/80/80",
     rating: 5,
     companyLogos: ["/api/placeholder/120/60", "/api/placeholder/120/60", "/api/placeholder/120/60"]
   },
   {
     id: 5,
-    name: "Sarah M.",
+    name: "Stephanie M. ",
     title: "Surgical Patient",
     company: "Urban Dental",
-    content: "Outstanding service from start to finish. The modern equipment and gentle approach made my root canal procedure much easier than I anticipated. Thank you for taking such great care of me!",
+    content: "I recently got Invisalign with Dr. Khan, and the results are incredible. She explained the process clearly and made the journey so easy. I love my new smile! Highly recommend Urban Dental to anyone in Bayonne or Greenville.",
     avatar: "/api/placeholder/80/80",
     rating: 5,
     companyLogos: ["/api/placeholder/120/60", "/api/placeholder/120/60", "/api/placeholder/120/60"]
@@ -462,7 +462,7 @@ const ModernTestimonialsSection: React.FC = () => {
                 
                 
               </div>
-              <div className='flex items-start gap-2 justify-between'>
+              <div className='flex items-start flex-col md:flex-row gap-2 justify-between'>
                 <div className='w-full '>
               {/* Client Info */}
               <div className="flex items-center space-x-2">

@@ -26,7 +26,7 @@ function StarRating({ rating }: { rating: number }) {
 
 export default function ClientPage() {
   const doctor = {
-    name: "Meet Dr. Steven Reff, DDS",
+    name: "Dr. Steven Reff, DDS",
     title: "Family Dentist",
     image: "/Images/Team/Steven Reff.webp",
     description: `With advanced surgical training and a compassionate touch, Dr. Reff is dedicated to delivering top-tier care to every patient. A University of Maryland grad and member of the Gamma Pi Delta Prosthetic Honors Society, he went on to complete his surgical training at Columbia University and NewYork-Presbyterian Hospital. Beyond private practice, Dr. Reff has shared his expertise as a faculty member at Columbia University. When he’s not in the operatory, you’ll find him hiking with his Yellow Lab, fly fishing, or enjoying time with his wife Allison and their kids.`
@@ -56,10 +56,10 @@ export default function ClientPage() {
           </div>
           {/* Doctor Info */}
           <div className="flex-1 w-full">
-            <h2 className="text-3xl font-semibold mb-2">Meet {doctor.name}</h2>
-            <div className="text-lg text-gray-700 mb-2">{doctor.title}</div>
-            <StarRating rating={5} />
-            <hr className="mb-6" />
+            <h2 className="text-3xl font-semibold mb-2">{doctor.name}</h2>
+            {/* <div className="text-lg text-gray-700 mb-2">{doctor.title}</div> */}
+            {/* <StarRating rating={5} /> */}
+            {/* <hr className="mb-6" /> */}
             <p className="leading-relaxed whitespace-pre-line text-justify">
               {doctor.description}
             </p>

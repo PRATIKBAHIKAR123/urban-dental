@@ -48,7 +48,7 @@ const Loader: React.FC = () => (
     <div className='fixed inset-0 z-[9999] flex items-center justify-center bg-white overflow-hidden'>
       <div className="flex flex-col items-center justify-center relative">
         <Image
-          src="/Images/heart.gif"
+          src="/Images/loader.gif"
           alt="Loading..."
           width={100}
           height={100}

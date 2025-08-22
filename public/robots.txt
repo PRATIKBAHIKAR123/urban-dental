@@ -4,7 +4,7 @@ Allow: /
 Sitemap: https://mapledentalpa.com/sitemap.xml
 
 # Allow specific pages
-Allow: /about-maple-dental-harrisburg-pa/
+Allow: /about-urban-dental-bayonne-nj/
 Allow: /services/
 Allow: /service-areas/
 
@@ -43,7 +43,7 @@ Allow: /service-areas/lawnton-pa-dentist-near-you/
 Allow: /contact-us/
 Allow: /contact-maple-dental-harrisburg-pa/
 Allow: /reviews/
-Allow: /patient-reviews-harrisburg-pa/
+Allow: /patient-reviews-bayonne-nj/
 Allow: /providers/
 Allow: /offers/
 Allow: /teeth-whitening-offer-harrisburg-pa/

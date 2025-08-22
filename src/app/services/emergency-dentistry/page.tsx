@@ -55,11 +55,11 @@ export default function EmergencyDentistryPage() {
         <div className='details-page'>
           <div className='details-page-header-section'>
             <Fade direction='up' duration={1000}>
-              <h1>Emergency Dentistry in Harrisburg, PA</h1>
+              <h1>Emergency Dentist in Bayonne, NJ</h1>
             </Fade>
             <Fade direction='down' duration={1000}>
               <h2 className='text-center'>
-                Urgent Dental Care in Harrisburg | Maple Dental | Family & Cosmetic Dentist Near You
+                Same-Day Emergency Dentistry in Bayonne | Urban Dental & Braces
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}

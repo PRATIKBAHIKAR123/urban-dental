@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/about-us',
-        destination: '/about-maple-dental-harrisburg-pa',
+        destination: '/about-urban-dental-bayonne-nj',
         permanent: true,
       },
       // Service redirects
@@ -163,7 +163,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/reviews',
-        destination: '/patient-reviews-harrisburg-pa',
+        destination: '/patient-reviews-bayonne-nj',
         permanent: true,
       },
       {

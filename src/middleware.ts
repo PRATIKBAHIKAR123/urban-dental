@@ -7,7 +7,7 @@ export function middleware(request: NextRequest) {
   // Redirect old about-us route to new SEO-optimized route
   if (pathname === '/about-us') {
     return NextResponse.redirect(
-      new URL('/about-maple-dental-harrisburg-pa', request.url),
+      new URL('/about-urban-dental-bayonne-nj', request.url),
       301
     )
   }
@@ -52,7 +52,7 @@ export function middleware(request: NextRequest) {
   const pageRedirects: { [key: string]: string } = {
     '/offers': '/teeth-whitening-offer-harrisburg-pa',
     '/providers/simranjeet-dhaliwal': '/providers/simranjeet-dhaliwal-harrisburg-pa-dentist',
-    '/reviews': '/patient-reviews-harrisburg-pa',
+    '/reviews': '/patient-reviews-bayonne-nj',
     '/blog': '/dental-blog',
     '/contact-us': '/contact-maple-dental-harrisburg-pa'
   }

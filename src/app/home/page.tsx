@@ -304,9 +304,9 @@ export default function HomePage() {
           <h2 className="text-3xl md:text-5xl font-semibold leading-tight">
             Comprehensive Dental Services
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          {/* <p className="text-gray-600 max-w-2xl mx-auto">
             Healthy, beautiful smiles start here! Explore our wide range of treatments designed for comfort, precision, and long-lasting results.
-          </p>
+          </p> */}
         </div>
 
         {/* Services Carousel Container */}
@@ -421,7 +421,7 @@ export default function HomePage() {
                         </Fade>
 
                         
-                        <Fade delay={700}>
+                        {/* <Fade delay={700}>
                             <b >
                                 Book your appointment today and experience the Urban Dental difference!
                             </b>
@@ -434,7 +434,7 @@ export default function HomePage() {
                             >
                                 Learn More
                             </Link>
-                        </Fade>
+                        </Fade> */}
                     </div>
                 </div>
 

@@ -1,14 +1,13 @@
 "use client";
 
-import Image from "next/image";
 import clsx from "clsx";
 
 const reviews = [
   {
-    name: "Amanda R.",
+    name: "Maria S.",
     date: "Jul 10, 2025",
     rating: 5,
-    text: "I’ve always been nervous about going to the dentist, but Maple Dental changed that. Dr. Simran and the staff were so welcoming and patient with me. The office is clean, modern, and they really care about your comfort. I highly recommend them!",
+    text: "Dr. Hala Elsamna is absolutely amazing! She took the time to explain my treatment plan and made me feel at ease throughout my visit. The office is clean, modern, and welcoming. I finally found a dentist in Bayonne who truly cares about patients.",
     image: "/Images/836.jpg",
   },
   {
@@ -73,9 +72,9 @@ export default function ReviewsPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white pb-12">
       {/* Header Section */}
       <div className="details-page-header-section">
-        <h1>What Patients Are Saying About Maple Dental</h1>
+        <h1>Patient Experiences at Urban Dental & Braces</h1>
         <h2>
-          Real Reviews from Families Across Harrisburg
+          Why Bayonne Families Trust Our Dentists
         </h2>
       </div>
       <div className="max-w-7xl mt-10 mx-auto px-2 sm:px-4 md:px-8">

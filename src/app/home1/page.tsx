@@ -360,7 +360,7 @@ export default function HomePage() {
 
                         <Fade delay={800}>
                             <Link
-                                href="/about-maple-dental-harrisburg-pa"
+                                href="/about-urban-dental-bayonne-nj"
                                 className="border border-primary text-primary rounded-lg px-4 py-3 hover:bg-blue-50 text-sm font-medium transition"
                             >
                                 Learn More
@@ -507,7 +507,7 @@ export default function HomePage() {
 
 function HomepageSections() {
     const sections = [
-        { label: 'About Us', icon: <InfoIcon />, bg: 'bg-primary', href: '/about-maple-dental-harrisburg-pa' },
+        { label: 'About Us', icon: <InfoIcon />, bg: 'bg-primary', href: '/about-urban-dental-bayonne-nj' },
         { label: 'Our Providers', icon: <User />, bg: 'bg-primary/70', href: '/providers' },
         { label: 'Our Services', icon: <Stethoscope />, bg: 'bg-secondary', href: '/services' },
         { label: 'Contact Us', icon: <MessageCircle />, bg: 'bg-secondary/70', href: '/contact-maple-dental-harrisburg-pa' },

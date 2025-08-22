@@ -5,7 +5,7 @@ export const metadataConfig = {
   default: {
     title: "Dentist in Bayonne, NJ | Urban Dental Bayonne | Cosmetic & Family Dentist",
     description: "Trusted family & cosmetic dentistry in Bayonne, NJ. Urban Dental & Braces, Bayonne serves patients from Bayonne, Greenville, NJ and nearby areas. Call (201) 479-2100 or visit 393 Avenue C, Bayonne, NJ 07002.",
-    keywords: "dentist harrisburg pa, cosmetic dentist harrisburg, family dentist harrisburg, dental implants harrisburg, root canal harrisburg, emergency dentist harrisburg",
+    keywords: "dentist bayonne nj, cosmetic dentist bayonne, family dentist bayonne, dental implants bayonne, root canal bayonne, emergency dentist bayonne",
   },
   services: {
     "cosmetic-dentistry": {
@@ -297,12 +297,12 @@ export const metadataConfig = {
     "about-us": {
       title: "About Urban Dental Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
       description: "Learn about Urban Dental & Braces – your trusted family & cosmetic dentist serving Bayonne (07002), Greenville (07305), and surrounding communities. Modern, affordable care for all ages. Call (201) 479-2100 or Book Online.",
-      keywords: "about maple dental harrisburg, family dentist harrisburg pa, cosmetic dentist harrisburg, dental practice harrisburg, harrisburg dental team",
+      keywords: "about urban dental bayonne, family dentist bayonne nj, cosmetic dentist bayonne, dental practice bayonne, bayonne dental team",
     },
-    "about-maple-dental-harrisburg-pa": {
+    "about-urban-dental-bayonne-nj": {
       title: "About Urban Dental Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
       description: "Learn about Urban Dental & Braces – your trusted family & cosmetic dentist serving Bayonne (07002), Greenville (07305), and surrounding communities. Modern, affordable care for all ages. Call (201) 479-2100 or Book Online.",
-      keywords: "about maple dental harrisburg, family dentist harrisburg pa, cosmetic dentist harrisburg, dental practice harrisburg, harrisburg dental team",
+      keywords: "about urban dental bayonne, family dentist bayonne nj, cosmetic dentist bayonne, dental practice bayonne, bayonne dental team",
     },
     "contact-us": {
       title: "Contact Maple Dental | Dentist in Harrisburg, PA",
@@ -315,23 +315,23 @@ export const metadataConfig = {
       keywords: "contact maple dental harrisburg, dentist appointment harrisburg pa, dental consultation harrisburg, maple dental phone number, harrisburg dental office",
     },
     "reviews": {
-      title: "Patient Reviews | Maple Dental Harrisburg, PA",
-      description: "Read real patient reviews and testimonials about Maple Dental in Harrisburg, PA. See why families trust us for compassionate, high-quality dental care.",
-      keywords: "maple dental reviews harrisburg, patient testimonials harrisburg, dentist reviews harrisburg pa, dental practice reviews harrisburg, harrisburg dentist ratings",
+      title: "Patient Reviews in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "See why patients choose Urban Dental & Braces in Bayonne, NJ for family, cosmetic, and emergency dental care. Read real reviews from patients treated by Dr. Hala Elsamna, Dr. Dalia Khan, and Dr. Steven Reff.",
+      keywords: "urban dental reviews bayonne, patient testimonials bayonne, dentist reviews bayonne nj, dental practice reviews bayonne, bayonne dentist ratings",
     },
     "patient-reviews-harrisburg-pa": {
-      title: "Patient Reviews | Maple Dental Harrisburg, PA",
+      title: "Patient Reviews in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
       description: "Read real patient reviews and testimonials about Maple Dental in Harrisburg, PA. See why families trust us for compassionate, high-quality dental care.",
-      keywords: "maple dental reviews harrisburg, patient testimonials harrisburg, dentist reviews harrisburg pa, dental practice reviews harrisburg, harrisburg dentist ratings",
+      keywords: "urban dental reviews bayonne, patient testimonials bayonne, dentist reviews bayonne nj, dental practice reviews bayonne, bayonne dentist ratings",
     },
     "providers": {
-      title: "Meet Our Dental Providers | Maple Dental Harrisburg, PA",
-      description: "Get to know the experienced dental providers at Maple Dental in Harrisburg, PA. Our team is committed to your family's oral health.",
-      keywords: "dental team harrisburg pa, dentists harrisburg, maple dental team harrisburg, harrisburg dental staff, family dentists harrisburg",
+      title: "Meet Our Dentists in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Discover the experienced dental team at Urban Dental & Braces – Dr. Hala Elsamna, DMD, Dr. Dalia Khan, DDS, and Dr. Steven Reff, DDS. Trusted family & cosmetic dentists serving Bayonne (07002), Greenville (07305), and nearby communities.",
+      keywords: "dental team bayonne nj, dentists bayonne, urban dental team bayonne, bayonne dental staff, family dentists bayonne",
     },
     "services": {
-      title: "Dental Services in Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Explore comprehensive dental services at Maple Dental in Harrisburg, PA. From cleanings and exams to Invisalign® and Implants, we care for every smile at every stage.",
+      title: "Comprehensive Dental Services in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Urban Dental & Braces Bayonne provides complete family, cosmetic, and restorative dental care. Serving Bayonne (07002), Greenville (07305), and nearby communities with modern, gentle dentistry.",
       keywords: "dental services harrisburg pa, family dentist harrisburg, cosmetic dentist harrisburg, dental care harrisburg, harrisburg dental services",
     },
     "offers": {

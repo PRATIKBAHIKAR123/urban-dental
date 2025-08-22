@@ -7,12 +7,12 @@ This document outlines the SEO-optimized URL structure implemented for Maple Den
 
 ### 1. About Page
 - **Old Route:** `/about-us`
-- **New SEO Route:** `/about-maple-dental-harrisburg-pa`
+- **New SEO Route:** `/about-urban-dental-bayonne-nj`
 - **Status:** ✅ Implemented with 301 redirect
 
 ### 2. Reviews Page
 - **Old Route:** `/reviews`
-- **New SEO Route:** `/patient-reviews-harrisburg-pa`
+- **New SEO Route:** `/patient-reviews-bayonne-nj`
 - **Status:** ✅ Implemented with 301 redirect
 
 ### 3. Blog Page
@@ -87,7 +87,7 @@ All service area pages have been updated with SEO-optimized routes:
 ## URL Pattern
 - **Service Pages:** `/services/[service-name]-harrisburg-pa`
 - **Service Area Pages:** `/service-areas/[area-name]-pa-dentist-near-you`
-- **About Page:** `/about-maple-dental-harrisburg-pa`
+- **About Page:** `/about-urban-dental-bayonne-nj`
 
 ## Benefits
 1. **SEO Optimization:** Location-specific keywords in URLs
