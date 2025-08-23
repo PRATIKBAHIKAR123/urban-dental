@@ -7,7 +7,7 @@ export default function ContactInfo() {
     "Wednesday: 9:00 AM - 6:00 PM",
     "Thursday: 9:00 AM - 6:00 PM",
     "Friday: 9:00 AM - 6:00 PM",
-    "Saturday: 9:00 AM - 3:30 PM",
+    "Saturday: 8:30 AM - 3:30 PM",
     "Sunday: Closed",
   ];
   return (
@@ -36,14 +36,14 @@ export default function ContactInfo() {
         <div>
           <h4 className="font-bold text-lg mb-2">Address:</h4>
           <p className="text-white/90 leading-relaxed">
-            2017 Eg Drive, Suite 200, Harrisburg, PA 17110
+            393 Avenue C, Bayonne, NJ 07002, USA
           </p>
         </div>
         
         <div>
           <h4 className="font-bold text-lg mb-2">Phone:</h4>
           <div className="space-y-1">
-            <a href="tel:7177452700" className="text-white/90 hover:text-white transition-colors">717-745-2700</a>
+            <a href="tel:+1 (201) 479-2100" className="text-white/90 hover:text-white transition-colors">+1 (201) 479-2100</a>
             {/* <p className="text-white/90">+12345 987 456</p> */}
           </div>
         </div>

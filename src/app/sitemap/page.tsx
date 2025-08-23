@@ -6,7 +6,7 @@ export default function SitemapPage() {
     "Main Pages": [
       { name: "Home", link: "/" },
               { name: "About Us", link: "/about-urban-dental-bayonne-nj" },
-      { name: "Contact Us", link: "/contact-maple-dental-harrisburg-pa" },
+      { name: "Contact Us", link: "/contact-urban-dental-bayonne-nj" },
       { name: "Blog", link: "/dental-blog" },
       { name: "Reviews", link: "/patient-reviews-bayonne-nj" },
       { name: "Providers", link: "/providers" },

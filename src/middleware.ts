@@ -54,7 +54,7 @@ export function middleware(request: NextRequest) {
     '/providers/simranjeet-dhaliwal': '/providers/simranjeet-dhaliwal-harrisburg-pa-dentist',
     '/reviews': '/patient-reviews-bayonne-nj',
     '/blog': '/dental-blog',
-    '/contact-us': '/contact-maple-dental-harrisburg-pa'
+    '/contact-us': '/contact-urban-dental-bayonne-nj'
   }
 
   // Check if current path needs to be redirected

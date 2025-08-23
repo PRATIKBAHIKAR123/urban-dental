@@ -17,40 +17,16 @@ interface ServiceAreasSidebarProps {
 // Service areas data
 const serviceAreas: ServiceArea[] = [
   {
-    name: "Harrisburg, PA",
+    name: "Bayonne, NJ",
     icon: "/Images/icons/map.png",
-    link: "/service-areas/harrisburg"
+    link: "/service-areas/bayonne-nj-dentist-near-you"
   },
+  
   {
-    name: "Linglestown, PA",
+    name: "Greenville, NJ",
     icon: "/Images/icons/map.png",
-    link: "/service-areas/linglestown"
+    link: "/service-areas/greenville-nj-dentist-near-you"
   },
-  {
-    name: "Colonial Park, PA",
-    icon: "/Images/icons/map.png",
-    link: "/service-areas/colonial-park"
-  },
-  {
-    name: "Penbrook, PA",
-    icon: "/Images/icons/map.png",
-    link: "/service-areas/penbrook"
-  },
-  {
-    name: "Paxtang, PA",
-    icon: "/Images/icons/map.png",
-    link: "/service-areas/paxtang"
-  },
-  {
-    name: "Progress, PA",
-    icon: "/Images/icons/map.png",
-    link: "/service-areas/progress"
-  },
-  {
-    name: "Lawnton, PA",
-    icon: "/Images/icons/map.png",
-    link: "/service-areas/lawnton"
-  }
 ];
 
 export default function ServiceAreasSidebar({ setISSidebarOpen }: ServiceAreasSidebarProps) {

@@ -8,7 +8,7 @@ import { generatePageMetadata } from '@/lib/metadata';
 // import PartnerLogos from './components/PartnerLogos'
 // import NewsletterSection from './components/NewsletterSection'
 
-export const metadata: Metadata = generatePageMetadata("contact-maple-dental-harrisburg-pa", "/Images/Maple-logo.jpeg");
+export const metadata: Metadata = generatePageMetadata("contact-urban-dental-bayonne-nj", "/Images/urban-dental-2048x609.webp");
 
 export default function ContactMapleDentalPage() {
   return (
@@ -17,12 +17,12 @@ export default function ContactMapleDentalPage() {
             
             <Fade delay={200}>
                           <h1>
-                            Contact Maple Dental in Harrisburg, PA
+                            Get in Touch with Urban Dental & Braces in Bayonne, NJ
                           </h1>
                         </Fade>
             <Fade delay={500}>
                           <h2>
-                            We're Here to Help—Reach Out Today
+                            Your Smile Matters - We’re Here to Help
                           </h2>
                         </Fade>
           </div>

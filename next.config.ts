@@ -173,7 +173,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/contact-us',
-        destination: '/contact-maple-dental-harrisburg-pa',
+        destination: '/contact-urban-dental-bayonne-nj',
         permanent: true,
       }
     ];

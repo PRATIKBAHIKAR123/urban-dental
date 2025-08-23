@@ -221,77 +221,16 @@ export const metadataConfig = {
     },
   },
   serviceAreas: {
-    "harrisburg": {
-      title: "Dentist in Harrisburg, PA | Maple Dental | Cosmetic & Family Dentistry",
-      description: "Looking for a trusted family dentist near you in Harrisburg, PA? Maple Dental provides comprehensive care to patients in 17110, 17109, 17111, and 17112. Book your appointment today!",
-      keywords: "dentist harrisburg pa, family dentist harrisburg, cosmetic dentist harrisburg, dental office harrisburg, harrisburg dental care",
+    "bayonne-nj-dentist-near-you": {
+      title: "Your Trusted Dentist in Bayonne, NJ 07002 | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Urban Dental & Braces in Bayonne, NJ 07002 offers complete dental care for children and adults, including family, cosmetic, restorative, and emergency dentistry. Serving Bayonne, Greenville, NJ and nearby communities.",
+      keywords: "dentist bayonne nj, family dentist bayonne, cosmetic dentist bayonne, dental office bayonne, bayonne dental care",
     },
-    "colonial-park": {
-      title: "Colonial Park Dentist | Family & Cosmetic Dentistry in 17109 | Maple Dental ",
-      description: "Looking for a trusted dentist near Colonial Park, PA (17109)? Maple Dental offers family, cosmetic, and emergency dental care with advanced technology and personalized service. Your friendly neighborhood dentist near you.",
-      keywords: "dentist colonial park pa, dental care colonial park, harrisburg dentist colonial park, family dentist colonial park, cosmetic dentist colonial park",
-    },
-    "linglestown": {
-      title: "Dentist in Linglestown, Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Searching for a trusted family dentist in Linglestown, Harrisburg (17112)? Maple Dental offers comprehensive cosmetic and general dental care near you. Book your appointment today!",
-      keywords: "dentist linglestown pa, dental care linglestown, harrisburg dentist linglestown, family dentist linglestown, cosmetic dentist linglestown",
-    },
-    "paxtang": {
-      title: "Dentist in Paxtang, Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Looking for a reliable family dentist in Paxtang, Harrisburg (17111)? Maple Dental offers comprehensive dental care near you. Book your appointment today!",
-      keywords: "dentist paxtang pa, dental care paxtang, harrisburg dentist paxtang, family dentist paxtang, cosmetic dentist paxtang",
-    },
-    "penbrook": {
-      title: "Dentist in Penbrook, Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Need a trusted family dentist in Penbrook, Harrisburg (17103)? Maple Dental offers comprehensive dental care for patients in 17103. Schedule your appointment today!",
-      keywords: "dentist penbrook pa, dental care penbrook, harrisburg dentist penbrook, family dentist penbrook, cosmetic dentist penbrook",
-    },
-    "lawnton": {
-      title: "Dentist in Lawnton, Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Looking for a trusted dentist near Lawnton in Harrisburg, PA (17111)? Maple Dental offers expert family and cosmetic dental care close to home. Schedule your appointment today!",
-      keywords: "dentist lawnton pa, dental care lawnton, harrisburg dentist lawnton, family dentist lawnton, cosmetic dentist lawnton",
-    },
-    "progress": {
-      title: "Dentist in Progress, Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Looking for a top-rated family dentist near Progress in Harrisburg, PA (17109, 17111)? Maple Dental offers comprehensive cosmetic and general dental care. Book your appointment today!",
-      keywords: "dentist progress pa, dental care progress, harrisburg dentist progress, family dentist progress, cosmetic dentist progress",
-    },
-    // New SEO-optimized service area routes
-    "harrisburg-pa-dentist-near-you": {
-      title: "Dentist in Harrisburg, PA | Maple Dental | Cosmetic & Family Dentistry",
-      description: "Looking for a trusted family dentist near you in Harrisburg, PA? Maple Dental provides comprehensive care to patients in 17110, 17109, 17111, and 17112. Book your appointment today!",
-      keywords: "dentist near me harrisburg pa, family dentist harrisburg, cosmetic dentist harrisburg, dental office harrisburg, harrisburg dental care",
-    },
-    "colonial-park-pa-dentist-near-you": {
-      title: "Colonial Park Dentist | Family & Cosmetic Dentistry in 17109 | Maple Dental ",
-      description: "Looking for a trusted dentist near Colonial Park, PA (17109)? Maple Dental offers family, cosmetic, and emergency dental care with advanced technology and personalized service. Your friendly neighborhood dentist near you.",
-      keywords: "dentist near me colonial park pa, dental care colonial park, harrisburg dentist colonial park, family dentist colonial park, cosmetic dentist colonial park",
-    },
-    "linglestown-pa-dentist-near-you": {
-      title: "Dentist in Linglestown, Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Searching for a trusted family dentist in Linglestown, Harrisburg (17112)? Maple Dental offers comprehensive cosmetic and general dental care near you. Book your appointment today!",
-      keywords: "dentist near me linglestown pa, dental care linglestown, harrisburg dentist linglestown, family dentist linglestown, cosmetic dentist linglestown",
-    },
-    "paxtang-pa-dentist-near-you": {
-      title: "Dentist in Paxtang, Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Looking for a reliable family dentist in Paxtang, Harrisburg (17111)? Maple Dental offers comprehensive dental care near you. Book your appointment today!",
-      keywords: "dentist near me paxtang pa, dental care paxtang, harrisburg dentist paxtang, family dentist paxtang, cosmetic dentist paxtang",
-    },
-    "penbrook-pa-dentist-near-you": {
-      title: "Dentist in Penbrook, Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Need a trusted family dentist in Penbrook, Harrisburg (17103)? Maple Dental offers comprehensive dental care for patients in 17103. Schedule your appointment today!",
-      keywords: "dentist near me penbrook pa, dental care penbrook, harrisburg dentist penbrook, family dentist penbrook, cosmetic dentist penbrook",
-    },
-    "lawnton-pa-dentist-near-you": {
-      title: "Dentist in Lawnton, Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Looking for a trusted dentist near Lawnton in Harrisburg, PA (17111)? Maple Dental offers expert family and cosmetic dental care close to home. Schedule your appointment today!",
-      keywords: "dentist near me lawnton pa, dental care lawnton, harrisburg dentist lawnton, family dentist lawnton, cosmetic dentist lawnton",
-    },
-    "progress-pa-dentist-near-you": {
-      title: "Dentist in Progress, Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Looking for a top-rated family dentist near Progress in Harrisburg, PA (17109, 17111)? Maple Dental offers comprehensive cosmetic and general dental care. Book your appointment today!",
-      keywords: "dentist near me progress pa, dental care progress, harrisburg dentist progress, family dentist progress, cosmetic dentist progress",
-    },
+    "greenville-nj-dentist-near-you": {
+      title: "Dentist for Families & Smiles in Greenville, NJ 07305 | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Urban Dental & Braces in Greenville, NJ 07305 offers quality dental care for children and adults, including preventive, cosmetic, restorative, and emergency treatments. Serving Bayonne, Greenville, NJ and nearby communities.",
+      keywords: "dentist greenville nj, dental care greenville, harrisburg dentist greenville, family dentist greenville, cosmetic dentist greenville",
+    },   
   },
   pages: {
     "about-us": {
@@ -309,10 +248,10 @@ export const metadataConfig = {
       description: "Have questions or need to book an appointment? Contact Maple Dental in Harrisburg, PA. We're here to help you smile with confidence.",
       keywords: "contact maple dental harrisburg, dentist appointment harrisburg pa, dental consultation harrisburg, maple dental phone number, harrisburg dental office",
     },
-    "contact-maple-dental-harrisburg-pa": {
-      title: "Contact Maple Dental | Dentist in Harrisburg, PA",
-      description: "Have questions or need to book an appointment? Contact Maple Dental in Harrisburg, PA. We're here to help you smile with confidence.",
-      keywords: "contact maple dental harrisburg, dentist appointment harrisburg pa, dental consultation harrisburg, maple dental phone number, harrisburg dental office",
+    "contact-urban-dental-bayonne-nj": {
+      title: "Contact Urban Dental & Braces in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Reach out to Urban Dental & Braces in Bayonne, NJ for appointments, dental questions, or urgent care needs. Proudly serving Bayonne (07002), Greenville, NJ (07305), and your neighbouring communities.",
+      keywords: "contact urban dental bayonne, dentist appointment bayonne nj, dental consultation bayonne, urban dental phone number, bayonne dental office",
     },
     "reviews": {
       title: "Patient Reviews in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
@@ -381,24 +320,24 @@ export const metadataConfig = {
     keywords: "dental blog harrisburg, dental health tips harrisburg, oral health advice harrisburg, dental education harrisburg, harrisburg dental blog",
   },
   "dental-blog": {
-    title: "Dental Blog | Tips & Updates from Maple Dental Harrisburg, PA",
-    description: "Stay informed with dental tips, oral health advice, and practice news from the Maple Dental blog. Written by our Harrisburg dental care team.",
-    keywords: "dental blog harrisburg, dental health tips harrisburg, oral health advice harrisburg, dental education harrisburg, harrisburg dental blog",
+    title: "Root Canal Treatment Bayonne: Urban Dental's Pain-Free Approach",
+    description: "Experience stress-free root canal treatment at Urban Dental Bayonne. Learn how the expert dentists in Bayonne eliminate stress with gentle care, advanced technology, and expert skill.",
+    keywords: "dental blog bayonne, dental health tips bayonne, oral health advice bayonne, dental education bayonne, harrisburg dental blog",
   },
-  "dental-emergencies-Harrisburg": {
-    title: "Dental Emergency Care in Harrisburg, PA: What You Need to Know",
-    description: "Facing a dental emergency in Harrisburg, PA? Maple Dental offers expert emergency care and guidance. Learn immediate steps and when to seek professional help.",
-    keywords: "dental emergencies Harrisburg, emergency dentist harrisburg pa, dental emergency care harrisburg, urgent dental harrisburg",
+  "dental-emergencies-bayonne": {
+    title: "Emergency Dental Pain Bayonne NJ: Causes, Symptoms & Emergency Treatment",
+    description: "Sudden dental pain can be alarming. Learn what it means, how to manage pain at home, and when to call an emergency dentist in Bayonne.",
+    keywords: "sudden dental pain Bayonne NJ ",
   },
-  "trusted-dentists-in-harrisburg": {
-    title: "Top Dentist in Harrisburg PA | Maple Dental | Oral Health Experts",
-    description: "Get professional oral health tips from Harrisburg's trusted dental experts at Maple Dental. Quality dental care and preventive guidance for your family.",
-    keywords: "Trusted Dentists in Harrisburg, PA, top dentist harrisburg pa, best dentist harrisburg, harrisburg dental experts",
+  "5-common-mistakes-bayonne-dentists-want-you-to-avoid-in-oral-care": {
+    title: "Bayonne Dentists Reveal 5 Oral Care Mistakes You're Making Today",
+    description: "Learn from Urban dental professionals about the top 5 oral care mistakes that damage your teeth and gums. Get expert prevention tips now",
+    keywords: "oral care mistakes Bayonne dentists",
   },
-  "5-signs-you-might-need-a-root-canal": {
-    title: "5 Signs You Need a Root Canal in Harrisburg - Maple Dental Expert Care",
-    description: "Discover the 5 critical signs that suggest you need a root canal treatment. Trust Maple Dental in Harrisburg for expert endodontic care and pain relief.",
-    keywords: "Root Canal Harrisburg, root canal signs harrisburg pa, endodontic care harrisburg, root canal treatment harrisburg",
+  "how-urban-dental-in-bayonne-nj-makes-root-canal-treatments-stress-free": {
+    title: "Root Canal Treatment Bayonne: Urban Dental's Pain-Free Approach",
+    description: "Experience stress-free root canal treatment at Urban Dental Bayonne. Learn how the expert dentists in Bayonne eliminate stress with gentle care, advanced technology, and expert skill.",
+    keywords: "root canal Bayonne NJ",
   },
 };
 

@@ -146,6 +146,18 @@
     margin: 10px 0;
   }
 
+  .blog{
+    strong{
+      font-size: 1.125rem;
+    }
+    ul{
+      font-size: 1.125rem;
+    }
+    li{
+      margin-top: 8px;
+    }
+  }
+
   @media (max-width: 768px) {
     h3 {
       font-size: 1.5rem;

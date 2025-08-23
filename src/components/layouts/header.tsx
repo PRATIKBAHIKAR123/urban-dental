@@ -135,7 +135,7 @@ export default function Header() {
           <Link href="/blog" className="hover:text-primary transition">
             Blogs
           </Link>
-          <Link href="/contact-us" className="hover:text-primary transition">
+          <Link href="/contact-urban-dental-bayonne-nj" className="hover:text-primary transition">
             Contact
           </Link>
           <div className="relative group">
@@ -151,34 +151,17 @@ export default function Header() {
             <div className="absolute -left-5 mt-2 w-80 max-w-5xl bg-white border shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-40 rounded-lg">
   <div className="grid grid-cols-1 gap-6 p-6 text-sm">
     {[
-  "Harrisburg, PA",
-  "Linglestown, PA",
-  "Colonial Park, PA",
-  "Penbrook, PA",
-  "Paxtang, PA",
-  "Progress, PA",
-  "Lawnton, PA"
+  "Bayonne, NJ",
+  "Greenville, NJ",
 ].map((service, index) => {
   let slug = "";
-  if (service === "Harrisburg, PA") {
-    slug = "harrisburg";
-  } else if (service === "Linglestown, PA") {
-    slug = "linglestown";
+  if (service === "Greenville, NJ") {
+    slug = "greenville-nj-dentist-near-you";
+  } 
+  if(service === "Bayonne, NJ"){
+    slug = 'bayonne-nj-dentist-near-you';
   }
-  if(service === "Colonial Park, PA"){
-    slug = 'colonial-park';
-  }
-   if(service === "Penbrook, PA"){
-    slug = 'penbrook';
-  }if(service === "Paxtang, PA"){
-    slug = 'paxtang';
-  }
-    if(service === "Progress, PA"){
-    slug = 'progress';
-  }
-  if(service === "Lawnton, PA"){
-    slug = 'lawnton';
-  }
+  
 
   return slug ? (
     <Link
@@ -367,7 +350,7 @@ export default function Header() {
                 Blogs
               </Link>
               <Link
-                href="/contact-maple-dental-harrisburg-pa"
+                href="/contact-urban-dental-bayonne-nj"
                 className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-primary transition border-b"
                 onClick={closeMobileMenu}
               >
@@ -398,33 +381,15 @@ export default function Header() {
 
     <div className="grid grid-cols-2 gap-3 mt-2 text-sm">
       {[
-  "Harrisburg, PA",
-  "Linglestown, Harrisburg, PA",
-  "Colonial Park, PA",
-  "Penbrook",
-  "Paxtang",
-  "Progress",
-  "Lawnton"
+  "Bayonne, NJ",
+  "Greenville, NJ",
 ].map((service, index) => {
-  let slug = "";
-  if (service === "Harrisburg, PA") {
-    slug = "harrisburg";
-  } else if (service === "Linglestown, Harrisburg, PA") {
-    slug = "linglestown";
-  }
-  if(service === "Colonial Park, PA"){
-    slug = 'colonial-park';
-  }
-   if(service === "Penbrook"){
-    slug = 'penbrook';
-  }if(service === "Paxtang"){
-    slug = 'paxtang';
-  }
-  if(service === "Progress"){
-    slug = 'progress';
-  }
-  if(service === "Lawnton"){
-    slug = 'lawnton';
+    let slug = "";
+  if (service === "Greenville, NJ") {
+    slug = "greenville-nj-dentist-near-you";
+  } 
+  if(service === "Bayonne, NJ"){
+    slug = 'bayonne-nj-dentist-near-you';
   }return slug ? (
         <Link
           key={index}

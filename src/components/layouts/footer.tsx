@@ -55,7 +55,7 @@ export default function Footer() {
               <li><Link href="/terms-and-conditions" className="hover:underline">Terms and Conditions</Link></li>
               <li><Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link></li>
               {/* <li><Link href="/accessibility" className="hover:underline">Accessibility</Link></li> */}
-              <li><Link href="/contact-maple-dental-harrisburg-pa" className="hover:underline">Contact Us</Link></li>
+              <li><Link href="/contact-urban-dental-bayonne-nj" className="hover:underline">Contact Us</Link></li>
               <li><Link href="/sitemap" className="hover:underline">Site map</Link></li>
 
               {/* <li><Link href="/services/endodontics" className="hover:underline">Endodontics</Link></li>

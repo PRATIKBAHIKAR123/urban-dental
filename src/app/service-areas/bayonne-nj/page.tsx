@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { CheckCircle } from 'lucide-react';
 import BookCallBtn from '@/app/services/book-call-btn';
 import { Bounce, Fade, Zoom } from 'react-awesome-reveal';
+import LocationTabs from '@/app/home/addresses';
 
 export default function ServiceAreaPage() {
 
@@ -51,7 +52,7 @@ export default function ServiceAreaPage() {
       {/* Header Section */}
       <div className="details-page-header-section ">
         <h1>
-          Trusted Dentist in Colonial Park, PA (17109)
+          Family & Cosmetic Dentist in Bayonne, NJ 07002
         </h1>
       </div>
 
@@ -67,7 +68,7 @@ export default function ServiceAreaPage() {
               <Zoom cascade damping={0.3} duration={800}>
                 <div className="main-image">
                   <img
-                    src="/Images/Servicearea3 (1).webp"
+                    src="/Images/areas/Comprehensive Dental Care in Bayonne.webp"
                     alt="Main Banner" className="rounded-xl"
                   />
                 </div>
@@ -79,12 +80,9 @@ export default function ServiceAreaPage() {
           {/* Text Section with Fade-in after delay */}
           <div className='desc-text-section'>
             <Fade cascade direction="up" delay={1000} duration={600}>
-              <h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold'>Cosmetic & Family Dentistry Near You in Colonial Park</h2>
+              <h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold'>Comprehensive Dental Care in Bayonne | Urban Dental & Braces | Your Local Dentist</h2>
               <p>
-                Welcome to Maple Dental Harrisburg — your home for exceptional dental care in Colonial Park, PA (17109). Our experienced team is committed to offering personalized, comprehensive dentistry to families across Colonial Park and nearby areas like Penbrook, Progress, and Lawnton.
-              </p>
-              <p>
-                Whether you're looking for routine dental check-ups or advanced cosmetic procedures, our modern office is here to meet your needs with care, compassion, and convenience.
+                At Urban Dental & Braces Bayonne, we’re committed to keeping smiles healthy, confident, and bright for patients of all ages. Conveniently located in Bayonne, NJ 07002, our office blends advanced dental technology with compassionate care. Whether you’re new to the area or searching for a trusted “dentist near me,” our team is here to provide the personalized treatment you deserve.
               </p>
             </Fade>
           </div>
@@ -92,30 +90,30 @@ export default function ServiceAreaPage() {
 
         {/* Comprehensive Dental Care Section */}
         <div className="flex flex-col gap-4 p-6 md:p-0">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">Comprehensive Dental Services in Colonial Park, Harrisburg</h2>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">Complete Dental Solutions for Every Smile</h2>
           <p>
-            Our conveniently located dental office near Colonial Park is equipped with the latest technology to ensure your visits are comfortable, efficient, and stress-free. We proudly serve individuals and families in the 17109 area with services like:
+            Our Bayonne dental office is modern, welcoming, and designed to meet all your dental needs under one roof. We proudly provide:
           </p>
           <ul className="list-disc pl-6 space-y-2 text-sm md:text-lg">
             <li>
               <span className="font-semibold">Emergency Dentistry</span><br />
-              <span>Same-day appointments available for urgent dental needs like pain, infections, or injuries.</span>
+              <span>Fast, same-day treatment for toothaches, broken teeth, or urgent concerns </span>
             </li>
             <li>
               <span className="font-semibold">Preventive Dentistry</span><br />
-              <span>Routine exams, cleanings, fluoride treatments, and oral hygiene education to keep your smile healthy.</span>
+              <span>Professional cleanings, oral exams, and preventive care to protect your smile</span>
             </li>
             <li>
               <span className="font-semibold">Cosmetic Dentistry</span><br />
-              <span>Invisalign®, teeth whitening, and porcelain veneers to help you achieve your dream smile.</span>
+              <span>Teeth whitening, veneers, Invisalign, and treatments to boost your confidence</span>
             </li>
             <li>
               <span className="font-semibold">Restorative Dentistry</span><br />
-              <span>Crowns, bridges, and dental implants to restore function, strength, and aesthetics.</span>
+              <span>Fillings, crowns, implants, and bridges to restore function and aesthetics </span>
             </li>
             <li>
               <span className="font-semibold">Pediatric Dentistry</span><br />
-              <span>Friendly, gentle dental care for infants, children, and teens in a welcoming environment.</span>
+              <span>Kid-friendly dental care in a comfortable, stress-free setting</span>
             </li>
           </ul>
         </div>
@@ -126,25 +124,25 @@ export default function ServiceAreaPage() {
           <div className='wcu-text-section'>
             <Fade cascade direction="up" delay={1000} duration={600}>
               <div className='wcu-title'>
-                <h2>Why Colonial Park Residents Choose Maple Dental?</h2>
+                <h2>Why Bayonne Families Trust Urban Dental & Braces</h2>
               </div>
               <div className="wcu-desc">
-                Families in Colonial Park and the 17109 area count on Maple Dental for personalized care and advanced treatment options. Here’s why we’re a top choice for dental care in Harrisburg:
+                Families across Bayonne (07002), Greenville, NJ (07305) and nearby communities choose us because:
               </div>
               <div className='wcu-points-section'>
                 <ul className='wcu-points'>
-                  <li><CheckCircle />Experienced team focused on your comfort and health</li>
-                  <li><CheckCircle />Same-day appointments available for urgent needs</li>
-                  <li><CheckCircle />Advanced technology and modern treatment methods</li>
-                  <li><CheckCircle />Insurance-friendly and flexible financing options</li>
-                  <li><CheckCircle />Convenient Colonial Park location near major roads and neighborhoods</li>
+                  <li><CheckCircle />We deliver personalized care for every patient</li>
+                  <li><CheckCircle />Our office uses state-of-the-art dental technology</li>
+                  <li><CheckCircle />We offer same-day and flexible appointment scheduling</li>
+                  <li><CheckCircle />Insurance-friendly with affordable payment plan options</li>
+                  <li><CheckCircle />Conveniently located in Bayonne with easy access from nearby cities</li>
                 </ul>
               </div>
             </Fade>
           </div>
           <div className='wcu-img-section'>
             <Zoom cascade damping={0.3} duration={800}>
-              <img src="/Images/colonial park service area.webp" alt="dental" className="rounded-xl" />
+              <img src="/Images/areas/Why Bayonne Families Trust Urban Dental & Braces.webp" alt="dental" className="rounded-xl" />
             </Zoom>
           </div>
 
@@ -154,57 +152,18 @@ export default function ServiceAreaPage() {
         <div className="features-section">
           <Fade direction="up" duration={1000}>
             <h2 className="features-heading">
-              Book Your Appointment in Colonial Park Today
+              Book Your Appointment in Bayonne Today
             </h2>
             <p className="features-description">
-              Whether you live in Colonial Park or the surrounding 17109 area, Maple Dental is here to serve your dental needs with excellence and compassion. Don’t wait—give your smile the care it deserves.
+              From preventive care to advanced cosmetic and restorative dentistry, Urban Dental & Braces is here to keep your smile healthy and bright. If you’re searching for a caring “dentist near me” in Bayonne, your trusted local team is just a call away.
             </p>
-            <p className="features-description">
-                <strong>Call today or schedule your visit online</strong> to discover the difference of dental care that puts you first.
-            </p>
+            
             <BookCallBtn />
           </Fade>
         </div>
 
-        {/* Map Section */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-
-          {/* Info Block */}
-          <div className="flex-1 h-[400px] text-center relative bg-primary rounded-lg p-8 text-white shadow-lg overflow-hidden space-y-4">
-            <Bounce>
-              <h2 className="text-2xl font-bold">{selected.name}</h2>
-            </Bounce>
-            <p className="whitespace-pre-line text-center text-white">{selected.address}</p>
-
-            <h3 className="text-md font-medium mt-4">Hours of Operation:</h3>
-            <Fade delay={400}>
-              <ul className="text-sm text-gray-700">
-                {selected.hours.map((hour, i) => {
-                  const isToday = new Date().getDay() === (i + 1) % 7;
-                  return (
-                    <li key={i} className={`text-white ${isToday ? 'bg-white/10 rounded-md border-2 border-secondary' : ''
-                      }`}>{hour}</li>
-                  )
-                })}
-              </ul>
-            </Fade>
-
-          </div>
-
-          {/* Single Map */}
-          <div className="flex-1 w-full h-[400px] rounded-xl overflow-hidden shadow">
-            <iframe
-              src={selected.mapUrl}
-              width="100%"
-              height="100%"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              className="border-0"
-            />
-          </div>
-        </div>
       </div>
+      <LocationTabs/>
     </div>
   );
 } 

@@ -22,7 +22,7 @@ This document outlines the SEO-optimized URL structure implemented for Maple Den
 
 ### 4. Contact Page
 - **Old Route:** `/contact-us`
-- **New SEO Route:** `/contact-maple-dental-harrisburg-pa`
+- **New SEO Route:** `/contact-urban-dental-bayonne-nj`
 - **Status:** ✅ Implemented with 301 redirect
 
 ### 5. Service Pages

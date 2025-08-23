@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Blogs (){
@@ -85,11 +87,27 @@ export default function Blogs (){
 
                 {/* CTA Button */}
                 <div className="mt-4">
-                  <button className="w-full bg-primary hover:bg-secondary text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg group-hover:shadow-blue-500/25">
-                    <span className="flex items-center justify-center gap-2">
-                      Learn More
-                    </span>
-                  </button>
+                  <Link href={`/dental-blog/${offer.href}`}>
+                        <Button 
+                          variant="outline" 
+                          className="w-full border-primary text-primary hover:bg-primary hover:text-white transition-colors"
+                        >
+                          Continue Reading
+                          <svg 
+                            className="w-4 h-4 ml-2" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24"
+                          >
+                            <path 
+                              strokeLinecap="round" 
+                              strokeLinejoin="round" 
+                              strokeWidth={2} 
+                              d="M9 5l7 7-7 7" 
+                            />
+                          </svg>
+                        </Button>
+                      </Link>
                 </div>
               </div>
 

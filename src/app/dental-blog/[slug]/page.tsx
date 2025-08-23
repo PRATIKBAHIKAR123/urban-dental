@@ -61,7 +61,7 @@ export default function DentalBlogDetailsPage() {
           </h1>
 
           {/* Details Description (HTML) */}
-          <div className="prose prose-lg max-w-none" dangerouslySetInnerHTML={{ __html: post.detailsDescription }} />
+          <div className="blog prose prose-lg max-w-none" dangerouslySetInnerHTML={{ __html: post.detailsDescription }} />
 
           {/* Back to Blog Button */}
           <div className="mt-12 pt-8 border-t border-gray-200 flex justify-center">

@@ -5,8 +5,9 @@ import Image from 'next/image';
 import { CheckCircle } from 'lucide-react';
 import BookCallBtn from '@/app/services/book-call-btn';
 import { Bounce, Fade, Zoom } from 'react-awesome-reveal';
+import LocationTabs from '@/app/home/addresses';
 
-export default function ServiceAreasPage() {
+export default function ServiceAreaPage() {
 
   const locations = [
     // {
@@ -43,15 +44,15 @@ export default function ServiceAreasPage() {
       mapUrl:
         // "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48699.53187959969!2d-76.92187807181904!3d40.28195319387061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8c116b8079e97%3A0xbb6e42c8128d46d5!2sHarrisburg%2C%20PA%2C%20USA!5e0!3m2!1sen!2sin!4v1753263853796!5m2!1sen!2sin",
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.388699662395!2d-76.84668282549382!3d40.33372256068962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8c79a41f0e96d%3A0xc67e52466ec7a803!2s2017%20Eg%20Dr%20%23200%2C%20Harrisburg%2C%20PA%2017112%2C%20USA!5e0!3m2!1sen!2sin!4v1754646104764!5m2!1sen!2sin"
-    },
+      },
   ];
   const [selected, setSelected] = useState(locations[0]);
   return (
     <div>
       {/* Header Section */}
       <div className="details-page-header-section ">
-        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl ">
-          Family & Cosmetic Dentistry in Lawnton, Harrisburg, PA (17111)
+        <h1>
+          Family & Cosmetic Dentist in Greenville, NJ 07305
         </h1>
       </div>
 
@@ -67,7 +68,7 @@ export default function ServiceAreasPage() {
               <Zoom cascade damping={0.3} duration={800}>
                 <div className="main-image">
                   <img
-                    src="/Images/Servciearea5 (1).webp"
+                    src="/Images/areas/Modern Dental Care in Greenville.webp"
                     alt="Main Banner" className="rounded-xl"
                   />
                 </div>
@@ -79,12 +80,9 @@ export default function ServiceAreasPage() {
           {/* Text Section with Fade-in after delay */}
           <div className='desc-text-section'>
             <Fade cascade direction="up" delay={1000} duration={600}>
-              <h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold'>Complete Dental Care in Lawnton | Maple Dental | Family & Cosmetic Dentist</h2>
+              <h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold'>Modern Dental Care in Greenville | Urban Dental & Braces | Dentist Near You</h2>
               <p>
-                At Maple Dental, we proudly provide top-quality dental care to residents of Lawnton in Harrisburg, PA (zip code 17111). Whether you're new to the area or looking for a dependable “dentist near me,” our friendly team is here to meet your needs with personalized care and advanced treatment options.
-              </p>
-              <p>
-                Our practice is committed to serving individuals and families throughout Lawnton with services that support healthy, confident smiles—from routine cleanings to full smile transformations.
+                At Urban Dental & Braces Greenville, our mission is to create healthy, beautiful smiles for the whole family. Conveniently located in Greenville, NJ 07305, we provide patients with advanced treatment options in a comfortable, welcoming environment. Whether you’re searching for a “dentist near me” for routine checkups or specialized care, our dedicated team is here for you every step of the way.
               </p>
             </Fade>
           </div>
@@ -92,31 +90,30 @@ export default function ServiceAreasPage() {
 
         {/* Comprehensive Dental Care Section */}
         <div className="flex flex-col gap-4 p-6 md:p-0">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">Dental Services Available for Lawnton Patients</h2>
-
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">Complete Dental Services for All Ages</h2>
           <p>
-            Located just minutes from Lawnton, our modern dental office is fully equipped to offer comprehensive dental services in a relaxing, welcoming environment. We proudly care for patients of all ages in the 17111 area with services such as:
+            Our Greenville dental office is fully equipped with modern technology and designed to make your visits stress-free. We proudly offer: 
           </p>
           <ul className="list-disc pl-6 space-y-2 text-sm md:text-lg">
             <li>
               <span className="font-semibold">Emergency Dentistry</span><br />
-              <span>Prompt, same-day care for dental pain, broken teeth, or unexpected issues.</span>
+              <span>Immediate care for tooth pain, broken teeth, or urgent dental needs  </span>
             </li>
             <li>
               <span className="font-semibold">Preventive Dentistry</span><br />
-              <span>Routine exams, cleanings, fluoride, and preventive treatments to keep your smile healthy.</span>
+              <span>Regular checkups, cleanings, and guidance to maintain lifelong oral health</span>
             </li>
             <li>
               <span className="font-semibold">Cosmetic Dentistry</span><br />
-              <span>Enhance your smile with Invisalign®, professional teeth whitening, and custom veneers.</span>
+              <span>Professional whitening, veneers, Invisalign, and treatments to enhance your smile</span>
             </li>
             <li>
               <span className="font-semibold">Restorative Dentistry</span><br />
-              <span>Crowns, bridges, implants, and more to restore strength, comfort, and function.</span>
+              <span>Crowns, bridges, dental implants, and fillings to restore both function and aesthetics </span>
             </li>
             <li>
               <span className="font-semibold">Pediatric Dentistry</span><br />
-              <span>Gentle dental care for children, from infants to teens, in a fun and supportive environment.</span>
+              <span>Gentle, child-friendly dental care that makes visits positive for kids and teens</span>
             </li>
           </ul>
         </div>
@@ -127,25 +124,25 @@ export default function ServiceAreasPage() {
           <div className='wcu-text-section'>
             <Fade cascade direction="up" delay={1000} duration={600}>
               <div className='wcu-title'>
-                <h2>Why Lawnton Residents Choose Maple Dental?</h2>
+                <h2>Why Greenville Families Choose Urban Dental & Braces</h2>
               </div>
               <div className="wcu-desc">
-                Maple Dental is a trusted choice for families in Lawnton and the surrounding 17111 area because we offer:
+                Families across Greenville (07305), Bayonne (07002) and surrounding neighborhoods trust us because:
               </div>
               <div className='wcu-points-section'>
                 <ul className='wcu-points'>
-                  <li><CheckCircle />A patient-first philosophy with open, honest communication</li>
-                  <li><CheckCircle />Advanced technology and modern techniques for better outcomes</li>
-                  <li><CheckCircle />Same-day appointments for urgent dental needs</li>
-                  <li><CheckCircle />Insurance-friendly practice with flexible financing options</li>
-                  <li><CheckCircle />Convenient location near Lawnton with ample parking</li>
+                  <li><CheckCircle />We provide personalized, patient-centered dental care</li>
+                  <li><CheckCircle />Our technology ensures efficient and comfortable treatments</li>
+                  <li><CheckCircle />Same-day and flexible scheduling options are available</li>
+                  <li><CheckCircle />Insurance-friendly with budget-friendly payment plans</li>
+                  <li><CheckCircle />Conveniently located near Greenville and surrounding communities</li>
                 </ul>
               </div>
             </Fade>
           </div>
           <div className='wcu-img-section'>
             <Zoom cascade damping={0.3} duration={800}>
-              <img src="/Images/lawntown service area.jpg" alt="dental" className="rounded-xl" />
+              <img src="/Images/areas/Why Greenville Families Choose Urban Dental.webp" alt="dental" className="rounded-xl" />
             </Zoom>
           </div>
 
@@ -155,57 +152,18 @@ export default function ServiceAreasPage() {
         <div className="features-section">
           <Fade direction="up" duration={1000}>
             <h2 className="features-heading">
-              Schedule Your Appointment in Lawnton Today
+              Schedule Your Appointment in Greenville Today
             </h2>
             <p className="features-description">
-              Whether you live right in Lawnton or elsewhere in the 17111 zip code, Maple Dental is your nearby partner in lifelong oral health. Experience the care, comfort, and convenience that local families trust.
+              From preventive checkups to advanced restorative and cosmetic procedures, Urban Dental & Braces is proud to serve Greenville families with care and expertise. If you’ve been searching for a trusted “dentist near me” in Greenville, NJ, our friendly team is ready to help.
             </p>
-            <p className="features-description">
-              <strong>Call us today or schedule online</strong> to join the Maple Dental family and keep your smile looking its best.
-            </p>
+            
             <BookCallBtn />
           </Fade>
         </div>
 
-        {/* Map Section */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-
-          {/* Info Block */}
-          <div className="flex-1 h-[400px] text-center relative bg-primary rounded-lg p-8 text-white shadow-lg overflow-hidden space-y-4">
-            <Bounce>
-              <h2 className="text-2xl font-bold">{selected.name}</h2>
-            </Bounce>
-            <p className="whitespace-pre-line text-center text-white">{selected.address}</p>
-
-            <h3 className="text-md font-medium mt-4">Hours of Operation:</h3>
-            <Fade delay={400}>
-              <ul className="text-sm text-gray-700">
-                {selected.hours.map((hour, i) => {
-                  const isToday = new Date().getDay() === (i + 1) % 7;
-                  return (
-                    <li key={i} className={`text-white ${isToday ? 'bg-white/10 rounded-md border-2 border-secondary' : ''
-                      }`}>{hour}</li>
-                  )
-                })}
-              </ul>
-            </Fade>
-
-          </div>
-
-          {/* Single Map */}
-          <div className="flex-1 w-full h-[400px] rounded-xl overflow-hidden shadow">
-            <iframe
-              src={selected.mapUrl}
-              width="100%"
-              height="100%"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              className="border-0"
-            />
-          </div>
-        </div>
       </div>
+      <LocationTabs/>
     </div>
   );
 } 
