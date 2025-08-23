@@ -156,7 +156,21 @@
     li{
       margin-top: 8px;
     }
+
   }
+
+  @media (max-width: 768px) {
+     .blog{
+      strong{
+      font-size: 0.875rem;
+    }
+    ul{
+      font-size: 0.875rem;
+    }
+     }
+  }
+
+  
 
   @media (max-width: 768px) {
     h3 {

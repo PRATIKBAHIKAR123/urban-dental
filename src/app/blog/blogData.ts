@@ -17,8 +17,9 @@ export const blogPostsData: BlogPost[] = [
       "Dental pain always seems to strike at the worst possible moment-right before a big meeting, during dinner, or in the middle of the night. For many people in Bayonne, NJ, sudden tooth pain is more than just discomfort-it’s a sign that something serious may be happening inside your mouth. Ignoring it can lead to bigger problems, but knowing how to react can save both your smile and your sanity.",
     detailsDescription: `
     <section class="mb-8">
-    <p class="mb-2">
+    
     <h2 class="text-md md:text-2xl font-bold mb-4">Introduction</h2>
+    <p>
     Dental pain always seems to strike at the worst possible moment-right before a big meeting, during dinner, or in the middle of the night. For many people in Bayonne, NJ, sudden tooth pain is more than just discomfort-it’s a sign that something serious may be happening inside your mouth. Ignoring it can lead to bigger problems, but knowing how to react can save both your smile and your sanity.
     </p>
     <p>

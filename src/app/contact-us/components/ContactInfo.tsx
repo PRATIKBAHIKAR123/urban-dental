@@ -48,12 +48,12 @@ export default function ContactInfo() {
           </div>
         </div>
         
-        <div>
+        {/* <div>
           <h4 className="font-bold text-lg mb-2">Email:</h4>
           <div className="space-y-1">
             <p className="text-white/90"> <a href="mailto:harrisburg@mapledentalpa.com" className="underline"> harrisburg@mapledentalpa.com</a></p>
           </div>
-        </div>
+        </div> */}
 
         {/* Working Hours Section */}
         <div>
