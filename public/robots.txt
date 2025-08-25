@@ -9,27 +9,27 @@ Allow: /services/
 Allow: /service-areas/
 
 # Allow all new SEO-optimized service routes
-Allow: /services/emergency-dentistry-harrisburg-pa/
-Allow: /services/root-canal-treatment-harrisburg-pa/
-Allow: /services/oral-surgery-harrisburg-pa/
-Allow: /services/cosmetic-dentistry-harrisburg-pa/
-Allow: /services/dental-fillings-harrisburg-pa/
-Allow: /services/dental-implants-harrisburg-pa/
-Allow: /services/orthodontics-harrisburg-pa/
-Allow: /services/crowns-and-bridges-harrisburg-pa/
-Allow: /services/dental-emergencies-harrisburg-pa/
-Allow: /services/tooth-extraction-harrisburg-pa/
-Allow: /services/teeth-whitening-and-veneers-harrisburg-pa/
-Allow: /services/invisalign-clear-aligners-harrisburg-pa/
-Allow: /services/kids-and-children-dentistry-harrisburg-pa/
-Allow: /services/permanent-teeth-replacement-harrisburg-pa/
+Allow: /services/emergency-dentistry-bayonne-nj/
+Allow: /services/root-canal-treatment-bayonne-nj/
+Allow: /services/oral-surgery-bayonne-nj/
+Allow: /services/cosmetic-dentistry-bayonne-nj/
+Allow: /services/dental-fillings-bayonne-nj/
+Allow: /services/dental-implants-bayonne-nj/
+Allow: /services/orthodontics-bayonne-nj/
+Allow: /services/crowns-and-bridges-bayonne-nj/
+Allow: /services/dental-emergencies-bayonne-nj/
+Allow: /services/tooth-extraction-bayonne-nj/
+Allow: /services/teeth-whitening-and-veneers-bayonne-nj/
+Allow: /services/invisalign-clear-aligners-bayonne-nj/
+Allow: /services/kids-and-children-dentistry-bayonne-nj/
+Allow: /services/permanent-teeth-replacement-bayonne-nj/
 Allow: /services/wisdom-teeth-harrisburg-pa/
 Allow: /services/endodontics-harrisburg-pa/
 Allow: /services/same-day-dentistry-harrisburg-pa/
 Allow: /services/painless-treatment-harrisburg-pa/
 Allow: /services/perio-protect-harrisburg-pa/
 Allow: /services/halitosis-harrisburg-pa/
-Allow: /services/sports-dentistry-harrisburg-pa/
+Allow: /services/sports-dentistry-bayonne-nj/
 
 # Allow all new SEO-optimized service area routes
 Allow: /service-areas/harrisburg-pa-dentist-near-you/

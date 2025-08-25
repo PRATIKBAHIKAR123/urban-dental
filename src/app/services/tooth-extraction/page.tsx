@@ -11,54 +11,52 @@ import { CheckCircle } from 'lucide-react';
 export default function ToothExtractionPage() {
 
 
-  const features = [
-    {
-      icon: "/Images/icons/tooth-extraction.png",
-      title: "Simple & Surgical Tooth Extractions",
-      description: "We offer both routine and surgical extractions depending on your needs, ensuring proper aftercare and minimal healing time",
-      points: [
-        "Non-impacted tooth removal",
-        "Wisdom teeth extraction",
-        "Infected or broken tooth removal",
-        "Surgical extractions for impacted teeth",
-      ]
-    },
-    {
-      icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Pain-Free Experience, Every Time",
-      description:
-        "Your comfort is our top priority. We use local anesthesia, gentle techniques, and sedation options to reduce stress and discomfort during the procedure",
-      points: [
-        "Numbing agents and conscious sedation",
-        "Clear communication and aftercare instructions",
-        "Fast healing with minimal swelling",
-        "Patient-focused care from start to finish",
-      ],
-    },
-    {
-      icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Serving Harrisburg & Surrounding Neighborhoods",
-      description:
-        "Whether you're in Harrisburg or a nearby area, Maple Dental is your trusted provider for safe and professional extractions",
-      points: [
-        "Conveniently located in Harrisburg (17110–17112)Serving Harrisburg (17110, 17109, 17111, 17112) & surrounding areas",
-        "Welcoming patients from Colonial Park, Lawnton, Penbrook, Progress, Paxtang & Linglestown",
-        "Same-day appointments available",
-        "Your trusted dentist for extractions near you",
-      ],
-    },
-  ];
+const features = [
+  {
+    icon: "/Images/icons/Immediate Pain Relief.png",
+    title: "Simple Tooth Extractions",
+    description: "Ideal for teeth that are visible and can be removed easily, simple extractions are performed quickly and gently to relieve discomfort and restore oral health.",
+    points: [
+      "Fast and comfortable removal of damaged teeth",
+      "Local anesthesia for a pain-free experience",
+      "Protects surrounding teeth and gums",
+      "Quick recovery with proper aftercare"
+    ]
+  },
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Surgical Extractions",
+    description: "When teeth are broken, impacted, or not easily accessible, surgical extraction may be necessary. Our team uses advanced techniques to ensure safe and effective removal.",
+    points: [
+      "Expert care for impacted or partially erupted teeth",
+      "Advanced tools for precision and safety",
+      "Sedation options available for comfort",
+      "Smooth healing process with guided aftercare"
+    ]
+  },
+  {
+    icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
+    title: "Wisdom Tooth Removal",
+    description: "Wisdom teeth often cause pain, crowding, or infection if left untreated. Our gentle approach to wisdom tooth removal helps prevent future complications.",
+    points: [
+      "Prevents overcrowding and misalignment",
+      "Reduces risk of infection or cyst formation",
+      "Personalized treatment plans for each case",
+      "Focus on comfort and long-term oral health"
+    ]
+  }
+];
   return (
     <div className='flex min-h-screen bg-gray-50'>
       <main className='details-page-container'>
         <div className='details-page'>
           <div className='details-page-header-section'>
             <Fade direction='up' duration={1000}>
-              <h1>Tooth Extractions in Harrisburg, PA</h1>
+              <h1>Tooth Extraction in Bayonne, NJ</h1>
             </Fade>
             <Fade direction='down' duration={1000}>
               <h2 className="text-center">
-                Safe & Gentle Tooth Removal in Harrisburg | Maple Dental | Family & Cosmetic Dentist Near You
+                Gentle, Same-Day Tooth Removal | Urban Dental & Braces
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -71,7 +69,7 @@ export default function ToothExtractionPage() {
                 <Zoom cascade damping={0.3} duration={800}>
                   <div className="main-image">
                     <img
-                      src="/Images/Tooth Extraction.webp"
+                      src="/Images/services/tooth-extraction (1).webp"
                       alt="Main Banner"
                     />
                   </div>
@@ -90,10 +88,10 @@ export default function ToothExtractionPage() {
                 <div className='desc-text-subtitle'>Tooth Extractions</div>
                 <h3 className='desc-text-title'>About Tooth Extractions</h3>
                 <p>
-                  Tooth extraction may be necessary to protect your oral health when a tooth is damaged beyond repair, severely decayed, or causing crowding or infection. At Maple Dental Harrisburg, we provide comfortable, stress-free extractions using advanced techniques and a compassionate approach.
+                  Sometimes, saving a tooth is not possible due to severe damage, decay, or infection. In such cases, a tooth extraction may be the best way to protect your oral health and relieve pain. At Urban Dental & Braces in Bayonne, we perform safe and comfortable tooth extractions using advanced techniques to ensure minimal discomfort and quick healing.
                 </p>
                 <p>
-                  We serve patients from Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Penbrook (17103), Paxtang (17111), Lawnton (17111), Progress (17109, 17111), and Linglestown (17112). If you're searching for a tooth extraction near me, we’re close by and ready to help.
+                  We proudly serve patients from Bayonne (07002), Greenville, NJ (07305), and surrounding communities. If you’re searching for “tooth extraction near me,” trust our experienced team to provide gentle and effective care.
                 </p>
               </Fade>
             </div>
@@ -102,26 +100,26 @@ export default function ToothExtractionPage() {
 
             <div className='wcu-text-section'>
               <Fade cascade direction="up" delay={1000} duration={600}>
-                <div className='wcu-subtitle'>
+                {/* <div className='wcu-subtitle'>
                   Top Reasons
-                </div>
+                </div> */}
                 <div className='wcu-title'>
-                  <h2>Why Choose Maple Dental for Tooth Extractions?</h2>
+                  <h2>Top Reasons to Choose Urban Dental & Braces for Tooth Extractions</h2>
                 </div>
                 <div className='wcu-points-section'>
                   <ul className='wcu-points'>
-                    <li><CheckCircle />Gentle Extractions with Minimal Discomfort</li>
-                    <li><CheckCircle />Wisdom Tooth & Surgical Extractions Available</li>
-                    <li><CheckCircle />Sedation Dentistry for Anxiety-Free Visits</li>
-                    <li><CheckCircle />Convenient Harrisburg Location </li>
-                    <li><CheckCircle />Insurance Plans Accepted & Flexible Payments</li>
+                    <li><CheckCircle />Same-Day Appointments for Pain Relief</li>
+                    <li><CheckCircle />Gentle, Stress-Free Treatment</li>
+                    <li><CheckCircle />Advanced Technology for Safe Extractions</li>
+                    <li><CheckCircle />Affordable & Flexible Payment Options </li>
+                    <li><CheckCircle />Convenient Bayonne Location</li>
                   </ul>
                 </div>
               </Fade>
             </div>
             <div className='wcu-img-section'>
               <Zoom cascade damping={0.3} duration={800}>
-                <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                <img src="/Images/banners/about-us-1.webp" alt="dental" />
               </Zoom>
             </div>
 
@@ -129,10 +127,13 @@ export default function ToothExtractionPage() {
           <div className="features-section">
             <Fade direction="up" duration={1000}>
               <h2 className="features-heading">
-                Comfortable, Professional Tooth Removal for a Healthier Smile
+                Our Tooth Extraction Services
               </h2>
               <p className="features-description">
-                Our team makes every effort to save your natural teeth-but when extraction is necessary, we ensure it's done safely and comfortably. Whether it’s a routine removal or a more complex case, you can count on us for compassionate care every step of the way.                                </p>
+                At Urban Dental & Braces, we know the thought of a tooth extraction can feel overwhelming. That’s why our compassionate team focuses on making the process as comfortable and stress-free as possible. From simple removals to more complex cases, we provide the right care for your needs.</p>
+                <p className="features-description">
+                  Here’s how we help patients with tooth extractions:
+                </p>
             </Fade>
 
             <div className="features-grid">
@@ -155,48 +156,48 @@ export default function ToothExtractionPage() {
             </div>
           </div>
           <div className='faq-section'>
-            <h2 className='faq-heading'>Tooth Extraction Q&A</h2>
+            <h2 className='faq-heading'>Tooth Extraction FAQs</h2>
             <div className="faq-acc-container">
               <Accordion type="single" className="w-full space-y-5">
 
                 <AccordionItem value="q1" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>When is a tooth extraction necessary?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Is a tooth extraction painful?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
-                    <p>Extraction is needed when a tooth is severely decayed, broken, infected, or causing crowding.</p>
+                    <p>No, extractions are performed under local anesthesia, ensuring you don’t feel pain during the procedure. Some mild discomfort afterward is normal and managed with medication.</p>
 
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Is tooth extraction painful?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long does it take to heal after a tooth extraction?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
-                    <p>No, we numb the area thoroughly and offer sedation to ensure you feel no pain during the procedure.</p>
+                    <p>Most patients recover within a few days. Following your dentist’s aftercare instructions helps speed up healing and prevent complications.</p>
 
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long is the recovery period?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Do I need my wisdom teeth removed?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
-                    <p>Most patients recover in 2–3 days, with complete healing in 1–2 weeks depending on the case.</p>
+                    <p>Not always. Wisdom teeth only need removal if they cause pain, crowding, or risk of infection. Our dentist will assess your case and recommend what’s best.</p>
 
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What should I eat after a tooth extraction?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Can I replace a tooth after extraction?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
                     <p>
-                      Stick to soft foods like yogurt, mashed potatoes, and smoothies for the first few days.
+                      Yes - options like dental implants, bridges, or dentures can replace missing teeth and restore your smile.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q5" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Need a Tooth Removed in Harrisburg?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Does insurance cover tooth extractions?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
                     <p>
-                      Trust Maple Dental Harrisburg for gentle and professional extractions near you. Call <a href="tel:7177452700" className="text-primary hover:underline">717-745-2700</a> today to book a same-day consultation.                    </p>
+                      Yes, most dental insurance plans - including Medicaid - cover extractions when medically necessary.</p>
                   </AccordionContent>
                 </AccordionItem>
 
@@ -207,10 +208,10 @@ export default function ToothExtractionPage() {
           <div className="features-section">
             <Fade direction="up" duration={1000}>
               <h2 className="features-heading">
-                Do I need a replacement after extraction?
+                Need a Tooth Extraction in Bayonne?
               </h2>
               <p className="features-description">
-                Ready to start your journey toward a straighter smile? Maple Dental Harrisburg offers expert orthodontic care in a welcoming, patient-focused environment. Call us today at <a href="tel:7177452700" className="text-primary hover:underline">717-745-2700</a> or book online—we’re here to help, right in your neighborhood.
+                At Urban Dental & Braces, we make tooth extractions safe, gentle, and stress-free. Whether you’re dealing with tooth pain, infection, or wisdom teeth issues, our caring team is here to help you get relief and protect your oral health.
               </p>
             </Fade>
           </div>

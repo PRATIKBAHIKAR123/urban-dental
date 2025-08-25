@@ -11,42 +11,40 @@ import { CheckCircle } from 'lucide-react';
 export default function CrownsPage() {
 
 
-    const features = [
+ const features = [
   {
-    icon: "/Images/icons/Teeth Replacement.png",
-    title: "Types of Dental Restorations We Offer",
-    description: "From protecting damaged teeth to replacing missing ones, our crowns and bridges are custom-designed to meet your dental goals and restore full function to your smile",
+    icon: "/Images/icons/Immediate Pain Relief.png",
+    title: "Dental Crowns",
+    description: "Crowns, often called \"caps,\" are used to cover and protect weakened, damaged, or misshapen teeth. They restore both strength and beauty, making your tooth look and function like new.",
     points: [
-      "Dental Crowns: Tooth-shaped caps that restore the strength and shape of a weakened or fractured tooth",
-      "Fixed Bridges: Used to replace one or more missing teeth by anchoring to adjacent healthy teeth",
-      "Same-Day Crown Options: For eligible patients, we offer quicker turnaround and immediate placement",
-      "Custom Color Matching: For seamless, natural-looking results",
+      "Protects cracked or weakened teeth",
+      "Restores shape, size, and appearance",
+      "Made from durable, tooth-colored materials",
+      "Long-lasting solution with proper care"
     ]
   },
-    {
-    icon: "/Images/icons/x-ray.png",
-    title: "What to Expect During Treatment",
-    description:
-      "Restoring your smile with crowns or bridges is a comfortable and straightforward process. Our team ensures you feel confident and informed at every stage",
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Dental Bridges",
+    description: "Bridges are used to replace one or more missing teeth by anchoring to the natural teeth or implants beside the gap. They not only restore your bite but also prevent surrounding teeth from shifting.",
     points: [
-      "Digital scans and impressions for precise fit",
-      "Tooth preparation and temporary restorations (if needed)",
-      "Custom lab-created crowns and bridges",
-      "Final placement with expert attention to bite and comfort",
-    ],
+      "Fills gaps caused by missing teeth",
+      "Prevents shifting and misalignment",
+      "Improves chewing and speaking function",
+      "Blends naturally with your existing smile"
+    ]
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Trusted Restorative Dentist for Harrisburg & Nearby Areas",
-    description:
-      "Whether you're replacing a missing tooth or restoring a damaged one, we’re here to help. Maple Dental Harrisburg is a go-to destination for dental crowns and bridges near you",
+    title: "Same-Day & Advanced Restorations",
+    description: "We use modern techniques and high-quality materials to ensure your crown or bridge is both strong and aesthetically pleasing. In many cases, we can provide same-day restorations for faster results.",
     points: [
-      "Convenient to Harrisburg (17110, 17109, 17111, 17112) and surrounding zip codes",
-      "Serving Colonial Park, Paxtang, Penbrook, Progress, Lawnton & Linglestown",
-      "Flexible appointments to fit your schedule",
-      "Your neighborhood dental restoration expert near me",
-    ],
-  },
+      "Advanced digital impressions for precision",
+      "Faster turnaround with same-day options",
+      "Comfortable, stress-free procedure",
+      "Restorations designed for long-term success"
+    ]
+  }
 ];
     return (
         <div className='flex min-h-screen bg-gray-50'>
@@ -54,11 +52,11 @@ export default function CrownsPage() {
         <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Dental Crowns & Bridges in Harrisburg, PA</h1>
+                        <h1>Dental Crowns & Bridges in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Tooth Restoration in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                            Durable, Natural-Looking Restorations | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -71,7 +69,7 @@ export default function CrownsPage() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                src="/Images/Dental Crown Bridge.webp"
+                src="/Images/services/crown-bridge.webp"
                 alt="Main Banner"
               />
             </div>
@@ -90,10 +88,11 @@ export default function CrownsPage() {
           <div className='desc-text-subtitle'>Dental Crowns & Bridges</div>
           <h3 className='desc-text-title'>About Dental Crowns & Bridges</h3>
           <p>
-           When teeth are damaged, weakened, or missing, dental crowns and bridges offer long-lasting, functional solutions to restore your smile. At Maple Dental Harrisburg, we specialize in custom restorations that not only improve appearance but also protect your oral health and bite alignment.
+           Damaged or missing teeth can affect both your oral health and your confidence. At Urban Dental & Braces in Bayonne, we offer high-quality dental crowns and bridges designed to restore function, protect your teeth, and give you a natural-looking smile. Our restorations are custom-made to blend seamlessly with your existing teeth, ensuring comfort and durability.
+
           </p>
           <p>
-           We proudly provide restorative dentistry to patients across Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Penbrook (17103), Paxtang (17111), Progress (17109, 17111), Lawnton (17111), and Linglestown (17112). If you’re searching for “dental crowns near me” or “bridge dentist near you,” you’re in the right place.
+           We proudly serve patients from Bayonne (07002), Greenville, NJ (07305), and nearby communities. If you’re searching for “dental crowns or bridges near me,” our experienced team is here to help you smile with confidence again.
           </p>
         </Fade>
       </div>
@@ -102,26 +101,26 @@ export default function CrownsPage() {
         
                     <div className='wcu-text-section'>
                       <Fade cascade direction="up" delay={1000} duration={600}>
-                        <div className='wcu-subtitle'>
+                        {/* <div className='wcu-subtitle'>
                           Top Reasons
-                        </div>
+                        </div> */}
                         <div className='wcu-title'>
-                          <h2>Why Choose Maple Dental for Crowns & Bridges?</h2>
+                          <h2>Top Reasons to Choose Urban Dental & Braces for Restorations</h2>
                         </div>
                         <div className='wcu-points-section'>
                           <ul className='wcu-points'>
-                            <li><CheckCircle />Advanced restorative techniques & materials</li>
-                            <li><CheckCircle />Custom-matched crowns for a natural look</li>
-                            <li><CheckCircle />Tooth-saving solutions to restore function</li>
-                            <li><CheckCircle />Convenient Harrisburg location with flexible scheduling </li>
-                            <li><CheckCircle />Insurance accepted + affordable payment plans</li>
+                            <li><CheckCircle />Custom-Fit, Natural Appearance</li>
+                            <li><CheckCircle />Strong & Long-Lasting Materials</li>
+                            <li><CheckCircle />Comfortable & Painless Procedure</li>
+                            <li><CheckCircle />Affordable & Insurance-Friendly Options</li>
+                            <li><CheckCircle />Convenient Bayonne Location</li>
                           </ul>
                         </div>
                       </Fade>
                     </div>
                     <div className='wcu-img-section'>
                       <Zoom cascade damping={0.3} duration={800}>
-                        <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                        <img src="/Images/banners/about-us-1.webp" alt="dental" />
                       </Zoom>
                     </div>
         
@@ -129,10 +128,10 @@ export default function CrownsPage() {
                   <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Restore Strength, Beauty & Function with Dental Crowns & Bridges
+                                  Our Crowns & Bridges Services
                                 </h2>
                                 <p className="features-description">
-                                  At Maple Dental Harrisburg, we believe in conservative dentistry—preserving your natural smile while providing strong, beautiful restorations. Whether you’ve chipped a tooth, lost a filling, or need to replace a missing tooth, our experienced team offers personalized care with precision and compassion.
+                                  At Urban Dental & Braces, we believe every smile deserves to be strong, healthy, and beautiful. Whether you need to repair a damaged tooth or replace missing ones, our crowns and bridges are tailored to your unique needs. Here’s how we help restore your smile:
                                 </p>
                               </Fade>
                   
@@ -156,30 +155,30 @@ export default function CrownsPage() {
                               </div>
                             </div>
     <div className='faq-section'>
-           <h2 className='faq-heading'>Crowns & Bridges Q&A</h2>
+           <h2 className='faq-heading'>Crowns & Bridges FAQs</h2>
            <div className="faq-acc-container">
             <Accordion type="single" className="w-full space-y-5">
         
         <AccordionItem value="q1" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What is a dental crown?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long do crowns and bridges last?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>A dental crown is a custom-made cap that fits over a damaged, cracked, or weakened tooth to restore its shape, strength, and appearance. It’s often used after a root canal, large filling, or to protect a fractured tooth.</p>
+            <p>With proper care, crowns and bridges can last 10–15 years or more. Regular checkups and good oral hygiene help extend their lifespan. </p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q2" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What is a dental bridge?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Are crowns and bridges noticeable?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>A bridge is used to replace one or more missing teeth. It’s made up of one or more artificial teeth anchored in place using crowns on the adjacent natural teeth or dental implants.</p>
+            <p>No - our restorations are made from high-quality, tooth-colored materials that blend seamlessly with your natural teeth.</p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q3" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long do crowns and bridges last?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Do crowns and bridges require special care?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>With proper care, dental crowns and bridges can last 10–15 years or more. Good oral hygiene, routine dental visits, and avoiding hard foods help extend their lifespan.</p>
+            <p>They can be cared for just like your natural teeth. Regular brushing, flossing, and dental checkups are recommended.</p>
             
           </AccordionContent>
         </AccordionItem>
@@ -188,20 +187,11 @@ export default function CrownsPage() {
           <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Are crowns and bridges covered by insurance?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>
-                Most dental insurance plans cover a portion of the cost of crowns and bridges, especially if they are deemed medically necessary. Our team will work with your plan to maximize your benefits.
+                Yes - most dental insurance plans provide coverage for restorative treatments like crowns and bridges. Our team will help you understand your benefits.
             </p>
           </AccordionContent>
         </AccordionItem>
 
-        <AccordionItem value="q5" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Is the procedure painful?</h3></AccordionTrigger>
-          <AccordionContent className='faq-ans'>
-            <p>
-                No. The procedure is done under local anesthesia, and most patients experience minimal discomfort. We also offer sedation options for those with dental anxiety.
-            </p>
-          
-          </AccordionContent>
-        </AccordionItem>
 
 
       </Accordion>
@@ -210,10 +200,10 @@ export default function CrownsPage() {
      <div className="features-section">
                 <Fade direction="up" duration={1000}>
                   <h2 className="features-heading">
-                    Looking for Crowns or Bridges Near You in Harrisburg?
+                    Restore Your Smile with Crowns & Bridges in Bayonne
                   </h2>
                   <p className="features-description">
-                    Let Maple Dental Harrisburg restore your smile with durable, natural-looking dental crowns and bridges. Call <a href="tel:7177452700" className="text-primary hover:underline">717-745-2700</a> to schedule your consultation and discover tooth restoration that fits your life and budget.
+                    At Urban Dental & Braces, we specialize in creating durable, natural-looking crowns and bridges that restore your smile and confidence. Whether you’re repairing a damaged tooth or replacing missing ones, our team is here to provide the best care possible.
                   </p>
                 </Fade>
               </div>

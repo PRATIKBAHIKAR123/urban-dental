@@ -7,52 +7,52 @@ import clsx from "clsx";
 const services = [
   {
     title: "Emergency Dentistry",
-    image: "/Images/Emergency Dentistry.jpg",
+    image: "/Images/services/emergency-dentistry.webp",
     link: "/services/emergency-dentistry",
   },
   {
     title: "Root Canal",
-      image: "/Images/Root Canal.webp",
+      image: "/Images/services/root-canal.webp",
     link: "/services/root-canal",
   },
   {
     title: "Oral Surgery",
-      image: "/Images/Oral Surgery.webp",
+      image: "/Images/services/oral-surgery.webp",
     link: "/services/oral-surgery",
   },
   {
     title: "Cosmetic Dentistry",
-    image: "/Images/Cosmetic Dentistry.webp",
+    image: "/Images/services/cosmetic-dentistry.webp",
     link: "/services/cosmetic-dentistry",
   },
   {
     title: "Dental Fillings",
-    image: "/Images/Dental Fillings.webp",
+    image: "/Images/services/dental-fillings.webp",
     link: "/services/dental-fillings",
   },
   {
     title: "Dental Implants",
-      image: "/Images/Dental Implants.webp",
+      image: "/Images/services/dental-implants.webp",
     link: "/services/dental-implants",
   },
   {
     title: "Orthodontics",
-      image: "/Images/Orthodontics.webp",
+      image: "/Images/services/orthodontics.webp",
       link: "/services/orthodontics",
   },
   {
     title: "Crowns and Bridges",
-    image: "/Images/Dental Crown Bridge.webp",
+    image: "/Images/services/crown-bridge.webp",
     link: "/services/crowns-and-bridges",
   },
   {
     title: "Dental Emergencies",
-    image: "/Images/Dental Emergencies.webp",
+    image: "/Images/services/emergency-dentistry.webp",
     link: "/services/dental-emergencies",
   },
   {
     title: "Tooth Extraction",
-    image: "/Images/Tooth Extraction.webp",
+    image: "/Images/services/tooth-extraction (1).webp",
     link: "/services/tooth-extraction",
   },
   {
@@ -62,22 +62,22 @@ const services = [
   },
   {
     title: "Invisalign",
-    image: "/Images/Invisalign.webp",
+    image: "/Images/services/invisalign.webp",
     link: "/services/invisalign",
   },
   {
     title: "Kids & Children Dentistry",
-    image: "/Images/Kids Dentistry.webp",
+    image: "/Images/services/kids-dentistry.webp",
     link: "/services/kids-&-children-dentistry",
   },
   {
     title: "Permanent Teeth Replacement",
-    image: "/Images/Teeth Replacement.webp",
+    image: "/Images/services/permanent-teeth-replacement.webp",
     link: "/services/permanent-teeth-replacement",
   },
   {
     title: "Sports Dentistry",
-    image: "/Images/Sports Dentistry.webp",
+    image: "/Images/services/sports-dentistry.webp",
     link: "/services/sports-dentistry",
   },
   {
@@ -87,27 +87,27 @@ const services = [
   },
   {
     title: "Endodontics",
-    image: "/Images/Endodontics.webp",
+    image: "/Images/services/endodontics.webp",
     link: "/services/endodontics",
   },
   {
     title: "Same-day Dentistry",
-    image: "/Images/Same-day Dentistry.webp",
+    image: "/Images/services/same-day-dentistry.webp",
     link: "/services/same-day-dentistry",
   },
   {
     title: "Painless Treatment",
-    image: "/Images/Painless Treatment.webp",
+    image: "/Images/services/painless-treatment.webp",
     link: "/services/painless-treatment",
   },
   {
     title: "Perio Protect",
-    image: "/Images/Perio Protect Image.webp",
+    image: "/Images/services/perio-protect.webp",
     link: "/services/perio-protect",
   },
   {
     title: "Halitosis",
-    image: "/Images/banners/Halitosis.webp",
+    image: "/Images/services/halitosis.webp",
     link: "/services/halitosis",
   },
 ];

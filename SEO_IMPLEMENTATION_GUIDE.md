@@ -28,27 +28,27 @@ This document outlines the SEO-optimized URL structure implemented for Maple Den
 ### 5. Service Pages
 All service pages have been updated with SEO-optimized routes:
 
-- **Emergency Dentistry:** `/services/emergency-dentistry-harrisburg-pa`
-- **Root Canal Treatment:** `/services/root-canal-treatment-harrisburg-pa`
-- **Oral Surgery:** `/services/oral-surgery-harrisburg-pa`
-- **Cosmetic Dentistry:** `/services/cosmetic-dentistry-harrisburg-pa`
-- **Dental Fillings:** `/services/dental-fillings-harrisburg-pa`
-- **Dental Implants:** `/services/dental-implants-harrisburg-pa`
-- **Orthodontics:** `/services/orthodontics-harrisburg-pa`
-- **Crowns & Bridges:** `/services/crowns-and-bridges-harrisburg-pa`
-- **Dental Emergencies:** `/services/dental-emergencies-harrisburg-pa`
-- **Tooth Extraction:** `/services/tooth-extraction-harrisburg-pa`
-- **Teeth Whitening & Veneers:** `/services/teeth-whitening-and-veneers-harrisburg-pa`
-- **Invisalign Clear Aligners:** `/services/invisalign-clear-aligners-harrisburg-pa`
-- **Kids & Children Dentistry:** `/services/kids-and-children-dentistry-harrisburg-pa`
-- **Permanent Teeth Replacement:** `/services/permanent-teeth-replacement-harrisburg-pa`
+- **Emergency Dentistry:** `/services/emergency-dentistry-bayonne-nj`
+- **Root Canal Treatment:** `/services/root-canal-treatment-bayonne-nj`
+- **Oral Surgery:** `/services/oral-surgery-bayonne-nj`
+- **Cosmetic Dentistry:** `/services/cosmetic-dentistry-bayonne-nj`
+- **Dental Fillings:** `/services/dental-fillings-bayonne-nj`
+- **Dental Implants:** `/services/dental-implants-bayonne-nj`
+- **Orthodontics:** `/services/orthodontics-bayonne-nj`
+- **Crowns & Bridges:** `/services/crowns-and-bridges-bayonne-nj`
+- **Dental Emergencies:** `/services/dental-emergencies-bayonne-nj`
+- **Tooth Extraction:** `/services/tooth-extraction-bayonne-nj`
+- **Teeth Whitening & Veneers:** `/services/teeth-whitening-and-veneers-bayonne-nj`
+- **Invisalign Clear Aligners:** `/services/invisalign-clear-aligners-bayonne-nj`
+- **Kids & Children Dentistry:** `/services/kids-and-children-dentistry-bayonne-nj`
+- **Permanent Teeth Replacement:** `/services/permanent-teeth-replacement-bayonne-nj`
 - **Wisdom Teeth:** `/services/wisdom-teeth-harrisburg-pa`
 - **Endodontics:** `/services/endodontics-harrisburg-pa`
 - **Same-Day Dentistry:** `/services/same-day-dentistry-harrisburg-pa`
 - **Painless Treatment:** `/services/painless-treatment-harrisburg-pa`
 - **Perio Protect:** `/services/perio-protect-harrisburg-pa`
 - **Halitosis:** `/services/halitosis-harrisburg-pa`
-- **Sports Dentistry:** `/services/sports-dentistry-harrisburg-pa`
+- **Sports Dentistry:** `/services/sports-dentistry-bayonne-nj`
 
 ### 6. Service Area Pages
 All service area pages have been updated with SEO-optimized routes:

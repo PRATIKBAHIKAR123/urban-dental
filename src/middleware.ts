@@ -14,27 +14,27 @@ export function middleware(request: NextRequest) {
 
   // Redirect old service routes to new SEO-optimized routes
   const serviceRedirects: { [key: string]: string } = {
-    '/services/emergency-dentistry': '/services/emergency-dentistry-harrisburg-pa',
-    '/services/root-canal': '/services/root-canal-treatment-harrisburg-pa',
-    '/services/oral-surgery': '/services/oral-surgery-harrisburg-pa',
-    '/services/cosmetic-dentistry': '/services/cosmetic-dentistry-harrisburg-pa',
-    '/services/dental-fillings': '/services/dental-fillings-harrisburg-pa',
-    '/services/dental-implants': '/services/dental-implants-harrisburg-pa',
-    '/services/orthodontics': '/services/orthodontics-harrisburg-pa',
-    '/services/crowns-and-bridges': '/services/crowns-and-bridges-harrisburg-pa',
-    '/services/dental-emergencies': '/services/dental-emergencies-harrisburg-pa',
-    '/services/tooth-extraction': '/services/tooth-extraction-harrisburg-pa',
-    '/services/whitening-&-veneers': '/services/teeth-whitening-and-veneers-harrisburg-pa',
-    '/services/invisalign': '/services/invisalign-clear-aligners-harrisburg-pa',
-    '/services/kids-&-children-dentistry': '/services/kids-and-children-dentistry-harrisburg-pa',
-    '/services/permanent-teeth-replacement': '/services/permanent-teeth-replacement-harrisburg-pa',
+    '/services/emergency-dentistry': '/services/emergency-dentistry-bayonne-nj',
+    '/services/root-canal': '/services/root-canal-treatment-bayonne-nj',
+    '/services/oral-surgery': '/services/oral-surgery-bayonne-nj',
+    '/services/cosmetic-dentistry': '/services/cosmetic-dentistry-bayonne-nj',
+    '/services/dental-fillings': '/services/dental-fillings-bayonne-nj',
+    '/services/dental-implants': '/services/dental-implants-bayonne-nj',
+    '/services/orthodontics': '/services/orthodontics-bayonne-nj',
+    '/services/crowns-and-bridges': '/services/crowns-and-bridges-bayonne-nj',
+    '/services/dental-emergencies': '/services/dental-emergencies-bayonne-nj',
+    '/services/tooth-extraction': '/services/tooth-extraction-bayonne-nj',
+    '/services/whitening-&-veneers': '/services/teeth-whitening-and-veneers-bayonne-nj',
+    '/services/invisalign': '/services/invisalign-clear-aligners-bayonne-nj',
+    '/services/kids-&-children-dentistry': '/services/kids-and-children-dentistry-bayonne-nj',
+    '/services/permanent-teeth-replacement': '/services/permanent-teeth-replacement-bayonne-nj',
     '/services/wisdom-teeth': '/services/wisdom-teeth-harrisburg-pa',
     '/services/endodontics': '/services/endodontics-harrisburg-pa',
     '/services/same-day-dentistry': '/services/same-day-dentistry-harrisburg-pa',
     '/services/painless-treatment': '/services/painless-treatment-harrisburg-pa',
     '/services/perio-protect': '/services/perio-protect-harrisburg-pa',
     '/services/halitosis': '/services/halitosis-harrisburg-pa',
-    '/services/sports-dentistry': '/services/sports-dentistry-harrisburg-pa'
+    '/services/sports-dentistry': '/services/sports-dentistry-bayonne-nj'
   }
 
   // Redirect old service area routes to new SEO-optimized routes

@@ -209,10 +209,7 @@ export default function HomePage() {
               {/* Content Centered */}
               <div className="max-w-3xl text-white">
                 {/* Professional Badge */}
-                <div className="inline-flex items-center gap-2 bg-blue-500/20 backdrop-blur-sm border border-blue-400/30 px-4 py-2 rounded-full text-blue-200 text-sm font-medium mb-4">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-                  Trusted Care
-                </div>
+                
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
                   <span className="text-white">

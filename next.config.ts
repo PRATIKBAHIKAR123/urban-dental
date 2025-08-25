@@ -11,72 +11,72 @@ const nextConfig: NextConfig = {
       // Service redirects
       {
         source: '/services/emergency-dentistry',
-        destination: '/services/emergency-dentistry-harrisburg-pa',
+        destination: '/services/emergency-dentistry-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/root-canal',
-        destination: '/services/root-canal-treatment-harrisburg-pa',
+        destination: '/services/root-canal-treatment-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/oral-surgery',
-        destination: '/services/oral-surgery-harrisburg-pa',
+        destination: '/services/oral-surgery-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/cosmetic-dentistry',
-        destination: '/services/cosmetic-dentistry-harrisburg-pa',
+        destination: '/services/cosmetic-dentistry-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/dental-fillings',
-        destination: '/services/dental-fillings-harrisburg-pa',
+        destination: '/services/dental-fillings-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/dental-implants',
-        destination: '/services/dental-implants-harrisburg-pa',
+        destination: '/services/dental-implants-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/orthodontics',
-        destination: '/services/orthodontics-harrisburg-pa',
+        destination: '/services/orthodontics-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/crowns-and-bridges',
-        destination: '/services/crowns-and-bridges-harrisburg-pa',
+        destination: '/services/crowns-and-bridges-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/dental-emergencies',
-        destination: '/services/dental-emergencies-harrisburg-pa',
+        destination: '/services/dental-emergencies-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/tooth-extraction',
-        destination: '/services/tooth-extraction-harrisburg-pa',
+        destination: '/services/tooth-extraction-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/whitening-&-veneers',
-        destination: '/services/teeth-whitening-and-veneers-harrisburg-pa',
+        destination: '/services/teeth-whitening-and-veneers-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/invisalign',
-        destination: '/services/invisalign-clear-aligners-harrisburg-pa',
+        destination: '/services/invisalign-clear-aligners-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/kids-&-children-dentistry',
-        destination: '/services/kids-and-children-dentistry-harrisburg-pa',
+        destination: '/services/kids-and-children-dentistry-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/permanent-teeth-replacement',
-        destination: '/services/permanent-teeth-replacement-harrisburg-pa',
+        destination: '/services/permanent-teeth-replacement-bayonne-nj',
         permanent: true,
       },
       {
@@ -111,7 +111,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/services/sports-dentistry',
-        destination: '/services/sports-dentistry-harrisburg-pa',
+        destination: '/services/sports-dentistry-bayonne-nj',
         permanent: true,
       },
       // Service area redirects

@@ -13,34 +13,38 @@ export default function SportsDentistryPage() {
     const features = [
   {
     icon: "/Images/icons/Immediate Pain Relief.png",
-    title: "Custom Sports Mouthguards",
-    description: "Over-the-counter guards can’t match the fit and comfort of a custom device. We design professional mouthguards for children, teens, and adults to minimize dental trauma during sports.",
-    points: [
-      "Tailored fit for comfort and performance",
-      "Better protection against impact injuries",
-      "Ideal for football, hockey, basketball, and more",
-    ]
-  },
-    {
-    icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-    title: "Emergency Dental Care for Sports Injuries",
+    title: "Custom Athletic Mouthguards",
     description:
-      "Accidents happen-even with the best protection. If you’ve experienced a knocked-out tooth, broken crown, or lip injury during a game or practice, we offer same-day care to treat the damage quickly.",
+      "Professional-grade protection is essential for any contact sport or high-risk activity. Off-the-shelf guards simply can't provide the same level of comfort and protection as a custom-fitted solution.",
     points: [
-      "Fast treatment for dental trauma",
-      "Tooth reimplantation & repair",
-      "Swelling and pain management",
+      "Precision-fitted guards for maximum comfort and protection",
+      "Durable materials designed for intense athletic use",
+      "Custom colors and team logos available",
+      "Superior breathing and communication capabilities",
+    ],
+  },
+  {
+    icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
+    title: "Sports Injury Treatment & Restoration",
+    description:
+      "Quick, expert care can save teeth and minimize long-term damage from athletic injuries. Our team is trained to handle all types of sports-related dental trauma with precision and compassion.",
+    points: [
+      "Immediate treatment for chipped, cracked, or knocked-out teeth",
+      "Advanced restorative techniques for damaged teeth",
+      "Soft tissue injury care and repair",
+      "Comprehensive follow-up care and monitoring",
     ],
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Serving Harrisburg & Nearby Communities",
+    title: "Athletic Performance Optimization",
     description:
-      "If you're in Harrisburg or surrounding areas like Colonial Park, Progress, or Lawnton, we’re your local sports dentistry provider.",
+      "Your oral health directly impacts your overall athletic performance and endurance. We help athletes maintain peak oral health to support their training and competition goals.",
     points: [
-      "Convenient Harrisburg location",
-      "Evening appointments and walk-ins available",
-      "Trusted by local families and athletes near you",
+      "Specialized cleanings and preventive care for athletes",
+      "Nutritional guidance for optimal oral health",
+      "Sleep apnea screening and treatment options",
+      "TMJ evaluation and management for jaw health",
     ],
   },
 ];
@@ -50,11 +54,11 @@ export default function SportsDentistryPage() {
                 <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Sports Dentistry in Harrisburg, PA</h1>
+                        <h1>Sports Dentistry in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Mouthguards & Injury Prevention in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                            Professional Sports Dentistry in Bayonne | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -67,7 +71,7 @@ export default function SportsDentistryPage() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                src="/Images/Sports Dentistry.webp"
+                src="/Images/services/sports-dentistry.webp"
                 alt="Main Banner"
               />
             </div>
@@ -86,10 +90,10 @@ export default function SportsDentistryPage() {
           <div className='desc-text-subtitle'>Sports Dentistry</div>
           <h3 className='desc-text-title'>About Sports Dentistry</h3>
           <p>
-            Whether you're an athlete or have a child involved in sports, protecting your teeth is essential. At Maple Dental Harrisburg, we specialize in sports dentistry to help prevent dental injuries and provide prompt care when accidents occur. From custom mouthguards to emergency treatment, we’re here to safeguard your winning smile. 
+            Athletic activities can pose significant risks to your teeth, jaw, and mouth - whether it's contact sports like football and hockey or recreational activities like basketball and skateboarding. At Urban Dental & Braces in Bayonne, we specialize in sports dentistry to protect athletes of all ages and skill levels from dental injuries. Our comprehensive approach includes custom mouthguards, preventive care, and emergency treatment for sports-related dental trauma. 
           </p>
           <p>
-            We proudly serve Harrisburg (17110, 17109, 17111, 17112) and nearby areas including Colonial Park (17109), Penbrook (17103), Paxtang (17111), Progress (17109, 17111), Lawnton (17111), and Linglestown (17112). Looking for a sports dentist near me? We’re close by and ready to help.
+            We proudly serve athletes from Bayonne (07002), Greenville, NJ (07305), and nearby communities. If you're searching for "sports dentist near me" or "mouthguards near you", our experienced team is here to keep your smile safe during every game and practice.
           </p>
         </Fade>
       </div>
@@ -98,26 +102,26 @@ export default function SportsDentistryPage() {
     
                 <div className='wcu-text-section'>
                   <Fade cascade direction="up" delay={1000} duration={600}>
-                    <div className='wcu-subtitle'>
+                    {/* <div className='wcu-subtitle'>
                       Top Reasons
-                    </div>
+                    </div> */}
                     <div className='wcu-title'>
-                      <h2>Why Choose Maple Dental for Sports Dentistry?</h2>
+                      <h2>Top Reasons to Choose Urban Dental & Braces for Sports Dentistry</h2>
                     </div>
                     <div className='wcu-points-section'>
                       <ul className='wcu-points'>
-                        <li><CheckCircle />Custom Athletic Mouthguards for All Ages  </li>
-                        <li><CheckCircle />Emergency Care for Sports-Related Injuries</li>
-                        <li><CheckCircle />Experienced Family Dentists in Harrisburg  </li>
-                        <li><CheckCircle />Fast, Same-Day Appointments Available  </li>
-                        <li><CheckCircle />Insurance-Friendly & Flexible Payment Plans</li>
+                        <li><CheckCircle />Custom-Fitted Mouthguards</li>
+                        <li><CheckCircle />Comprehensive Athletic Dental Care</li>
+                        <li><CheckCircle />Sports Injury Treatment Expertise </li>
+                        <li><CheckCircle />Flexible Scheduling for Athletes </li>
+                        <li><CheckCircle />Convenient Bayonne Location</li>
                       </ul>
                     </div>
                   </Fade>
                 </div>
                 <div className='wcu-img-section'>
                   <Zoom cascade damping={0.3} duration={800}>
-                    <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                    <img src="/Images/banners/about-us-1.webp" alt="dental" />
                   </Zoom>
                 </div>
     
@@ -125,11 +129,13 @@ export default function SportsDentistryPage() {
               <div className="features-section">
                           <Fade direction="up" duration={1000}>
                             <h2 className="features-heading">
-                              Protecting Your Smile On and Off the Field
+                              Our Sports Dentistry Services
                             </h2>
                             <p className="features-description">
-                              At Maple Dental Harrisburg, we understand the risks athletes face-especially in contact sports. Our team provides custom-fitted solutions and fast treatment options to keep your oral health in peak condition.
+                              At Urban Dental & Braces, we understand that athletes need specialized dental care to perform at their best while protecting their oral health. Whether you're a weekend warrior or a competitive athlete, we provide tailored solutions to keep your teeth safe and your performance strong.
                             </p>
+                            <p className='features-description'>Here's how we support your athletic lifestyle:
+                              </p>
                           </Fade>
               
                           <div className="features-grid">
@@ -152,57 +158,57 @@ export default function SportsDentistryPage() {
                           </div>
                         </div>
     <div className='faq-section'>
-                <h2 className='faq-heading'>Sports Dentistry Q&A</h2>
+                <h2 className='faq-heading'>Sports Dentistry FAQs</h2>
                 <div className="faq-acc-container">
                   <Accordion type="single" collapsible className="w-full space-y-6">
                     <AccordionItem value="q1" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>What is sports dentistry?</h3>
+                        <h3 className='text-lg'>Which sports require mouthguards?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans ">
-                        Sports dentistry focuses on preventing and treating dental injuries related to athletic activity, often using mouthguards and emergency care. 
+                        The American Dental Association recommends mouthguards for contact sports like football, hockey, basketball, soccer, and wrestling, as well as activities like skateboarding, mountain biking, and gymnastics. 
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q2" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Why is a custom mouthguard better?</h3>
+                        <h3 className='text-lg'>How often should I replace my mouthguard?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p className="mt-2">
-                        It fits your mouth precisely, offering better protection, breathability, and comfort compared to store-bought options. 
+                        Custom mouthguards should be replaced every 1-2 seasons or whenever they show signs of wear, damage, or if your teeth have shifted. Growing children may need more frequent replacements 
                         
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     
-                    <AccordionItem value="q6" className="faq-acc">
-                      <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>When should my child wear a sports mouthguard?</h3>
-                      </AccordionTrigger>
-                      <AccordionContent className="faq-ans">
-                        <p className="mt-2">Any time they play contact or high-impact sports like football, soccer, or basketball.</p>
-                      </AccordionContent>
-                    </AccordionItem>
+                    
 
                     <AccordionItem value="q3" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>What should I do if a tooth gets knocked out?</h3>
+                        <h3 className='text-lg'>Can I wear braces and still play sports?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p>
-                          Keep the tooth moist in milk or saliva and visit our clinic immediately for the best chance of saving it.
+                          Absolutely! Athletes with braces actually need extra protection. We create specialized mouthguards that accommodate orthodontic appliances while providing superior protection.
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q5" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>How often should I replace a sports mouthguard?</h3>  
+                        <h3 className='text-lg'>What should I do if my tooth gets knocked out during a game?</h3>  
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">At least once a year or sooner if it becomes worn, damaged, or your child grows</p>
+                        <p className="mt-2">Handle the tooth by the crown only, rinse gently if dirty, and try to reinsert it. If that's not possible, store it in milk or saliva and get to our office immediately for the best chance of saving it.</p>
                       </AccordionContent>
                     </AccordionItem>
-
+<AccordionItem value="q6" className="faq-acc">
+                      <AccordionTrigger className="faq-qn rounded-md">
+                        <h3 className='text-lg'>Does insurance cover custom mouthguards?</h3>
+                      </AccordionTrigger>
+                      <AccordionContent className="faq-ans">
+                        <p className="mt-2">Many dental insurance plans provide partial coverage for custom mouthguards, especially when prescribed for medical reasons. We'll help verify your benefits and maximize your coverage.</p>
+                      </AccordionContent>
+                    </AccordionItem>
                   
                   </Accordion>
                 </div>
@@ -210,10 +216,10 @@ export default function SportsDentistryPage() {
               <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Protect Your Smile with Sports Dentistry at Maple Dental
+                                  Need Sports Dentistry in Bayonne?
                                 </h2>
                                 <p className="features-description">
-                                  Don’t wait for an injury to act. Book your custom mouthguard fitting or emergency appointment with Maple Dental Harrisburg today and play safe with confidence.
+                                  At Urban Dental & Braces, we're committed to keeping athletes safe and performing at their best. Whether you need a custom mouthguard, sports injury treatment, or specialized athletic dental care, our team has the expertise to protect your winning smile.
                                 </p>
                               </Fade>
                             </div>

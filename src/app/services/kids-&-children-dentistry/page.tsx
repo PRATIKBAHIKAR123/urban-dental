@@ -11,42 +11,40 @@ import { CheckCircle } from 'lucide-react';
 export default function KidsAndChildrenPage() {
 
 
-    const features = [
+const features = [
   {
     icon: "/Images/icons/Immediate Pain Relief.png",
-    title: "First Visits & Preventive Care",
-    description: "We recommend scheduling your child’s first dental visit by age one. These early checkups are key to preventing future issues and helping kids feel confident and calm at the dentist. Our gentle team focuses on making every visit a positive experience.",
+    title: "Preventive Visits & Cleanings",
+    description: "Regular checkups help us track growth, catch small issues early, and keep smiles cavity-free. Gentle cleanings remove plaque your child can't brush away at home, and our team teaches easy, age-appropriate hygiene tips. Prevention now means fewer treatments later.",
     points: [
-      "Gentle cleanings and protective fluoride treatments",
-      "Oral development assessments and bite evaluations",
-      "Guidance on thumb-sucking and pacifier use",
-      "Fun, educational visits to build good habits early",
+      "Comprehensive exams and gentle professional cleanings",
+      "Fluoride treatments to strengthen developing enamel",
+      "Dental sealants to protect cavity-prone molars",
+      "Personalized brushing, flossing, and diet guidance"
     ]
   },
-    {
-    icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-    title: "Restorative Treatments for Children",
-    description:
-      "When treatment is needed, we make it comfortable and stress-free. Our kid-friendly team explains everything in simple terms, and we use gentle techniques to restore your child’s smile while keeping them at ease.",
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Cavity Prevention & Tooth-Colored Fillings",
+    description: "Even with great brushing, kids can get cavities-especially in hard-to-reach grooves. When treatment is needed, we use conservative, tooth-colored materials that blend in naturally. Our calm, kid-first approach keeps little patients comfortable and relaxed.",
     points: [
-      "Tooth-colored fillings for small cavities",
-      "Stainless steel crowns for added durability",
-      "Pulp therapy (baby root canals) for deep decay",
-      "Emergency dental care for injuries or pain",
-    ],
+      "Mercury-free, shade-matched composite fillings",
+      "Minimal, conservative tooth preparation",
+      "Numbing and gentle techniques for comfort",
+      "Restores strength and appearance in one visit"
+    ]
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Healthy Smiles Start at Home",
-    description:
-      "Your child’s dental health begins with daily habits. We partner with parents to provide simple, practical guidance for strong, cavity-free teeth. From teething to brushing tips, we’re here to support your family at every stage.",
+    title: "Specialized Pediatric Treatments",
+    description: "Some smiles need extra support as they grow. We offer space maintainers to hold room for incoming teeth, custom mouthguards for active kids, and prompt care for dental injuries. Our team coordinates early orthodontic evaluations when appropriate.",
     points: [
-      "Personalized brushing and flossing instructions",
-      "Teething and thumb-sucking guidance",
-      "Nutrition tips to reduce sugar-related decay",
-      "Support through every phase of oral development",
-    ],
-  },
+      "Space maintainers to guide proper tooth alignment",
+      "Sports mouthguards to protect teeth during play",
+      "Same-day care for chips, knocks, and dental injuries",
+      "Growth monitoring and early ortho referrals as needed"
+    ]
+  }
 ];
     return (
         <div className='flex min-h-screen bg-gray-50'>
@@ -54,11 +52,11 @@ export default function KidsAndChildrenPage() {
         <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Children’s Dentistry in Harrisburg, PA</h1>
+                        <h1>Kids & Children’s Dentistry in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Gentle Pediatric Dental Care in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                            Gentle Pediatric Dentistry in Bayonne | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -71,7 +69,7 @@ export default function KidsAndChildrenPage() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                src="/Images/Kids Dentistry.webp"
+                src="/Images/services/kids-dentistry.webp"
                 alt="Main Banner"
               />
             </div>
@@ -87,13 +85,13 @@ export default function KidsAndChildrenPage() {
       {/* Text Section with Fade-in after delay */}
       <div className='desc-text-section'>
         <Fade cascade direction="up" delay={1000} duration={600}>
-          <div className='desc-text-subtitle'>Kids & Children’s Dentistry</div>
-          <h3 className='desc-text-title'>About Kids & Children’s Dentistry</h3>
+          <div className='desc-text-subtitle'>Children’s Dentistry</div>
+          <h3 className='desc-text-title'>About Children’s Dentistry</h3>
           <p>
-           Children need special care when it comes to their teeth-and at Maple Dental Harrisburg, we make going to the dentist a positive and fun experience. Our team provides gentle, compassionate pediatric dental care that helps kids build healthy habits for life.
+           Healthy habits start early-and so does a lifetime of confident smiles. At Urban Dental & Braces in Bayonne, our friendly team provides kid-focused dental care that’s gentle, educational, and fun. From first visits to teen checkups, we make appointments comfortable while protecting growing smiles with preventive care and conservative treatments. We proudly serve families from Bayonne (07002), Greenville, NJ (07305), and nearby communities. 
           </p>
           <p>
-           We serve young patients from Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Paxtang (17111), Penbrook (17103), Progress (17109, 17111), Lawnton (17111), and Linglestown (17112). If you’re looking for a kids’ dentist near me, we’re close by and committed to your child’s smile.
+           If you’re searching for “kids dentist near me” or a “pediatric dentist near you,” our convenient location and flexible scheduling make visits easy for busy families.
           </p>
         </Fade>
       </div>
@@ -102,26 +100,26 @@ export default function KidsAndChildrenPage() {
         
                     <div className='wcu-text-section'>
                       <Fade cascade direction="up" delay={1000} duration={600}>
-                        <div className='wcu-subtitle'>
+                        {/* <div className='wcu-subtitle'>
                           Top Reasons
-                        </div>
+                        </div> */}
                         <div className='wcu-title'>
-                          <h2>Why Parents Trust Maple Dental for Pediatric Dentistry?</h2>
+                          <h2>Top Reasons to Choose Urban Dental & Braces for Children’s Care</h2>
                         </div>
                         <div className='wcu-points-section'>
                           <ul className='wcu-points'>
-                            <li><CheckCircle />Kid-Friendly, Calm Environment</li>
-                            <li><CheckCircle />Gentle Cleanings & Preventive Exams</li>
-                            <li><CheckCircle />Dental Sealants & Fluoride Treatments</li>
-                            <li><CheckCircle />Education & Oral Hygiene Coaching for Children</li>
-                            <li><CheckCircle />Convenient Harrisburg Location & Flexible Scheduling</li>
+                            <li><CheckCircle />Kid-Friendly, Gentle Approach</li>
+                            <li><CheckCircle />Preventive Care Focus (Cleanings, Fluoride, Sealants)</li>
+                            <li><CheckCircle />Experienced Team for All Ages-Toddlers to Teens</li>
+                            <li><CheckCircle />Insurance-Friendly & Flexible Payment Options</li>
+                            <li><CheckCircle />Convenient Bayonne Location</li>
                           </ul>
                         </div>
                       </Fade>
                     </div>
                     <div className='wcu-img-section'>
                       <Zoom cascade damping={0.3} duration={800}>
-                        <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                        <img src="/Images/banners/about-us-1.webp" alt="dental" />
                       </Zoom>
                     </div>
         
@@ -129,11 +127,13 @@ export default function KidsAndChildrenPage() {
                   <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Gentle, Personalized Dental Care for Children of All Ages
+                                  Our Children’s Dentistry Services
                                 </h2>
                                 <p className="features-description">
-                                  Whether it’s your child’s first dental visit or their annual check-up, our team is here to make it enjoyable, stress-free, and educational. We understand kids-and we know how to earn their smiles
+                                  At Urban Dental & Braces, we make visits positive and stress-free so kids learn to love taking care of their teeth. Our pediatric services are designed to prevent problems early, treat issues gently, and support confident, healthy smiles as your child grows.
                                 </p>
+                                <p className="features-description">Here’s how we care for your child’s smile:
+                                  </p>
                               </Fade>
                   
                               <div className="features-grid">
@@ -156,48 +156,48 @@ export default function KidsAndChildrenPage() {
                               </div>
                             </div>
     <div className='faq-section'>
-           <h2 className='faq-heading'>Kids & Children’s Dentistry Q&A</h2>
+           <h2 className='faq-heading'>Children’s Dentistry FAQs</h2>
            <div className="faq-acc-container">
             <Accordion type="single" className="w-full space-y-5">
         
         <AccordionItem value="q1" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>At what age should my child see the dentist?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>When should my child have their first dental visit?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>We recommend the first visit by age one or when the first tooth appears. </p>
+            <p>By age one, or within six months of the first tooth erupting. Early visits build comfort and allow us to guide healthy habits.</p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q2" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Are baby teeth really that important?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Are dental X-rays safe for kids?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>Yes-healthy baby teeth are crucial for chewing, speech, and guiding adult teeth. </p>
+            <p>Yes. We use low-dose digital X-rays only when necessary and protect your child with lead aprons and thyroid collars.</p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q3" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What if my child is scared of the dentist?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How often should my child see the dentist?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>Our team is trained to help children feel relaxed and safe. We use gentle techniques and positive reinforcement.</p>
+            <p>Every six months for checkups and cleanings-more often if your child has a higher risk of cavities.</p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q4" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Do kids need fluoride?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What if my child is anxious about the dentist?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>
-                Yes, fluoride strengthens enamel and helps prevent tooth decay.
+                Our team uses a gentle, tell-show-do approach, kid-friendly language, and lots of encouragement to create positive experiences.
             </p>
           </AccordionContent>
         </AccordionItem>
 
        <AccordionItem value="q4" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Can my child get dental sealants?</h3> </AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Does insurance cover children’s dental visits?</h3> </AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>
-                Absolutely. Sealants are a safe, effective way to protect molars from cavities.
+                Most plans-including Medicaid-cover routine pediatric care and necessary treatments. We’re insurance-friendly and offer flexible payment options.
             </p>
           </AccordionContent>
         </AccordionItem>
@@ -208,10 +208,10 @@ export default function KidsAndChildrenPage() {
      <div className="features-section">
                 <Fade direction="up" duration={1000}>
                   <h2 className="features-heading">
-                    Book Your Child’s Dental Appointment Today
+                    Need a Kids’ Dentist in Bayonne?
                   </h2>
                   <p className="features-description">
-                    Give your child the gift of a healthy, confident smile. Schedule a visit with our friendly pediatric dental team at Maple Dental Harrisburg.
+                    At Urban Dental & Braces, we make children’s dentistry easy, gentle, and convenient. From first checkups to teens, our caring team helps growing smiles stay healthy and bright.
                   </p>
                 </Fade>
               </div>

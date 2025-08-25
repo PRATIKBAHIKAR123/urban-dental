@@ -7,59 +7,57 @@ import BookCallBtn from '../book-call-btn';
 import { CheckCircle } from 'lucide-react';
 import { generateServiceMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = generateServiceMetadata("cosmetic-dentistry", "/Images/Cosmetic Dentistry.webp");
+export const metadata: Metadata = generateServiceMetadata("cosmetic-dentistry", "/Images/services/cosmetic-dentistry.webp");
 
 export default function CosmeticDentistryPage() {
 
 
-  const features = [
-    {
-      icon: "/Images/icons/tooth-whitening.png",
-      title: "Teeth Whitening in Harrisburg",
-      description: "Tired of stains or yellow teeth? Our professional teeth whitening treatments are faster and more effective than over-the-counter options. We offer both in-office and take-home whitening kits to fit your lifestyle.",
-      points: [
-        "Brighten your smile by several shades",
-        "Safe for enamel and gum health",
-        "Quick in-office results in just one visit",
-        "Customized trays for at-home use",
-      ]
-    },
-    {
-      icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Porcelain Veneers & Bonding",
-      description:
-        "Veneers and cosmetic bonding can instantly correct issues like chips, gaps, stains, or misaligned teeth—without braces or lengthy procedures",
-      points: [
-        "Custom veneers for a flawless smile",
-        "Composite bonding for quick aesthetic fixes",
-        "Natural-looking results that last",
-        "Minimally invasive with little to no downtime",
-      ],
-    },
-    {
-      icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Smile Makeovers Near You",
-      description:
-        "Looking for a complete transformation? Our smile makeovers combine multiple cosmetic treatments to give you the smile you've always dreamed of. From reshaping gums to realigning teeth, we tailor every plan to your goals",
-      points: [
-        "Full evaluations and digital mock-ups",
-        "Combination of whitening, veneers, bonding, and more",
-        "Designed to match your facial features",
-        "Affordable treatment plans available",
-      ],
-    },
-  ];
+const features = [
+  {
+    icon: "/Images/icons/Immediate Pain Relief.png",
+    title: "Teeth Whitening",
+    description: "At Urban Dental & Braces, we use safe, dentist-supervised whitening solutions that deliver noticeable results without sensitivity or damage to enamel.",
+    points: [
+      "In-office whitening for fast, dramatic results",
+      "Customized take-home kits for long-lasting brightness",
+      "Safe and effective solutions designed to protect your teeth",
+      "Removes stains caused by coffee, tea, wine, or smoking"
+    ]
+  },
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Dental Veneers",
+    description: "Whether your concern is discoloration, unevenness, or small gaps, veneers can create a balanced and radiant smile.",
+    points: [
+      "Corrects chips, cracks, stains, and gaps in teeth",
+      "Provides natural-looking results that blend seamlessly",
+      "Durable solution that can last over a decade with proper care",
+      "Creates a brighter, more symmetrical smile in just a few visits"
+    ]
+  },
+  {
+    icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
+    title: "Dental Bonding",
+    description: "Bonding is minimally invasive and requires little to no enamel removal, making it an excellent option for patients who want immediate results.",
+    points: [
+      "Repairs minor chips and cracks in just one visit",
+      "Closes small gaps and reshapes uneven teeth",
+      "Affordable cosmetic solution compared to other treatments",
+      "Provides natural-looking, seamless results"
+    ]
+  }
+];
   return (
     <div className='flex min-h-screen bg-gray-50'>
       <main className='details-page-container'>
         <div className='details-page'>
           <div className='details-page-header-section'>
             <Fade direction='up' duration={1000}>
-              <h1>Cosmetic Dentistry in Harrisburg, PA</h1>
+              <h1>Cosmetic Dentist in Bayonne, NJ</h1>
             </Fade>
             <Fade direction='down' duration={1000}>
               <h2 className="text-center">
-                Enhance Your Smile in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                Smile Transformations in Bayonne | Urban Dental & Braces
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -72,7 +70,7 @@ export default function CosmeticDentistryPage() {
                 <Zoom cascade damping={0.3} duration={800}>
                   <div className="main-image">
                     <img
-                      src="/Images/Cosmetic Dentistry.webp"
+                      src="/Images/services/cosmetic-dentistry.webp"
                       alt="Main Banner"
                     />
                   </div>
@@ -91,10 +89,10 @@ export default function CosmeticDentistryPage() {
                 <div className='desc-text-subtitle'>Cosmetic Dentistry</div>
                 <h3 className='desc-text-title'>About Cosmetic Dentistry</h3>
                 <p>
-                  Your smile is one of the first things people notice—and with cosmetic dentistry at Maple Dental Harrisburg, you can feel confident every time you show it. Whether you're looking to brighten, reshape, or completely transform your smile, we offer customized solutions using the latest techniques and materials.
+                  A beautiful smile has the power to boost your confidence and leave a lasting impression. At Urban Dental & Braces in Bayonne, we specialize in cosmetic dentistry designed to enhance the appearance of your teeth while maintaining natural function. Whether you’re dealing with stained, chipped, misaligned, or uneven teeth, our skilled team uses advanced treatments to deliver results that look and feel amazing.
                 </p>
                 <p>
-                  We proudly serve patients from Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Penbrook (17103), Paxtang (17111), Progress (17109, 17111), Lawnton (17111), and Linglestown (17112). So if you’re searching for a “cosmetic dentist near me” or want a smile makeover near you, Maple Dental Harrisburg is your trusted local provider.
+                  We proudly serve patients from Bayonne (07002), Greenville (07305), NJ and nearby communities. If you’ve been searching for “cosmetic dentist near me,” we’re here to help you achieve the smile you’ve always wanted.
                 </p>
               </Fade>
             </div>
@@ -103,26 +101,26 @@ export default function CosmeticDentistryPage() {
 
             <div className='wcu-text-section'>
               <Fade cascade direction="up" delay={1000} duration={600}>
-                <div className='wcu-subtitle'>
+                {/* <div className='wcu-subtitle'>
                   Top Reasons
-                </div>
+                </div> */}
                 <div className='wcu-title'>
-                  <h2>Why Choose Maple Dental for Cosmetic Dentistry?</h2>
+                  <h2>Why Choose Urban Dental & Braces for Cosmetic Dentistry?</h2>
                 </div>
                 <div className='wcu-points-section'>
                   <ul className='wcu-points'>
-                    <li><CheckCircle />Personalized Smile Design & Planning</li>
-                    <li><CheckCircle />Advanced Techniques for Natural-Looking Results</li>
-                    <li><CheckCircle />High-Quality Materials & Digital Imaging</li>
-                    <li><CheckCircle />Flexible Financing & Insurance Assistance </li>
-                    <li><CheckCircle />Convenient Location in Harrisburg, PA</li>
+                    <li><CheckCircle />Customized Smile Makeovers</li>
+                    <li><CheckCircle />Advanced Technology & Techniques</li>
+                    <li><CheckCircle />Comfortable & Stress-Free Visits</li>
+                    <li><CheckCircle />Flexible Payment Options</li>
+                    <li><CheckCircle />Convenient Bayonne Location</li>
                   </ul>
                 </div>
               </Fade>
             </div>
             <div className='wcu-img-section'>
               <Zoom cascade damping={0.3} duration={800}>
-                <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                <img src="/Images/banners/about-us-1.webp" alt="dental" />
               </Zoom>
             </div>
 
@@ -130,10 +128,13 @@ export default function CosmeticDentistryPage() {
           <div className="features-section">
             <Fade direction="up" duration={1000}>
               <h2 className="features-heading">
-                Achieve the Smile You’ve Always Wanted
+                Our Cosmetic Dentistry Services
               </h2>
               <p className="features-description">
-                Cosmetic dentistry is more than just appearance—it’s about boosting your confidence and enhancing your quality of life. At Maple Dental Harrisburg, we take a comprehensive, patient-first approach to every smile transformation, big or small. Whether you’re preparing for a special event or simply want to feel better about your teeth, we’re here to help you love your smile again.
+                At Urban Dental & Braces, we believe cosmetic dentistry is more than just improving how your smile looks-it’s about boosting your self-esteem and making sure your teeth function at their best. Whether you’re preparing for a big life event or simply want to feel more confident every day, our cosmetic treatments are designed to fit your needs.
+              </p>
+              <p className="features-description">
+                Here’s few of the popular services in Cosmetic Dentistry that we offer at Urban Dental:
               </p>
             </Fade>
 
@@ -157,57 +158,49 @@ export default function CosmeticDentistryPage() {
             </div>
           </div>
           <div className='faq-section'>
-            <h2 className='faq-heading'>Cosmetic Dentistry Q&A</h2>
+            <h2 className='faq-heading'>Cosmetic Dentistry FAQs</h2>
             <div className="faq-acc-container">
               <Accordion type="single" className="w-full space-y-5">
 
                 <AccordionItem value="q1" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What is cosmetic dentistry?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long does teeth whitening last?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
-                    <p>Cosmetic dentistry focuses on improving the appearance of your teeth, gums, and overall smile. Treatments can include whitening, veneers, bonding, reshaping, and full smile makeovers—all aimed at giving you a smile you’ll love.</p>
+                    <p>Professional whitening results can last from 6 months to 2 years, depending on your diet and oral habits.</p>
 
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Is cosmetic dentistry painful?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Are veneers permanent?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
-                    <p>Most cosmetic procedures are minimally invasive and pain-free. For procedures like veneers or bonding, we use gentle techniques and local anesthesia if needed to ensure your comfort throughout.</p>
+                    <p>Veneers are a long-term solution, lasting 10–15 years with proper care.</p>
 
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long do cosmetic results last?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Is cosmetic dentistry painful?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
-                    <p>With proper care, cosmetic dental treatments can last for many years. Veneers can last 10–15 years, bonding can last 5–7 years, and professional whitening results can last several months to a few years depending on diet and habits.</p>
+                    <p>Most procedures are minimally invasive and pain-free, thanks to modern dental technology and techniques.</p>
 
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Can I combine treatments?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Can I combine cosmetic treatments?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
                     <p>
-                      Yes! Many patients choose to combine treatments like whitening, bonding, and veneers for a complete smile makeover. We’ll build a personalized plan that matches your goals, timeline, and budget.
+                      Yes! Many patients opt for a smile makeover that includes veneers, whitening, and alignment for the best results.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q5" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Does dental insurance cover cosmetic dentistry?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Does insurance cover cosmetic dentistry?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
                     <p>
-                      Most cosmetic treatments are not covered by standard insurance plans, but Maple Dental Harrisburg offers flexible financing options to make care affordable. Our team will help you explore all your options during your consultation.
+                      Most cosmetic procedures are considered elective and not covered by insurance. However, we provide affordable payment plans and financing options.
                     </p>
-
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="q6" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Ready for a Smile Makeover in Harrisburg?</h3></AccordionTrigger>
-                  <AccordionContent className='faq-ans'>
-                    <p>
-                      You deserve a smile you’re proud of. Whether it’s whitening, veneers, or a full smile makeover, Maple Dental Harrisburg is your go-to cosmetic dentist in Harrisburg and surrounding communities like Colonial Park, Penbrook, Lawnton, and Linglestown.            </p>
 
                   </AccordionContent>
                 </AccordionItem>
@@ -219,10 +212,10 @@ export default function CosmeticDentistryPage() {
           <div className="features-section">
             <Fade direction="up" duration={1000}>
               <h2 className="features-heading">
-                Ready for a Smile Makeover in Harrisburg?
+                Ready to Transform Your Smile? 
               </h2>
               <p className="features-description">
-                You deserve a smile you’re proud of. Whether it’s whitening, veneers, or a full smile makeover, Maple Dental Harrisburg is your go-to cosmetic dentist in Harrisburg and surrounding communities like Colonial Park, Penbrook, Lawnton, and Linglestown.
+                At Urban Dental & Braces, our goal is to give you the confident, radiant smile you deserve. Whether you want a brighter, straighter, or more balanced smile, our cosmetic dentistry services are here to help.
               </p>
             </Fade>
           </div>

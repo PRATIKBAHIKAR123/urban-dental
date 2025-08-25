@@ -11,42 +11,40 @@ import { CheckCircle } from 'lucide-react';
 export default function OrthodonticsPage() {
 
 
-    const features = [
+const features = [
   {
-    icon: "/Images/icons/Orthodontic Options to Fit Your Lifestyle.png",
-    title: "Orthodontic Options to Fit Your Lifestyle",
-    description: "Orthodontic care isn’t one-size-fits-all. At Maple Dental Harrisburg, we provide a variety of treatment options designed to align with your unique needs, goals, and lifestyle—whether you want a subtle, discreet solution or traditional braces for more advanced alignment. Our team will help you choose the right path to a healthier, more confident smile",
+    icon: "/Images/icons/Immediate Pain Relief.png",
+    title: "Invisalign® Clear Aligners",
+    description: "Clear aligners are a popular choice for patients who want a nearly invisible way to straighten teeth. Invisalign® aligners are removable, comfortable, and designed to fit seamlessly into your daily routine.",
     points: [
-      "Traditional Braces: Proven results using metal brackets and wires",
-      "Ceramic Braces: Less visible than metal braces, ideal for teens and adults",
-      "Clear Aligners: Removable, virtually invisible trays for mild to moderate correction",
-      "Early Orthodontic Evaluations: Monitor jaw development and tooth alignment in kids",
+      "Discreet treatment with clear, removable aligners",
+      "Customized for precise and effective tooth movement",
+      "No food restrictions or complicated cleaning routines",
+      "Ideal for teens and adults seeking flexibility"
     ]
   },
-    {
-    icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-    title: "What to Expect from Your Orthodontic Journey",
-    description:
-      "We believe that your orthodontic experience should be smooth, informed, and stress-free. From day one, our friendly team will walk you through each step of the process, ensuring you feel confident and supported as you move toward your dream smile",
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Traditional Metal Braces",
+    description: "For complex orthodontic issues, traditional braces remain a reliable solution. Modern metal braces are smaller, more comfortable, and more effective than ever before.",
     points: [
-      "Initial consultation and digital imaging",
-      "Customized treatment plan tailored to your smile goals",
-      "Regular checkups and adjustments",
-      "Support throughout every stage of your treatment",
-    ],
+      "Corrects overcrowding, spacing, and bite problems",
+      "Durable and effective for even the most complex cases",
+      "Option for colored bands to make treatment fun for kids",
+      "Proven track record of long-lasting results"
+    ]
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Orthodontic Care for Harrisburg & Surrounding Areas",
-    description:
-      "We are proud to be a trusted provider of dental surgery near you. Whether you’re located in Harrisburg (17110, 17109, 17111, 17112) or nearby areas like Colonial Park, Progress, Lawnton, Penbrook, or Linglestown, we’re here when you need expert oral care",
+    title: "Early Orthodontic Treatment for Kids",
+    description: "Starting orthodontic care early can prevent more serious issues later. Our team provides evaluations and treatments to guide proper jaw growth and tooth alignment in children.",
     points: [
-      "Serving Harrisburg (17110, 17109, 17111, 17112) & surrounding areas",
-      "Evening & weekend appointments available",
-      "Convenient access for patients in Progress, Lawnton, Penbrook & Paxtang",
-      "Your family-friendly orthodontist near you",
-    ],
-  },
+      "Early detection of bite and alignment concerns",
+      "Helps guide permanent teeth into better positions",
+      "May reduce need for extensive treatment in the future",
+      "Creates a healthy foundation for a confident smile"
+    ]
+  }
 ];
     return (
         <div className='flex min-h-screen bg-gray-50'>
@@ -54,11 +52,11 @@ export default function OrthodonticsPage() {
         <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Orthodontics in Harrisburg, PA</h1>
+                        <h1>Orthodontist in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Braces & Invisalign in Harrisburg | Maple Dental | Family & Cosmetic Dentist Near You
+                            Advanced Orthodontics in Bayonne | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -71,7 +69,7 @@ export default function OrthodonticsPage() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                        src="/Images/Orthodontics.webp"
+                        src="/Images/services/orthodontics.webp"
                 alt="Main Banner"
               />
             </div>
@@ -87,13 +85,13 @@ export default function OrthodonticsPage() {
       {/* Text Section with Fade-in after delay */}
       <div className='desc-text-section'>
         <Fade cascade direction="up" delay={1000} duration={600}>
-          <div className='desc-text-subtitle'>Orthodontic Treatment</div>
-          <h3 className='desc-text-title'>About Orthodontic Treatment</h3>
+          <div className='desc-text-subtitle'>Orthodontic</div>
+          <h3 className='desc-text-title'>About Orthodontics</h3>
           <p>
-           A well-aligned smile enhances both appearance and function. At Maple Dental Harrisburg, we offer comprehensive orthodontic solutions to help straighten teeth, correct bite issues, and improve long-term oral health. From kids to adults, our customized treatments make achieving your best smile easier than ever.
+           A straighter smile is not just about appearance-it also improves oral health and overall confidence. At Urban Dental & Braces in Bayonne, we provide modern orthodontic solutions for children, teens, and adults. From traditional braces to clear aligners, our treatments are designed to correct misaligned teeth, bite issues, and spacing problems with comfort and precision.
           </p>
           <p>
-           We proudly serve patients in Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Penbrook (17103), Paxtang (17111), Progress (17109, 17111), Lawnton (17111), and Linglestown (17112). If you're searching for orthodontics near me, Maple Dental is just around the corner.
+           We proudly serve patients from Bayonne (07002), Greenville (07305), NJ and nearby communities. If you’re searching for “orthodontist near me,” our experienced team is here to guide you through every step of your smile journey.
           </p>
         </Fade>
       </div>
@@ -102,26 +100,26 @@ export default function OrthodonticsPage() {
         
                     <div className='wcu-text-section'>
                       <Fade cascade direction="up" delay={1000} duration={600}>
-                        <div className='wcu-subtitle'>
+                        {/* <div className='wcu-subtitle'>
                           Top Reasons
-                        </div>
+                        </div> */}
                         <div className='wcu-title'> 
-                          <h2>Why Choose Maple Dental for Orthodontics?</h2>
+                          <h2>Top Reasons to Choose Urban Dental & Braces for Orthodontic Care</h2>
                         </div>
                         <div className='wcu-points-section'>
                           <ul className='wcu-points'>
-                            <li><CheckCircle />Experienced in Both Braces & Invisalign®</li>
-                            <li><CheckCircle />Treatment Plans Customized for All Ages</li>
-                            <li><CheckCircle />Advanced Digital Imaging & 3D Scanning</li>
-                            <li><CheckCircle />Flexible Payment Options & Insurance Accepted </li>
-                            <li><CheckCircle />Convenient Location in Harrisburg, PA</li>
+                            <li><CheckCircle />Wide Range of Treatment Options</li>
+                            <li><CheckCircle />Personalized Plans for Children & Adults</li>
+                            <li><CheckCircle />Experienced Orthodontic Specialists</li>
+                            <li><CheckCircle />Flexible Financing & Insurance Options</li>
+                            <li><CheckCircle />Convenient Bayonne Location</li>
                           </ul>
                         </div>
                       </Fade>
                     </div>
                     <div className='wcu-img-section'>
                       <Zoom cascade damping={0.3} duration={800}>
-                        <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                        <img src="/Images/banners/about-us-1.webp" alt="dental" />
                       </Zoom>
                     </div>
         
@@ -129,10 +127,14 @@ export default function OrthodonticsPage() {
                   <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Orthodontic Solutions for Every Smile
+                                  Our Orthodontic Services
                                 </h2>
                                 <p className="features-description">
-                                  At Maple Dental Harrisburg, we believe orthodontic care is about more than just appearance—it’s about improving oral health, function, and self-esteem. Whether you're a teen needing braces or an adult considering Invisalign alternatives, we provide expert care with a gentle, personalized approach.
+                                  At Urban Dental & Braces, we believe everyone deserves a smile they can feel proud of. Whether you want discreet aligners or traditional braces, our orthodontic services are tailored to meet your needs and lifestyle.
+                                </p>
+                                <p className='features-description'>
+                             Here’s how we help you achieve a straighter, healthier smile:
+                                  
                                 </p>
                               </Fade>
                   
@@ -156,14 +158,14 @@ export default function OrthodonticsPage() {
                               </div>
                             </div>
     <div className='faq-section'>
-           <h2 className='faq-heading'>Orthodontics Q&A</h2>
+           <h2 className='faq-heading'>Orthodontics FAQs</h2>
            <div className="faq-acc-container">
             <Accordion type="single" className="w-full space-y-5">
         
         <AccordionItem value="q1" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What age is best to start orthodontic treatment?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>At what age should my child see an orthodontist?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>Orthodontic treatment can begin as early as age 7 for children, depending on dental development. However, teens and adults can benefit at any age. At Maple Dental, we evaluate each patient to recommend the best time to start.</p>
+            <p>The American Association of Orthodontists recommends children have an evaluation by age 7, but treatment can begin at any age.</p>
             
           </AccordionContent>
         </AccordionItem>
@@ -171,24 +173,32 @@ export default function OrthodonticsPage() {
         <AccordionItem value="q2" className="faq-acc">
           <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long does orthodontic treatment take?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>Treatment times vary based on individual needs, but most orthodontic cases take 12–24 months. Clear aligners may offer faster results in mild cases.</p>
+            <p>Treatment length varies, but most patients wear braces or aligners for 12–24 months, depending on their needs.</p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q3" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Do clear aligners work as well as braces?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Are clear aligners as effective as braces?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>Yes—for many cases, Invisalign can be just as effective as braces. However, some complex issues may respond better to traditional orthodontics. We’ll help you choose the right option.</p>
+            <p>Yes-for mild to moderate cases, Invisalign® can be just as effective as braces. Complex cases may still require braces for best results.</p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q4" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Is orthodontic care covered by insurance?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Do orthodontic treatments hurt?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>
-                Many dental insurance plans offer partial coverage for orthodontics. We’ll help verify your benefits and offer flexible financing to fit your budget.
+                You may feel slight pressure or soreness after adjustments, but discomfort is temporary and manageable.
+            </p>
+          </AccordionContent>
+        </AccordionItem>
+          <AccordionItem value="q5" className="faq-acc">
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Does insurance cover orthodontics?</h3></AccordionTrigger>
+          <AccordionContent className='faq-ans'>
+            <p>
+                Many dental insurance plans provide partial coverage for orthodontic care. We also offer financing and flexible payment options.
             </p>
           </AccordionContent>
         </AccordionItem>
@@ -200,10 +210,10 @@ export default function OrthodonticsPage() {
      <div className="features-section">
                 <Fade direction="up" duration={1000}>
                   <h2 className="features-heading">
-                    Schedule an Orthodontic Consultation in Harrisburg
+                    Looking for an Orthodontist in Bayonne?
                   </h2>
                   <p className="features-description">
-                    Ready to start your journey toward a straighter smile? Maple Dental Harrisburg offers expert orthodontic care in a welcoming, patient-focused environment. Call us today at 717-745-2700 or book online—we’re here to help, right in your neighborhood.
+                    At Urban Dental & Braces, we make it simple to achieve a straighter, healthier smile. Whether you’re considering Invisalign®, braces, or early treatment for your child, our orthodontic specialists are here to help you every step of the way.
                   </p>
                 </Fade>
               </div>

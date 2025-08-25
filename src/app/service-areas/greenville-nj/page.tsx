@@ -142,7 +142,7 @@ export default function ServiceAreaPage() {
           </div>
           <div className='wcu-img-section'>
             <Zoom cascade damping={0.3} duration={800}>
-              <img src="/Images/areas/Why Greenville Families Choose Urban Dental.webp" alt="dental" className="rounded-xl" />
+              <img src="/Images/areas/Why Greenville Families Choose Urban Dental.webp" alt="dental" className="rounded-xl block" />
             </Zoom>
           </div>
 

@@ -11,54 +11,52 @@ import { CheckCircle } from 'lucide-react';
 export default function OralSurgeryPage() {
 
 
-  const features = [
-    {
-      icon: "/Images/icons/Immediate Pain Relief.png",
-      title: "Tooth Extractions with a Gentle Touch",
-      description: "Sometimes a tooth must be removed due to severe decay, damage, or infection that cannot be saved with restorative care. When this happens, our team provides a safe and gentle extraction process using local anesthesia and modern techniques",
-      points: [
-        "Simple and surgical extractions",
-        "Bone-preserving techniques when needed",
-        "Post-extraction care and replacement options (implants, bridges, etc.)",
-        "Patient-first comfort and pain control",
-      ]
-    },
-    {
-      icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "Wisdom Tooth Removal in Harrisburg",
-      description:
-        "Wisdom teeth often cause problems when they erupt late, crowd existing teeth, or become impacted beneath the gums. At Maple Dental, we offer expert evaluation and removal of wisdom teeth for teens and adults",
-      points: [
-        "Diagnostic imaging to plan safe removal",
-        "Sedation options to keep you relaxed",
-        "Skilled removal of impacted or infected wisdom teeth",
-        "Post-op care instructions and support",
-      ],
-    },
-    {
-      icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Serving Harrisburg & Surrounding Neighborhoods",
-      description:
-        "We are proud to be a trusted provider of dental surgery near you. Whether you’re located in Harrisburg (17110, 17109, 17111, 17112) or nearby areas like Colonial Park, Progress, Lawnton, Penbrook, or Linglestown, we’re here when you need expert oral care",
-      points: [
-        "Conveniently located in Harrisburg",
-        "Flexible appointments & efficient procedures",
-        "Insurance-friendly & payment plans available",
-        "Top-rated oral surgery near me in Central PA",
-      ],
-    },
-  ];
+const features = [
+  {
+    icon: "/Images/icons/Immediate Pain Relief.png",
+    title: "Common Oral Surgery Services We Provide",
+    description: "We offer a wide range of oral surgery treatments designed to restore comfort and improve dental health.",
+    points: [
+      "Tooth Extractions (simple & surgical)",
+      "Wisdom Teeth Removal",
+      "Bone Grafting for Dental Implants",
+      "Treatment of Oral Infections & Abscesses"
+    ]
+  },
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Comfort & Sedation Options",
+    description: "Your comfort is always our priority. We provide safe sedation and pain-management options to help you feel relaxed and worry-free.",
+    points: [
+      "Local anesthesia for targeted numbness",
+      "Nitrous oxide (laughing gas) for relaxation",
+      "Supportive, calm surgical environment",
+      "Post-treatment care and recovery guidance"
+    ]
+  },
+  {
+    icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
+    title: "Oral Surgery Care Focused on Your Needs",
+    description: "We go beyond just performing procedures - our approach is built around comfort, safety, and long-term results. Patients choose us for:",
+    points: [
+      "Detailed consultations before every procedure",
+      "Clear explanations and personalized treatment plans",
+      "Gentle techniques that reduce discomfort and speed recovery",
+      "Ongoing follow-up care to ensure proper healing"
+    ]
+  }
+];
   return (
     <div className='flex min-h-screen bg-gray-50'>
       <main className='details-page-container'>
         <div className='details-page'>
           <div className='details-page-header-section'>
             <Fade direction='up' duration={1000}>
-              <h1>Oral Surgery in Harrisburg, PA</h1>
+              <h1>Oral Surgery in Bayonne, NJ</h1>
             </Fade>
             <Fade direction='down' duration={1000}>
               <h2 className="text-center">
-                Expert Oral Surgery in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                Gentle & Reliable Oral Surgery | Urban Dental & Braces
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -71,7 +69,7 @@ export default function OralSurgeryPage() {
                 <Zoom cascade damping={0.3} duration={800}>
                   <div className="main-image">
                     <img
-                      src="/Images/Oral Surgery.webp"
+                      src="/Images/services/oral-surgery.webp"
                       alt="Main Banner"
                     />
                   </div>
@@ -90,10 +88,10 @@ export default function OralSurgeryPage() {
                 <div className='desc-text-subtitle'>Oral Surgery</div>
                 <h3 className='desc-text-title'>About Oral Surgery</h3>
                 <p>
-                  Oral surgery may sound intimidating, but at Maple Dental Harrisburg, it’s performed with precision, care, and a focus on your comfort. Whether you need a simple tooth extraction or a more complex procedure like wisdom tooth removal, we ensure a safe, smooth experience backed by advanced dental technology and experienced hands.
+                  At Urban Dental & Braces, we make oral surgery safe, gentle, and stress-free. Whether you require a tooth extraction, wisdom teeth removal, or a more advanced procedure, our experienced team ensures your care is delivered with precision and compassion.
                 </p>
                 <p>
-                  We proudly serve patients from Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Penbrook (17103), Paxtang (17111), Progress (17109, 17111), Lawnton (17111), and Linglestown (17112). If you’re searching for an oral surgeon near me or dental surgery near you, Maple Dental is your trusted neighborhood choice.
+                  Using advanced tools and sedation options, we make each procedure as comfortable as possible. Patients from Bayonne (07002), Greenville, NJ (07305), and nearby communities rely on us for surgical care close to home. If you’re searching for an “oral surgeon near me,” you’ve found a trusted partner in your dental health.
                 </p>
               </Fade>
             </div>
@@ -102,26 +100,26 @@ export default function OralSurgeryPage() {
 
             <div className='wcu-text-section'>
               <Fade cascade direction="up" delay={1000} duration={600}>
-                <div className='wcu-subtitle'>
+                {/* <div className='wcu-subtitle'>
                   Top Reasons
-                </div>
+                </div> */}
                 <div className='wcu-title'>
-                  Why Choose Maple Dental for Oral Surgery?
+                  Why Choose Urban Dental & Braces for Oral Surgery?
                 </div>
                 <div className='wcu-points-section'>
                   <ul className='wcu-points'>
-                    <li><CheckCircle />Skilled Dentists with Gentle Approach</li>
-                    <li><CheckCircle />Modern Technology & Comfortable Techniques</li>
-                    <li><CheckCircle />Sedation Dentistry Available</li>
-                    <li><CheckCircle />Central Harrisburg Location </li>
-                    <li><CheckCircle />Affordable Payment Plans</li>
+                    <li><CheckCircle />Experienced Dental Surgeons You Can Trust</li>
+                    <li><CheckCircle />Modern Technology for Precision & Safety</li>
+                    <li><CheckCircle />Comfortable, Patient-Focused Environment</li>
+                    <li><CheckCircle />Same-Day Appointments When Urgent Care is Needed</li>
+                    <li><CheckCircle />Conveniently Located in Bayonne, NJ</li>
                   </ul>
                 </div>
               </Fade>
             </div>
             <div className='wcu-img-section'>
               <Zoom cascade damping={0.3} duration={800}>
-                <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                <img src="/Images/banners/about-us-1.webp" alt="dental" />
               </Zoom>
             </div>
 
@@ -129,10 +127,13 @@ export default function OralSurgeryPage() {
           <div className="features-section">
             <Fade direction="up" duration={1000}>
               <h2 className="features-heading">
-                Comfortable & Precise Oral Surgery, Close to Home
+                Our Oral Surgery Services
               </h2>
               <p className="features-description">
-                At Maple Dental Harrisburg, oral surgery is never a one-size-fits-all approach. We take time to evaluate your needs, explain your options, and tailor treatment to ensure the best outcomes. From routine extractions to surgical removal of impacted teeth, we’re here to help you heal quickly—with minimal discomfort and maximum support.
+                Oral surgery doesn’t need to feel overwhelming. At Urban Dental & Braces, our goal is to provide smooth, predictable care from start to finish. We combine gentle techniques with advanced tools to protect your health, relieve discomfort, and support long-term dental wellness.
+              </p>
+              <p className="features-description">
+                Here’s what you can expect when you choose us for your surgical needs:
               </p>
             </Fade>
 
@@ -156,39 +157,39 @@ export default function OralSurgeryPage() {
             </div>
           </div>
           <div className='faq-section'>
-            <h2 className='faq-heading'>Oral Surgery Q&A</h2>
+            <h2 className='faq-heading'>Oral Surgery FAQs</h2>
             <div className="faq-acc-container">
               <Accordion type="single" className="w-full space-y-5">
 
                 <AccordionItem value="q1" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What is considered oral surgery?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>When is oral surgery needed?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
-                    <p>Oral surgery includes procedures that treat conditions affecting the mouth, teeth, and jaw. Common types include tooth extractions, wisdom teeth removal, surgical treatment of infections or abscesses, and preparation for dental implants.</p>
+                    <p>Oral surgery may be required for impacted teeth, severe decay, infection, or to prepare for implants. </p>
 
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Do tooth extractions hurt?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Will oral surgery hurt?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
-                    <p>No—our team ensures your comfort with local anesthesia and, if needed, dental sedation. Most patients report little to no discomfort during the procedure and mild soreness afterward that resolves within a few days.</p>
+                    <p>No. With local anesthesia and sedation options, most patients experience little to no discomfort during treatment. </p>
 
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How do I know if my wisdom teeth need to be removed?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What can I expect after surgery?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
-                    <p>You may need your wisdom teeth removed if you experience pain, swelling, infection, or overcrowding. X-rays often reveal impaction or potential issues even before symptoms appear. Our team will evaluate and recommend the best course of action.</p>
+                    <p>Mild swelling or soreness is normal, but recovery usually happens within a few days. We’ll provide aftercare instructions to make healing smooth.</p>
 
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What should I do after an extraction or surgery?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How do I prepare for surgery?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
                     <p>
-                      After surgery, we’ll provide detailed aftercare instructions. Typically, patients should rest, avoid hard foods, use cold compresses to reduce swelling, and follow prescribed medications to manage pain or prevent infection.
+                      Follow our guidance carefully. If sedation is planned, avoid eating beforehand and arrange transportation home after your visit.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -197,7 +198,7 @@ export default function OralSurgeryPage() {
                   <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Is oral surgery covered by insurance?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
                     <p>
-                      Many oral surgery procedures are covered fully or partially by dental insurance. Our team is happy to help verify your benefits and offer flexible payment options to make care affordable.
+                      Many procedures are covered by dental insurance. Our team will help confirm your benefits and review payment options.
                     </p>
 
                   </AccordionContent>
@@ -210,10 +211,10 @@ export default function OralSurgeryPage() {
           <div className="features-section">
             <Fade direction="up" duration={1000}>
               <h2 className="features-heading">
-                Need Oral Surgery in Harrisburg?
+                Need Oral Surgery in Bayonne, NJ?
               </h2>
               <p className="features-description">
-                Whether you need a simple extraction or complex oral surgery, Maple Dental Harrisburg is here to provide expert care with compassion. We proudly serve Harrisburg and nearby communities like Colonial Park, Progress, Penbrook, Paxtang, Lawnton, and Linglestown.
+                From tooth extractions to wisdom teeth removal, Urban Dental & Braces provides skilled, compassionate oral surgery right here in Bayonne. Protect your smile and your overall health with expert care close to home.
               </p>
             </Fade>
           </div>

@@ -7,44 +7,44 @@ import { CheckCircle } from 'lucide-react';
 import BookCallBtn from '../book-call-btn';
 import { generateServiceMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = generateServiceMetadata("emergency-dentistry", "/Images/Emergency Dentistry.jpg");
+export const metadata: Metadata = generateServiceMetadata("emergency-dentistry", "/Images/services/emergency-dentistry.webp");
 
 export default function EmergencyDentistryPage() {
 
   const features = [
   {
     icon: "/Images/icons/Immediate Pain Relief.png",
-    title: "Immediate Pain Relief & Comfort",
-    description: "Dental pain can’t wait—and neither should you. At Maple Dental Harrisburg, we prioritize fast treatment to address discomfort, swelling, or infection with modern solutions that put your comfort first.",
+    title: "Tooth Pain & Infections",
+    description: "Severe toothaches or dental abscesses should never be ignored.",
     points: [
-      "Same-day emergency appointments",
-      "Pain management and dental sedation options",
-      "Treatment for abscesses, broken teeth, and swelling",
-      "Gentle, patient-focused care for all ages",
+      "Same-day evaluation and pain relief",
+      "Root canal therapy when necessary",
+      "Antibiotic treatment for infections",
+      "Gentle, compassionate care for long-term relief",
     ]
   },
     {
     icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-    title: "Smart Treatment Decisions Under Pressure",
+    title: "Broken or Knocked-Out Teeth",
     description:
-      "When emergencies happen, smart and timely decisions can save your tooth and avoid long-term complications. Our skilled dentists guide you through every step with clear recommendations.",
+      "Quick action can save a tooth that’s broken or knocked out.",
     points: [
-      "Thorough diagnostics with digital imaging",
-      "Emergency root canals and restorations",
-      "Temporary and permanent crown solutions",
-      "Tooth-saving procedures whenever possible",
+      "Emergency tooth repair or replacement",
+      "Restorations including bonding or crowns",
+      "Re-implantation for knocked-out teeth (when possible)",
+      "Long-term treatment planning for best results",
     ],
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Serving Harrisburg & Nearby Communities",
+    title: "Damaged Restorations",
     description:
-      "We are proud to be your trusted local emergency dental provider. Whether you're in Harrisburg (17110, 17109, 17111, 17112) or nearby in Colonial Park, Paxtang, Penbrook, Lawnton, Progress, or Linglestown—we're right around the corner when you need us most.",
+      "Broken crowns, fillings, or dentures can cause discomfort and disrupt daily life.",
     points: [
-      "Convenient Harrisburg location",
-      "Walk-ins and urgent same-day care",
-      "Insurance accepted + flexible payment options",
-      "Top-rated emergency dentist near you",
+      "Fast repairs or replacement of dental work",
+      "Temporary solutions to relieve discomfort",
+      "Strong, durable restorations for lasting results",
+      "Comfortable, natural-looking outcomes",
     ],
   },
 ];
@@ -72,7 +72,7 @@ export default function EmergencyDentistryPage() {
                 <Zoom cascade damping={0.3} duration={800}>
                   <div className="main-image">
                     <img
-                      src="/Images/Emergency Dentistry.jpg"
+                      src="/Images/services/emergency-dentistry.webp"
                       alt="Main Banner"
                     />
                   </div>
@@ -91,10 +91,10 @@ export default function EmergencyDentistryPage() {
                 <div className='desc-text-subtitle'>Emergency Dentistry</div>
                 <h3 className='desc-text-title'>About Emergency Dentistry</h3>
                 <p>
-                  Dental emergencies can happen anytime—and they often require quick action to avoid further complications. That’s why <strong>Maple Dental Harrisburg</strong> provides fast, gentle, and professional emergency dental care to patients of all ages.
+                  Dental emergencies can happen when you least expect them - whether it’s sudden tooth pain, a knocked-out tooth, or a broken filling. At <strong>Urban Dental & Braces in Bayonne</strong>, we provide <strong>same-day emergency dental care</strong> so you don’t have to wait in pain. Our skilled team is experienced in treating urgent dental issues quickly and effectively, ensuring you get the relief you need right away.
                 </p>
                 <p>
-                  Whether it’s a chipped tooth, a knocked-out crown, or intense pain, our team is here to help. We proudly serve patients from <strong>Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Penbrook (17103), Paxtang (17111), Progress (17109, 17111), Lawnton (17111),</strong> and <strong>Linglestown (17112)</strong>—so if you’re searching for an emergency dentist near me, we’re nearby and ready to help.
+                  We proudly serve patients from <strong>Bayonne (07002), Greenville, NJ (07305)</strong>, and nearby communities. If you’re searching for “emergency dentist near me”, you can trust us to be here when you need urgent care the most.
                 </p>
               </Fade>
             </div>
@@ -104,26 +104,26 @@ export default function EmergencyDentistryPage() {
 
             <div className='wcu-text-section'>
               <Fade cascade direction="up" delay={1000} duration={600}>
-                <div className='wcu-subtitle'>
+                {/* <div className='wcu-subtitle'>
                   Top Reasons
-                </div>
+                </div> */}
                 <div className='wcu-title'>
-                  <h2>Why Choose Maple Dental for Emergency Dental Care?</h2>
+                  <h2>Top Reasons to Choose Urban Dental & Braces for Emergency Care?</h2>
                 </div>
                 <div className='wcu-points-section'>
                   <ul className='wcu-points'>
-                    <li><CheckCircle /> Gentle, Experienced Dentists</li>
-                    <li><CheckCircle /> Advanced Technology for Immediate Care</li>
-                    <li><CheckCircle /> Same-Day & Walk-In Appointments Available</li>
-                    <li><CheckCircle /> Central Location in Harrisburg, PA</li>
-                    <li><CheckCircle /> Insurance Accepted & Affordable Payment Plans</li>
+                    <li><CheckCircle /> Immediate Appointments Available</li>
+                    <li><CheckCircle /> Comprehensive Emergency Treatments</li>
+                    <li><CheckCircle /> Experienced & Compassionate Team</li>
+                    <li><CheckCircle /> Flexible Payment Options</li>
+                    <li><CheckCircle /> Convenient Bayonne Location</li>
                   </ul>
                 </div>
               </Fade>
             </div>
             <div className='wcu-img-section'>
               <Zoom cascade damping={0.3} duration={800}>
-                <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                <img src="/Images/banners/about-us-1.webp" alt="dental" />
               </Zoom>
             </div>
 
@@ -131,13 +131,13 @@ export default function EmergencyDentistryPage() {
           <div className="features-section">
             <Fade direction="up" duration={1000}>
               <h2 className="features-heading">
-                Fast, Reliable Emergency Dental Care When You Need It Most
+                Our Emergency Dentistry Services
               </h2>
               <p className="features-description text-center">
-                At Maple Dental Harrisburg, we understand that dental emergencies can strike at any time. Our dedicated team is here to provide swift and effective care that relieves pain and prevents complications. Whether you're dealing with a cracked tooth, lost filling, or severe toothache, we’re prepared to act fast—with expert care and a compassionate touch. Patients from Harrisburg and surrounding areas trust us for urgent dental care that makes a difference.
+                At <b>Urban Dental & Braces</b>, we know dental emergencies can be stressful and painful. That’s why our team is prepared to provide fast, effective care so you can get back to feeling like yourself. Whether it’s trauma, infection, or sudden damage, we offer urgent treatments tailored to your needs.
               </p>
               <p className="features-description">
-                Here’s what sets our emergency dental services apart:
+                Here’s how we help you during a dental emergency:
               </p>
             </Fade>
 
@@ -161,61 +161,48 @@ export default function EmergencyDentistryPage() {
             </div>
           </div>
           <div className='faq-section'>
-            <h2 className='faq-heading'>Emergency Dentistry Q&A</h2>
+            <h2 className='faq-heading'>Emergency Dentistry FAQs</h2>
             <div className="faq-acc-container">
               <Accordion type="single" collapsible className="w-full space-y-6">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
-                   <h3 className='text-lg'> What is emergency dentistry?</h3>
+                   <h3 className='text-lg'> What should I do if I knock out a tooth?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans ">
-                    Emergency dentistry focuses on treating urgent, often painful dental conditions that require immediate attention. At Maple Dental Harrisburg, we offer fast diagnosis and treatment to relieve symptoms, stop further damage, and restore function. Whether it’s a broken crown or a severe toothache, we’re ready to help—no appointment needed.
+                    Handle it gently by the crown (not the root), place it in milk or saline, and bring it to us immediately. The sooner you arrive, the higher the chance of saving it.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
-                   <h3 className='text-lg'> What are common dental emergencies?</h3>
+                   <h3 className='text-lg'> Can I go to the ER for a dental emergency?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
-                    We provide emergency treatment for a variety of issues, including:
-                    <ul className="list-disc list-inside mt-2 space-y-1">
-                      <li>Cracked or broken teeth</li>
-                      <li>Knocked-out permanent teeth</li>
-                      <li>Severe toothaches or swelling</li>
-                      <li>Bleeding gums or injuries inside the mouth</li>
-                      <li>Lost fillings or crowns</li>
-                      <li>Infected or abscessed teeth</li>
-                      <li>Damaged braces or orthodontic appliances</li>
-                      <li>Foreign objects stuck between teeth</li>
-                    </ul>
-                    <p className="mt-2">If you live in <strong>Harrisburg</strong>, <strong>Progress</strong>, or anywhere near <strong>Colonial Park</strong>, we’re your go-to emergency dentist near you for fast, expert care</p>
+                    Hospitals can manage pain or infection but typically do not provide dental treatments. Visiting a dentist ensures the underlying issue is treated properly.
+                    
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
-                   <h3 className='text-lg'> What should I do before I get to the dentist?</h3>
+                   <h3 className='text-lg'>What counts as a dental emergency?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
-                    <p className='mb-2'>Here are a few quick actions to take during a dental emergency:</p>
-                    <strong>Severe toothache:</strong> Rinse with warm saltwater. Apply a cold compress outside the cheek. Avoid chewing on the affected side.<br /><br />
-                    <strong>Knocked-out tooth:</strong> Handle by the crown, not the root. Try reinserting it gently. If not possible, place it in milk and head to our clinic immediately<br /><br />
-                    <strong>Broken crown or filling:</strong> Keep any pieces you can find. Store in a clean bag and bring them with you to your visitS.
+                    <p className='mb-2'>Severe tooth pain, knocked-out or broken teeth, swelling, abscesses, or uncontrolled bleeding should all be treated as emergencies.</p>                    
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
-                   <h3 className='text-lg'> How can I avoid dental emergencies?</h3>
+                   <h3 className='text-lg'> How soon can I be seen?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
-                    While some emergencies are unavoidable, many can be prevented with good habits:
-                    <ul className="list-disc list-inside mt-2 space-y-1">
-                      <li>Brush and floss daily</li>
-                      <li>Visit your dentist every 6 months</li>
-                      <li>Wear a mouthguard during sports</li>
-                      <li>Avoid chewing hard objects (ice, pens, etc.)</li>
-                      <li>Don’t use teeth as tools</li>
-                      <li>Treat small dental issues before they worsen</li>
-                    </ul>
+                    We offer <b>same-day emergency appointments</b> whenever possible to get you relief fast.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="q5" className="faq-acc">
+                  <AccordionTrigger className="faq-qn rounded-md">
+                   <h3 className='text-lg'>Does insurance cover emergency dental visits?</h3>
+                  </AccordionTrigger>
+                  <AccordionContent className="faq-ans">
+                    Yes - most dental insurance plans, including Medicaid, provide coverage for emergency care.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
@@ -227,10 +214,10 @@ export default function EmergencyDentistryPage() {
         <div className="features-section">
                         <Fade direction="up" duration={1000}>
                           <h2 className="features-heading">
-                            Need Emergency Dental Help in Harrisburg?
+                            Need an Emergency Dentist in Bayonne?
                           </h2>
                           <p className="features-description">
-                            If you’re dealing with sudden dental pain or injury, don’t wait. Our expert emergency dental team is just a phone call away. <strong>Maple Dental Harrisburg</strong> is here to treat you with urgency, compassion, and care.
+                            At <strong>Urban Dental & Braces</strong>, we’re here when you need us most. Whether it’s sudden pain, an accident, or urgent dental damage, our team provides fast, reliable care to restore your smile and comfort.
                           </p>
                           <BookCallBtn/>
                         </Fade>

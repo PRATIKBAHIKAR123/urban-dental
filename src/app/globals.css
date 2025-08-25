@@ -216,7 +216,7 @@
     padding-top: 3.75rem;
     padding-bottom: 3.75rem;
     text-align: center;
-    background-image:
+    /* background-image:
       repeating-linear-gradient(0deg,
         rgba(255, 255, 255, 0.05) 0px,
         rgba(255, 255, 255, 0.05) 1px,
@@ -226,7 +226,10 @@
         rgba(255, 255, 255, 0.05) 0px,
         rgba(255, 255, 255, 0.05) 1px,
         transparent 1px,
-        transparent 20px);
+        transparent 20px); */
+        background-image: url("/Images/banners/top_banner.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
   }
 
   .details-page-header-section h1 {
@@ -493,6 +496,7 @@
         img {
           display: none;
         }
+        margin-top: 1rem;
       }
     }
   }
@@ -602,7 +606,7 @@
 
   .feature-list-item svg {
     margin-right: 0.5rem;
-    color: #22c55e;
+    color: var(--primary);
     /* Tailwind: text-green-500 */
     width: 1.25rem;
     height: 1.25rem;

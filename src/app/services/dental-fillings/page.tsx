@@ -11,56 +11,53 @@ import { CheckCircle } from 'lucide-react';
 export default function DentalFillingPage() {
 
 
-  const features = [
-    {
-      icon: "/Images/icons/Immediate Pain Relief.png",
-      title: "What Are Dental Fillings Used For?",
-      description: "Dental fillings aren’t just for cavities. They’re also used to restore cracked, chipped, or worn-down teeth and to replace old metal (amalgam) fillings. We offer composite (white) fillings for a more aesthetic and biocompatible solution.",
-      points: [
-        "Repair tooth decay and minor fractures",
-        "Fill gaps left by cavities",
-        "Strengthen weakened tooth structure",
-        "Restore tooth shape and function",
-        
-      ]
-    },
-    {
-      icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-      title: "The Dental Filling Process",
-      description:
-        "Getting a filling is a simple and painless procedure. Our team ensures you're comfortable throughout the visit—from diagnosis to final polish.",
-      points: [
-        "Numbing the area for a pain-free experience",
-        "Removing decay and cleaning the cavity",
-        "Applying natural-looking composite materia",
-        "Shaping and hardening the filling with a curing light",
-        "Polishing the tooth for a smooth finish"
-      ],
-    },
-    {
-      icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Serving Harrisburg & Nearby Communities",
-      description:
-        "If you’re in Harrisburg (17110, 17109, 17111, 17112), or live nearby in Colonial Park, Penbrook, Progress, Paxtang, Lawnton, or Linglestown, our centrally located dental office is here for you. We provide quick, effective cavity care for kids, teens, and adults.",
-      points: [
-        "Convenient Harrisburg location",
-        "Family-friendly, gentle dental care",
-        "Walk-ins and same-day availability",
-        "Top-rated dental fillings near you",
-      ],
-    },
-  ];
+
+const features = [
+  {
+    icon: "/Images/icons/Immediate Pain Relief.png",
+    title: "Tooth-Colored Fillings",
+    description: "Our composite fillings are designed to match your natural tooth color, so no one can tell you've had dental work done. They're safe, durable, and perfect for small to medium cavities.",
+    points: [
+      "Blends seamlessly with natural teeth",
+      "Restores strength and function",
+      "Mercury-free, safe material",
+      "Long-lasting results with proper care"
+    ]
+  },
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Repairing Cracked or Chipped Teeth",
+    description: "Accidents, grinding, or biting hard foods can cause chips or cracks. Fillings can repair this damage, preventing further problems and restoring your smile.",
+    points: [
+      "Quick, effective repair in a single visit",
+      "Protects against further decay or damage",
+      "Restores natural tooth shape and appearance",
+      "Provides strength and durability"
+    ]
+  },
+  {
+    icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
+    title: "Replacing Old or Broken Fillings",
+    description: "Old fillings can wear out or fall out over time. We replace outdated silver or damaged fillings with strong, natural-looking alternatives.",
+    points: [
+      "Safe removal of old metal fillings",
+      "Tooth-colored replacements for a natural look",
+      "Prevents sensitivity and further decay",
+      "Strengthens and protects the tooth"
+    ]
+  }
+];
   return (
     <div className='flex min-h-screen bg-gray-50'>
       <main className='details-page-container'>
         <div className='details-page'>
           <div className='details-page-header-section'>
             <Fade direction='up' duration={1000}>
-              <h1>Dental Fillings in Harrisburg, PA</h1>
+              <h1>Dental Fillings in Bayonne, NJ</h1>
             </Fade>
             <Fade direction='down' duration={1000}>
               <h2 className="text-center">
-                Dental Fillings & Cavity Treatments in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                Tooth Repair & Cavity Treatment in Bayonne | Urban Dental & Braces
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -73,7 +70,7 @@ export default function DentalFillingPage() {
                 <Zoom cascade damping={0.3} duration={800}>
                   <div className="main-image">
                     <img
-                      src="/Images/Dental Fillings.webp"
+                      src="/Images/services/dental-fillings.webp"
                       alt="Main Banner"
                     />
                   </div>
@@ -92,10 +89,10 @@ export default function DentalFillingPage() {
                 <div className='desc-text-subtitle'>Dental Fillings</div>
                 <h3 className='desc-text-title'>About Dental Fillings</h3>
                 <p>
-                  Dental fillings are a common solution for treating cavities and restoring the strength and function of your tooth. At Maple Dental Harrisburg, we use modern, tooth-colored composite fillings that blend naturally with your smile—so you get long-lasting results without compromising appearance.
+                  Cavities and tooth damage are common issues that can compromise both your oral health and your confidence. At Urban Dental & Braces, we offer high-quality, tooth-colored fillings that restore strength, function, and appearance. Unlike outdated silver fillings, our modern composite materials blend seamlessly with your natural teeth, giving you a healthier and more attractive smile.
                 </p>
                 <p>
-                  We proudly serve patients from Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Penbrook (17103), Paxtang (17111), Progress (17109, 17111), Lawnton (17111), and Linglestown (17112). If you're searching for a “dental filling near me” or “tooth repair near you,” Maple Dental is your trusted local provider.
+                  We proudly serve patients from Bayonne (07002), Greenville, NJ (07305), and surrounding areas. Whether you’re dealing with a new cavity, a cracked tooth, or a broken filling, our team is here to provide gentle, effective care.
                 </p>
               </Fade>
             </div>
@@ -104,27 +101,25 @@ export default function DentalFillingPage() {
 
             <div className='wcu-text-section'>
               <Fade cascade direction="up" delay={1000} duration={600}>
-                <div className='wcu-subtitle'>
+                {/* <div className='wcu-subtitle'>
                   Top Reasons
-                </div>
+                </div> */}
                 <div className='wcu-title'>
-                  <h2>Why Choose Maple Dental for Dental Fillings?</h2>
+                  <h2>Same-Day Appointments</h2>
                 </div>
                 <div className='wcu-points-section'>
                   <ul className='wcu-points'>
-                    <li><CheckCircle />Tooth-Colored Composite Fillings</li>
-                    <li><CheckCircle />Gentle, Experienced Dentists</li>
-                    <li><CheckCircle />Cavity Detection with Digital Imaging</li>
-                    <li><CheckCircle />Fast, Comfortable Treatment</li>
-                    <li><CheckCircle />Central Harrisburg Location</li>
-                    <li><CheckCircle />Insurance Accepted & Flexible Payment Plans</li>
+                    <li><CheckCircle />Durable, Natural-Looking Restorations</li>
+                    <li><CheckCircle />Restores strength and function</li>
+                    <li><CheckCircle />Mercury-free, safe material</li>
+                    <li><CheckCircle />Long-lasting results with proper care</li>
                   </ul>
                 </div>
               </Fade>
             </div>
             <div className='wcu-img-section'>
               <Zoom cascade damping={0.3} duration={800}>
-                <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                <img src="/Images/banners/about-us-1.webp" alt="dental" />
               </Zoom>
             </div>
 
@@ -132,10 +127,13 @@ export default function DentalFillingPage() {
           <div className="features-section">
             <Fade direction="up" duration={1000}>
               <h2 className="features-heading">
-                Strong, Natural-Looking Cavity Fillings That Last
+                Our Dental Filling Services
               </h2>
               <p className="features-description">
-                At Maple Dental Harrisburg, we treat tooth decay before it can cause more serious issues. Our custom dental fillings are designed to restore strength, stop cavity progression, and keep your tooth structure intact. Using modern bonding techniques, we ensure a secure, durable seal—and a seamless finish that’s virtually invisible.
+                At Urban Dental & Braces, we know cavities and broken teeth can be uncomfortable and concerning. That’s why we provide precise, painless filling treatments that restore your smile quickly and effectively.
+              </p>
+              <p className="features-description">
+                Here’s how we help repair and protect your teeth:
               </p>
             </Fade>
 
@@ -159,49 +157,49 @@ export default function DentalFillingPage() {
             </div>
           </div>
           <div className='faq-section'>
-            <h2 className='faq-heading'>Dental Fillings Q&A</h2>
+            <h2 className='faq-heading'>Dental Fillings FAQs</h2>
             <div className="faq-acc-container">
               <Accordion type="single" className="w-full space-y-5">
 
                 <AccordionItem value="q1" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What are composite fillings?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How do I know if I need a filling??</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
-                    <p>Composite fillings are made of a tooth-colored resin that bonds directly to your tooth. Unlike metal fillings, they blend with your natural enamel for a seamless look and feel. They’re strong, safe, and preferred by most patients.</p>
+                    <p>Signs you may need a filling include tooth sensitivity, visible holes, dark spots, or pain when chewing. A dental exam and X-ray can confirm if you need one.</p>
 
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q5" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How do I know if I need a filling? </h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Are dental fillings painful? </h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
                     <p>
-                      Common signs include tooth sensitivity, pain when chewing, visible dark spots, or holes in your teeth. However, many cavities don’t show symptoms early on, so regular dental exams are key for early detection.
+                      No - we use gentle techniques and local anesthesia to keep you comfortable throughout the procedure. Most patients report little to no discomfort.
                     </p>
 
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long do fillings last?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long do dental fillings last?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
-                    <p>With good oral hygiene and regular checkups, composite fillings can last 7–10 years or longer. Avoid chewing on hard objects and follow your dentist’s care instructions to extend their life.</p>
+                    <p>Composite fillings can last 7–15 years with proper care, though this depends on factors like oral hygiene and daily habits.</p>
 
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q3" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Do dental fillings hurt?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Can old metal fillings be replaced?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
-                    <p>Not at all. We use local anesthetic to ensure a comfortable experience. Most patients feel little to no discomfort during or after the procedure.</p>
+                    <p>Yes, we can safely remove silver (amalgam) fillings and replace them with tooth-colored composite fillings for a more natural and healthier smile.</p>
 
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
-                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Are dental fillings covered by insurance?</h3></AccordionTrigger>
+                  <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Will insurance cover dental fillings?</h3></AccordionTrigger>
                   <AccordionContent className='faq-ans'>
                     <p>
-                      Yes, most dental insurance plans cover fillings either fully or partially. Maple Dental Harrisburg also offers affordable payment options for those without insurance.
+                      Most dental insurance plans, including Medicaid, provide coverage for fillings as a basic restorative procedure.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -215,10 +213,10 @@ export default function DentalFillingPage() {
           <div className="features-section">
             <Fade direction="up" duration={1000}>
               <h2 className="features-heading">
-                Need a Dental Filling in Harrisburg?
+                Need a Dental Filling in Bayonne?
               </h2>
               <p className="features-description">
-                Whether it’s a small cavity or a cracked filling, don’t wait to restore your smile. Maple Dental Harrisburg offers fast, effective, and natural-looking dental fillings to patients across Harrisburg, Colonial Park, Penbrook, Lawnton, and surrounding areas.
+                At Urban Dental & Braces, we’re here to restore your smile with strong, natural-looking fillings. Whether it’s a cavity, a cracked tooth, or replacing an old filling, we provide fast and effective treatment you can trust.
               </p>
             </Fade>
           </div>

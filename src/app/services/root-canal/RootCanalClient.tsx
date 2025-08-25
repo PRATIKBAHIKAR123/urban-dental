@@ -9,43 +9,40 @@ import BookCallBtn from '../book-call-btn';
 import { CheckCircle } from 'lucide-react';
 
 export default function RootCanalClient() {
-    const features = [
+const features = [
   {
     icon: "/Images/icons/Immediate Pain Relief.png",
-    title: "When Do You Need a Root Canal?",
-    description: "Root canal treatment becomes necessary when the pulp inside your tooth becomes infected, inflamed, or damaged—often due to deep decay, repeated dental procedures, or trauma to the tooth. Common signs that indicate the need for a root canal include:",
+    title: "A Comfortable Step-by-Step Process",
+    description: "We take the fear out of root canals with a calm, gentle approach.",
     points: [
-      "Persistent toothache or sharp pain",
-      "Sensitivity to hot or cold",
-      "Swollen or tender gums near the tooth",
-      "Darkening of the tooth",
-      "Pimple-like bumps on the gums"
+      "Local anesthesia to eliminate discomfort",
+      "Detailed digital scans for treatment accuracy",
+      "Careful cleaning and sealing of the canals",
+      "Tooth restoration options for lasting strength"
     ]
   },
-    {
+  {
     icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
-    title: "What Happens During a Root Canal?",
-    description:
-      "A root canal involves removing the infected or inflamed pulp inside the tooth, disinfecting the area, and sealing it to prevent further damage. At Maple Dental Harrisburg, your comfort is our priority:",
+    title: "Focused on Keeping Your Natural Teeth",
+    description: "Our top priority is saving your tooth whenever possible.",
     points: [
-      "Numbing the area for a pain-free experience",
-      "Cleaning and reshaping the root canal",
-      "Filling and sealing the tooth",
-      "Placing a custom crown (if needed) for strength and protection",
-    ],
+      "Thorough evaluation of your dental health",
+      "Use of durable, high-quality materials",
+      "Post-treatment follow-up to ensure recovery",
+      "Clear instructions for protecting your tooth long-term"
+    ]
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Root Canal Care for Patients in Harrisburg & Surrounding Communities",
-    description:
-      "Whether you're located in Harrisburg (17110, 17109, 17111, 17112) or nearby in Penbrook, Progress, Colonial Park, or Lawnton, our centrally located dental office is easily accessible",
+    title: "Root Canal Care Designed Around You",
+    description: "Every patient's needs are different, and at Urban Dental & Braces, we personalize root canal treatment so you feel confident every step of the way:",
     points: [
-      "Flexible scheduling & same-day appointments available",
-      "Insurance-friendly practice & payment plans",
-      "Trusted by families across the Harrisburg area",
-      "Top-rated root canal dentist near me",
-    ],
-  },
+      "Clear explanations before, during, and after treatment so you know what to expect",
+      "A calm, supportive environment to ease dental anxiety",
+      "Flexible scheduling options to fit busy lifestyles",
+      "Long-term preservation strategies to protect your treated tooth for years to come"
+    ]
+  }
 ];
     return (
         <div className='flex min-h-screen bg-gray-50'>
@@ -53,11 +50,11 @@ export default function RootCanalClient() {
                 <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Root Canal Therapy in Harrisburg, PA</h1>
+                        <h1>Root Canal Treatment in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Gentle Root Canal Treatment in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                            Gentle & Effective Root Canals in Bayonne | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -70,7 +67,7 @@ export default function RootCanalClient() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                src="/Images/Root Canal.webp"
+                src="/Images/services/root-canal.webp"
                 alt="Main Banner"
               />
             </div>
@@ -89,10 +86,10 @@ export default function RootCanalClient() {
           <div className='desc-text-subtitle'>Root Canal</div>
           <h3 className='desc-text-title'>About Root Canal Therapy</h3>
           <p>
-            When a tooth becomes infected or severely decayed, a root canal may be the only way to save it and eliminate pain. At Maple Dental Harrisburg, we specialize in comfortable, efficient root canal treatments that restore your smile and protect your long-term oral health. 
+            A toothache that doesn’t go away often signals something more serious than a cavity. When the inner pulp of your tooth becomes infected or damaged, a root canal is the most effective way to relieve pain and protect your natural smile. At <b>Urban Dental & Braces in Bayonne</b>, we provide <b>pain-free root canal treatments</b> that remove infection, restore function, and help you avoid tooth loss.
           </p>
           <p>
-            Our experienced dental team serves patients from Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Penbrook (17103), Paxtang (17111), Progress (17109, 17111), Lawnton (17111), and Linglestown (17112). So if you're searching for a "root canal near me" or "dentist near you," Maple Dental is right around the corner.
+            We proudly welcome patients from <b>Bayonne (07002), Greenville, NJ (07305)</b>, and surrounding communities. If you’ve been searching for “root canal near me”, relief is closer than you think.
           </p>
         </Fade>
       </div>
@@ -101,26 +98,27 @@ export default function RootCanalClient() {
     
                 <div className='wcu-text-section'>
                   <Fade cascade direction="up" delay={1000} duration={600}>
-                    <div className='wcu-subtitle'>
+                    {/* <div className='wcu-subtitle'>
                       Top Reasons
-                    </div>
+                    </div> */}
                     <div className='wcu-title'>
-                      <h2>Why Choose Maple Dental for Root Canal Treatment?</h2>
+                      <h2>Why Choose Urban Dental & Braces for Root Canal Treatment?</h2>
                     </div>
                     <div className='wcu-points-section'>
                       <ul className='wcu-points'>
-                        <li><CheckCircle />Experienced & Compassionate Dentists  </li>
-                        <li><CheckCircle />Advanced Technology & Digital Imaging  </li>
-                        <li><CheckCircle /> Painless, Comfortable Procedures  </li>
+                        <li><CheckCircle />Compassionate Care That Puts You First </li>
+                        <li><CheckCircle />State-of-the-Art Diagnostic Tools</li>
+                        <li><CheckCircle /> Quick Relief When You Need It</li>
                         <li><CheckCircle /> Affordable Payment Options & Insurance Accepted  </li>
-                        <li><CheckCircle /> Convenient Location in Harrisburg, PA</li>
+                        <li><CheckCircle />Flexible & Affordable Options</li>
+                        <li><CheckCircle /> Trusted Local Bayonne Dentist</li>
                       </ul>
                     </div>
                   </Fade>
                 </div>
                 <div className='wcu-img-section'>
                   <Zoom cascade damping={0.3} duration={800}>
-                    <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                    <img src="/Images/banners/about-us-1.webp" alt="dental" />
                   </Zoom>
                 </div>
     
@@ -128,10 +126,13 @@ export default function RootCanalClient() {
               <div className="features-section">
                           <Fade direction="up" duration={1000}>
                             <h2 className="features-heading">
-                              Save Your Natural Tooth with Expert Root Canal Care
+                              Our Root Canal Services
                             </h2>
                             <p className="features-description">
-                              Root canal therapy is a common, safe, and effective way to treat deep tooth infections while preserving your natural tooth. At Maple Dental Harrisburg, our gentle approach ensures that you feel calm and confident throughout the procedure. We prioritize patient comfort, using the latest tools and techniques to make your treatment smooth and stress-free.
+                              Root canals don’t have to be overwhelming. Our approach is designed to quickly remove infection, preserve your natural tooth, and get you back to a pain-free smile. By treating the problem early, you avoid extractions and more complex dental work later on.
+                            </p>
+                            <p className="features-description">
+                              Here’s how our root canal services stand out:
                             </p>
                           </Fade>
              
@@ -153,26 +154,45 @@ export default function RootCanalClient() {
                               </div>
                             ))}
                           </div>
+                          <p className='features-description mt-6'>
+                            Searching for a “<i>root canal dentist near me</i>”? Urban Dental & Braces is ready to restore your smile.
+                          </p>
                         </div>
     <div className='faq-section'>
-                <h2 className='faq-heading'>Root Canal Q&A</h2>
+                <h2 className='faq-heading'>Root Canal FAQs</h2>
                 <div className="faq-acc-container">
                   <Accordion type="single" collapsible className="w-full space-y-6">
                     <AccordionItem value="q1" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                       <h3 className='text-lg'> Does a root canal hurt?</h3>
+                       <h3 className='text-lg'>What exactly does a root canal involve?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans ">
-                        Modern root canal treatments are virtually pain-free. With local anesthesia and gentle techniques, most patients say it feels similar to getting a filling.
+                        It’s a procedure that removes infected or damaged tissue from inside the tooth, disinfects the area, and seals it to prevent further infection.
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q2" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                       <h3 className='text-lg'> How long does a root canal take?</h3>
+                       <h3 className='text-lg'>How do I know if I might need a root canal?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p className="mt-2">
-                        Most root canal treatments take about 60–90 minutes. Complex cases or back molars may require a follow-up visit.
+                        Signs include:
+                        <u className='list-disc pl-6 space-y-2'>
+                          <li>Ongoing toothache or throbbing pain</li>
+
+
+<li>Sharp sensitivity to hot or cold</li>
+
+
+<li>Swelling or tenderness around the gums</li>
+
+
+<li>Pain while chewing or biting</li>
+
+
+<li>A tooth that looks darker than the rest</li>
+
+                        </u>
                         
                         </p>
                       </AccordionContent>
@@ -180,29 +200,29 @@ export default function RootCanalClient() {
                     
                     <AccordionItem value="q6" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                       <h3 className='text-lg'> Can I avoid a root canal?</h3>
+                       <h3 className='text-lg'> Does a root canal hurt?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">The best way to avoid needing a root canal is through early intervention. Regular dental checkups, cleanings, and addressing small cavities before they grow can help prevent serious infections.</p>
+                        <p className="mt-2">Not anymore! With local anesthesia and modern methods, most patients feel little to no pain during the procedure - and many feel instant relief afterward.</p>
                       </AccordionContent>
                     </AccordionItem>
 
                     <AccordionItem value="q3" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                       <h3 className='text-lg'> Will I need a crown after a root canal?</h3>
+                       <h3 className='text-lg'>What happens after treatment?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p>
-                          In most cases, especially with back teeth, a crown is recommended after a root canal to protect the tooth from fractures and restore full function.
+                          In most cases, a crown is placed on the treated tooth to strengthen it and restore full function.
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q5" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                       <h3 className='text-lg'> Is a root canal better than tooth extraction?</h3>
+                       <h3 className='text-lg'>Is a root canal better than an extraction?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">Yes—when possible, saving your natural tooth is always preferable. Root canal therapy eliminates infection while preserving your natural bite and smile.</p>
+                        <p className="mt-2">Yes - whenever possible, saving your natural tooth is best. Root canals allow you to keep your original tooth and avoid more costly replacements like implants or bridges.</p>
                       </AccordionContent>
                     </AccordionItem>
 
@@ -213,10 +233,10 @@ export default function RootCanalClient() {
               <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Need Root Canal Treatment in Harrisburg?
+                                  Need a Root Canal in Bayonne, NJ?
                                 </h2>
                                 <p className="features-description">
-                                  Don't let tooth pain disrupt your life. If you're in need of a root canal near Harrisburg, PA, the expert team at Maple Dental is here to help. We serve families in Harrisburg, Colonial Park, Progress, Penbrook, Paxtang, Lawnton, and surrounding areas.
+                                  If you’re living with constant tooth pain or swelling, don’t wait for it to get worse. At <strong>Urban Dental & Braces</strong>, we make root canal treatment simple, gentle, and effective so you can return to comfort quickly.
                                 </p>
                               </Fade>
                             </div>

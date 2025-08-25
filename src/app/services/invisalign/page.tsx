@@ -11,42 +11,40 @@ import { CheckCircle } from 'lucide-react';
 export default function InvisilinePage() {
 
 
-    const features = [
+const features = [
   {
     icon: "/Images/icons/Immediate Pain Relief.png",
-    title: "How Invisalign Works",
-    description: "Invisalign uses a series of clear, BPA-free plastic aligners that gently move your teeth into their ideal position. You’ll wear each set of aligners for about two weeks, gradually achieving a straighter, healthier smile",
+    title: "The Invisalign Process",
+    description: "Every Invisalign journey begins with a personalized consultation and continues with careful planning to ensure great results.",
     points: [
-      "No brackets, wires, or food restrictions",
-      "Digital scan-no messy impressions",
-      "Removable for eating, brushing, and special occasions",
-      "Aligner check-ins every 6–8 weeks",
+      "Digital 3D scan for accurate impressions (no messy molds)",
+      "Custom aligners created for a perfect, comfortable fit",
+      "Regular check-ins to track progress and make adjustments",
+      "Predictable treatment timeline for clear expectations"
     ]
   },
-    {
-    icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-    title: "Benefits of Invisalign vs. Traditional Braces",
-    description:
-      "Invisalign offers all the effectiveness of braces-without the metal. It’s a modern approach to orthodontics that fits your life",
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Benefits of Invisalign",
+    description: "Invisalign is more than just clear aligners - it's a lifestyle-friendly orthodontic solution.",
     points: [
-      "Nearly invisible in daily life",
-      "More comfortable than metal braces",
-      "Easier to clean and maintain oral hygiene",
-      "Fewer office visits and shorter treatment times in many cases",
-    ],
+      "Nearly invisible, so most people won't notice you're wearing them",
+      "Removable, making eating and oral hygiene simple",
+      "No food restrictions - enjoy your favorite meals without worry",
+      "Smooth, comfortable design with less irritation than braces"
+    ]
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Serving Harrisburg & Nearby Communities",
-    description:
-      "Maple Dental is proud to be your go-to Invisalign dentist near you. Whether you’re in Harrisburg or surrounding communities like Colonial Park or Penbrook, we’re nearby and ready to help you achieve your best smile",
+    title: "Who Can Benefit from Invisalign?",
+    description: "Invisalign works for a wide range of patients - from busy adults to active teens.",
     points: [
-      "Central Harrisburg location",
-      "Evening appointments for working professionals and students",
-      "Welcoming patients from Progress, Lawnton, Linglestown, and beyond",
-      "Friendly, experienced team with a passion for smile transformations",
-    ],
-  },
+      "Ideal for both adults and teens who want a discreet solution",
+      "Corrects crowding, gaps, overbites, and underbites",
+      "Effective for mild to moderate orthodontic issues",
+      "Designed for comfort, flexibility, and everyday convenience"
+    ]
+  }
 ];
     return (
         <div className='flex min-h-screen bg-gray-50'>
@@ -54,11 +52,11 @@ export default function InvisilinePage() {
         <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Invisalign Treatment in Harrisburg, PA </h1>
+                        <h1>Invisalign in Bayonne, NJ </h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Clear Aligners & Orthodontics in Harrisburg | Maple Dental | Family & Cosmetic Dentist Near You
+                            Straighten Your Smile with Invisalign in Bayonne | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -71,7 +69,7 @@ export default function InvisilinePage() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                        src="/Images/Invisalign.webp"
+                        src="/Images/services/invisalign.webp"
                 alt="Main Banner"
               />
             </div>
@@ -90,10 +88,10 @@ export default function InvisilinePage() {
           <div className='desc-text-subtitle'>Invisalign</div>
           <h3 className='desc-text-title'>About Invisalign</h3>
           <p>
-           Invisalign is a clear, removable alternative to traditional metal braces-designed for adults and teens looking for a discreet way to straighten their teeth. At Maple Dental Harrisburg, we offer personalized Invisalign treatment plans to improve your smile with comfort, convenience, and confidence.
+           A straighter smile improves more than just your appearance - it boosts confidence, oral health, and overall well-being. At <strong>Urban Dental & Braces in Bayonne</strong>, we offer <strong>Invisalign clear aligners</strong> that gently move your teeth into the right position without the need for brackets or wires. These aligners are <strong>virtually invisible, comfortable, and removable</strong>, making them a convenient choice for both adults and teens. Whether you’re searching for “Invisalign near me” or simply want an alternative to braces, we provide personalized care that fits your lifestyle.
           </p>
           <p>
-           Whether you’re looking to fix crowding, spacing, or bite issues, our team is here to help. We serve patients from Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Penbrook (17103), Paxtang (17111), Progress (17109, 17111), Lawnton (17111), and Linglestown (17112). If you’re searching for Invisalign near me, Maple Dental is your trusted local provider.
+           We proudly serve patients from <strong>Bayonne (07002), Greenville, NJ (07305)</strong>, and nearby communities.
           </p>
         </Fade>
       </div>
@@ -102,26 +100,26 @@ export default function InvisilinePage() {
         
                     <div className='wcu-text-section'>
                       <Fade cascade direction="up" delay={1000} duration={600}>
-                        <div className='wcu-subtitle'>
+                        {/* <div className='wcu-subtitle'>
                           Top Reasons
-                        </div>
+                        </div> */}
                         <div className='wcu-title'>
-                          <h2>Why Choose Maple Dental for Invisalign?</h2>
+                          <h2>Top Reasons to Choose Urban Dental & Braces for Invisalign</h2>
                         </div>
                         <div className='wcu-points-section'>
                           <ul className='wcu-points'>
-                            <li><CheckCircle />Certified Invisalign Provider</li>
-                            <li><CheckCircle />Customized Treatment Plans with 3D Scanning</li>
-                            <li><CheckCircle />Comfortable, Removable, Virtually Invisible Aligners</li>
-                            <li><CheckCircle />Flexible Payment Plans & Insurance Options </li>
-                            <li><CheckCircle />Convenient Location in Harrisburg</li>
+                            <li><CheckCircle />Discreet, Clear Treatment</li>
+                            <li><CheckCircle />Customized to Your Smile</li>
+                            <li><CheckCircle />Comfortable & Metal-Free</li>
+                            <li><CheckCircle />Flexible Payment Options</li>
+                            <li><CheckCircle />Convenient Location</li>
                           </ul>
                         </div>
                       </Fade>
                     </div>
                     <div className='wcu-img-section'>
                       <Zoom cascade damping={0.3} duration={800}>
-                        <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                        <img src="/Images/banners/about-us-1.webp" alt="dental" />
                       </Zoom>
                     </div>
         
@@ -129,10 +127,13 @@ export default function InvisilinePage() {
                   <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Discreet, Comfortable Teeth Straightening for All Ages
+                                  Our Invisalign Services
                                 </h2>
                                 <p className="features-description">
-                                  At Maple Dental Harrisburg, we make orthodontic care easier and more enjoyable with Invisalign. The clear aligners are nearly invisible and removable-perfect for busy lifestyles and social confidence.
+                                  At Urban Dental & Braces, we believe straightening your teeth should be comfortable, convenient, and tailored to your lifestyle. Invisalign makes orthodontic treatment simple and stress-free, giving you the freedom to enjoy your favorite foods, smile confidently, and maintain easy oral hygiene while your teeth gradually move into alignment. With advanced 3D technology and personalized treatment planning, you can count on precise, predictable results.
+                                </p>
+                                <p className="features-description">
+                                  Here’s how we help you achieve your best smile with Invisalign:
                                 </p>
                               </Fade>
                   
@@ -156,14 +157,14 @@ export default function InvisilinePage() {
                               </div>
                             </div>
     <div className='faq-section'>
-           <h2 className='faq-heading'>Invisalign Q&A</h2>
+           <h2 className='faq-heading'>Invisalign FAQs</h2>
            <div className="faq-acc-container">
             <Accordion type="single" className="w-full space-y-5">
         
         <AccordionItem value="q1" className="faq-acc">
           <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long does Invisalign treatment take?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>Most Invisalign cases take 6–18 months, depending on your specific alignment needs.</p>
+            <p>Most cases last between <strong>6–18 months</strong>, depending on your needs.</p>
             
           </AccordionContent>
         </AccordionItem>
@@ -171,33 +172,33 @@ export default function InvisilinePage() {
         <AccordionItem value="q2" className="faq-acc">
           <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Is Invisalign painful?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>You may feel mild pressure at first, but most patients find Invisalign very comfortable.</p>
+            <p>Mild pressure is normal when switching aligners, but it’s more comfortable than braces.</p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q3" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How often do I need to wear the aligners?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Can I eat with Invisalign?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>Wear them 20–22 hours per day, removing them only to eat, drink (except water), and brush.</p>
+            <p>Remove your aligners before meals - you can eat whatever you like.</p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q4" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Is Invisalign good for teens?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How many hours per day should I wear aligners?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>
-                Yes, Invisalign is a great option for teens, especially with Invisalign Teen which includes wear indicators.
+                Wear them <strong>20–22 hours daily</strong>, removing only for eating and brushing.
             </p>
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q5" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Will insurance cover Invisalign?</h3>  </AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Can Invisalign fix complex issues?</h3>  </AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>
-                Many dental insurance plans offer partial coverage for Invisalign. We also provide flexible payment options
+                Yes - modern Invisalign technology can treat many cases once only possible with braces.
             </p>
           </AccordionContent>
         </AccordionItem>
@@ -209,10 +210,10 @@ export default function InvisilinePage() {
      <div className="features-section">
                 <Fade direction="up" duration={1000}>
                   <h2 className="features-heading">
-                    Start Your Invisalign Journey in Harrisburg Today
+                    Ready to Start Your Invisalign Journey?
                   </h2>
                   <p className="features-description">
-                    Book your Invisalign consultation at Maple Dental Harrisburg and take the first step toward a confident, straighter smile-without metal braces.
+                    At <strong>Urban Dental & Braces in Bayonne</strong>, we make achieving a straighter smile simple, comfortable, and affordable. From your first consultation to your last aligner, our team is here to guide you every step of the way.
                   </p>
                 </Fade>
               </div>

@@ -10,54 +10,53 @@ import BookCallBtn from '../book-call-btn';
 import { CheckCircle } from 'lucide-react';
 
 export default function WhiteningVeneersPage() {
-    const features = [
+const features = [
   {
     icon: "/Images/icons/Immediate Pain Relief.png",
     title: "Professional Teeth Whitening",
-    description: "Our whitening treatments are far more effective and safer than over-the-counter products. Brighten your teeth by several shades with our customized options",
+    description: "Our whitening treatments brighten your teeth safely and effectively under dentist supervision.",
     points: [
-      "In-office whitening with fast, dramatic results",
-      "Take-home trays for convenience and control",
-      "Safe for sensitive teeth with minimal irritation",
-      "Erases stains from coffee, wine, smoking & more",
+      "In-office whitening for instant, dramatic results",
+      "Take-home kits customized for your smile",
+      "Safe and gentle on enamel, reducing sensitivity",
+      "Removes deep stains from coffee, wine, tea, and smoking"
     ]
   },
-    {
-    icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-    title: "Porcelain Veneers for a Flawless Look",
-    description:
-      "Veneers are thin, custom-made porcelain shells that cover the front surface of your teeth. They’re perfect for hiding imperfections and creating a natural, picture-perfect smile",
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Dental Veneers",
+    description: "Veneers are thin, durable porcelain shells that enhance the shape, color, and overall appearance of your teeth.",
     points: [
-      "Fix chips, gaps, and discoloration",
-      "Customized shape and color to match your smile",
-      "Durable and stain-resistant",
-      "A long-term cosmetic solution that looks and feels real",
-    ],
+      "Corrects chips, cracks, and discoloration",
+      "Closes small gaps and reshapes uneven teeth",
+      "Long-lasting, natural-looking results",
+      "Creates a radiant, balanced smile in just a few visits"
+    ]
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Serving Harrisburg & Surrounding Communities",
-    description:
-      "We’re proud to offer premium cosmetic dentistry to our local neighbors. Whether you're in Harrisburg or nearby areas like Colonial Park or Progress, we’re close by and ready to elevate your smile",
+    title: "Cosmetic Bonding",
+    description: "Bonding is a simple, cost-effective treatment that enhances your smile in a single visit.",
     points: [
-      "Convenient Harrisburg location",
-      "Welcoming patients from Lawnton, Penbrook, Paxtang, and Linglestown",
-      "Evening appointments available",
-      "Your go-to cosmetic dentist near you",
-    ],
-  },
+      "Repairs minor chips, cracks, or worn edges",
+      "Covers small stains or discoloration",
+      "Closes gaps and reshapes uneven teeth",
+      "Quick, painless, and budget-friendly solution"
+    ]
+  }
 ];
+
     return (
         <div className='flex min-h-screen bg-gray-50'>
             <main className='details-page-container'>
                 <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Teeth Whitening & Veneers in Harrisburg, PA</h1>
+                        <h1>Teeth Whitening & Veneers in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Cosmetic Smile Enhancements in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                            Smile Enhancements in Bayonne | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -70,7 +69,7 @@ export default function WhiteningVeneersPage() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                src="/Images/Whitening Veneers.webp"
+                src="/Images/services/whitening-veneers.webp"
                 alt="Main Banner"
               />
             </div>
@@ -89,10 +88,10 @@ export default function WhiteningVeneersPage() {
           <div className='desc-text-subtitle'>Whitening & Veneers</div>
           <h3 className='desc-text-title'>About Whitening & Veneers</h3>
           <p>
-            If you’re looking to transform your smile, teeth whitening and porcelain veneers are two of the most popular and effective cosmetic dental treatments. At Maple Dental Harrisburg, we provide safe, long-lasting solutions that help you achieve a brighter, more confident smile.
+            A confident smile can make a lasting impression. At Urban Dental & Braces in Bayonne, we specialize in two of the most popular cosmetic dentistry treatments - professional teeth whitening and dental veneers. Whether you want to brighten stained teeth or completely transform your smile, our expert team uses advanced techniques to deliver safe, natural, and long-lasting results.
           </p>
           <p>
-            Whether you want to erase deep stains or cover chipped, misshaped, or gapped teeth, our cosmetic services are designed to meet your needs. We welcome patients from Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Penbrook (17103), Paxtang (17111), Lawnton (17111), Progress (17109, 17111), and Linglestown (17112). If you're searching for cosmetic dental care near me, we're just around the corner.
+            We proudly serve patients from Bayonne (07002), Greenville (07305), NJ and nearby communities. If you’ve been searching for “whitening and veneers near me,” we’re here to help you achieve the radiant smile you’ve always wanted.
           </p>
         </Fade>
       </div>
@@ -101,26 +100,26 @@ export default function WhiteningVeneersPage() {
     
                 <div className='wcu-text-section'>
                   <Fade cascade direction="up" delay={1000} duration={600}>
-                    <div className='wcu-subtitle'>
+                    {/* <div className='wcu-subtitle'>
                       Top Reasons
-                    </div>
+                    </div> */}
                     <div className='wcu-title'>
-                      <h2>Why Choose Maple Dental for Whitening & Veneers?</h2>
+                      <h2>Why Choose Whitening & Veneers at Urban Dental?</h2>
                     </div>
                     <div className='wcu-points-section'>
                       <ul className='wcu-points'>
-                        <li><CheckCircle />Safe, In-Office & Take-Home Whitening Options  </li>
-                        <li><CheckCircle />Natural-Looking Porcelain Veneers  </li>
-                        <li><CheckCircle /> Personalized Smile Design Consultations  </li>
-                        <li><CheckCircle /> Flexible Payment Plans & Insurance Assistance  </li>
-                        <li><CheckCircle /> Trusted Cosmetic Dentist in Harrisburg</li>
+                        <li><CheckCircle />Professional, Long-Lasting Results</li>
+                        <li><CheckCircle />Safe, Dentist-Supervised Treatments</li>
+                        <li><CheckCircle /> Natural & Aesthetic Smile Transformations</li>
+                        <li><CheckCircle />Comfortable & Stress-Free Experience </li>
+                        <li><CheckCircle />Convenient Bayonne Location</li>
                       </ul>
                     </div>
                   </Fade>
                 </div>
                 <div className='wcu-img-section'>
                   <Zoom cascade damping={0.3} duration={800}>
-                    <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                    <img src="/Images/banners/about-us-1.webp" alt="dental" />
                   </Zoom>
                 </div>
     
@@ -128,10 +127,10 @@ export default function WhiteningVeneersPage() {
               <div className="features-section">
                           <Fade direction="up" duration={1000}>
                             <h2 className="features-heading">
-                              Achieve a Beautiful Smile with Expert Cosmetic Care
+                              Teeth Whitening & Veneer Services
                             </h2>
                             <p className="features-description">
-                              At Maple Dental Harrisburg, we combine artistry and advanced technology to deliver smile makeovers that look natural and feel amazing. Whether you're prepping for a big event or just want to boost your confidence, we’ll help you choose the right treatment to reach your smile goals.
+                              At Urban Dental & Braces, our whitening and veneer treatments are designed to match your unique smile goals. Whether you want a quick brightness boost, a long-lasting transformation, or a minimally invasive fix, we have the right solution for you.
                             </p>
                           </Fade>
               
@@ -155,15 +154,15 @@ export default function WhiteningVeneersPage() {
                           </div>
                         </div>
     <div className='faq-section'>
-                <h2 className='faq-heading'>Whitening & Veneers Q&A</h2>
+                <h2 className='faq-heading'>Whitening & Veneers FAQs</h2>
                 <div className="faq-acc-container">
                   <Accordion type="single" collapsible className="w-full space-y-6">
                     <AccordionItem value="q1" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>How long does professional teeth whitening last?</h3>
+                        <h3 className='text-lg'>How long does teeth whitening last?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans ">
-                        Results can last 6 months to 2 years with good oral hygiene and occasional touch-ups.
+                        Whitening results can last between 6 months and 2 years depending on diet, lifestyle, and oral hygiene.
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q2" className="faq-acc">
@@ -172,35 +171,35 @@ export default function WhiteningVeneersPage() {
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p className="mt-2">
-                        Veneers are a long-lasting cosmetic solution, typically lasting 10–15 years with proper care.
+                        Veneers are a long-term solution and typically last 10–15 years with proper care.
                         
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q3" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Is the whitening procedure safe?</h3>
+                        <h3 className='text-lg'>Can I combine whitening and veneers?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p>
-                          Yes, our whitening treatments are professionally supervised and safe for your enamel.
+                          Yes! Many patients whiten their natural teeth first and then place veneers for a seamless, uniform look.
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q5" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Will veneers look natural?</h3>
+                        <h3 className='text-lg'>Is the procedure painful?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">Absolutely. Each veneer is custom-crafted to match the shape, size, and color of your natural teeth.</p>
+                        <p className="mt-2">Both treatments are minimally invasive and virtually pain-free, ensuring comfort during the process.</p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q6" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Can I combine whitening with veneers?</h3>  
+                        <h3 className='text-lg'>Will insurance cover whitening or veneers?</h3>  
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">Yes. Whitening is often done before veneers for a complete smile makeover.</p>
+                        <p className="mt-2">These treatments are considered cosmetic, so most insurance plans do not cover them. However, we offer flexible payment and financing options.</p>
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>
@@ -209,10 +208,10 @@ export default function WhiteningVeneersPage() {
               <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Ready to Enhance Your Smile in Harrisburg?
+                                  Ready to Brighten & Transform Your Smile?
                                 </h2>
                                 <p className="features-description">
-                                  Book your cosmetic consultation at Maple Dental Harrisburg today. Whether you’re considering whitening or veneers, our expert team is here to help you shine brighter than ever.
+                                  At Urban Dental & Braces, we’re here to give you a smile that’s as confident as you are. Whether you’re interested in whitening, veneers, or a combination of both, our team will create a treatment plan tailored to your goals.
                                 </p>
                               </Fade>
                             </div>

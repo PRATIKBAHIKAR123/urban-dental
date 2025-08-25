@@ -11,39 +11,40 @@ import { CheckCircle } from 'lucide-react';
 export default function Page() {
 
 
-    const features = [
+const features = [
   {
     icon: "/Images/icons/Immediate Pain Relief.png",
     title: "Dental Implants",
-    description: "Dental implants are the gold standard for replacing missing teeth. They look, feel, and function just like natural teeth-and can last a lifetime with proper care.",
+    description: "Dental implants are considered the gold standard for tooth replacement, providing stability, durability, and a natural look. They replace both the root and crown of a tooth for a long-lasting solution.",
     points: [
-      "Titanium posts replace missing roots",
-      "Topped with custom crowns or bridges",
-      "Prevent bone loss and maintain facial shape",
+      "Strong, secure replacement for missing teeth",
+      "Preserves jawbone health and prevents bone loss",
+      "Custom crowns designed to blend seamlessly with your smile",
+      "Can last decades with proper care"
     ]
   },
-    {
-    icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-    title: "Fixed Bridges",
-    description:
-      "A bridge is a reliable option for filling the gap left by one or more missing teeth. It anchors to nearby healthy teeth and restores your bite and appearance.",
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Dental Bridges",
+    description: "If you're missing one or more teeth in a row, a dental bridge can restore your smile without removable dentures. Bridges are anchored to healthy teeth or implants for support.",
     points: [
-      "Non-removable and natural-looking",
-      "Ideal for patients not ready for implants",
-      "Quick, functional smile restoration",
-    ],
+      "Restores chewing ability and confidence",
+      "Blends naturally with existing teeth",
+      "Prevents shifting of surrounding teeth",
+      "Provides a durable, functional replacement"
+    ]
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Full & Partial Dentures",
-    description:
-      "For patients missing several or all of their teeth, today’s dentures offer comfort, aesthetics, and improved function. We create custom dentures that fit beautifully and feel secure.",
+    title: "Full Arch & All-on-4® Implants",
+    description: "For patients missing most or all teeth, full arch dental implants or All-on-4® can provide a permanent alternative to dentures. These restorations restore full function and give you back a complete smile.",
     points: [
-      "Natural appearance and easy maintenance",
-      "Available in removable and implant-supported designs",
-      "Affordable and accessible solution for many",
-    ],
-  },
+      "Secure, fixed replacement for an entire arch of teeth",
+      "Eliminates slipping or discomfort from removable dentures",
+      "Helps maintain jawbone strength and facial structure",
+      "Long-term, natural-looking solution"
+    ]
+  }
 ];
     return (
         <div className='flex min-h-screen bg-gray-50'>
@@ -51,11 +52,11 @@ export default function Page() {
         <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Permanent Teeth Replacement in Harrisburg, PA</h1>
+                        <h1>Permanent Teeth Replacement in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Restore Missing Teeth in Harrisburg | Maple Dental | Family & Cosmetic Dentist 
+                            Lasting Tooth Replacement in Bayonne | Urban Dental & Braces 
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -68,7 +69,7 @@ export default function Page() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                src="/Images/Teeth Replacement.webp"
+                src="/Images/services/permanent-teeth-replacement.webp"
                 alt="Main Banner"
               />
             </div>
@@ -86,11 +87,12 @@ export default function Page() {
         <Fade cascade direction="up" delay={1000} duration={600}>
           <div className='desc-text-subtitle'>Permanent Teeth Replacement</div>
           <h3 className='desc-text-title'>About Permanent Teeth Replacement</h3>
-          <p>
-           Missing teeth can affect your confidence, health, and quality of life. At Maple Dental Harrisburg, we provide long-lasting solutions to replace missing teeth with natural-looking, fully functional results. Whether you’ve lost one tooth or several, we’ll help you reclaim your smile.
+          <p>           
+Missing teeth can impact your confidence, ability to eat, and even your oral health. At Urban Dental & Braces in Bayonne, we specialize in permanent teeth replacement solutions designed to restore your smile for life. From dental implants to bridges and full-arch restorations, our treatments are custom-tailored to give you natural-looking, functional results.
+
           </p>
           <p>
-           We proudly serve Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Lawnton (17111), Progress (17109, 17111), Penbrook (17103), Paxtang (17111), and Linglestown (17112). If you’re searching for permanent tooth replacement near me, our Harrisburg team is here to help.
+           We proudly serve patients from Bayonne (07002), Greenville, NJ (07305), and surrounding communities. If you’re searching for “permanent tooth replacement near me,” our team is here to help you regain your smile and confidence.
           </p>
         </Fade>
       </div>
@@ -99,26 +101,26 @@ export default function Page() {
         
                     <div className='wcu-text-section'>
                       <Fade cascade direction="up" delay={1000} duration={600}>
-                        <div className='wcu-subtitle'>
+                        {/* <div className='wcu-subtitle'>
                           Top Reasons
-                        </div>
+                        </div> */}
                         <div className='wcu-title'>
-                          <h2>Why Choose Maple Dental for Tooth Replacement?</h2>
+                          <h2>Top Reasons to Choose Urban Dental & Braces for Teeth Replacement</h2>
                         </div>
                         <div className='wcu-points-section'>
                           <ul className='wcu-points'>
-                            <li><CheckCircle />Personalized Treatment Plans for Every Smile</li>
-                            <li><CheckCircle />Modern Options: Implants, Bridges, & Dentures</li>
-                            <li><CheckCircle />Advanced Imaging & Diagnostic Tools</li>
-                            <li><CheckCircle />Affordable Payment Plans Available </li>
-                            <li><CheckCircle />Convenient Harrisburg Location Near You</li>
+                            <li><CheckCircle />Advanced Tooth Replacement Options</li>
+                            <li><CheckCircle />Natural-Looking, Long-Lasting Results</li>
+                            <li><CheckCircle />Skilled Implant & Restorative Specialists</li>
+                            <li><CheckCircle />Flexible Financing & Insurance Accepted</li>
+                            <li><CheckCircle />Conveniently Located in Bayonne, NJ</li>
                           </ul>
                         </div>
                       </Fade>
                     </div>
                     <div className='wcu-img-section'>
                       <Zoom cascade damping={0.3} duration={800}>
-                        <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                        <img src="/Images/banners/about-us-1.webp" alt="dental" />
                       </Zoom>
                     </div>
         
@@ -126,10 +128,13 @@ export default function Page() {
                   <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Reclaim Your Smile with Long-Lasting Tooth Replacement
+                                  Our Permanent Teeth Replacement Services
                                 </h2>
                                 <p className="features-description">
-                                  At Maple Dental Harrisburg, we believe no one should have to live with missing teeth. Our experienced team offers a variety of permanent replacement options designed to match your unique smile goals and lifestyle.
+                                  At Urban Dental & Braces, we believe every patient deserves a complete, healthy smile. That’s why we offer a variety of solutions to replace missing teeth permanently. Whether you’re missing one tooth or an entire arch, our treatments are designed to restore both function and appearance.
+                                </p>
+                                <p className='features-description'>
+                                  Here’s how we can replace your missing teeth:
                                 </p>
                               </Fade>
                   
@@ -153,48 +158,48 @@ export default function Page() {
                               </div>
                             </div>
     <div className='faq-section'>
-           <h2 className='faq-heading'>Tooth Replacement Q&A</h2>
+           <h2 className='faq-heading'>Permanent Teeth Replacement FAQs</h2>
            <div className="faq-acc-container">
             <Accordion type="single" className="w-full space-y-5">
         
         <AccordionItem value="q1" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What is the best option to replace missing teeth?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long do dental implants last?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>Dental implants are often the best long-term solution, but we’ll guide you based on your goals and budget</p>
+            <p>With proper care, dental implants can last decades, often a lifetime, making them the most durable tooth replacement option.</p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q2" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long do permanent tooth replacements last?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Are dental implants painful?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>With proper care, implants can last a lifetime. Bridges and dentures also last many years with routine checkups.</p>
+            <p>Most patients report minimal discomfort during the procedure, and recovery is often easier than expected. Local anesthesia and sedation options are available.</p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q3" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Are dental implants safe and effective?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What’s the difference between implants and bridges?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>Yes-implants have a high success rate and are considered one of the safest and most effective dental procedures.</p>
+            <p>Implants replace both the root and crown, while bridges rely on adjacent teeth for support. Implants tend to last longer and protect bone health.</p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q4" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Is the procedure painful?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Do permanent teeth replacements look natural?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>
-                Our gentle techniques and sedation options ensure a comfortable experience throughout your treatment. 
+                Yes! Our restorations are designed to match the color, shape, and size of your natural teeth for a seamless smile. 
             </p>
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q5" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How much do tooth replacements cost?</h3>  s</AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Does insurance cover permanent tooth replacement?</h3>  </AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>
-                Costs vary depending on the type of restoration. We offer affordable plans and accept most insurance.
+                Many dental insurance plans, including Medicaid, provide partial coverage for tooth replacement options. We also offer flexible financing to make treatment affordable.
             </p>
           
           </AccordionContent>
@@ -207,10 +212,10 @@ export default function Page() {
      <div className="features-section">
                 <Fade direction="up" duration={1000}>
                   <h2 className="features-heading">
-                    Ready to Replace Missing Teeth? Let’s Restore Your Smile
+                    Restore Your Smile with Permanent Teeth Replacement in Bayonne
                   </h2>
                   <p className="features-description">
-                    Don't let missing teeth hold you back. Schedule a consultation with Maple Dental Harrisburg and take the first step toward a confident, permanent smile.
+                    At Urban Dental & Braces, we make it possible to enjoy the confidence of a complete, healthy smile again. Whether you need a single implant, a bridge, or a full arch restoration, our team is here to provide lasting results.
                   </p>
                 </Fade>
               </div>

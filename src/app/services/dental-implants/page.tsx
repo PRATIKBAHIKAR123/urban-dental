@@ -8,46 +8,44 @@ import BookCallBtn from '../book-call-btn';
 import { CheckCircle } from 'lucide-react';
 import { generateServiceMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = generateServiceMetadata("dental-implants", "/Images/Dental Implants.webp");
+export const metadata: Metadata = generateServiceMetadata("dental-implants", "/Images/services/dental-implants.webp");
 
 export default function DentalImplantsPage() {
-    const features = [
+
+const features = [
   {
-    icon: "/Images/icons/implant.png",
-    title: "What Are Dental Implants?",
-    description: "Dental implants are titanium posts that replace missing tooth roots and provide a foundation for crowns, bridges, or dentures. Unlike removable options, implants are permanently anchored into your jawbone for unmatched stability and longevity",
+    icon: "/Images/icons/Immediate Pain Relief.png",
+    title: "Single Tooth Implants",
+    description: "If you're missing just one tooth, a single implant is the most effective way to replace it without affecting neighboring teeth. This permanent solution blends seamlessly with your natural smile.",
     points: [
-      "Long-lasting solution with proper care",
-      "Prevents bone loss and facial sagging",
-      "Restores chewing power and speech clarity",
-      "No slipping or adhesive needed",
+      "Restores full function and appearance of the missing tooth",
+      "Prevents shifting of surrounding teeth",
+      "Customized to match the shape and color of your natural teeth",
+      "Long-lasting stability with proper care"
     ]
   },
-    {
-    icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-    title: "Dental Implant Process at Maple Dental",
-    description:
-      "At Maple Dental Harrisburg, we believe in making your dental implant journey as smooth and stress-free as possible. Our comprehensive approach ensures each step is performed with precision, comfort, and your long-term oral health in mind. From your initial consultation to your final restoration, we’re with you every step of the way",
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Multiple Tooth Implants",
+    description: "When several teeth are missing, multiple implants provide a durable alternative to partial dentures. They improve comfort, chewing ability, and overall oral health.",
     points: [
-      "Digital 3D imaging for precise planning",
-      "Gentle surgical placement of the implant post",
-      "Healing period to allow the implant to fuse with the bone",
-      "Custom-made crown or bridge to complete your smile",
-      "Follow-up care to ensure long-term success"
-    ],
+      "Replaces multiple missing teeth with stable support",
+      "Prevents jawbone deterioration and facial sagging",
+      "Custom implant bridges designed for a natural look",
+      "Strong, long-term results compared to removable options"
+    ]
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Serving Harrisburg & Surrounding Communities",
-    description:
-      "Whether you're from Harrisburg (17110, 17109, 17111, 17112) or nearby areas like Colonial Park, Penbrook, Paxtang, Lawnton, Progress, or Linglestown—Maple Dental is your go-to provider for dental implants near you",
+    title: "Full Mouth Implants",
+    description: "For patients missing most or all of their teeth, full mouth implants can restore a complete smile with fewer implants and a permanent fixed bridge. This treatment offers maximum stability and a dramatic transformation.",
     points: [
-      "Conveniently located in Harrisburg, PA",
-      "Trusted by families across Central PA",
-      "Personalized care in a modern, friendly environment",
-      "Comprehensive implant solutions under one roof",
-    ],
-  },
+      "Replaces an entire arch of teeth with as few as 4–6 implants",
+      "Provides strong bite function similar to natural teeth",
+      "Fixed bridge eliminates the need for removable dentures",
+      "Restores confidence with a permanent, beautiful smile"
+    ]
+  }
 ];
     return (
         <div className='flex min-h-screen bg-gray-50'>
@@ -55,11 +53,11 @@ export default function DentalImplantsPage() {
                 <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Dental Implants in Harrisburg, PA</h1>
+                        <h1>Dental Implants in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Permanent Tooth Replacement in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                            Permanent Tooth Replacement in Bayonne | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -72,7 +70,7 @@ export default function DentalImplantsPage() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                src="/Images/Dental Implants.webp"
+                src="/Images/services/dental-implants.webp"
                 alt="Main Banner"
               />
             </div>
@@ -91,10 +89,10 @@ export default function DentalImplantsPage() {
           <div className='desc-text-subtitle'>Dental Implants</div>
           <h3 className='desc-text-title'>About Dental Implants</h3>
           <p>
-            Missing teeth can impact more than just your smile—they can affect your ability to chew, speak, and maintain jawbone health. At Maple Dental Harrisburg, we offer state-of-the-art dental implant solutions to help you restore both the function and appearance of your teeth with natural-looking, long-lasting results.
+            Missing teeth can affect how you eat, speak, and smile-but dental implants provide a permanent, natural-looking solution. At Urban Dental & Braces in Bayonne, our implant treatments replace both the root and crown of a tooth, restoring strength, function, and beauty. Unlike dentures or bridges, implants bond with your jawbone, preventing bone loss and keeping your facial structure intact.
           </p>
           <p>
-            Whether you’ve lost a single tooth or need multiple teeth replaced, dental implants offer a stable, permanent solution. We proudly serve patients in Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Penbrook (17103), Paxtang (17111), Progress (17109, 17111), Lawnton (17111), and Linglestown (17112)—so if you’re looking for dental implants near me, you’ve found your trusted local provider.
+            We proudly serve patients from Bayonne (07002), Greenville (07305), NJ and nearby communities. If you’ve been searching for “dental implants near me,” our team is here to give you lasting results and renewed confidence.
           </p>
         </Fade>
       </div>
@@ -103,26 +101,26 @@ export default function DentalImplantsPage() {
     
                 <div className='wcu-text-section'>
                   <Fade cascade direction="up" delay={1000} duration={600}>
-                    <div className='wcu-subtitle'>
+                    {/* <div className='wcu-subtitle'>
                       Top Reasons
-                    </div>
+                    </div> */}
                     <div className='wcu-title'>
-                      <h2>Why Choose Maple Dental for Dental Implants?</h2>
+                      <h2>Top Reasons to Choose Urban Dental & Braces for Dental Implants</h2>
                     </div>
                     <div className='wcu-points-section'>
                       <ul className='wcu-points'>
-                        <li><CheckCircle />Experienced Implant Dentists with Gentle Approach  </li>
-                        <li><CheckCircle />Advanced Digital Imaging & Precision Planning  </li>
-                        <li><CheckCircle /> Custom Implant Crowns for Natural Aesthetics  </li>
-                        <li><CheckCircle /> Convenient Location in Harrisburg, PA  </li>
-                        <li><CheckCircle /> Flexible Payment Plans & Insurance Options</li>
+                        <li><CheckCircle />Advanced Implant Technology</li>
+                        <li><CheckCircle />Personalized Treatment Plans</li>
+                        <li><CheckCircle /> Natural-Looking, Long-Lasting Results  </li>
+                        <li><CheckCircle /> Affordable Payment & Financing Options</li>
+                        <li><CheckCircle />Convenient Bayonne Location</li>
                       </ul>
                     </div>
                   </Fade>
                 </div>
                 <div className='wcu-img-section'>
                   <Zoom cascade damping={0.3} duration={800}>
-                    <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                    <img src="/Images/banners/about-us-1.webp" alt="dental" />
                   </Zoom>
                 </div>
     
@@ -130,10 +128,13 @@ export default function DentalImplantsPage() {
               <div className="features-section">
                           <Fade direction="up" duration={1000}>
                             <h2 className="features-heading">
-                              Reliable Tooth Replacement That Looks & Feels Natural
+                              Our Dental Implant Services
                             </h2>
                             <p className="features-description">
-                              At Maple Dental Harrisburg, we combine clinical expertise with advanced dental technology to deliver implant care that’s safe, predictable, and tailored to your needs. Whether you’re replacing one tooth or restoring your entire smile, our implants are designed to look, feel, and function like your natural teeth.
+                              At Urban Dental & Braces, we provide a range of implant options to restore your smile, whether you’re missing one tooth or an entire arch. Our team uses precision technology and modern techniques to ensure comfortable, reliable results that last for years.
+                            </p>
+                            <p className="features-description">
+                              Here’s how we help you replace missing teeth with dental implants:
                             </p>
                           </Fade>
               
@@ -157,52 +158,52 @@ export default function DentalImplantsPage() {
                           </div>
                         </div>
     <div className='faq-section'>
-                <h2 className='faq-heading'>Dental Implants Q&A</h2>
+                <h2 className='faq-heading'>Dental Implants FAQs</h2>
                 <div className="faq-acc-container">
                   <Accordion type="single" collapsible className="w-full space-y-6">
                     <AccordionItem value="q1" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Am I a candidate for dental implants?</h3>
+                        <h3 className='text-lg'>How long do dental implants last?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans ">
-                        Most adults in good health with sufficient jawbone are candidates for dental implants. During your consultation, we’ll assess your oral and overall health to determine the best treatment for you.
+                        With proper care, dental implants can last 20 years or more-many patients keep them for a lifetime.
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q2" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>How long do dental implants last?</h3>
+                        <h3 className='text-lg'>Are dental implants painful?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p className="mt-2">
-                        Dental implants can last 20+ years or even a lifetime with proper oral hygiene and regular dental check-ups. They’re one of the most durable tooth replacement options available.
+                        Implant procedures are performed with advanced anesthesia for maximum comfort. Most patients report minimal discomfort and a smooth recovery.
                         
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q3" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Are dental implants painful?</h3>
+                        <h3 className='text-lg'>Can anyone get dental implants?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p>
-                          Implant placement is done under local anesthesia or sedation to ensure your comfort. Most patients report minimal discomfort, similar to having a filling or tooth extraction.
+                          Most healthy adults are good candidates for implants, but bone density and gum health are important factors. Our team provides evaluations to determine the best plan for you.
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q5" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>What if I’m missing multiple teeth?</h3>
+                        <h3 className='text-lg'>How do implants compare to dentures?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">We offer implant-supported bridges and full-arch implant dentures for patients missing several or all of their teeth. These options provide greater stability and a more natural feel than traditional dentures.</p>
+                        <p className="mt-2">Unlike dentures, implants are fixed, stable, and prevent bone loss. They feel and function like natural teeth.</p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q6" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>How much do dental implants cost?</h3>
+                        <h3 className='text-lg'>Does insurance cover dental implants?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">Costs can vary depending on the number of implants and complexity of treatment. We offer transparent pricing, accept most dental insurance, and have financing options to fit your budget.</p>
+                        <p className="mt-2">Most insurance plans do not fully cover implants, but Urban Dental & Braces offers financing and flexible payment options to make treatment affordable.</p>
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>
@@ -211,10 +212,10 @@ export default function DentalImplantsPage() {
               <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Restore Your Smile with Dental Implants in Harrisburg
+                                  Considering Dental Implants in Bayonne?
                                 </h2>
                                 <p className="features-description">
-                                  Don’t let missing teeth hold you back. Dental implants at Maple Dental Harrisburg offer a long-term solution for a confident, fully functional smile. Call us today at 717-745-2700 to schedule your consultation—we’re here to help patients across Harrisburg, Colonial Park, Penbrook, and surrounding communities smile with confidence again.
+                                  At Urban Dental & Braces, we’re here to restore your smile with permanent, natural-looking dental implants. Whether you’re missing one tooth or need a complete smile makeover, our team provides expert care and long-lasting results.
                                 </p>
                               </Fade>
                             </div>
