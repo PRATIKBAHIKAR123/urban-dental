@@ -10,45 +10,40 @@ import BookCallBtn from '../book-call-btn';
 import { CheckCircle } from 'lucide-react';
 
 export default function SameDayPage() {
-    const features = [
+const features = [
   {
     icon: "/Images/icons/Immediate Pain Relief.png",
-    title: "Common Same-Day Dental Treatments",
-    description: "Life moves fast, and so should your dental care. At Maple Dental Harrisburg, we offer a variety of treatments that can often be completed in just one visit-saving you time without compromising quality.",
+    title: "Same Day Crowns & Restorations",
+    description: "Traditional crowns require multiple visits and temporary restorations, but our advanced technology allows us to create and place permanent crowns in a single appointment. No more waiting weeks with uncomfortable temporaries or scheduling multiple visits.",
     points: [
-      "One-visit dental crowns (CEREC)",
-      "Tooth-colored fillings for cavities",
-      "Emergency tooth extractions",
-      "Root canal therapy to relieve infection",
-      "Dental bonding to fix chips, cracks, or gaps"
+      "Digital impressions eliminate messy traditional molds",
+      "In-office crown fabrication using CAD/CAM technology",
+      "Precise fit and natural appearance in just one visit",
+      "Immediate functionality with no temporary crown period"
     ]
   },
-    {
-    icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-    title: "Technology That Makes It Possible",
-    description:
-      "Modern dental technology allows us to deliver faster, more accurate treatment with less discomfort and fewer appointments. Our advanced systems streamline diagnostics and restorations-so you can get back to your life with a fully restored smile, often within hours.",
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Emergency Same Day Treatments",
+    description: "Dental emergencies don't follow your schedule, but our same day approach ensures you get the care you need immediately. From severe pain to broken teeth, we provide comprehensive emergency treatments without the wait.",
     points: [
-      "CEREC same-day crown system for durable restorations",
-      "In-house digital imaging for real-time diagnostics",
-      "3D digital scans for precision-fitted treatments",
-      "On-site milling unit eliminates the need for temporary crowns",
-      "Minimally invasive tools reduce chair time and recovery"
-    ],
+      "Urgent pain relief and infection treatment",
+      "Immediate repair of broken or damaged teeth",
+      "Same-day root canal therapy when needed",
+      "Quick replacement of lost fillings or crowns"
+    ]
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Trusted by Families Across Harrisburg",
-    description:
-      "Our same-day dental care is trusted by busy individuals and families alike. Whether you're coming from downtown Harrisburg, Colonial Park, or Lawnton, we offer high-quality care that fits your schedule. With compassionate staff and efficient systems, we make dental visits stress-free and fast.",
+    title: "Cosmetic Improvements in One Visit",
+    description: "Transform your smile with cosmetic treatments that can be completed the same day you decide to enhance your appearance. Our efficient processes mean you can walk in with concerns and leave with confidence.",
     points: [
-      "Convenient appointment slots, including evenings",
-      "Emergency dental visits accepted the same day",
-      "Prompt service with little to no wait time",
-      "High-quality, lasting restorations on your first visit",
-      "Local dentist near you serving Harrisburg and nearby communities"
-    ],
-  },
+      "Same-day veneers and bonding procedures",
+      "Immediate whitening treatments with lasting results",
+      "Quick smile makeovers for special occasions",
+      "Instant correction of minor imperfections"
+    ]
+  }
 ];
     return (
         <div className='flex min-h-screen bg-gray-50'>
@@ -56,11 +51,11 @@ export default function SameDayPage() {
                 <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Same-Day Dental Care Services in Harrisburg, PA</h1>
+                        <h1>Same Day Dentistry in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Fast & Convenient Dental Services in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                             Convenient Same Day Dentistry in Bayonne | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -73,7 +68,7 @@ export default function SameDayPage() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                src="/Images/Same-day Dentistry.webp"
+                src="/Images/services/same-day-dentistry.webp"
                 alt="Main Banner"
               />
             </div>
@@ -90,12 +85,12 @@ export default function SameDayPage() {
       <div className='desc-text-section'>
         <Fade cascade direction="up" delay={1000} duration={600}>
           <div className='desc-text-subtitle'>Same-Day Dentistry</div>
-          <h3 className='desc-text-title'>About Same-Day Dentistry</h3>
+          <h3 className='desc-text-title'>About Same Day Dentistry</h3>
           <p>
-            Life gets busy-but your dental care doesn’t have to wait. At Maple Dental Harrisburg, we offer same-day dentistry solutions designed for your schedule. Whether it’s a dental emergency, a broken crown, or an unexpected cavity, we provide fast and effective treatment-all in one visit.
+            Same day dentistry revolutionizes traditional dental care by allowing you to complete treatments in a single visit - whether it's getting a crown, filling, or addressing urgent dental needs without multiple appointments. At Urban Dental & Braces, your trusted dentist in Bayonne, we utilize advanced technology and streamlined processes to provide comprehensive dental treatments that fit your busy schedule. Our modern equipment and skilled team make it possible to design, create, and place restorations on the same day, saving you time while delivering exceptional results.
           </p>
           <p>
-            We proudly serve the communities of Harrisburg (17110, 17109, 17111, 17112), Colonial Park (17109), Penbrook (17103), Paxtang (17111), Lawnton (17111), Progress (17109, 17111), and Linglestown (17112). If you’re looking for a “same-day dentist near me,” we’re right around the corner.
+            We proudly serve patients from Bayonne (07002), Greenville, NJ (07305), and nearby communities. If you're searching for "same day dentist near me" or need immediate dental care, our innovative approach ensures you leave with a complete, beautiful smile in just one visit.
           </p>
         </Fade>
       </div>
@@ -104,26 +99,26 @@ export default function SameDayPage() {
     
                 <div className='wcu-text-section'>
                   <Fade cascade direction="up" delay={1000} duration={600}>
-                    <div className='wcu-subtitle'>
+                    {/* <div className='wcu-subtitle'>
                       Top Reasons
-                    </div>
+                    </div> */}
                     <div className='wcu-title'>
-                      <h2>Why Choose Maple Dental for Same-Day Dentistry?</h2>
+                      <h2>Top Reasons to Choose Urban Dental & Braces for Same Day Dentistry</h2>
                     </div>
                     <div className='wcu-points-section'>
                       <ul className='wcu-points'>
-                        <li><CheckCircle />One-Visit Crowns, Fillings & Repairs  </li>
-                        <li><CheckCircle />Emergency Walk-In Dental Appointments  </li>
-                        <li><CheckCircle /> Modern Technology for Faster Treatment  </li>
-                        <li><CheckCircle /> Convenient Harrisburg Location  </li>
-                        <li><CheckCircle /> Insurance-Friendly + Flexible Payments</li>
+                        <li><CheckCircle />Single-Visit Treatment Completion  </li>
+                        <li><CheckCircle />Advanced Digital Technology </li>
+                        <li><CheckCircle />Flexible Same-Day Scheduling  </li>
+                        <li><CheckCircle />Time-Saving Convenience </li>
+                        <li><CheckCircle />Convenient Bayonne Location</li>
                       </ul>
                     </div>
                   </Fade>
                 </div>
                 <div className='wcu-img-section'>
                   <Zoom cascade damping={0.3} duration={800}>
-                    <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                    <img src="/Images/banners/about-us-1.webp" alt="dental" />
                   </Zoom>
                 </div>
     
@@ -131,10 +126,13 @@ export default function SameDayPage() {
               <div className="features-section">
                           <Fade direction="up" duration={1000}>
                             <h2 className="features-heading">
-                              Fast, Effective Dental Care-All in One Visit
+                              Our Same Day Dentistry Services
                             </h2>
                             <p className="features-description">
-                              Same-day dentistry is about more than speed-it’s about quality care that fits into your life. We use advanced tools and in-house technology to provide fast solutions without compromising results.
+                              At Urban Dental & Braces, we understand that your time is valuable and dental problems can't always wait for multiple appointments. That's why our team, your go-to same -day dentist in Bayonne, has invested in cutting-edge technology and efficient treatment protocols that allow us to provide comprehensive dental care in a single visit. Whether you need restorative work, emergency treatment, or cosmetic improvements, we're equipped to deliver outstanding results while respecting your busy lifestyle. 
+                            </p>
+                            <p className="features-description">
+                              Here's how we transform your smile in just one appointment:
                             </p>
                           </Fade>
               
@@ -158,52 +156,52 @@ export default function SameDayPage() {
                           </div>
                         </div>
     <div className='faq-section'>
-                <h2 className='faq-heading'>Same-Day Dentistry Q&A</h2>
+                <h2 className='faq-heading'>Same Day Dentistry FAQs</h2>
                 <div className="faq-acc-container">
                   <Accordion type="single" collapsible className="w-full space-y-6">
                     <AccordionItem value="q1" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>What is same-day dentistry?</h3>
+                        <h3 className='text-lg'>What treatments can be completed in one day?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans ">
-                        It’s a service model that allows you to receive certain dental treatments, like crowns or fillings, in a single appointment.
+                        We can perform crowns, fillings, bonding, veneers, extractions, root canals, emergency treatments, and many cosmetic procedures in a single visit using our advanced technology and streamlined processes.
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q2" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Are same-day crowns as durable as traditional ones?</h3>
+                        <h3 className='text-lg'>How is same day treatment different from traditional dentistry?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p className="mt-2">
-                        Yes. Our in-house crowns are crafted with high-quality materials and designed to last.
+                        Same day dentistry uses digital technology, in-office fabrication, and efficient scheduling to complete treatments that traditionally require multiple appointments, saving you time while maintaining quality.
                         
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q3" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Can I walk in for same-day dental care?</h3>
+                        <h3 className='text-lg'>Are same day restorations as durable as traditional ones?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p>
-                          Absolutely-emergency and walk-in appointments are available during clinic hours.
+                          Yes, same day restorations are made from high-quality materials and are just as durable as traditional restorations.
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q5" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>How do I know if my treatment can be done in one visit?</h3>
+                        <h3 className='text-lg'>Can I schedule same day treatment for non-emergency issues?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">Our team will assess your needs and recommend the best plan based on urgency and procedure type.</p>
+                        <p className="mt-2">Absolutely! We offer same day scheduling for both emergency and non-emergency treatments.</p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q6" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Does same-day treatment cost more?</h3>   
+                        <h3 className='text-lg'>Does insurance cover same day dental procedures?</h3>   
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">No-our pricing is competitive, and we accept most insurance plans.</p>
+                        <p className="mt-2">We accept most insurance plans, including Medicaid, and will help verify your coverage and benefits.</p>
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>
@@ -212,10 +210,10 @@ export default function SameDayPage() {
               <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Book Your Same-Day Dental Visit at Maple Dental Harrisburg
+                                  Need Same Day Dentistry in Bayonne?
                                 </h2>
                                 <p className="features-description">
-                                  Need fast dental care? Call Maple Dental Harrisburg today to schedule a same-day appointment. We’re here to get you smiling again-without the wait.
+                                  At Urban Dental & Braces, we make quality dental care convenient and efficient. Whether you have a dental emergency or simply want to complete your treatment in one visit, our “same day dentist near me” services are designed to fit your lifestyle and deliver exceptional results.
                                 </p>
                               </Fade>
                             </div>

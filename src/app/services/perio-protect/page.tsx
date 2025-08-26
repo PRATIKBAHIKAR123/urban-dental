@@ -10,45 +10,40 @@ import BookCallBtn from '../book-call-btn';
 import { CheckCircle } from 'lucide-react';
 
 export default function PerioProtectPage() {
-    const features = [
+const features = [
   {
     icon: "/Images/icons/Immediate Pain Relief.png",
-    title: "What to Expect with Treatment",
-    description: "Perio Protect is designed to fit easily into your daily routine. Treatment is personalized to your specific needs and adjusted as your gum health improves.",
+    title: "Customized Perio Protect Trays",
+    description: "The treatment starts with the creation of custom-fit trays designed specifically for your mouth. These trays are comfortable and allow medication to reach deep below the gumline where toothbrushes and floss can't.",
     points: [
-      "Digital impressions to create custom-fit trays",
-      "Daily wear time as short as 10–15 minutes",
-      "Medication targets bacteria where brushing can't",
-      "No injections, drills, or surgery needed",
-      "Periodic checkups to monitor gum health"
+      "Precision-fit trays tailored to your smile",
+      "Deliver medication directly to infected gum tissue",
+      "Easy to use at home as part of your daily routine",
+      "Enhances results of professional cleanings"
     ]
   },
-    {
-    icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-    title: "Is It Right for You?",
-    description:
-      "Perio Protect is ideal for patients with early to moderate periodontal disease who want to avoid surgery. It’s also effective for maintenance after deep cleanings or to reduce pocket depth and inflammation in ongoing care.",
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Non-Surgical Gum Disease Therapy",
+    description: "For many patients, Perio Protect can reduce or even eliminate the need for invasive gum surgery. This treatment targets harmful bacteria without discomfort or downtime.",
     points: [
-      "Ideal for patients with gum inflammation or infection",
-      "Helpful for those who struggle with flossing",
-      "A gentle option for patients with sensitive gums",
-      "Safe for long-term use",
-      "Encourages healthier gums and fresher breath"
-    ],
+      "Effective alternative to traditional surgery",
+      "Reduces pocket depths and bleeding gums",
+      "Promotes natural healing and gum reattachment",
+      "Comfortable, stress-free treatment process"
+    ]
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Why Harrisburg Patients Choose Maple Dental",
-    description:
-      "Patients across Harrisburg and surrounding communities trust us to offer effective, modern solutions like Perio Protect. We combine personalized care with advanced technology to help you preserve your smile and avoid complications from gum disease.",
+    title: "Whole-Body Health Benefits",
+    description: "Treating gum disease isn't just about saving your smile-it also plays a vital role in protecting your overall health. Bacteria from untreated gum disease have been linked to conditions like heart disease and diabetes.",
     points: [
-      "Experienced in periodontal care and preventive dentistry",
-      "Comfortable and judgment-free environment",
-      "Trusted by families in Colonial Park, Lawnton & Progress",
-      "Flexible appointment scheduling & convenient location",
-      "Focused on helping you maintain a healthy, confident smile"
-    ],
-  },
+      "Helps lower risk of systemic health issues",
+      "Improves oral health and freshens breath",
+      "Supports long-term tooth retention",
+      "Boosts confidence with a healthier smile"
+    ]
+  }
 ];
     return (
         <div className='flex min-h-screen bg-gray-50'>
@@ -56,11 +51,11 @@ export default function PerioProtectPage() {
                 <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Perio Protect Gum Treatment in Harrisburg, PA</h1>
+                        <h1>Perio Protect in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Non-Surgical Periodontal Therapy in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                            Advanced Gum Disease Treatment | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -73,7 +68,7 @@ export default function PerioProtectPage() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                src="/Images/Perio Protect Image.webp"
+                src="/Images/services/perio-protect.webp"
                 alt="Main Banner"
               />
             </div>
@@ -92,10 +87,10 @@ export default function PerioProtectPage() {
           <div className='desc-text-subtitle'>Perio Protect</div>
           <h3 className='desc-text-title'>About Perio Protect</h3>
           <p>
-            Perio Protect is a comfortable, non-invasive treatment option for patients with mild to moderate gum disease (periodontitis). This FDA-cleared system uses custom trays to deliver medication deep below the gumline-where brushing and flossing can’t reach. It helps reduce bacteria, inflammation, and bleeding gums without surgery or discomfort.
+            Perio Protect is a revolutionary, non-surgical treatment designed to combat gum disease (periodontitis) comfortably and effectively. Instead of relying solely on deep cleanings or invasive procedures, Perio Protect uses customized trays that deliver antibacterial medication directly to the source of infection-beneath the gums. At Urban Dental & Braces in Bayonne, we specialize in modern periodontal solutions that not only stop disease progression but also help preserve your natural smile.
           </p>
           <p>
-            At Maple Dental Harrisburg, we recommend Perio Protect for patients in Harrisburg (17110, 17109, 17111, 17112), Colonial Park, Lawnton, Penbrook, and nearby areas looking for a gentle yet effective way to protect their gums and overall health.
+            If you’re searching for a dentist in Bayonne or typing perio protect near me for gum health solutions, our team is here to help. We proudly serve patients from Bayonne (07002), Greenville, NJ (07305), and surrounding communities.
           </p>
         </Fade>
       </div>
@@ -104,26 +99,26 @@ export default function PerioProtectPage() {
     
                 <div className='wcu-text-section'>
                   <Fade cascade direction="up" delay={1000} duration={600}>
-                    <div className='wcu-subtitle'>
+                    {/* <div className='wcu-subtitle'>
                       Top Reasons
-                    </div>
+                    </div> */}
                     <div className='wcu-title'>
-                      <h2>Benefits of Perio Protect at Maple Dental</h2>
+                      <h2>Top Reasons to Choose Urban Dental & Braces for Perio Protect</h2>
                     </div>
                     <div className='wcu-points-section'>
                       <ul className='wcu-points'>
-                        <li><CheckCircle />Non-surgical treatment for gum disease  </li>
-                        <li><CheckCircle />Easy at-home application with comfortable custom trays</li>
-                        <li><CheckCircle />Helps reduce bleeding, swelling, and bad breath</li>
-                        <li><CheckCircle />Complements regular cleanings and deep cleanings</li>
-                        <li><CheckCircle />Improves gum health and supports long-term oral health</li>
+                        <li><CheckCircle />Customized Perio Trays </li>
+                        <li><CheckCircle />Non-Surgical Gum Disease Therapy</li>
+                        <li><CheckCircle />Improved Oral & Overall Health</li>
+                        <li><CheckCircle />Gentle, Comfortable Approach</li>
+                        <li><CheckCircle />Convenient Location in Bayonne</li>
                       </ul>
                     </div>
                   </Fade>
                 </div>
                 <div className='wcu-img-section'>
                   <Zoom cascade damping={0.3} duration={800}>
-                    <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                    <img src="/Images/banners/about-us-1.webp" alt="dental" />
                   </Zoom>
                 </div>
     
@@ -131,11 +126,14 @@ export default function PerioProtectPage() {
               <div className="features-section">
                           <Fade direction="up" duration={1000}>
                             <h2 className="features-heading">
-                              How Perio Protect Works?
+                              Our Perio Protect Services
                             </h2>
                             <p className="features-description">
-                              Perio Protect works by delivering a powerful hydrogen peroxide-based medication directly under the gums using a snug-fitting tray. This eliminates harmful bacteria and promotes healing without the need for painful scaling or surgical procedures. You wear the tray for just minutes each day at home, as instructed by your dentist.
+                              At Urban Dental & Braces, we understand that gum disease is one of the most common yet overlooked oral health issues. With Perio Protect in Bayonne, we provide patients with an easy and effective way to fight infection at home while supporting in-office periodontal care.
                             </p>
+                            <p className="features-description">
+                              Here’s how Perio Protect helps restore your gum health:
+                              </p>
                           </Fade>
               
                           <div className="features-grid">
@@ -158,52 +156,52 @@ export default function PerioProtectPage() {
                           </div>
                         </div>
     <div className='faq-section'>
-                <h2 className='faq-heading'>Perio Protect Q&A</h2>
+                <h2 className='faq-heading'>Perio Protect FAQs</h2>
                 <div className="faq-acc-container">
                   <Accordion type="single" collapsible className="w-full space-y-6">
                     <AccordionItem value="q1" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Is Perio Protect a replacement for dental cleanings?</h3>
+                        <h3 className='text-lg'>What is Perio Protect?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans ">
-                        No, it's a supplemental therapy that enhances your results between professional cleanings or deep cleanings.
+                        Perio Protect is a non-invasive gum disease treatment that uses custom trays to deliver medication directly below the gumline, fighting infection at its source.
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q2" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Does it hurt to use Perio Protect trays?</h3>
+                        <h3 className='text-lg'>How often do I need to use the trays?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p className="mt-2">
-                        Not at all. The trays are custom-made for comfort and the medication is gentle on your gums.
+                        Most patients wear their trays for just a few minutes each day, as directed by their dentist. Your treatment plan will be customized based on your gum health.
                         
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q3" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>How long do I need to wear the trays?</h3>
+                        <h3 className='text-lg'>Is Perio Protect painful?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p>
-                          Usually 10–15 minutes daily, but this can vary based on your dentist’s recommendation.
+                          No, Perio Protect is completely painless. The trays are soft, comfortable, and easy to use at home.
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q5" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Can I use Perio Protect if I already had gum surgery?</h3>
+                        <h3 className='text-lg'>Can Perio Protect replace professional cleanings?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">Yes, it can help maintain your results and reduce the need for additional procedures.</p>
+                        <p className="mt-2">No. Perio Protect works best alongside professional dental cleanings. It’s designed to enhance your in-office care and help control bacteria between visits.</p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q6" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Is Perio Protect covered by insurance?</h3> 
+                        <h3 className='text-lg'>Does insurance cover Perio Protect?</h3> 
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">Coverage varies. We’ll check with your provider and offer flexible payment options if needed.</p>
+                        <p className="mt-2">Some insurance plans may cover part of the treatment. Our team at Urban Dental & Braces will help you explore your coverage and provide flexible payment options if needed.</p>
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>
@@ -212,10 +210,10 @@ export default function PerioProtectPage() {
               <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Protect Your Gums the Comfortable Way
+                                  Need Perio Protect in Bayonne?
                                 </h2>
                                 <p className="features-description">
-                                  Don’t let gum disease progress. With Perio Protect at Maple Dental Harrisburg, you can treat and manage gum disease without surgery, pain, or stress. Contact us today to schedule your consultation and learn how Perio Protect can restore your gum health naturally.
+                                  At Urban Dental & Braces, we believe healthy gums are the foundation of a beautiful smile. If you’re struggling with gum disease or want to prevent its progression, our Perio Protect treatment offers a gentle, effective solution. Contact us today to schedule a consultation and take the first step toward restoring your gum health.
                                 </p>
                               </Fade>
                             </div>

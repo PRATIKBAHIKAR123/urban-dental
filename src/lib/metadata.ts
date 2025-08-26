@@ -49,9 +49,9 @@ export const metadataConfig = {
       keywords: "dental crowns bayonne nj, dental bridges bayonne, crown and bridge bayonne, restorative dentistry bayonne, tooth restoration bayonne",
     },
     "wisdom-teeth": {
-      title: "Wisdom Teeth Removal in Harrisburg, PA | Maple Dental | Cosmetic & Family Dentistry",
-      description: "Gentle wisdom teeth removal near you in Harrisburg, PA. Maple Dental offers safe extractions for teens and adults in Lawnton, Penbrook, Colonial Park, and surrounding areas.",
-      keywords: "wisdom teeth removal harrisburg pa, wisdom tooth extraction harrisburg, oral surgery harrisburg, tooth extraction harrisburg, dental surgery harrisburg",
+      title: "Wisdom Teeth Treatment in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Expert wisdom teeth removal and care in Bayonne, NJ. Urban Dental & Braces offers safe, comfortable extractions and pain management. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+      keywords: "wisdom teeth removal bayonne nj, wisdom tooth extraction bayonne, oral surgery bayonne, tooth extraction bayonne, dental surgery bayonne",
     },
     "kids-&-children-dentistry": {
       title: "Kids & Children’s Dentistry in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
@@ -69,14 +69,14 @@ export const metadataConfig = {
       keywords: "dental fillings bayonne nj, tooth fillings bayonne, cavity fillings bayonne, composite fillings bayonne, dental restoration bayonne",
     },
     "endodontics": {
-      title: "Endodontics Treatment in Harrisburg, PA | Maple Dental | Cosmetic & Family Dentistry",
-      description: "Expert endodontic care near you in Harrisburg, PA. Maple Dental offers gentle root canal treatments and pain relief for patients in Colonial Park, Penbrook, Lawnton, and nearby areas.",
-      keywords: "endodontics harrisburg pa, root canal specialist harrisburg, endodontist harrisburg, root canal therapy harrisburg, endodontic treatment harrisburg",
+      title: "Endodontics in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Expert endodontic treatments and root canal therapy in Bayonne, NJ. Urban Dental & Braces provides advanced pain-free root canals and pulp therapy. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+      keywords: "endodontics bayonne nj, root canal specialist bayonne, endodontist bayonne, root canal therapy bayonne, endodontic treatment bayonne",
     },
     "halitosis": {
-      title: "Halitosis Treatment in Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Struggling with bad breath? Get expert halitosis treatment in Harrisburg, PA at Maple Dental. We help patients in Colonial Park, Lawnton, and nearby areas breathe fresher.",
-      keywords: "halitosis treatment harrisburg pa, bad breath treatment harrisburg, chronic bad breath harrisburg, halitosis cure harrisburg, fresh breath harrisburg",
+      title: "Halitosis Treatment in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Professional halitosis (bad breath) treatment in Bayonne, NJ. Urban Dental & Braces offers personalized solutions to freshen breath and improve oral health. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+      keywords: "halitosis treatment bayonne nj, bad breath treatment bayonne, chronic bad breath bayonne, halitosis cure bayonne, fresh breath bayonne",
     },
     "oral-surgery": {
       title: "Oral Surgery in Harrisburg, PA | Maple Dental | Cosmetic & Family Dentistry",
@@ -84,14 +84,14 @@ export const metadataConfig = {
       keywords: "oral surgery harrisburg pa, dental surgery harrisburg, oral surgeon harrisburg, wisdom teeth removal harrisburg, dental implants harrisburg",
     },
     "painless-treatment": {
-      title: "Painless Dentistry in Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Experience gentle, pain-free dental care in Harrisburg, PA at Maple Dental. We use advanced technology and comfort techniques for stress-free visits near Colonial Park, Lawnton, and beyond.",
-      keywords: "painless dental treatment harrisburg pa, comfortable dentistry harrisburg, anxiety-free dental care harrisburg, gentle dentist harrisburg, sedation dentistry harrisburg",
+      title: "Painless Dental Treatment in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Experience gentle, stress-free dental care with Urban Dental & Braces in Bayonne, NJ. We provide advanced painless treatments, including fillings, root canals, extractions, and cosmetic dentistry. Serving Bayonne (07002), Greenville (07305), NJ and nearby communities.",
+      keywords: "painless dental treatment bayonne nj, comfortable dentistry bayonne, anxiety-free dental care bayonne, gentle dentist bayonne, sedation dentistry bayonne",
     },
     "perio-protect": {
-      title: "Perio Protect in Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Treat gum disease comfortably with Perio Protect in Harrisburg, PA at Maple Dental. A non-invasive solution for bleeding gums and gum infections near Colonial Park, Lawnton, and beyond.",
-      keywords: "perio protect harrisburg pa, gum disease treatment harrisburg, periodontal treatment harrisburg, gum health harrisburg, perio protect therapy harrisburg",
+      title: "Perio Protect in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Advanced Perio Protect treatment in Bayonne, NJ for gum disease management. Urban Dental & Braces provides non-surgical periodontal care with custom trays. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+      keywords: "perio protect bayonne nj, gum disease treatment bayonne, periodontal treatment bayonne, gum health bayonne, perio protect therapy bayonne",
     },
     "permanent-teeth-replacement": {
       title: "Permanent Teeth Replacement in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
@@ -99,9 +99,9 @@ export const metadataConfig = {
       keywords: "permanent teeth replacement bayonne nj, dental implants bayonne, tooth replacement bayonne, missing teeth bayonne, dental restoration bayonne",
     },
     "same-day-dentistry": {
-      title: "Same-Day Dentistry in Harrisburg, PA | Maple Dental | Cosmetic & Family Dentistry",
-      description: "Quick and reliable same-day dental care in Harrisburg, PA. Maple Dental offers crowns, fillings, and emergency treatments for patients in Colonial Park, Penbrook, Lawnton, and nearby.",
-      keywords: "same day dentistry harrisburg pa, quick dental care harrisburg, same day crowns harrisburg, immediate dental treatment harrisburg, fast dental care harrisburg",
+      title: "Same Day Dentistry in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Get dental treatments completed in a single visit with same day dentistry in Bayonne, NJ. Urban Dental & Braces offers same-day crowns, fillings, and emergency care. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+      keywords: "same day dentistry bayonne nj, quick dental care bayonne, same day crowns bayonne, immediate dental treatment bayonne, fast dental care bayonne",
     },
     "sports-dentistry": {
       title: "Sports Dentistry in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
@@ -184,35 +184,35 @@ export const metadataConfig = {
       description: "Restore your smile with permanent teeth replacement at Urban Dental & Braces in Bayonne, NJ. We offer dental implants, bridges, and full arch solutions. Serving Bayonne (07002), Greenville, NJ (07305), and nearby areas.",
       keywords: "permanent teeth replacement bayonne nj, dental implants bayonne, tooth replacement bayonne, missing teeth bayonne, dental restoration bayonne",
     },
-    "wisdom-teeth-harrisburg-pa": {
-      title: "Wisdom Teeth Removal in Harrisburg, PA | Maple Dental | Cosmetic & Family Dentistry",
-      description: "Gentle wisdom teeth removal near you in Harrisburg, PA. Maple Dental offers safe extractions for teens and adults in Lawnton, Penbrook, Colonial Park, and surrounding areas.",
-      keywords: "wisdom teeth removal harrisburg pa, wisdom tooth extraction harrisburg, oral surgery harrisburg, tooth extraction harrisburg, dental surgery harrisburg",
+    "wisdom-teeth-bayonne-nj": {
+      title: "Wisdom Teeth Treatment in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Expert wisdom teeth removal and care in Bayonne, NJ. Urban Dental & Braces offers safe, comfortable extractions and pain management. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+      keywords: "wisdom teeth removal bayonne nj, wisdom tooth extraction bayonne, oral surgery bayonne, tooth extraction bayonne, dental surgery bayonne",
     },
-    "endodontics-harrisburg-pa": {
-      title: "Endodontics Treatment in Harrisburg, PA | Maple Dental | Cosmetic & Family Dentistry",
-      description: "Expert endodontic care near you in Harrisburg, PA. Maple Dental offers gentle root canal treatments and pain relief for patients in Colonial Park, Penbrook, Lawnton, and nearby areas.",
-      keywords: "endodontics harrisburg pa, root canal specialist harrisburg, endodontist harrisburg, root canal therapy harrisburg, endodontic treatment harrisburg",
+    "endodontics-bayonne-nj": {
+      title: "Endodontics in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Expert endodontic treatments and root canal therapy in Bayonne, NJ. Urban Dental & Braces provides advanced pain-free root canals and pulp therapy. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+      keywords: "endodontics bayonne nj, root canal specialist bayonne, endodontist bayonne, root canal therapy bayonne, endodontic treatment bayonne",
     },
-    "same-day-dentistry-harrisburg-pa": {
-      title: "Same-Day Dentistry in Harrisburg, PA | Maple Dental | Cosmetic & Family Dentistry",
-      description: "Quick and reliable same-day dental care in Harrisburg, PA. Maple Dental offers crowns, fillings, and emergency treatments for patients in Colonial Park, Penbrook, Lawnton, and nearby.",
-      keywords: "same day dentistry harrisburg pa, quick dental care harrisburg, same day crowns harrisburg, immediate dental treatment harrisburg, fast dental care harrisburg",
+    "same-day-dentistry-bayonne-nj": {
+      title: "Same Day Dentistry in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Get dental treatments completed in a single visit with same day dentistry in Bayonne, NJ. Urban Dental & Braces offers same-day crowns, fillings, and emergency care. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+      keywords: "same day dentistry bayonne nj, quick dental care bayonne, same day crowns bayonne, immediate dental treatment bayonne, fast dental care bayonne",
     },
-    "painless-treatment-harrisburg-pa": {
-      title: "Painless Dentistry in Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Experience gentle, pain-free dental care in Harrisburg, PA at Maple Dental. We use advanced technology and comfort techniques for stress-free visits near Colonial Park, Lawnton, and beyond.",
-      keywords: "painless dental treatment harrisburg pa, comfortable dentistry harrisburg, anxiety-free dental care harrisburg, gentle dentist harrisburg, sedation dentistry harrisburg",
+    "painless-treatment-bayonne-nj": {
+      title: "Painless Dental Treatment in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Experience gentle, stress-free dental care with Urban Dental & Braces in Bayonne, NJ. We provide advanced painless treatments, including fillings, root canals, extractions, and cosmetic dentistry. Serving Bayonne (07002), Greenville (07305), NJ and nearby communities.",
+      keywords: "painless dental treatment bayonne nj, comfortable dentistry bayonne, anxiety-free dental care bayonne, gentle dentist bayonne, sedation dentistry bayonne",
     },
-    "perio-protect-harrisburg-pa": {
-      title: "Perio Protect in Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Treat gum disease comfortably with Perio Protect in Harrisburg, PA at Maple Dental. A non-invasive solution for bleeding gums and gum infections near Colonial Park, Lawnton, and beyond.",
-      keywords: "perio protect harrisburg pa, gum disease treatment harrisburg, periodontal treatment harrisburg, gum health harrisburg, perio protect therapy harrisburg",
+    "perio-protect-bayonne-nj": {
+      title: "Perio Protect in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Advanced Perio Protect treatment in Bayonne, NJ for gum disease management. Urban Dental & Braces provides non-surgical periodontal care with custom trays. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+      keywords: "perio protect bayonne nj, gum disease treatment bayonne, periodontal treatment bayonne, gum health bayonne, perio protect therapy bayonne",
     },
-    "halitosis-harrisburg-pa": {
-      title: "Halitosis Treatment in Harrisburg, PA | Maple Dental | Family & Cosmetic Dentistry",
-      description: "Struggling with bad breath? Get expert halitosis treatment in Harrisburg, PA at Maple Dental. We help patients in Colonial Park, Lawnton, and nearby areas breathe fresher.",
-      keywords: "halitosis treatment harrisburg pa, bad breath treatment harrisburg, chronic bad breath harrisburg, halitosis cure harrisburg, fresh breath harrisburg",
+    "halitosis-bayonne-nj": {
+      title: "Halitosis Treatment in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      description: "Professional halitosis (bad breath) treatment in Bayonne, NJ. Urban Dental & Braces offers personalized solutions to freshen breath and improve oral health. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+      keywords: "halitosis treatment bayonne nj, bad breath treatment bayonne, chronic bad breath bayonne, halitosis cure bayonne, fresh breath bayonne",
     },
     "sports-dentistry-bayonne-nj": {
       title: "Sports Dentistry in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
@@ -278,7 +278,7 @@ export const metadataConfig = {
       description: "Brighten your smile with Maple Dental's $299 professional teeth whitening offer in Harrisburg, PA. Serving Colonial Park, Penbrook, Lawnton, and nearby. No hidden fees—just real results.",
       keywords: "dental offers harrisburg pa, dental specials harrisburg, new patient specials harrisburg, dental discounts harrisburg, harrisburg dental promotions",
     },
-    "teeth-whitening-offer-harrisburg-pa": {
+    "teeth-whitening-offer-bayonne-nj": {
       title: "$299 Teeth Whitening Special in Harrisburg, PA | Maple Dental | Cosmetic & Family Dentistry",
       description: "Brighten your smile with Maple Dental's $299 professional teeth whitening offer in Harrisburg, PA. Serving Colonial Park, Penbrook, Lawnton, and nearby. No hidden fees—just real results.",
       keywords: "teeth whitening special harrisburg pa, $299 teeth whitening harrisburg, professional whitening harrisburg, teeth whitening offer harrisburg, harrisburg dental specials",

@@ -42,12 +42,12 @@ All service pages have been updated with SEO-optimized routes:
 - **Invisalign Clear Aligners:** `/services/invisalign-clear-aligners-bayonne-nj`
 - **Kids & Children Dentistry:** `/services/kids-and-children-dentistry-bayonne-nj`
 - **Permanent Teeth Replacement:** `/services/permanent-teeth-replacement-bayonne-nj`
-- **Wisdom Teeth:** `/services/wisdom-teeth-harrisburg-pa`
-- **Endodontics:** `/services/endodontics-harrisburg-pa`
-- **Same-Day Dentistry:** `/services/same-day-dentistry-harrisburg-pa`
-- **Painless Treatment:** `/services/painless-treatment-harrisburg-pa`
-- **Perio Protect:** `/services/perio-protect-harrisburg-pa`
-- **Halitosis:** `/services/halitosis-harrisburg-pa`
+- **Wisdom Teeth:** `/services/wisdom-teeth-bayonne-nj`
+- **Endodontics:** `/services/endodontics-bayonne-nj`
+- **Same-Day Dentistry:** `/services/same-day-dentistry-bayonne-nj`
+- **Painless Treatment:** `/services/painless-treatment-bayonne-nj`
+- **Perio Protect:** `/services/perio-protect-bayonne-nj`
+- **Halitosis:** `/services/halitosis-bayonne-nj`
 - **Sports Dentistry:** `/services/sports-dentistry-bayonne-nj`
 
 ### 6. Service Area Pages

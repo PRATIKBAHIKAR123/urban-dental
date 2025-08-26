@@ -36,7 +36,7 @@ export default function FloatingPromo() {
   };
 
   const handleCardClick = () => {
-    router.push("/offers"); // Redirect to the offers page
+    router.push("/teeth-whitening-offer-bayonne-nj"); // Redirect to the offers page
   };
 
   if (!isVisible) return null;

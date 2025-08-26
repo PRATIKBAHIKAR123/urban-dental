@@ -31,18 +31,18 @@ const privacySections = [
   },
   {
     title: "Contact Information",
-    content: `Please contact us by phone at 717-745-2700 or by mail at 2017 Eg Drive, Suite 200, Harrisburg, PA 17110`,
+    content: `Please contact us by phone at (201) 479-2100 or by mail at 393 Avenue C, Bayonne, NJ 07002`,
   },
 ];
 
 const sectionIcons = [
-  "/Images/Maple.png",
-  "/Images/Maple.png",
-  "/Images/Maple.png",
-  "/Images/Maple.png",
-  "/Images/Maple.png",
-  "/Images/Maple.png",
-  "/Images/Maple.png",
+  "/Images/cropped-urban-dental-scaled-1.webp",
+  "/Images/cropped-urban-dental-scaled-1.webp",
+  "/Images/cropped-urban-dental-scaled-1.webp",
+  "/Images/cropped-urban-dental-scaled-1.webp",
+  "/Images/cropped-urban-dental-scaled-1.webp",
+  "/Images/cropped-urban-dental-scaled-1.webp",
+  "/Images/cropped-urban-dental-scaled-1.webp",
 ];
 
 export default function PrivacyPolicy() {

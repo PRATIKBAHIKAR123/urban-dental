@@ -10,45 +10,41 @@ import BookCallBtn from '../book-call-btn';
 import { CheckCircle } from 'lucide-react';
 
 export default function Page() {
-    const features = [
+
+const features = [
   {
     icon: "/Images/icons/Immediate Pain Relief.png",
-    title: "Comprehensive Evaluation & Diagnosis",
-    description: "A thorough exam is the first step to solving bad breath. Our team pinpoints the exact cause-whether it's oral bacteria, gum issues, or other health concerns.",
+    title: "Professional Dental Cleaning",
+    description: "Plaque, tartar, and bacteria are leading causes of bad breath. Professional cleanings remove buildup that brushing and flossing alone can't reach.",
     points: [
-      "Complete oral health check-up",
-      "Digital x-rays and imaging as needed",
-      "Gum health and tongue analysis",
-      "Saliva production and dry mouth testing",
-      "Medical and lifestyle history review"
+      "Thorough cleaning of teeth and gums",
+      "Removal of odor-causing bacteria",
+      "Prevents gum disease and decay-related halitosis",
+      "Fresh, clean smile after each visit"
     ]
   },
-    {
-    icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-    title: "Effective, Targeted Treatment Plans",
-    description:
-      "We treat halitosis at the source. Based on your evaluation, we create a custom treatment plan that addresses both symptoms and root causes.",
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Gum Disease Treatment",
+    description: "Periodontal infections are a common cause of chronic bad breath. Treating gum disease not only freshens your breath but also protects your overall oral health.",
     points: [
-      "Deep cleaning to remove odor-causing plaque",
-      "Gum therapy or periodontal care if needed",
-      "Antibacterial mouth rinses and gels",
-      "Tongue cleaning tools and techniques",
-      "Dry mouth solutions or referrals when appropriate"
-    ],
+      "Deep cleaning (scaling & root planing) to eliminate bacteria",
+      "Antibacterial rinses and therapies",
+      "Stops gum bleeding and infection-related odors",
+      "Long-term maintenance plans for healthy gums"
+    ]
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Ongoing Support for Lasting Results",
-    description:
-      "Fresh breath requires ongoing care-and we’re with you every step of the way. Our follow-up care ensures results are long-lasting and easy to maintain.",
+    title: "Dry Mouth & Lifestyle Solutions",
+    description: "Dry mouth, medications, and certain lifestyle habits can lead to halitosis. We offer targeted care to reduce dryness and restore balance.",
     points: [
-      "Home care tips and oral hygiene routines",
-      "Regular check-ins and professional cleanings",
-      "Lifestyle and diet guidance",
-      "Support with managing related health conditions",
-      "Referrals for medical evaluation if needed"
-    ],
-  },
+      "Saliva-boosting solutions and hydration guidance",
+      "Custom fluoride treatments for dry mouth relief",
+      "Personalized dietary and hygiene recommendations",
+      "Long-lasting breath freshness"
+    ]
+  }
 ];
     return (
         <div className='flex min-h-screen bg-gray-50'>
@@ -56,11 +52,11 @@ export default function Page() {
                 <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Halitosis Treatment in Harrisburg, PA</h1>
+                        <h1>Halitosis Treatment in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Eliminate Bad Breath in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                            Fresh Breath Solutions in Bayonne | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -73,7 +69,7 @@ export default function Page() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                src="/Images/banners/Halitosis.webp"
+                src="/Images/services/halitosis.webp"
                 alt="Main Banner"
               />
             </div>
@@ -92,10 +88,10 @@ export default function Page() {
           <div className='desc-text-subtitle'>Halitosis</div>
           <h3 className='desc-text-title'>About Halitosis</h3>
           <p>
-            Halitosis-commonly known as chronic bad breath-is more than just a social concern. It can be a sign of underlying dental or medical issues. At Maple Dental Harrisburg, we help identify the root cause of bad breath and provide effective, lasting treatment to restore freshness and confidence to your smile.
+            Halitosis, commonly known as chronic bad breath, is more than just an embarrassing condition - it can also be a sign of underlying dental or medical issues. At Urban Dental & Braces in Bayonne, our experienced team provides comprehensive halitosis treatment to identify the root cause and restore confidence in your smile.
           </p>
           <p>
-            We proudly serve patients from Harrisburg (17110, 17109, 17111, 17112), Colonial Park, Lawnton, Progress, and surrounding areas with compassionate care and advanced diagnostics.
+            If you’ve been searching for a “<b>dentist near me</b>” or need <strong>halitosis treatment in Bayonne</strong>, we proudly serve patients from Bayonne (07002), Greenville, NJ (07305), and surrounding areas with advanced dental care and personalized treatment plans.
           </p>
         </Fade>
       </div>
@@ -104,26 +100,26 @@ export default function Page() {
     
                 <div className='wcu-text-section'>
                   <Fade cascade direction="up" delay={1000} duration={600}>
-                    <div className='wcu-subtitle'>
+                    {/* <div className='wcu-subtitle'>
                       Top Reasons
-                    </div>
+                    </div> */}
                     <div className='wcu-title'>
-                      <h2>Why Choose Maple Dental for Halitosis Treatment?</h2>
+                      <h2>Top Reasons to Choose Urban Dental & Braces for Halitosis Treatment</h2>
                     </div>
                     <div className='wcu-points-section'>
                       <ul className='wcu-points'>
-                        <li><CheckCircle />Personalized Diagnosis & Care Plans  </li>
-                        <li><CheckCircle />Advanced Tools for Accurate Detection</li>
-                        <li><CheckCircle />Treatment That Targets the Source</li>
-                        <li><CheckCircle />Discreet, Judgment-Free Environment</li>
-                        <li><CheckCircle />Convenient Care for Busy Lives</li>
+                        <li><CheckCircle />Comprehensive Diagnosis </li>
+                        <li><CheckCircle />Gentle & Effective Treatments</li>
+                        <li><CheckCircle />Focus on Overall Oral Health</li>
+                        <li><CheckCircle />Patient-Centered Approach</li>
+                        <li><CheckCircle />Convenient Bayonne Location</li>
                       </ul>
                     </div>
                   </Fade>
                 </div>
                 <div className='wcu-img-section'>
                   <Zoom cascade damping={0.3} duration={800}>
-                    <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                    <img src="/Images/banners/about-us-1.webp" alt="dental" />
                   </Zoom>
                 </div>
     
@@ -131,13 +127,13 @@ export default function Page() {
               <div className="features-section">
                           <Fade direction="up" duration={1000}>
                             <h2 className="features-heading">
-                              Get Back to Fresh Breath and Confidence
+                              Our Halitosis Treatment Options
                             </h2>
                             <p className="features-description">
-                              At Maple Dental Harrisburg, we believe no one should live with the anxiety of persistent bad breath. Whether it’s been bothering you for months or years, we’ll help you breathe easy again-with solutions that work and support that lasts.
+                              At Urban Dental & Braces, we tailor halitosis treatments based on your unique needs. Whether bad breath is linked to gum disease, plaque buildup, or other oral health concerns, we provide effective solutions to restore fresh breath. If you’re searching for “halitosis treatment near me”, our Bayonne dental team can help.
                             </p>
                             <p className="features-description">
-                                Here’s what sets our halitosis care apart:
+                                Here’s how we help:
                             </p>
                           </Fade>
               
@@ -161,7 +157,7 @@ export default function Page() {
                           </div>
                         </div>
     <div className='faq-section'>
-                <h2 className='faq-heading'>Halitosis Q&A</h2>
+                <h2 className='faq-heading'>Halitosis FAQs</h2>
                 <div className="faq-acc-container">
                   <Accordion type="single" collapsible className="w-full space-y-6">
                     <AccordionItem value="q1" className="faq-acc">
@@ -169,44 +165,44 @@ export default function Page() {
                         <h3 className='text-lg'>What causes chronic bad breath?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans ">
-                        Halitosis is often caused by gum disease, dry mouth, plaque buildup, or infections. It can also be linked to sinus issues, digestive problems, or certain medications.
+                        Persistent bad breath is often caused by poor oral hygiene, gum disease, tooth decay, dry mouth, or bacterial buildup on the tongue. Certain foods, smoking, and medical conditions can also contribute.
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q2" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>How do dentists treat halitosis?</h3>
+                        <h3 className='text-lg'>Can bad breath be permanently cured?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p className="mt-2">
-                        We begin with a full oral exam and create a treatment plan that may include cleanings, antibacterial rinses, dry mouth therapy, and lifestyle adjustments.
+                        Yes - in many cases, halitosis can be resolved by addressing the underlying cause through professional cleanings, gum therapy, and improved oral hygiene habits.
                         
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q3" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Can bad breath be permanently fixed?</h3>
+                        <h3 className='text-lg'>How can I tell if I have halitosis?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p>
-                          Yes-most cases of halitosis can be fully resolved with professional care and good oral hygiene habits.
+                          If you notice constant bad breath despite brushing and flossing, or if others mention it to you, it’s time to visit a dentist for evaluation.
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q5" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Is bad breath always caused by poor brushing?</h3>
+                        <h3 className='text-lg'>Can gum disease cause bad breath?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">Not always. Even patients with good hygiene can experience halitosis due to hidden infections, tongue bacteria, or dry mouth.</p>
+                        <p className="mt-2">Yes, gum infections produce foul-smelling bacteria and toxins, making periodontal disease one of the leading causes of halitosis.</p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q6" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Is halitosis a sign of something serious?</h3>  
+                        <h3 className='text-lg'>Does dental insurance cover halitosis treatment?</h3>  
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">It can be. If left untreated, it may point to gum disease or underlying health issues. That’s why early evaluation is key.</p>
+                        <p className="mt-2">Most dental insurance plans cover professional cleanings and periodontal treatments that help with halitosis. We accept most insurance, including Medicaid, and offer flexible payment options.</p>
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>
@@ -215,10 +211,10 @@ export default function Page() {
               <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Need Help with Halitosis in Harrisburg?
+                                  Need Halitosis Treatment in Bayonne?
                                 </h2>
                                 <p className="features-description">
-                                  If bad breath is interfering with your confidence, health, or relationships-let us help. At Maple Dental Harrisburg, we offer respectful, effective treatment that gets to the root of the problem. Call today to schedule your consultation and take the first step toward fresher breath and a healthier smile.
+                                  Don’t let bad breath affect your confidence or social life. At Urban Dental & Braces, we provide professional halitosis treatment in Bayonne to restore freshness and improve your oral health. If you’re searching for a trusted “dentist near me” for bad breath solutions, our team is here for you. Serving Bayonne, Greenville, and surrounding communities, we’re here to help you breathe easy and smile with confidence.
                                 </p>
                               </Fade>
                             </div>

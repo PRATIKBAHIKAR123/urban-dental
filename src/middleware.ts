@@ -28,12 +28,12 @@ export function middleware(request: NextRequest) {
     '/services/invisalign': '/services/invisalign-clear-aligners-bayonne-nj',
     '/services/kids-&-children-dentistry': '/services/kids-and-children-dentistry-bayonne-nj',
     '/services/permanent-teeth-replacement': '/services/permanent-teeth-replacement-bayonne-nj',
-    '/services/wisdom-teeth': '/services/wisdom-teeth-harrisburg-pa',
-    '/services/endodontics': '/services/endodontics-harrisburg-pa',
-    '/services/same-day-dentistry': '/services/same-day-dentistry-harrisburg-pa',
-    '/services/painless-treatment': '/services/painless-treatment-harrisburg-pa',
-    '/services/perio-protect': '/services/perio-protect-harrisburg-pa',
-    '/services/halitosis': '/services/halitosis-harrisburg-pa',
+    '/services/wisdom-teeth': '/services/wisdom-teeth-bayonne-nj',
+    '/services/endodontics': '/services/endodontics-bayonne-nj',
+    '/services/same-day-dentistry': '/services/same-day-dentistry-bayonne-nj',
+    '/services/painless-treatment': '/services/painless-treatment-bayonne-nj',
+    '/services/perio-protect': '/services/perio-protect-bayonne-nj',
+    '/services/halitosis': '/services/halitosis-bayonne-nj',
     '/services/sports-dentistry': '/services/sports-dentistry-bayonne-nj'
   }
 
@@ -50,7 +50,7 @@ export function middleware(request: NextRequest) {
 
   // Redirect other pages to new SEO-optimized routes
   const pageRedirects: { [key: string]: string } = {
-    '/offers': '/teeth-whitening-offer-harrisburg-pa',
+    '/offers': '/teeth-whitening-offer-bayonne-nj',
     '/providers/simranjeet-dhaliwal': '/providers/simranjeet-dhaliwal-harrisburg-pa-dentist',
     '/reviews': '/patient-reviews-bayonne-nj',
     '/blog': '/dental-blog',

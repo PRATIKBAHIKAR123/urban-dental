@@ -81,32 +81,32 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/services/wisdom-teeth',
-        destination: '/services/wisdom-teeth-harrisburg-pa',
+        destination: '/services/wisdom-teeth-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/endodontics',
-        destination: '/services/endodontics-harrisburg-pa',
+        destination: '/services/endodontics-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/same-day-dentistry',
-        destination: '/services/same-day-dentistry-harrisburg-pa',
+        destination: '/services/same-day-dentistry-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/painless-treatment',
-        destination: '/services/painless-treatment-harrisburg-pa',
+        destination: '/services/painless-treatment-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/perio-protect',
-        destination: '/services/perio-protect-harrisburg-pa',
+        destination: '/services/perio-protect-bayonne-nj',
         permanent: true,
       },
       {
         source: '/services/halitosis',
-        destination: '/services/halitosis-harrisburg-pa',
+        destination: '/services/halitosis-bayonne-nj',
         permanent: true,
       },
       {
@@ -153,7 +153,7 @@ const nextConfig: NextConfig = {
       // Other page redirects
       {
         source: '/offers',
-        destination: '/teeth-whitening-offer-harrisburg-pa',
+        destination: '/teeth-whitening-offer-bayonne-nj',
         permanent: true,
       },
       {

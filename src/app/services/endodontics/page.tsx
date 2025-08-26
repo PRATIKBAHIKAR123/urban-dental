@@ -11,39 +11,42 @@ import { CheckCircle } from 'lucide-react';
 export default function Page() {
 
 
-    const features = [
+
+
+const features = [
   {
     icon: "/Images/icons/Immediate Pain Relief.png",
-    title: "When Do You Need Endodontic Treatment?",
-    description: "Endodontics is typically needed when the tooth’s pulp becomes infected due to deep decay, cracks, or trauma. Symptoms often include severe pain, sensitivity, or swelling.",
+    title: "Root Canal Therapy",
+    description: "Root canal treatment removes infected or damaged pulp from inside your tooth, eliminating pain and preventing the need for extraction. Modern techniques make this procedure comfortable and highly successful with proper aftercare.",
     points: [
-      "Tooth pain while chewing",
-      "Lingering sensitivity to hot/cold",
-      "Swelling near the gums",
+      "Digital imaging and microscopic precision for accurate treatment",
+      "Advanced rotary instruments for gentle, efficient cleaning",
+      "Effective local anesthesia and sedation options available",
+      "Same-day or multi-visit treatment plans based on your needs"
     ]
   },
-    {
-    icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-    title: "Comfortable & Efficient Root Canal Therapy",
-    description:
-      "Our team uses advanced tools and gentle techniques to clean the infected root canals, fill the space, and seal the tooth. The process is usually completed in one or two visits",
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Endodontic Retreatment",
+    description: "Sometimes a previously treated root canal may develop new problems or fail to heal properly. Retreatment can often save the tooth and resolve persistent issues without requiring extraction.",
     points: [
-      "Local anesthesia for a pain-free experience",
-      "Sedation options for anxious patients",
-      "Custom crown placement for full restoration",
-    ],
+      "Comprehensive evaluation of previous endodontic work",
+      "Removal of old filling materials and thorough re-cleaning",
+      "Treatment of missed canals or new infections",
+      "Advanced sealing techniques for long-term success"
+    ]
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Serving Harrisburg & Surrounding Areas",
-    description:
-      "If you're in Harrisburg or neighboring areas like Colonial Park, Lawnton, or Progress, Maple Dental is your trusted provider for endodontic treatment and tooth-saving solutions",
+    title: "Apicoectomy & Surgical Endodontics",
+    description: "When nonsurgical retreatment isn't sufficient, surgical procedures like apicoectomy can address persistent infections at the root tip. These minor surgical interventions can save teeth that might otherwise need extraction.",
     points: [
-      "Convenient Harrisburg location",
-      "Same-day emergency care available",
-      "Top-rated endodontic services near you",
-    ],
-  },
+      "Minimally invasive surgical techniques with faster healing",
+      "Precise removal of infected tissue and root tip resection",
+      "Biocompatible materials for optimal tissue regeneration",
+      "Post-surgical care and monitoring for successful outcomes"
+    ]
+  }
 ];
     return (
         <div className='flex min-h-screen bg-gray-50'>
@@ -51,11 +54,11 @@ export default function Page() {
         <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Endodontics in Harrisburg, PA</h1>
+                        <h1>Endodontics in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Advanced Root Canal Therapy in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                            Advanced Endodontic Care in Bayonne | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -68,7 +71,7 @@ export default function Page() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                src="/Images/Endodontics.webp"
+                src="/Images/services/endodontics.webp"
                 alt="Main Banner"
               />
             </div>
@@ -87,10 +90,10 @@ export default function Page() {
           <div className='desc-text-subtitle'>Endodontics </div>
           <h3 className='desc-text-title'>About Endodontics</h3>
           <p>
-           Endodontics focuses on treating problems inside the tooth-specifically the pulp and nerves. When decay or infection reaches the inner tooth, root canal therapy is often necessary to save it. At Maple Dental Harrisburg, our skilled team offers precise, comfortable endodontic care to relieve pain and restore your tooth’s health.
+           Endodontics focuses on treating the inner structures of your teeth - specifically the pulp, nerves, and root canals that can become infected or severely damaged due to decay, trauma, or repeated dental procedures. At Urban Dental & Braces in Bayonne, we specialize in advanced endodontic treatments that can save your natural teeth and eliminate pain effectively. Our state-of-the-art technology and gentle techniques make procedures like root canal therapy comfortable and successful, helping you maintain your smile for years to come.
           </p>
           <p>
-           We proudly serve patients from Harrisburg (17110, 17109, 17111, 17112), as well as nearby communities like Colonial Park (17109), Penbrook (17103), Paxtang (17111), Progress (17109, 17111), Lawnton (17111), and Linglestown (17112). If you’re searching for an endodontist near me, we’re right here for you.
+           We proudly serve patients from Bayonne (07002), Greenville, NJ (07305), and nearby communities. If you're searching for "root canal near me" or experiencing severe tooth pain, our experienced endodontic specialists are here to provide the expert care you need.
           </p>
         </Fade>
       </div>
@@ -99,26 +102,26 @@ export default function Page() {
         
                     <div className='wcu-text-section'>
                       <Fade cascade direction="up" delay={1000} duration={600}>
-                        <div className='wcu-subtitle'>
+                        {/* <div className='wcu-subtitle'>
                           Top Reasons
-                        </div>
+                        </div> */}
                         <div className='wcu-title'>
-                          <h2>Why Choose Maple Dental for Endodontic Care?</h2>
+                          <h2>Top Reasons to Choose Urban Dental & Braces for Endodontic Care</h2>
                         </div>
                         <div className='wcu-points-section'>
                           <ul className='wcu-points'>
-                            <li><CheckCircle />Gentle, Effective Root Canal Therapy</li>
-                            <li><CheckCircle />Digital Imaging & Precision Diagnostics</li>
-                            <li><CheckCircle />Same-Day Emergency Appointments Available</li>
-                            <li><CheckCircle />Modern Techniques for Maximum Comfort</li>
-                            <li><CheckCircle />Insurance Accepted + Flexible Payment Plans</li>
+                            <li><CheckCircle />Advanced Microscopic Technology</li>
+                            <li><CheckCircle />Pain-Free Treatment Methods</li>
+                            <li><CheckCircle />Specialized Endodontic Expertise</li>
+                            <li><CheckCircle />Same-Day Emergency Services</li>
+                            <li><CheckCircle />Convenient Bayonne Location</li>
                           </ul>
                         </div>
                       </Fade>
                     </div>
                     <div className='wcu-img-section'>
                       <Zoom cascade damping={0.3} duration={800}>
-                        <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                        <img src="/Images/banners/about-us-1.webp" alt="dental" />
                       </Zoom>
                     </div>
         
@@ -126,11 +129,14 @@ export default function Page() {
                   <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Root Canal Treatments That Save Your Smile
+                                  Our Endodontic Services
                                 </h2>
                                 <p className="features-description">
-                                  A root canal may sound intimidating, but at Maple Dental, it’s a safe and comfortable procedure that can stop pain, prevent extraction, and restore full function to your tooth.
+                                  At Urban Dental & Braces, we understand that endodontic problems can cause significant discomfort and anxiety. That's why our team uses the latest technology and proven techniques to provide precise, comfortable treatments that save your natural teeth. Whether you need routine root canal therapy or complex retreatment, we're equipped to handle all aspects of endodontic care with expertise and compassion. 
                                 </p>
+                                <p className='features-description'>
+                                  Here's how we restore your oral health:
+                                  </p>
                               </Fade>
                   
                               <div className="features-grid">
@@ -153,48 +159,48 @@ export default function Page() {
                               </div>
                             </div>
     <div className='faq-section'>
-           <h2 className='faq-heading'>Endodontics Q&A</h2>
+           <h2 className='faq-heading'>Endodontics FAQs</h2>
            <div className="faq-acc-container">
             <Accordion type="single" className="w-full space-y-5">
         
         <AccordionItem value="q1" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What is endodontics?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Is root canal treatment painful?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>Endodontics is a dental specialty focused on treating infections and issues in the tooth’s root and pulp. </p>
+            <p>With modern anesthesia and advanced techniques, root canal therapy is typically no more uncomfortable than having a large filling. Most patients experience significant pain relief immediately after treatment.</p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q2" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Does a root canal hurt?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long does a root canal procedure take?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>No. With modern techniques and anesthesia, most patients experience little to no discomfort. </p>
+            <p>Most root canals can be completed in one to two appointments, each lasting 60-90 minutes. Complex cases or retreatments may require additional visits for optimal results. </p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q3" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How long does a root canal take?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>What happens if I don't get a root canal?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
-            <p>Typically, the procedure takes 60–90 minutes and may require 1–2 visits</p>
+            <p>Without treatment, infected pulp can lead to severe pain, abscess formation, bone loss, and eventually tooth loss. The infection can also spread to surrounding tissues and become life-threatening.</p>
             
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="q4" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Can a tooth be saved after infection?</h3></AccordionTrigger>
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>How successful are root canal treatments?</h3></AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>
-                Yes. A root canal removes the infection and saves the natural tooth.
+                Root canal therapy has a success rate of over 90% when performed properly. With good oral hygiene and regular dental care, treated teeth can last a lifetime.
             </p>
           </AccordionContent>
         </AccordionItem>
 
-       <AccordionItem value="q4" className="faq-acc">
-          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Is a crown always needed after a root canal?</h3>  </AccordionTrigger>
+       <AccordionItem value="q5" className="faq-acc">
+          <AccordionTrigger className='faq-qn'><h3 className='text-lg'>Does insurance cover endodontic treatment?</h3>  </AccordionTrigger>
           <AccordionContent className='faq-ans'>
             <p>
-                In most cases, yes-a crown protects the tooth from future damage.
+                Most dental insurance plans cover a significant portion of endodontic procedures, including root canals. We accept most insurance plans, including Medicaid, and offer flexible payment options for your convenience.
             </p>
           </AccordionContent>
         </AccordionItem>
@@ -205,10 +211,10 @@ export default function Page() {
      <div className="features-section">
                 <Fade direction="up" duration={1000}>
                   <h2 className="features-heading">
-                    Book Your Endodontic Consultation at Maple Dental Harrisburg
+                    Need Endodontic Care in Bayonne?
                   </h2>
                   <p className="features-description">
-                    If you're experiencing tooth pain or think you may need a root canal, don’t delay. Our team at Maple Dental Harrisburg is here to help with expert care, compassion, and precision.
+                    At Urban Dental & Braces, we're committed to saving your natural teeth through expert endodontic care. Whether you're experiencing severe tooth pain or need specialized root canal treatment, our skilled team provides advanced, comfortable care to restore your oral health.
                   </p>
                 </Fade>
               </div>

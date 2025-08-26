@@ -23,12 +23,12 @@ Allow: /services/teeth-whitening-and-veneers-bayonne-nj/
 Allow: /services/invisalign-clear-aligners-bayonne-nj/
 Allow: /services/kids-and-children-dentistry-bayonne-nj/
 Allow: /services/permanent-teeth-replacement-bayonne-nj/
-Allow: /services/wisdom-teeth-harrisburg-pa/
-Allow: /services/endodontics-harrisburg-pa/
-Allow: /services/same-day-dentistry-harrisburg-pa/
-Allow: /services/painless-treatment-harrisburg-pa/
-Allow: /services/perio-protect-harrisburg-pa/
-Allow: /services/halitosis-harrisburg-pa/
+Allow: /services/wisdom-teeth-bayonne-nj/
+Allow: /services/endodontics-bayonne-nj/
+Allow: /services/same-day-dentistry-bayonne-nj/
+Allow: /services/painless-treatment-bayonne-nj/
+Allow: /services/perio-protect-bayonne-nj/
+Allow: /services/halitosis-bayonne-nj/
 Allow: /services/sports-dentistry-bayonne-nj/
 
 # Allow all new SEO-optimized service area routes
@@ -46,7 +46,7 @@ Allow: /reviews/
 Allow: /patient-reviews-bayonne-nj/
 Allow: /providers/
 Allow: /offers/
-Allow: /teeth-whitening-offer-harrisburg-pa/
+Allow: /teeth-whitening-offer-bayonne-nj/
 Allow: /providers/simranjeet-dhaliwal-harrisburg-pa-dentist/
 Allow: /blog/
 Allow: /dental-blog/

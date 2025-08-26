@@ -79,7 +79,7 @@ export default function ServiceSidebar({ setISSidebarOpen  }: ServiceSidebarProp
           sidebar-scrollbar bg-white shadow-lg flex flex-col overflow-y-auto
           
           /* Desktop styles (unchanged) */
-          lg:top-20 lg:z-20 lg:h-[calc(100vh-80px)]
+          lg:top-22 lg:z-20 lg:h-[calc(100vh-80px)]
           
           /* Mobile styles (slide-out) */
           fixed top-16 left-0 z-40 h-[calc(100vh-80px)] w-80 max-w-[85vw]

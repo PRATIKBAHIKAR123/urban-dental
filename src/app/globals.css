@@ -230,6 +230,7 @@
         background-image: url("/Images/banners/top_banner.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
+        opacity: 90%;
   }
 
   .details-page-header-section h1 {

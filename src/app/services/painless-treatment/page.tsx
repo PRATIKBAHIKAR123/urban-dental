@@ -10,45 +10,40 @@ import BookCallBtn from '../book-call-btn';
 import { CheckCircle } from 'lucide-react';
 
 export default function PainlessTreatmentPage() {
-    const features = [
+const features = [
   {
     icon: "/Images/icons/Immediate Pain Relief.png",
-    title: "Technology That Minimizes Pain",
-    description: "Thanks to our investment in modern dental technology, we’re able to reduce discomfort significantly. Our tools work faster and more precisely-so you spend less time in the chair and experience far less sensitivity.",
+    title: "Painless Fillings",
+    description: "Cavities don't have to be a painful experience. Our tooth-colored fillings not only restore your tooth but also blend seamlessly with your natural smile.",
     points: [
-      "Laser dentistry for minimally invasive treatments",
-      "Digital X-rays and imaging reduce poking and prodding",
-      "Computer-assisted anesthesia delivery",
-      "Quiet, low-vibration handpieces",
-      "Shorter, more efficient procedures"
+      "Tooth-colored, natural-looking fillings",
+      "Quick and comfortable procedure",
+      "Advanced local anesthesia for a pain-free experience",
+      "Restores function and protects teeth from further decay"
     ]
   },
-    {
-    icon: "/Images/icons/Smart Treatment Decisions Under Pressure.png",
-    title: "Comfort-Focused Techniques",
-    description:
-      "We’ve designed our care protocols with comfort in mind-from the way we speak with patients to the methods we use in treatment. Everything is done to reduce fear, pain, and anxiety at every stage of your visit.",
+  {
+    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    title: "Gentle Root Canal Therapy",
+    description: "A root canal may sound intimidating, but with today's technology, it's no more uncomfortable than getting a filling. Our focus is on saving your natural tooth while keeping you completely at ease.",
     points: [
-      "Topical numbing gels before any injection",
-      "Gentle, slow-pressure injection techniques",
-      "Soothing chair-side manner from all staff",
-      "Blankets, music, and headphones available",
-      "Breaks during longer procedures if needed"
-    ],
+      "Eliminates pain while saving your natural tooth",
+      "Modern techniques make treatment stress-free",
+      "Local anesthesia ensures maximum comfort",
+      "Long-lasting results with proper care"
+    ]
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Why Locals Trust Maple Dental for Gentle Care",
-    description:
-      "We’re more than just a dental office-we’re part of the community. Our patients across Harrisburg, Colonial Park, Lawnton, Penbrook, and Linglestown know they can count on us for compassionate, pain-free dentistry with results that last",
+    title: "Comfortable Tooth Extractions",
+    description: "Sometimes, removing a tooth is the best way to protect your overall oral health. At Urban Dental & Braces, we make extractions as smooth and painless as possible.",
     points: [
-      "Family-friendly practice near you",
-      "Trusted by anxious patients and children alike",
-      "Customized comfort plans for each individual",
-      "Consistent 5-star reviews and community trust",
-      "Convenient, local care that doesn’t compromise on comfort"
-    ],
-  },
+      "Safe and painless removal of damaged or impacted teeth",
+      "Options for local anesthesia and sedation",
+      "Gentle techniques for faster healing",
+      "Guidance for tooth replacement solutions if needed"
+    ]
+  }
 ];
     return (
         <div className='flex min-h-screen bg-gray-50'>
@@ -56,11 +51,11 @@ export default function PainlessTreatmentPage() {
                 <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Gentle & Painless Dentistry in Harrisburg, PA</h1>
+                        <h1>Painless Dental Treatment in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Comfortable Dental Care in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                            Gentle, Stress-Free Dentistry | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -73,7 +68,7 @@ export default function PainlessTreatmentPage() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                src="/Images/Painless Treatment.webp"
+                src="/Images/services/painless-treatment.webp"
                 alt="Main Banner"
               />
             </div>
@@ -92,10 +87,10 @@ export default function PainlessTreatmentPage() {
           <div className='desc-text-subtitle'>Painless Dentistry</div>
           <h3 className='desc-text-title'>About Painless Dentistry</h3>
           <p>
-            Dental anxiety is real-but your treatment doesn’t have to be stressful or painful. At Maple Dental Harrisburg, we specialize in delivering high-quality care that prioritizes your comfort every step of the way. Using modern tools and gentle techniques, we help patients of all ages feel relaxed and at ease during every visit.
+            At Urban Dental & Braces in Bayonne, we believe visiting the dentist should never be a stressful or painful experience. Thanks to modern techniques, advanced technology, and a compassionate approach, we make dental treatments as comfortable and pain-free as possible. From routine cleanings to complex procedures, our focus is always on ensuring your comfort while providing exceptional care.
           </p>
           <p>
-            Serving Harrisburg (17110, 17109, 17111, 17112) and nearby areas like Colonial Park, Lawnton, Penbrook, and Progress, we’re proud to be the trusted "gentle dentist near me" for families and individuals seeking pain-free treatment.
+            If you’re searching for a <strong>dentist near me</strong> or need <strong>painless dental treatment in Bayonne</strong>, our skilled team is here to help. We proudly serve patients from Bayonne (07002), Greenville (07305), NJ, and nearby communities. If you’ve been avoiding the dentist due to fear of pain, we’re here to change the way you feel about dental care.
           </p>
         </Fade>
       </div>
@@ -104,26 +99,26 @@ export default function PainlessTreatmentPage() {
     
                 <div className='wcu-text-section'>
                   <Fade cascade direction="up" delay={1000} duration={600}>
-                    <div className='wcu-subtitle'>
+                    {/* <div className='wcu-subtitle'>
                       Top Reasons
-                    </div>
+                    </div> */}
                     <div className='wcu-title'>
-                      <h2>Why Choose Maple Dental for Painless Dentistry?</h2>
+                      <h2>Why Choose Urban Dental & Braces for Painless Dentistry?</h2>
                     </div>
                     <div className='wcu-points-section'>
                       <ul className='wcu-points'>
-                        <li><CheckCircle />Advanced numbing & sedation options  </li>
-                        <li><CheckCircle />Skilled team trained in gentle techniques</li>
-                        <li><CheckCircle />Noise-reducing equipment & soft-touch tools</li>
-                        <li><CheckCircle />Calming office environment</li>
-                        <li><CheckCircle />Ideal for children, seniors & anxious patients</li>
+                        <li><CheckCircle />Modern Pain-Free Techniques  </li>
+                        <li><CheckCircle />Gentle and Compassionate Care</li>
+                        <li><CheckCircle />Advanced Anesthesia & Sedation Options</li>
+                        <li><CheckCircle />Stress-Free Environment</li>
+                        <li><CheckCircle />Convenient Bayonne Location</li>
                       </ul>
                     </div>
                   </Fade>
                 </div>
                 <div className='wcu-img-section'>
                   <Zoom cascade damping={0.3} duration={800}>
-                    <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                    <img src="/Images/banners/about-us-1.webp" alt="dental" />
                   </Zoom>
                 </div>
     
@@ -131,10 +126,10 @@ export default function PainlessTreatmentPage() {
               <div className="features-section">
                           <Fade direction="up" duration={1000}>
                             <h2 className="features-heading">
-                              Making Every Visit Comfortable
+                              Our Painless Dental Services
                             </h2>
                             <p className="features-description">
-                              Our approach to painless dentistry is both scientific and compassionate. From your first interaction to the final rinse, we ensure you're heard, informed, and fully comfortable throughout your care.
+                              At Urban Dental & Braces, comfort is at the heart of everything we do. Whether you need restorative, cosmetic, or emergency treatment, our painless approach ensures you feel relaxed every step of the way.
                             </p>
                           </Fade>
               
@@ -158,52 +153,52 @@ export default function PainlessTreatmentPage() {
                           </div>
                         </div>
     <div className='faq-section'>
-                <h2 className='faq-heading'>Painless Dentistry Q&A</h2>
+                <h2 className='faq-heading'>Painless Dentistry FAQs</h2>
                 <div className="faq-acc-container">
                   <Accordion type="single" collapsible className="w-full space-y-6">
                     <AccordionItem value="q1" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Is painless dentistry really pain-free?</h3>
+                        <h3 className='text-lg'>Is dental treatment really painless?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans ">
-                        Yes, we use modern tools and techniques to eliminate or greatly reduce pain during treatments-even for more involved procedures like root canals or extractions.
+                        Yes. With today’s advanced techniques and anesthesia, most dental treatments can be performed with little to no discomfort.
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q2" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Is sedation used during every procedure?</h3>
+                        <h3 className='text-lg'>What if I have dental anxiety?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p className="mt-2">
-                        Not always. Many treatments are gentle enough with local anesthesia alone, but we offer nitrous oxide and oral sedation when needed.
+                        We specialize in treating anxious patients with a caring approach and sedation options to help you feel completely at ease.
                         
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q3" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>What if I’m afraid of the dentist?</h3>
+                        <h3 className='text-lg'>Are painless treatments safe?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p>
-                          You’re not alone. We specialize in helping anxious patients feel safe and respected, with care designed to ease fears at every stage.
+                          Absolutely. We use proven, safe techniques and equipment to ensure your comfort while maintaining the highest standards of care.
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q5" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Is painless dentistry safe for kids?</h3>
+                        <h3 className='text-lg'>Do children benefit from painless dentistry?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">Absolutely. We tailor all treatments to each child’s comfort level using non-threatening approaches and gentle techniques.</p>
+                        <p className="mt-2">Yes! Gentle and pain-free dentistry helps kids build a positive attitude toward dental visits and lifelong oral health.</p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q6" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>How do I book a painless dental visit?</h3> 
+                        <h3 className='text-lg'>Does insurance cover painless treatments?</h3> 
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">Simply call or book online. Let us know about any anxiety or concerns ahead of time, and we’ll plan your visit with extra care.</p>
+                        <p className="mt-2">Most procedures are covered by dental insurance. We also provide flexible payment options to make care affordable.</p>
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>
@@ -212,10 +207,10 @@ export default function PainlessTreatmentPage() {
               <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Looking for Gentle Dental Care in Harrisburg?
+                                  Ready for a Comfortable Dental Experience?
                                 </h2>
                                 <p className="features-description">
-                                  You deserve dental care that’s compassionate, comfortable, and pain-free. At Maple Dental Harrisburg, we’re committed to helping you smile without stress. Call us today to schedule your visit-we’re here to treat you gently.
+                                  At Urban Dental & Braces, our mission is to redefine the way you think about dental visits. Whether you’re searching for a trusted dentist in Bayonne or need “painless dental treatment near me”, our caring team is here for you. With our painless treatment approach, you can finally relax while we take care of your smile. Schedule your appointment today and experience stress-free, comfortable dental care in Bayonne. 
                                 </p>
                               </Fade>
                             </div>

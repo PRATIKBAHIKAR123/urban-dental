@@ -10,37 +10,41 @@ import BookCallBtn from '../book-call-btn';
 import { CheckCircle } from 'lucide-react';
 
 export default function Page() {
-    const features = [
+const features = [
   {
     icon: "/Images/icons/Immediate Pain Relief.png",
-    title: "Comprehensive Evaluation & Diagnosis",
-    description: "We start with digital X-rays and a full exam to assess whether extraction is needed and if your wisdom teeth are impacted or misaligned.",
-    points: [
-      "High-resolution imaging",
-      "Clear treatment planning",
-      "Tailored recommendations for teens and adults",
-    ]
-  },
-    {
-    icon: "/Images/icons/Wisdom Tooth Removal in Harrisburg.png",
-    title: "Gentle Removal with Focus on Comfort",
+    title: "Wisdom Teeth Evaluation & Monitoring",
     description:
-      "Our team ensures your procedure is smooth and stress-free. We offer local anesthesia and sedation options as needed to help you relax.",
+      "Early assessment of wisdom teeth development helps prevent future complications and allows for better treatment planning. Regular monitoring ensures we can address issues before they become painful problems.",
     points: [
-      "Simple and surgical extractions",
-      "Pain-free techniques",
-      "Post-procedure care instructions for smooth healing",
+      "Digital X-rays and 3D imaging for precise evaluation",
+      "Assessment of eruption patterns and spacing",
+      "Early detection of impaction or crowding issues",
+      "Personalized treatment timeline recommendations",
+    ],
+  },
+  {
+    icon: "/Images/icons/Wisdom Tooth Removal in Harrisburg.png",
+    title: "Simple & Surgical Extractions",
+    description:
+      "When wisdom teeth need to be removed, our skilled team performs both simple and complex surgical extractions with the highest level of care. We prioritize your comfort throughout the entire process.",
+    points: [
+      "Minimally invasive extraction techniques",
+      "IV sedation and nitrous oxide options",
+      "Advanced pain management protocols",
+      "Same-day procedures with flexible scheduling",
     ],
   },
   {
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    title: "Serving Harrisburg & Surrounding Communities",
+    title: "Post-Extraction Care & Recovery",
     description:
-      "Whether you're in Harrisburg or nearby in Progress, Colonial Park, or Lawnton, our office is close and ready to help with professional wisdom teeth removal.",
+      "Proper aftercare is essential for optimal healing and preventing complications like dry socket or infection. Our comprehensive follow-up care ensures a smooth, comfortable recovery process.",
     points: [
-      "Flexible scheduling & same-day consultations",
-      "Insurance-friendly practice",
-      "Trusted wisdom teeth dentist near you",
+      "Detailed post-operative instructions and care kits",
+      "24/7 emergency contact for post-surgical concerns",
+      "Follow-up appointments to monitor healing",
+      "Prescription medications for pain and infection prevention",
     ],
   },
 ];
@@ -50,11 +54,11 @@ export default function Page() {
                 <div className='details-page'>
                     <div className='details-page-header-section'>
                         <Fade direction='up' duration={1000}>
-                        <h1>Wisdom Teeth Removal in Harrisburg, PA</h1>
+                        <h1>Wisdom Teeth Treatment in Bayonne, NJ</h1>
                         </Fade>
                         <Fade direction='down' duration={1000}>
                         <h2 className="text-center">
-                            Safe & Comfortable Extractions in Harrisburg | Maple Dental | Family & Cosmetic Dentist
+                            Expert Wisdom Teeth Care in Bayonne | Urban Dental & Braces
                         </h2>
                         </Fade>
                         {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -67,7 +71,7 @@ export default function Page() {
           <Zoom cascade damping={0.3} duration={800}>
             <div className="main-image">
               <img
-                src="/Images/Wisdom Teeth.webp"
+                src="/Images/services/wisdom-teeth.webp"
                 alt="Main Banner"
               />
             </div>
@@ -83,13 +87,13 @@ export default function Page() {
       {/* Text Section with Fade-in after delay */}
       <div className='desc-text-section'>
         <Fade cascade direction="up" delay={1000} duration={600}>
-          <div className='desc-text-subtitle'>Wisdom Teeth Removal</div>
-          <h3 className='desc-text-title'>About Wisdom Teeth Removal</h3>
+          <div className='desc-text-subtitle'>Wisdom Teeth</div>
+          <h3 className='desc-text-title'>About Wisdom Teeth</h3>
           <p>
-            Wisdom teeth, or third molars, typically emerge in late teens or early adulthood. For many, they can cause pain, crowding, or infections-making removal necessary. At Maple Dental Harrisburg, we provide gentle and effective wisdom teeth extractions tailored to your comfort and needs.
+            Wisdom teeth, also known as third molars, typically emerge in your late teens or early twenties - often causing pain, crowding, and complications that require professional attention. At Urban Dental & Braces in Bayonne, we specialize in comprehensive wisdom teeth care, from monitoring their development to safe, comfortable extractions when necessary. Our experienced team uses advanced techniques and sedation options to ensure your procedure is as smooth and pain-free as possible.
           </p>
           <p>
-            We serve patients from Harrisburg (17110, 17109, 17111, 17112), and neighboring areas like Colonial Park (17109), Penbrook (17103), Paxtang (17111), Progress (17109, 17111), Lawnton (17111), and Linglestown (17112). If you’re searching for wisdom teeth removal near me, Maple Dental is your trusted local provider.
+            We proudly serve patients from Bayonne (07002), Greenville, NJ (07305), and nearby communities. If you're searching for "wisdom teeth removal near me" or experiencing wisdom tooth pain, our skilled dental professionals are here to provide the expert care you need.
           </p>
         </Fade>
       </div>
@@ -98,26 +102,26 @@ export default function Page() {
     
                 <div className='wcu-text-section'>
                   <Fade cascade direction="up" delay={1000} duration={600}>
-                    <div className='wcu-subtitle'>
+                    {/* <div className='wcu-subtitle'>
                       Top Reasons
-                    </div>
+                    </div> */}
                     <div className='wcu-title'>
-                      <h2>Why Choose Maple Dental for Wisdom Tooth Extractions?</h2>
+                      <h2>Top Reasons to Choose Urban Dental & Braces for Wisdom Teeth Care</h2>
                     </div>
                     <div className='wcu-points-section'>
                       <ul className='wcu-points'>
-                        <li><CheckCircle />Skilled, Experienced Dental Team  </li>
-                        <li><CheckCircle />Gentle Extractions with Local Anesthesia</li>
-                        <li><CheckCircle />Sedation Options for Anxiety-Free Treatment</li>
-                        <li><CheckCircle />Advanced Imaging for Precise Evaluation</li>
-                        <li><CheckCircle />Convenient Harrisburg Location & Payment Plans</li>
+                        <li><CheckCircle />Advanced Surgical Techniques  </li>
+                        <li><CheckCircle />Multiple Sedation Options Available</li>
+                        <li><CheckCircle />Experienced Oral Surgery Team</li>
+                        <li><CheckCircle />Comprehensive Post-Operative Care</li>
+                        <li><CheckCircle />Convenient Bayonne Location</li>
                       </ul>
                     </div>
                   </Fade>
                 </div>
                 <div className='wcu-img-section'>
                   <Zoom cascade damping={0.3} duration={800}>
-                    <img src="/Images/banners/doctor-presenting-something-isolated-white-background.webp" alt="dental" />
+                    <img src="/Images/banners/about-us-1.webp" alt="dental" />
                   </Zoom>
                 </div>
     
@@ -125,10 +129,13 @@ export default function Page() {
               <div className="features-section">
                           <Fade direction="up" duration={1000}>
                             <h2 className="features-heading">
-                              Comfortable, Expert Wisdom Teeth Removal
+                              Our Wisdom Teeth Services
                             </h2>
                             <p className="features-description">
-                              At Maple Dental Harrisburg, we prioritize safety, precision, and comfort throughout the extraction process. Whether your wisdom teeth are impacted, infected, or causing discomfort, we’re here to help you feel better fast.
+                              At Urban Dental & Braces, we understand that wisdom teeth problems can be concerning and uncomfortable. That's why our team provides comprehensive evaluation and treatment options tailored to your specific needs. Whether you need monitoring, extraction, or post-surgical care, we're equipped to handle all aspects of wisdom teeth treatment with precision and compassion.
+                            </p>
+                            <p className="features-description">
+                              Here's how we help you achieve optimal oral health:
                             </p>
                           </Fade>
               
@@ -152,24 +159,24 @@ export default function Page() {
                           </div>
                         </div>
     <div className='faq-section'>
-                <h2 className='faq-heading'>Wisdom Teeth Q&A</h2>
+                <h2 className='faq-heading'>Wisdom Teeth FAQs</h2>
                 <div className="faq-acc-container">
                   <Accordion type="single" collapsible className="w-full space-y-6">
                     <AccordionItem value="q1" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>When should I get my wisdom teeth removed?</h3>
+                        <h3 className='text-lg'>When should wisdom teeth be removed?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans ">
-                        Most people have them removed in their late teens or early 20s before they cause problems.
+                        Wisdom teeth should be removed if they're impacted, causing crowding, difficult to clean, or leading to decay, gum disease, or pain. Most extractions are recommended between ages 16-25 when roots are less developed.
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q2" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>What are signs I need my wisdom teeth out?</h3>
+                        <h3 className='text-lg'>Is wisdom teeth removal painful?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p className="mt-2">
-                        Pain, swelling, gum inflammation, or difficulty opening your mouth are common signs. 
+                        With modern anesthesia and sedation options, the procedure itself is comfortable. Most patients experience manageable discomfort for 3-5 days post-surgery, which responds well to prescribed pain medications.
                         
                         </p>
                       </AccordionContent>
@@ -177,29 +184,29 @@ export default function Page() {
                     
                     <AccordionItem value="q6" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Are wisdom teeth always removed?</h3>
+                        <h3 className='text-lg'>How long is the recovery period?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">Not always. If they’re healthy and positioned properly, they may not need extraction.</p>
+                        <p className="mt-2">Initial healing takes 7-10 days, with complete tissue healing occurring over 3-4 weeks. Most patients return to normal activities within 2-3 days and can eat regular foods within a week.</p>
                       </AccordionContent>
                     </AccordionItem>
 
                     <AccordionItem value="q3" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>Is wisdom tooth removal painful?</h3>
+                        <h3 className='text-lg'>What are the signs that my wisdom teeth need attention?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
                         <p>
-                          No. We use local anesthesia and offer sedation for a painless experience.
+                          Pain, swelling, difficulty opening your mouth, bad breath, tender or bleeding gums around the back teeth, and crowding of other teeth are all signs to schedule an evaluation.
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="q5" className="faq-acc">
                       <AccordionTrigger className="faq-qn rounded-md">
-                        <h3 className='text-lg'>How long is recovery?</h3>
+                        <h3 className='text-lg'>Does insurance cover wisdom teeth removal?</h3>
                       </AccordionTrigger>
                       <AccordionContent className="faq-ans">
-                        <p className="mt-2">Most patients recover within 3–5 days, though full healing may take a couple of weeks.</p>
+                        <p className="mt-2">Most dental insurance plans cover a significant portion of wisdom teeth extraction, especially when medically necessary. We accept most insurance plans, including Medicaid, and offer flexible payment options.</p>
                       </AccordionContent>
                     </AccordionItem>
 
@@ -210,10 +217,10 @@ export default function Page() {
               <div className="features-section">
                               <Fade direction="up" duration={1000}>
                                 <h2 className="features-heading">
-                                  Book Your Wisdom Teeth Consultation at Maple Dental Harrisburg
+                                  Need Wisdom Teeth Care in Bayonne?
                                 </h2>
                                 <p className="features-description">
-                                  Don't wait until discomfort becomes a serious issue. Schedule a consultation with Maple Dental Harrisburg today and take the first step toward a healthier, pain-free smile.
+                                  At Urban Dental & Braces, we make wisdom teeth treatment as comfortable and stress-free as possible. Whether you need an evaluation, extraction, or are experiencing wisdom tooth pain, our experienced team is here to provide expert care with compassion.
                                 </p>
                               </Fade>
                             </div>
