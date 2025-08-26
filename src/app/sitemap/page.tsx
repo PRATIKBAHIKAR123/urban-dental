@@ -38,13 +38,10 @@ export default function SitemapPage() {
        { name: "Endodontics", link: "/services/endodontics" },
      ],
      "Service Areas": [
-       { name: "Harrisburg, PA", link: "/service-areas/harrisburg" },
-       { name: "Linglestown, PA", link: "/service-areas/linglestown" },
-       { name: "Colonial Park, PA", link: "/service-areas/colonial-park" },
-       { name: "Penbrook, PA", link: "/service-areas/penbrook" },
-       { name: "Paxtang, PA", link: "/service-areas/paxtang" },
-       { name: "Progress, PA", link: "/service-areas/progress" },
-       { name: "Lawnton, PA", link: "/service-areas/lawnton" },
+       
+       { name: "Bayonne, NJ", link: "/service-areas/bayonne-nj-dentist-near-you" },
+       { name: "Greenville, NJ", link: "/service-areas/greenville-nj-dentist-near-you" },
+       
      ],
     "Legal & Information": [
       { name: "Terms and Conditions", link: "/terms-and-conditions" },
