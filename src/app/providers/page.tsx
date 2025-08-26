@@ -48,7 +48,7 @@ export default function ProvidersPage() {
                                 
                             )}
                         >
-                            <div className="w-full h-2/3 relative min-h-[140px]">
+                            <div className="w-full h-1/3 relative min-h-[260px]">
                                 <Image
                                     src={provider.image}
                                     alt={provider.name}

@@ -39,7 +39,7 @@ const locations = [
     ],
     mapUrl:
       // "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48699.53187959969!2d-76.92187807181904!3d40.28195319387061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8c116b8079e97%3A0xbb6e42c8128d46d5!2sHarrisburg%2C%20PA%2C%20USA!5e0!3m2!1sen!2sin!4v1753263853796!5m2!1sen!2sin",
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.5957637044557!2d-74.12711702411968!3d40.66084037140142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25201fb17c6d3%3A0x7fc050ff8741ed96!2s393%20Avenue%20C%2C%20Bayonne%2C%20NJ%2007002%2C%20USA!5e0!3m2!1sen!2sin!4v1755866478507!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d756.6489406219875!2d-74.12518583038016!3d40.6608403982126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2532a5c5f1bc5%3A0xbf25bfd8f33eafc9!2sUrban%20Dental%20and%20Braces!5e0!3m2!1sen!2sin!4v1756219257507!5m2!1sen!2sin",
     },
   // {
   //   id: "downtown",

@@ -135,7 +135,7 @@ export default function HomePage() {
         <div>
         <section 
       ref={bannerRef}
-      className="relative w-full h-140 md:h-[100vh] min-h-[650px] max-h-[950px] overflow-hidden bg-gradient-to-br from-primary via-primary-500 to-secondary"
+      className="relative w-full h-68 md:h-[100vh] min-h-[428px] max-h-[950px] overflow-hidden bg-gradient-to-br from-primary via-primary-500 to-secondary"
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}
@@ -218,9 +218,9 @@ export default function HomePage() {
                 </h1>
 
                 {/* Professional Accent Line */}
-                <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
+                <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-4"></div>
 
-                <p className="text-lg md:text-xl lg:text-2xl font-light leading-relaxed text-gray-200 mb-8 max-w-2xl">
+                <p className="text-lg md:text-xl lg:text-2xl font-light leading-relaxed text-gray-200 mb-6 max-w-2xl">
                   {banner.subtitle}
                 </p>
 
@@ -238,14 +238,14 @@ export default function HomePage() {
 
       {/* Navigation Dots - Professional Style */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-30">
-        <div className="flex gap-3 bg-black/20 backdrop-blur-md px-6 py-3 rounded-full border border-white/10">
+        <div className="flex gap-3 bg-black/20 backdrop-blur-md px-3 md:px-6 py-2 md:py-3 rounded-full border border-white/10">
           {banners.map((_, idx) => (
             <button
               key={idx}
               onClick={() => handleNavigation(idx)}
               className={`transition-all duration-300 rounded-full ${idx === current
-                  ? 'w-8 h-3 bg-blue-500 shadow-lg shadow-blue-500/50'
-                  : 'w-3 h-3 bg-white/40 hover:bg-white/60'
+                  ? 'w-4 md:w-8 h-2 md:h-3 bg-blue-500 shadow-lg shadow-blue-500/50'
+                  : 'w-2 md:w-3 h-2 md:h-3 bg-white/40 hover:bg-white/60'
                 }`}
               aria-label={`Go to slide ${idx + 1}`}
             />

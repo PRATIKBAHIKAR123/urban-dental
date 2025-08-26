@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary text-white py-8 px-2 sm:px-4 md:px-8">
+    <footer className="bg-[#3E3E3E] text-white py-8 px-2 sm:px-4 md:px-8">
       <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
         {/* Left: Logo & About */}
         <div className="space-y-4 col-span-1">
@@ -71,7 +71,7 @@ export default function Footer() {
         <div className="space-y-4 col-span-1">
           <h4 className="font-semibold mb-3 text-base sm:text-lg">Contact Us</h4>
           <div className="text-xs sm:text-sm text-gray-200">
-            <a className="mb-2 text-sm text-[#FFFFFF] flex gap-2 items-start underline" href="https://www.google.com/maps/place/393+Avenue+C,+Bayonne,+NJ+07002,+USA/@40.6608404,-74.127117,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25201fb17c6d3:0x7fc050ff8741ed96!8m2!3d40.6608404!4d-74.1245421!16s%2Fg%2F11bw4cjj0_?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"><MapPin size={16} className="mt-0.5" />
+            <a className="mb-2 text-sm text-[#FFFFFF] flex gap-2 items-start underline" href="https://www.google.com/maps/place/Urban+Dental+and+Braces/@40.6608403,-74.129413,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2532a5c5f1bc5:0xbf25bfd8f33eafc9!8m2!3d40.6608404!4d-74.1245421!16s%2Fg%2F11yg5dvxh2?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"><MapPin size={16} className="mt-0.5" />
               393 Avenue C, Bayonne, NJ 07002</a>
             <p className="mb-2 text-sm text-[#FFFFFF] flex gap-2 items-center"><Phone size={16} /> <a href="tel:(201) 479-2100" className="underline">(201) 479-2100</a></p>
             {/* <p className="mb-2 text-sm text-[#FFFFFF] flex gap-2 items-center"><Mail size={16} /> <a href="mailto:harrisburg@mapledentalpa.com" className="underline">harrisburg@mapledentalpa.com</a></p> */}

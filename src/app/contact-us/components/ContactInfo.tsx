@@ -68,17 +68,17 @@ export default function ContactInfo() {
                 <div 
                   key={index} 
                   className={`flex justify-between items-center py-1 px-2 rounded transition-colors ${
-                    isToday ? 'bg-white/10 border-l-2 border-emerald-400' : ''
+                    isToday ? 'bg-white/10 border-2 rounded-md border-white' : ''
                   }`}
                 >
-                  <span className={`text-sm font-medium ${isToday ? 'text-emerald-300' : 'text-white/90'}`}>
+                  <span className={`text-sm font-medium ${isToday ? 'text-white' : 'text-white/90'}`}>
                     {day}:
                   </span>
                   <span className={`text-sm ${
                     isClosed 
                       ? 'text-red-300 font-medium' 
                       : isToday 
-                        ? 'text-emerald-300 font-medium' 
+                        ? 'text-white font-medium' 
                         : 'text-white/80'
                   }`}>
                     {time}
@@ -92,7 +92,7 @@ export default function ContactInfo() {
           <div className="mt-3 pt-3 border-t border-white/20">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
-              <span className="text-sm text-emerald-300 font-medium">
+              <span className="text-sm text-white font-medium">
                 Open Now - Closes at 6:00 PM
               </span>
             </div>

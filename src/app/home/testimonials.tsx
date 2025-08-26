@@ -457,7 +457,7 @@ const ModernTestimonialsSection: React.FC = () => {
             <div className='w-full space-y-6'>
               <div className="flex items-center justify-center">
                 <h2 className="text-3xl md:text-4xl font-bold ">
-                  Client Feedback
+                  Patient Feedback
                 </h2>
                 
                 

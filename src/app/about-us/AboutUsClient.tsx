@@ -127,10 +127,10 @@ export default function AboutUsClient() {
             </p>
           </Fade>
 
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-4 sm:mt-6 items-start sm:items-center">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-4 sm:mt-6 items-center sm:items-center">
             <Button
               onClick={() => setIsBookingOpen(true)}
-              className="bg-primary text-white hover:bg-secondary/80 w-full sm:w-auto"
+              className="py-6 px-12 bg-primary text-md text-white hover:bg-secondary/80 w-full"
             >
               Book Appointment
             </Button>

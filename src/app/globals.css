@@ -216,7 +216,7 @@
     padding-top: 3.75rem;
     padding-bottom: 3.75rem;
     text-align: center;
-    /* background-image:
+    background-image:
       repeating-linear-gradient(0deg,
         rgba(255, 255, 255, 0.05) 0px,
         rgba(255, 255, 255, 0.05) 1px,
@@ -226,11 +226,11 @@
         rgba(255, 255, 255, 0.05) 0px,
         rgba(255, 255, 255, 0.05) 1px,
         transparent 1px,
-        transparent 20px); */
-        background-image: url("/Images/banners/top_banner.jpeg");
+        transparent 20px);
+        /* background-image: url("/Images/banners/top_banner.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
-        opacity: 90%;
+        opacity: 90%; */
   }
 
   .details-page-header-section h1 {

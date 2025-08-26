@@ -12,7 +12,7 @@ export const blogPostsData: BlogPost[] = [
     slug: "dental-emergencies-bayonne",
     title: "Sudden Dental Pain in Bayonne, NJ? : What It Means and How to React",
     image: "/Images/Blogs/Emergency Dental Pain Bayonne.webp",
-    datetime: "Jul 16, 2025",
+    datetime: "Aug 07, 2025",
     shortDescription:
       "Dental pain always seems to strike at the worst possible moment-right before a big meeting, during dinner, or in the middle of the night. For many people in Bayonne, NJ, sudden tooth pain is more than just discomfort-it’s a sign that something serious may be happening inside your mouth. Ignoring it can lead to bigger problems, but knowing how to react can save both your smile and your sanity.",
     detailsDescription: `
@@ -199,7 +199,7 @@ Sudden dental pain is never something you should ignore. Whether it’s a cavity
     slug: "5-common-mistakes-bayonne-dentists-want-you-to-avoid-in-oral-care",
     title: "5 Common Mistakes Bayonne Dentists Want You to Avoid in Oral Care | Urban Dental",
     image: "/Images/Blogs/5 Common Mistakes Bayonne Dentists Want You to Avoid in Oral Care.webp",
-    datetime: "May 18, 2025",
+    datetime: "Aug 14, 2025",
     shortDescription:
       "Let’s be honest-most of us think brushing twice a day is enough to keep our teeth healthy. But oral care goes way beyond just brushing. Even the smallest mistakes can snowball into painful, expensive dental problems. That’s why trusted dentists in Bayonne at Urban Dental & Braces are sharing the most common mistakes patients make and how you can avoid them.",
     detailsDescription: `
@@ -449,7 +449,7 @@ Avoiding common mistakes like skipping checkups, brushing incorrectly, ignoring 
     slug: "how-urban-dental-in-bayonne-nj-makes-root-canal-treatments-stress-free",
     title: "How Urban Dental in Bayonne, NJ Makes Root Canal Treatments Stress-Free",
     image: "/Images/Blogs/Root Canal Treatment Bayonne.webp",
-    datetime: "May 12, 2025",
+    datetime: "Aug 21, 2025",
     shortDescription:
       "The truth is, hearing the words “root canal” alone is enough to make many people feel anxious. Many picture a long, painful dental appointment, but that’s a myth that’s long outdated. Thanks to modern tools and methods, a root canal feels no more intimidating than a simple filling. At Urban Dental in Bayonne, NJ, we specialize in turning this once-feared procedure into a simple, painless, and even positive experience.",
     detailsDescription: `

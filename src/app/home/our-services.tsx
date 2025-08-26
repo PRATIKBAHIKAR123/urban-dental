@@ -29,7 +29,7 @@ export default function OurOffers (){
   ];
 
   return (
-    <section className="w-full py-16 md:py-24 relative overflow-hidden">
+    <section className="w-full py-2 md:py-6 relative overflow-hidden">
     
 
       <div className="max-w-7xl mx-auto px-4 md:px-6 relative">
