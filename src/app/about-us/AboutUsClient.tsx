@@ -11,17 +11,17 @@ import BookingModal from "../booking/bookingScreen";
 
 const services = [
   {
-    icon: "/Images/icons/implant.png",
+    icon: "/Images/icons/tooth-implant.png",
     price: "1199",
     title: "Dental Implant",
   },
   {
-    icon: "/Images/icons/tooth-whitening.png",
+    icon: "/Images/icons/teeth-whitening.png",
     price: "299",
     title: "Teeth Whitening",
   },
   {
-    icon: "/Images/icons/braces.png",
+    icon: "/Images/icons/braces (1).png",
     price: "250",
     title: "Braces",
   },
@@ -242,9 +242,9 @@ export default function AboutUsClient() {
       <Fade direction="left" triggerOnce>
         <section className="py-8 sm:py-12 lg:py-16 px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto">
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-            <a href="tel:(201) 479-2100" className="w-full flex flex-col border border-primary text-primary rounded-lg px-4 py-3 hover:opacity-50 text-xs text-center sm:text-sm font-medium transition">
+            <a href="tel:+1 (201) 479-2100" className="w-full flex flex-col border border-primary text-primary rounded-lg px-4 py-3 hover:opacity-50 text-xs text-center sm:text-sm font-medium transition">
               <span className="text-sm sm:text-base">Call Us Today</span>
-              (201) 479-2100
+              +1 (201) 479-2100
             </a>
             <button
               onClick={() => setIsBookingOpen(true)}

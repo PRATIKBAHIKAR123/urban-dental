@@ -184,8 +184,8 @@ export default function Header() {
 
         {/* Desktop Buttons */}
         <div className="hidden lg:flex gap-3">
-          <a href="tel:(201) 479-2100" className="border border-primary text-primary rounded-lg px-4 py-3 hover:opacity-50 text-sm font-medium transition">
-            (201) 479-2100
+          <a href="tel:+1 (201) 479-2100" className="border border-primary text-primary rounded-lg px-4 py-3 hover:opacity-50 text-sm font-medium transition">
+            +1 (201) 479-2100
           </a>
           <button onClick={()=>setIsBookingOpen(true)}  className="bg-primary text-white rounded-lg px-4 py-3 hover:bg-secondary text-sm font-medium transition">
             Book Online
@@ -195,8 +195,8 @@ export default function Header() {
         {/* Mobile Buttons and Menu Toggle */}
         <div className="flex lg:hidden items-center gap-2">
           {/* Mobile Action Buttons */}
-          <a href="tel:(201) 479-2100" className="border border-primary text-primary rounded-lg px-4 py-3 hover:bg-blue-50 text-xs font-medium transition">
-            (201) 479-2100
+          <a href="tel:+1 (201) 479-2100" className="border border-primary text-primary rounded-lg px-4 py-3 hover:bg-blue-50 text-xs font-medium transition">
+            +1 (201) 479-2100
           </a>
           <button onClick={()=>setIsBookingOpen(true)} className="bg-primary text-white rounded-lg px-4 py-3 hover:bg-blue-700 text-xs font-medium transition">
             Book Online
@@ -248,7 +248,7 @@ export default function Header() {
           <div className="flex items-center justify-between p-4 border-b">
             <Image
               src="/Images/urban-dental-2048x609.webp"
-              alt="Maple Dental Logo"
+              alt="Urban Dental & Braces Logo"
               width={138}
               height={40}
             />

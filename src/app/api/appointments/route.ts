@@ -75,7 +75,7 @@ const createPatientEmailTemplate = (appointmentData: any) => {
   });
 
   return {
-    subject: `Appointment at Maple Dental - ${appointmentData.isNewClient ? 'New Patient' : 'Existing Patient'}`,
+    subject: `Appointment at Urban Dental & Braces - ${appointmentData.isNewClient ? 'New Patient' : 'Existing Patient'}`,
     html: `
       <!DOCTYPE html>
       <html>
@@ -317,7 +317,7 @@ const createPatientEmailTemplate = (appointmentData: any) => {
             </div>
             
             <div class="appointment-info">
-              <div class="appointment-title">Appointment at Maple Dental - ${appointmentData.isNewClient ? 'New Patient' : 'Existing Patient'}</div>
+              <div class="appointment-title">Appointment at Urban Dental & Braces - ${appointmentData.isNewClient ? 'New Patient' : 'Existing Patient'}</div>
               <div class="appointment-detail">
                 <strong>When:</strong> ${calendarDay} ${calendarDate} ${appointmentDate.getFullYear()} ${appointmentTime} - ${endTime} (IST)
               </div>
@@ -337,7 +337,7 @@ const createPatientEmailTemplate = (appointmentData: any) => {
               <div class="agenda-date">${calendarDay} ${calendarDate} ${appointmentDate.getFullYear()}</div>
               <div class="agenda-event">12:15pm Marketing Catch-up</div>
               <div class="agenda-event">7pm nova logo review</div>
-              <div class="agenda-event">${appointmentTime} Appointment at Maple Dental - ${appointmentData.isNewClient ? 'New Patient' : 'Existing Patient'}</div>
+              <div class="agenda-event">${appointmentTime} Appointment at Urban Dental & Braces - ${appointmentData.isNewClient ? 'New Patient' : 'Existing Patient'}</div>
               <div class="agenda-event" style="color: #999; font-style: italic;">No later events</div>
             </div>
           </div>
@@ -387,7 +387,7 @@ const createPatientEmailTemplate = (appointmentData: any) => {
           </div>
           
           <div class="footer">
-            <p>Thank you for choosing Maple Dental NJ.</p>
+            <p>Thank you for choosing Urban Dental & Braces NJ.</p>
             <p>For any inquiries, call us at: <span class="contact-info">(973) 528-3300</span></p>
           </div>
         </div>
@@ -412,10 +412,10 @@ Appointment: ${formattedDate} ${appointmentTime}
 Duration: ${appointmentData.duration || '30 Minutes'}
 ${appointmentData.reason ? `Note: ${appointmentData.reason}` : ''}
 
-Thank you for choosing Maple Dental NJ.
+Thank you for choosing Urban Dental & Braces, NJ.
 For any inquiries, call us at: (973) 528-3300
 
-Maple Dental NJ
+Urban Dental & Braces, NJ
     `
   };
 };
@@ -702,7 +702,7 @@ const createAdminEmailTemplate = (appointmentData: any) => {
             </div>
             
             <div class="appointment-info">
-              <div class="appointment-title">Appointment at Maple Dental - ${appointmentData.isNewClient ? 'New Patient' : 'Existing Patient'}</div>
+              <div class="appointment-title">Appointment at Urban Dental & Braces - ${appointmentData.isNewClient ? 'New Patient' : 'Existing Patient'}</div>
               <div class="appointment-detail">
                 When: ${calendarDay} ${calendarDate} ${appointmentDate.getFullYear()} ${appointmentTime} - ${endTime} (IST)
               </div>
@@ -718,7 +718,7 @@ const createAdminEmailTemplate = (appointmentData: any) => {
               <div class="agenda-title">Agenda</div>
               <div class="agenda-date">${calendarDay} ${calendarDate} ${appointmentDate.getFullYear()}</div>
               <div class="agenda-event" style="color: #999; font-style: italic;">No earlier events</div>
-              <div class="agenda-event">${appointmentTime} Appointment at Maple Dental - ${appointmentData.isNewClient ? 'New Patient' : 'Existing Patient'}</div>
+              <div class="agenda-event">${appointmentTime} Appointment at Urban Dental & Braces - ${appointmentData.isNewClient ? 'New Patient' : 'Existing Patient'}</div>
               <div class="agenda-event" style="color: #999; font-style: italic;">No later events</div>
             </div>
           </div>
@@ -769,7 +769,7 @@ const createAdminEmailTemplate = (appointmentData: any) => {
           
           <div style="text-align: left; margin-top: 30px; color: #666;">
             <p>Thank you,</p>
-            <p>Maple Dental NJ</p>
+            <p>Urban Dental & Braces, NJ</p>
           </div>
         </div>
       </body>
@@ -793,7 +793,7 @@ Duration: ${appointmentData.duration || '30 Minutes'}
 ${appointmentData.reason ? `Note: ${appointmentData.reason}` : ''}
 
 Thank you,
-Maple Dental NJ
+Urban Dental & Braces NJ
     `
   };
 };

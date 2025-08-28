@@ -12,7 +12,7 @@ import { CheckCircle } from 'lucide-react';
 export default function SameDayPage() {
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Same Day Crowns & Restorations",
     description: "Traditional crowns require multiple visits and temporary restorations, but our advanced technology allows us to create and place permanent crowns in a single appointment. No more waiting weeks with uncomfortable temporaries or scheduling multiple visits.",
     points: [
@@ -23,7 +23,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Emergency Same Day Treatments",
     description: "Dental emergencies don't follow your schedule, but our same day approach ensures you get the care you need immediately. From severe pain to broken teeth, we provide comprehensive emergency treatments without the wait.",
     points: [

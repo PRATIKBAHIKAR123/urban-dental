@@ -219,7 +219,7 @@ const EmailTemplate: React.FC<EmailTemplateProps> = ({ appointmentData }) => {
                     margin: '0 0 12px 0',
                     lineHeight: '24px'
                   }}>
-                    Appointment at Maple Dental - New Patient
+                    Appointment at Urban Dental & Braces - New Patient
                   </h3>
 
                   <div style={{
@@ -433,7 +433,7 @@ const EmailTemplate: React.FC<EmailTemplateProps> = ({ appointmentData }) => {
               lineHeight: '20px',
               margin: '0 0 8px 0'
             }}>
-              Thank you for choosing <strong>Maple Dental NJ</strong>.
+              Thank you for choosing <strong>Urban Dental & Braces NJ</strong>.
             </p>
 
             <p style={{
@@ -518,7 +518,7 @@ const EmailTemplate: React.FC<EmailTemplateProps> = ({ appointmentData }) => {
                 color: '#202124',
                 fontWeight: '500'
               }}>
-                {formatTime12h(appointmentTime)} Appointment at Maple Dental - New Patient
+                {formatTime12h(appointmentTime)} Appointment at Urban Dental & Braces - New Patient
               </div>
             </div>
 

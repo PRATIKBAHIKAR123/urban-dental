@@ -133,7 +133,7 @@ export default function DynamicMetadata() {
       const localBusinessData = {
         "@context": "https://schema.org",
         "@type": "Dentist",
-        "name": "Maple Dental Harrisburg",
+        "name": "Urban Dental & Braces",
         "description": metadata.description,
         "url": `https://mapledentalharrisburg.com${pathname}`,
         "telephone": "+1-717-745-2700",

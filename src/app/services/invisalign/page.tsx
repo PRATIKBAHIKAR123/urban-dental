@@ -13,7 +13,7 @@ export default function InvisilinePage() {
 
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "The Invisalign Process",
     description: "Every Invisalign journey begins with a personalized consultation and continues with careful planning to ensure great results.",
     points: [
@@ -24,7 +24,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Benefits of Invisalign",
     description: "Invisalign is more than just clear aligners - it's a lifestyle-friendly orthodontic solution.",
     points: [

@@ -44,7 +44,7 @@ const termsSections = [
   {
     title: "Notices",
     icon: "/Images/cropped-urban-dental-scaled-1.webp",
-    content: `Please contact us by phone at (201) 479-2100 or by mail at 393 Avenue C, Bayonne, NJ 07002`,
+    content: `Please contact us by phone at +1 (201) 479-2100 or by mail at 393 Avenue C, Bayonne, NJ 07002`,
   },
 ];
 
@@ -58,7 +58,7 @@ const importantPoints = [
 ];
 
 const contactInfo = {
-  phone: "(201) 479-2100",
+  phone: "+1 (201) 479-2100",
   email: "info@novadental.com",
   address: "393 Avenue C, Bayonne, NJ 07002",
   hours: "Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 8:30 AM - 3:30 PM",

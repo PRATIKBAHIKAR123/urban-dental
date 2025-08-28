@@ -12,7 +12,7 @@ import { CheckCircle } from 'lucide-react';
 export default function PainlessTreatmentPage() {
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Painless Fillings",
     description: "Cavities don't have to be a painful experience. Our tooth-colored fillings not only restore your tooth but also blend seamlessly with your natural smile.",
     points: [
@@ -23,7 +23,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Gentle Root Canal Therapy",
     description: "A root canal may sound intimidating, but with today's technology, it's no more uncomfortable than getting a filling. Our focus is on saving your natural tooth while keeping you completely at ease.",
     points: [

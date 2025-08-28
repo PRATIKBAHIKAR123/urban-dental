@@ -27,7 +27,7 @@ const locations = [
     id: "nj",
     name: "Bayonne, NJ",
     address: "393 Avenue C, Bayonne, NJ 07002",
-    phone: "(201) 479-2100",
+    phone: "+1 (201) 479-2100",
     hours: [
       "Monday: 9:00 AM - 6:00 PM",
       "Tuesday: 9:00 AM - 6:00 PM",

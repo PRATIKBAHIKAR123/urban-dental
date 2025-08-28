@@ -123,7 +123,7 @@ export interface TimeSlotWithAvailability {
 
 class ApiService {
   private readonly baseUrl = 'https://api.baawancrm.com/api/1';
-  private readonly tenantId = '4'; // X-Tenant-ID header value
+  private readonly tenantId = '5'; // X-Tenant-ID header value
 
   private async makeRequest<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
     const url = `${this.baseUrl}${endpoint}`;

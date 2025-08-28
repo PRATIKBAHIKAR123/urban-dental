@@ -49,17 +49,17 @@ const banners = [
 
 const services = [
     {
-        icon: "/Images/icons/implant.png",
+        icon: "/Images/icons/tooth-implant.png",
         price: "1199",
         title: "Dental Implant",
     },
     {
-        icon: "/Images/icons/tooth-whitening.png",
+        icon: "/Images/icons/teeth-whitening.png",
         price: "299",
         title: "Teeth Whitening",
     },
     {
-        icon: "/Images/icons/braces.png",
+        icon: "/Images/icons/braces (1).png",
         price: "250/month",
         title: "Braces",
     },

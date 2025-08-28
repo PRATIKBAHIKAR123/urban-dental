@@ -73,7 +73,7 @@ export default function Footer() {
           <div className="text-xs sm:text-sm text-gray-200">
             <a className="mb-2 text-sm text-[#FFFFFF] flex gap-2 items-start underline" href="https://www.google.com/maps/place/Urban+Dental+and+Braces/@40.6608403,-74.129413,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2532a5c5f1bc5:0xbf25bfd8f33eafc9!8m2!3d40.6608404!4d-74.1245421!16s%2Fg%2F11yg5dvxh2?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"><MapPin size={16} className="mt-0.5" />
               393 Avenue C, Bayonne, NJ 07002</a>
-            <p className="mb-2 text-sm text-[#FFFFFF] flex gap-2 items-center"><Phone size={16} /> <a href="tel:(201) 479-2100" className="underline">(201) 479-2100</a></p>
+            <p className="mb-2 text-sm text-[#FFFFFF] flex gap-2 items-center"><Phone size={16} /> <a href="tel:+1 (201) 479-2100" className="underline">+1 (201) 479-2100</a></p>
             {/* <p className="mb-2 text-sm text-[#FFFFFF] flex gap-2 items-center"><Mail size={16} /> <a href="mailto:harrisburg@mapledentalpa.com" className="underline">harrisburg@mapledentalpa.com</a></p> */}
           </div>
         </div>

@@ -13,7 +13,7 @@ export default function KidsAndChildrenPage() {
 
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Preventive Visits & Cleanings",
     description: "Regular checkups help us track growth, catch small issues early, and keep smiles cavity-free. Gentle cleanings remove plaque your child can't brush away at home, and our team teaches easy, age-appropriate hygiene tips. Prevention now means fewer treatments later.",
     points: [
@@ -24,7 +24,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Cavity Prevention & Tooth-Colored Fillings",
     description: "Even with great brushing, kids can get cavities-especially in hard-to-reach grooves. When treatment is needed, we use conservative, tooth-colored materials that blend in naturally. Our calm, kid-first approach keeps little patients comfortable and relaxed.",
     points: [

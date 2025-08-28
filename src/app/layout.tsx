@@ -27,7 +27,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Dentist in Bayonne, NJ | Urban Dental Bayonne | Cosmetic & Family Dentist",
-  description: "Trusted family & cosmetic dentistry in Bayonne, NJ. Urban Dental & Braces, Bayonne serves patients from Bayonne, Greenville, NJ and nearby areas. Call (201) 479-2100 or visit 393 Avenue C, Bayonne, NJ 07002.",
+  description: "Trusted family & cosmetic dentistry in Bayonne, NJ. Urban Dental & Braces, Bayonne serves patients from Bayonne, Greenville, NJ and nearby areas. Call +1 (201) 479-2100 or visit 393 Avenue C, Bayonne, NJ 07002.",
   keywords: "dentist harrisburg pa, cosmetic dentist harrisburg, family dentist harrisburg, dental implants harrisburg, root canal harrisburg, emergency dentist harrisburg",
   authors: [{ name: "Urban Dental Bayonne" }],
   creator: "Urban Dental Bayonne",

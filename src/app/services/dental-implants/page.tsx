@@ -14,7 +14,7 @@ export default function DentalImplantsPage() {
 
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Single Tooth Implants",
     description: "If you're missing just one tooth, a single implant is the most effective way to replace it without affecting neighboring teeth. This permanent solution blends seamlessly with your natural smile.",
     points: [
@@ -25,7 +25,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Multiple Tooth Implants",
     description: "When several teeth are missing, multiple implants provide a durable alternative to partial dentures. They improve comfort, chewing ability, and overall oral health.",
     points: [

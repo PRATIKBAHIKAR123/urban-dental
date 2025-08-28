@@ -14,7 +14,7 @@ export default function DentalFillingPage() {
 
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Tooth-Colored Fillings",
     description: "Our composite fillings are designed to match your natural tooth color, so no one can tell you've had dental work done. They're safe, durable, and perfect for small to medium cavities.",
     points: [
@@ -25,7 +25,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Repairing Cracked or Chipped Teeth",
     description: "Accidents, grinding, or biting hard foods can cause chips or cracks. Fillings can repair this damage, preventing further problems and restoring your smile.",
     points: [

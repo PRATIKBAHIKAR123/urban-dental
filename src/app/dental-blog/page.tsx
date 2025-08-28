@@ -104,10 +104,10 @@ export default function DentalBlogPage() {
     const loadPosts = async () => {
       setLoading(true);
       try {
-        const data = await fetchBlogPosts(currentPage, itemsPerPage);
-        setPosts(data.posts);
-        setTotalItems(data.totalItems);
-        setTotalPages(data.totalPages);
+        // const data = await fetchBlogPosts(currentPage, itemsPerPage);
+        // setPosts(data.posts);
+        // setTotalItems(data.totalItems);
+        // setTotalPages(data.totalPages);
       } catch (error) {
         console.error('Error fetching blog posts:', error);
       } finally {

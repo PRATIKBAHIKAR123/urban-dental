@@ -13,7 +13,7 @@ export default function OralSurgeryPage() {
 
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Common Oral Surgery Services We Provide",
     description: "We offer a wide range of oral surgery treatments designed to restore comfort and improve dental health.",
     points: [
@@ -24,7 +24,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Comfort & Sedation Options",
     description: "Your comfort is always our priority. We provide safe sedation and pain-management options to help you feel relaxed and worry-free.",
     points: [

@@ -14,7 +14,7 @@ export default function CosmeticDentistryPage() {
 
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Teeth Whitening",
     description: "At Urban Dental & Braces, we use safe, dentist-supervised whitening solutions that deliver noticeable results without sensitivity or damage to enamel.",
     points: [
@@ -25,7 +25,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Dental Veneers",
     description: "Whether your concern is discoloration, unevenness, or small gaps, veneers can create a balanced and radiant smile.",
     points: [

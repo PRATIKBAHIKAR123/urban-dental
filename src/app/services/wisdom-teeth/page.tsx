@@ -12,7 +12,7 @@ import { CheckCircle } from 'lucide-react';
 export default function Page() {
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Wisdom Teeth Evaluation & Monitoring",
     description:
       "Early assessment of wisdom teeth development helps prevent future complications and allows for better treatment planning. Regular monitoring ensures we can address issues before they become painful problems.",
@@ -24,7 +24,7 @@ const features = [
     ],
   },
   {
-    icon: "/Images/icons/Wisdom Tooth Removal in Harrisburg.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Simple & Surgical Extractions",
     description:
       "When wisdom teeth need to be removed, our skilled team performs both simple and complex surgical extractions with the highest level of care. We prioritize your comfort throughout the entire process.",

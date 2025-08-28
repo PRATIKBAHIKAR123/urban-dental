@@ -15,7 +15,7 @@ export default function Page() {
 
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Root Canal Therapy",
     description: "Root canal treatment removes infected or damaged pulp from inside your tooth, eliminating pain and preventing the need for extraction. Modern techniques make this procedure comfortable and highly successful with proper aftercare.",
     points: [
@@ -26,7 +26,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Endodontic Retreatment",
     description: "Sometimes a previously treated root canal may develop new problems or fail to heal properly. Retreatment can often save the tooth and resolve persistent issues without requiring extraction.",
     points: [

@@ -13,7 +13,7 @@ export default function EmergencyDentistryPage() {
 
   const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Tooth Pain & Infections",
     description: "Severe toothaches or dental abscesses should never be ignored.",
     points: [

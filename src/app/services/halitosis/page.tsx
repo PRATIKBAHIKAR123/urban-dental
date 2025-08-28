@@ -13,7 +13,7 @@ export default function Page() {
 
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Professional Dental Cleaning",
     description: "Plaque, tartar, and bacteria are leading causes of bad breath. Professional cleanings remove buildup that brushing and flossing alone can't reach.",
     points: [
@@ -24,7 +24,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Gum Disease Treatment",
     description: "Periodontal infections are a common cause of chronic bad breath. Treating gum disease not only freshens your breath but also protects your overall oral health.",
     points: [

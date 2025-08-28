@@ -12,7 +12,7 @@ export default function MapSection() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Maple Dental Location"
+            title="Urban Dental & Braces Location"
             className="w-full h-full"
           />
 

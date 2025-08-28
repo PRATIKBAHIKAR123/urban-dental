@@ -158,12 +158,12 @@ export default function OurOffers (){
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-primary hover:bg-secondary text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 whitespace-nowrap">
+                <button onClick={()=>setIsBookingOpen(true)} className="bg-primary hover:bg-secondary text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 whitespace-nowrap">
                   Book Appointment
                 </button>
-                <button className="border-2 border-primary text-primary hover:bg-blue-50 font-bold py-4 px-8 rounded-xl transition-all duration-300 whitespace-nowrap">
+                <a href="tel:+1 (201) 479-2100" className="border-2 border-primary text-primary hover:bg-blue-50 font-bold py-4 px-8 rounded-xl transition-all duration-300 whitespace-nowrap">
                   Call Now
-                </button>
+                </a>
               </div>
             </div>
           </div>

@@ -13,7 +13,7 @@ export default function DentalEmergencyPage() {
 
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Severe Tooth Pain & Infections",
     description: "Toothaches or abscesses should never be ignored, as they can signal deeper issues that require immediate care. Our team provides fast relief and targeted treatment.",
     points: [
@@ -24,7 +24,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Broken or Knocked-Out Teeth",
     description: "Accidents and injuries can damage or even knock out teeth. Acting quickly can often save the tooth and prevent complications.",
     points: [

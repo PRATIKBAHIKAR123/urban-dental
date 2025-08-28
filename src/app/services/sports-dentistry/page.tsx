@@ -12,7 +12,7 @@ import { CheckCircle } from 'lucide-react';
 export default function SportsDentistryPage() {
     const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Custom Athletic Mouthguards",
     description:
       "Professional-grade protection is essential for any contact sport or high-risk activity. Off-the-shelf guards simply can't provide the same level of comfort and protection as a custom-fitted solution.",

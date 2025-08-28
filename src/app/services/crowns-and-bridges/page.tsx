@@ -13,7 +13,7 @@ export default function CrownsPage() {
 
  const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Dental Crowns",
     description: "Crowns, often called \"caps,\" are used to cover and protect weakened, damaged, or misshapen teeth. They restore both strength and beauty, making your tooth look and function like new.",
     points: [
@@ -24,7 +24,7 @@ export default function CrownsPage() {
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Dental Bridges",
     description: "Bridges are used to replace one or more missing teeth by anchoring to the natural teeth or implants beside the gap. They not only restore your bite but also prevent surrounding teeth from shifting.",
     points: [

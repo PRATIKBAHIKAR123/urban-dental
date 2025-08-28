@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 export const metadataConfig = {
   default: {
     title: "Dentist in Bayonne, NJ | Urban Dental Bayonne | Cosmetic & Family Dentist",
-    description: "Trusted family & cosmetic dentistry in Bayonne, NJ. Urban Dental & Braces, Bayonne serves patients from Bayonne, Greenville, NJ and nearby areas. Call (201) 479-2100 or visit 393 Avenue C, Bayonne, NJ 07002.",
+    description: "Trusted family & cosmetic dentistry in Bayonne, NJ. Urban Dental & Braces, Bayonne serves patients from Bayonne, Greenville, NJ and nearby areas. Call +1 (201) 479-2100 or visit 393 Avenue C, Bayonne, NJ 07002.",
     keywords: "dentist bayonne nj, cosmetic dentist bayonne, family dentist bayonne, dental implants bayonne, root canal bayonne, emergency dentist bayonne",
   },
   services: {
@@ -235,12 +235,12 @@ export const metadataConfig = {
   pages: {
     "about-us": {
       title: "About Urban Dental Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
-      description: "Learn about Urban Dental & Braces – your trusted family & cosmetic dentist serving Bayonne (07002), Greenville (07305), and surrounding communities. Modern, affordable care for all ages. Call (201) 479-2100 or Book Online.",
+      description: "Learn about Urban Dental & Braces – your trusted family & cosmetic dentist serving Bayonne (07002), Greenville (07305), and surrounding communities. Modern, affordable care for all ages. Call +1 (201) 479-2100 or Book Online.",
       keywords: "about urban dental bayonne, family dentist bayonne nj, cosmetic dentist bayonne, dental practice bayonne, bayonne dental team",
     },
     "about-urban-dental-bayonne-nj": {
       title: "About Urban Dental Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
-      description: "Learn about Urban Dental & Braces – your trusted family & cosmetic dentist serving Bayonne (07002), Greenville (07305), and surrounding communities. Modern, affordable care for all ages. Call (201) 479-2100 or Book Online.",
+      description: "Learn about Urban Dental & Braces – your trusted family & cosmetic dentist serving Bayonne (07002), Greenville (07305), and surrounding communities. Modern, affordable care for all ages. Call +1 (201) 479-2100 or Book Online.",
       keywords: "about urban dental bayonne, family dentist bayonne nj, cosmetic dentist bayonne, dental practice bayonne, bayonne dental team",
     },
     "contact-us": {
@@ -279,44 +279,44 @@ export const metadataConfig = {
       keywords: "dental offers harrisburg pa, dental specials harrisburg, new patient specials harrisburg, dental discounts harrisburg, harrisburg dental promotions",
     },
     "teeth-whitening-offer-bayonne-nj": {
-      title: "$299 Teeth Whitening Special in Harrisburg, PA | Maple Dental | Cosmetic & Family Dentistry",
-      description: "Brighten your smile with Maple Dental's $299 professional teeth whitening offer in Harrisburg, PA. Serving Colonial Park, Penbrook, Lawnton, and nearby. No hidden fees—just real results.",
-      keywords: "teeth whitening special harrisburg pa, $299 teeth whitening harrisburg, professional whitening harrisburg, teeth whitening offer harrisburg, harrisburg dental specials",
+      title: "$299 Teeth Whitening in Bayonne, NJ | Urban Dental Bayonne | Cosmetic & Family Dentist",
+      description: "Brighten your smile with Urban Dental & Braces in Bayonne, NJ. Take advantage of our limited-time $299 professional teeth whitening special—safe, fast, and effective for new and existing patients. Serving Bayonne, Greenville, and nearby communities.",
+      keywords: "teeth whitening special bayonne nj, $299 teeth whitening bayonne, professional whitening bayonne, teeth whitening offer bayonne, bayonne dental specials",
     },
     "dalia-khan-bayonne-nj-dentist": {
       title: "Dr. Dalia Khan, DDS in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
-      description: "Discover Dr. Dalia Khan, DDS at Urban Dental & Braces. Providing quality general and cosmetic dentistry for patients in Bayonne (07002), Greenville, NJ (07305), and nearby communities. Call (201) 479-2100.",
+      description: "Discover Dr. Dalia Khan, DDS at Urban Dental & Braces. Providing quality general and cosmetic dentistry for patients in Bayonne (07002), Greenville, NJ (07305), and nearby communities. Call +1 (201) 479-2100.",
       keywords: "dr dalia khan bayonne nj, dentist bayonne nj, urban dental bayonne, family dentist bayonne, cosmetic dentist bayonne",
     },
    "hala-elsamna-bayonne-nj-dentist": {
       title: "Dr. Hala Elsamna, DMD in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
-      description: "Learn about Dr. Hala Elsamna, DMD at Urban Dental & Braces. Compassionate, experienced dental care for patients in Bayonne (07002), Greenville, NJ (07305), and nearby communities. Call (201) 479-2100.",
+      description: "Learn about Dr. Hala Elsamna, DMD at Urban Dental & Braces. Compassionate, experienced dental care for patients in Bayonne (07002), Greenville, NJ (07305), and nearby communities. Call +1 (201) 479-2100.",
       keywords: "dr hala elsamna bayonne nj, dentist bayonne nj, urban dental bayonne, family dentist bayonne, cosmetic dentist bayonne",
     },
     "steven-reff-bayonne-nj-dentist": {
       title: "Dr. Steven Reff, DDS in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
-      description: "Meet Dr. Steven Reff, DDS at Urban Dental & Braces. Providing advanced restorative and cosmetic dentistry for patients in Bayonne (07002), Greenville, NJ (07305), and nearby communities. Call (201) 479-2100.",
+      description: "Meet Dr. Steven Reff, DDS at Urban Dental & Braces. Providing advanced restorative and cosmetic dentistry for patients in Bayonne (07002), Greenville, NJ (07305), and nearby communities. Call +1 (201) 479-2100.",
       keywords: "dr steven reff bayonne nj, dentist bayonne nj, urban dental bayonne, family dentist bayonne, cosmetic dentist bayonne",
     },
     "privacy-policy": {
-      title: "Privacy Policy | Maple Dental Harrisburg",
-      description: "Privacy policy for Maple Dental Harrisburg. Learn how we protect your personal information and maintain patient confidentiality.",
+      title: "Privacy Policy | Urban Dental & Braces",
+      description: "Privacy policy for Urban Dental & Braces. Learn how we protect your personal information and maintain patient confidentiality.",
       keywords: "privacy policy maple dental harrisburg, patient privacy harrisburg, dental privacy policy harrisburg, harrisburg dental confidentiality",
     },
     "terms-and-conditions": {
-      title: "Terms and Conditions | Maple Dental Harrisburg",
-      description: "Terms and conditions for Maple Dental Harrisburg. Read our service terms and patient agreement information.",
+      title: "Terms and Conditions | Urban Dental & Braces",
+      description: "Terms and conditions for Urban Dental & Braces. Read our service terms and patient agreement information.",
       keywords: "terms and conditions maple dental harrisburg, dental service terms harrisburg, patient agreement harrisburg, harrisburg dental terms",
     },
     "accessibility": {
-      title: "Accessibility Statement | Maple Dental Harrisburg",
-      description: "Accessibility statement for Maple Dental Harrisburg. Learn about our commitment to providing accessible dental care for all patients.",
+      title: "Accessibility Statement | Urban Dental & Braces",
+      description: "Accessibility statement for Urban Dental & Braces. Learn about our commitment to providing accessible dental care for all patients.",
       keywords: "accessibility maple dental harrisburg, accessible dental care harrisburg, disability friendly dentist harrisburg, harrisburg dental accessibility",
     },
   },
   "blog": {
-    title: "Dental Blog | Maple Dental Harrisburg | Dental Health Tips",
-    description: "Read our dental blog for tips on oral health, dental procedures, and maintaining a healthy smile. Maple Dental Harrisburg shares expert dental advice and insights.",
+    title: "Dental Blog | Urban Dental & Braces | Dental Health Tips",
+    description: "Read our dental blog for tips on oral health, dental procedures, and maintaining a healthy smile. Urban Dental & Braces shares expert dental advice and insights.",
     keywords: "dental blog harrisburg, dental health tips harrisburg, oral health advice harrisburg, dental education harrisburg, harrisburg dental blog",
   },
   "dental-blog": {

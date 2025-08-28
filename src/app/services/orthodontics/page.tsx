@@ -13,7 +13,7 @@ export default function OrthodonticsPage() {
 
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Invisalign® Clear Aligners",
     description: "Clear aligners are a popular choice for patients who want a nearly invisible way to straighten teeth. Invisalign® aligners are removable, comfortable, and designed to fit seamlessly into your daily routine.",
     points: [
@@ -24,7 +24,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Traditional Metal Braces",
     description: "For complex orthodontic issues, traditional braces remain a reliable solution. Modern metal braces are smaller, more comfortable, and more effective than ever before.",
     points: [

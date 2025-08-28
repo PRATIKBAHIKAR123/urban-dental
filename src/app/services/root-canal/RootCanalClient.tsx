@@ -11,7 +11,7 @@ import { CheckCircle } from 'lucide-react';
 export default function RootCanalClient() {
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "A Comfortable Step-by-Step Process",
     description: "We take the fear out of root canals with a calm, gentle approach.",
     points: [
@@ -22,7 +22,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Focused on Keeping Your Natural Teeth",
     description: "Our top priority is saving your tooth whenever possible.",
     points: [

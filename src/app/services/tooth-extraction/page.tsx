@@ -13,7 +13,7 @@ export default function ToothExtractionPage() {
 
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Simple Tooth Extractions",
     description: "Ideal for teeth that are visible and can be removed easily, simple extractions are performed quickly and gently to relieve discomfort and restore oral health.",
     points: [
@@ -24,7 +24,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Surgical Extractions",
     description: "When teeth are broken, impacted, or not easily accessible, surgical extraction may be necessary. Our team uses advanced techniques to ensure safe and effective removal.",
     points: [

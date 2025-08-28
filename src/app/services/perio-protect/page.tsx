@@ -12,7 +12,7 @@ import { CheckCircle } from 'lucide-react';
 export default function PerioProtectPage() {
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Customized Perio Protect Trays",
     description: "The treatment starts with the creation of custom-fit trays designed specifically for your mouth. These trays are comfortable and allow medication to reach deep below the gumline where toothbrushes and floss can't.",
     points: [
@@ -23,7 +23,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Non-Surgical Gum Disease Therapy",
     description: "For many patients, Perio Protect can reduce or even eliminate the need for invasive gum surgery. This treatment targets harmful bacteria without discomfort or downtime.",
     points: [

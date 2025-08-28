@@ -13,7 +13,7 @@ export default function Page() {
 
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Dental Implants",
     description: "Dental implants are considered the gold standard for tooth replacement, providing stability, durability, and a natural look. They replace both the root and crown of a tooth for a long-lasting solution.",
     points: [
@@ -24,7 +24,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Dental Bridges",
     description: "If you're missing one or more teeth in a row, a dental bridge can restore your smile without removable dentures. Bridges are anchored to healthy teeth or implants for support.",
     points: [

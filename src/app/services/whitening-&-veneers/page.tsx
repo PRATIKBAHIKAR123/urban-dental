@@ -12,7 +12,7 @@ import { CheckCircle } from 'lucide-react';
 export default function WhiteningVeneersPage() {
 const features = [
   {
-    icon: "/Images/icons/Immediate Pain Relief.png",
+    icon: "/Images/icons/medicine.png",
     title: "Professional Teeth Whitening",
     description: "Our whitening treatments brighten your teeth safely and effectively under dentist supervision.",
     points: [
@@ -23,7 +23,7 @@ const features = [
     ]
   },
   {
-    icon: "/Images/icons/Dental Implant Process at Maple Dental.png",
+    icon: "/Images/icons/dental-drill.png",
     title: "Dental Veneers",
     description: "Veneers are thin, durable porcelain shells that enhance the shape, color, and overall appearance of your teeth.",
     points: [
