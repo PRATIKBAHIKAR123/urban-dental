@@ -18,13 +18,13 @@ interface ServiceAreasSidebarProps {
 const serviceAreas: ServiceArea[] = [
   {
     name: "Bayonne, NJ",
-    icon: "/Images/icons/map.png",
+    icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
     link: "/service-areas/bayonne-nj-dentist-near-you"
   },
   
   {
     name: "Greenville, NJ",
-    icon: "/Images/icons/map.png",
+    icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
     link: "/service-areas/greenville-nj-dentist-near-you"
   },
 ];
