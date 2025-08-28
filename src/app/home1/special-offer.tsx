@@ -162,7 +162,7 @@ const SpecialOffersSection = () => {
 
             {/* Call to Action */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a href="tel:717-745-2700" className="inline-flex items-center justify-center gap-3 bg-white text-primary font-semibold py-4 px-8 rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg hover:shadow-xl w-full sm:w-auto min-w-[200px] h-[56px]">
+              <a href="tel:+1 (201) 479-2100" className="inline-flex items-center justify-center gap-3 bg-white text-primary font-semibold py-4 px-8 rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg hover:shadow-xl w-full sm:w-auto min-w-[200px] h-[56px]">
                 <Phone className="w-5 h-5" />
                 Call Now
               </a>

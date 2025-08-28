@@ -145,7 +145,7 @@ export default function OurOffers (){
         </div>
 
         {/* Bottom CTA Section */}
-        <div className="mt-16 text-center">
+        <div className="mt-5 md:mt-16 text-center">
           <div className="bg-white/60 backdrop-blur-sm border border-blue-100 rounded-3xl p-8 shadow-lg max-w-4xl mx-auto">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="text-left">

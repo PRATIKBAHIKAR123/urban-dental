@@ -379,7 +379,7 @@ export default function HomePage() {
             
 
             <section className="w-full bg-gradient-to-br from-white to-sky-50 relative overflow-hidden py-10 md:py-20">
-                <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-20 px-6 md:px-8">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 md:gap-20 px-6 md:px-8">
 
                     {/* Left Side - Image */}
                     <Slide direction="right" className="w-full md:w-1/2 h-64 md:h-120">
@@ -440,7 +440,7 @@ export default function HomePage() {
             <HomepageSections />
 
                   <Slide direction="up" triggerOnce>
-                <section className="py-16 px-4 md:px-16 max-w-7xl mx-auto">
+                <section className="py-2 md:py-16 px-4 md:px-16 max-w-7xl mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {services.map((service, index) => {
                             // const { ref, inView } = useInView({
@@ -496,7 +496,7 @@ export default function HomePage() {
                     </Fade>
                     <Fade delay={600}>
                       <div className="text-center">
-                        <Button onClick={() => setIsBookingOpen(true)} size={'lg'}>Book Online </Button>
+                        <Button className='py-6 px-12 text-lg' onClick={() => setIsBookingOpen(true)} size={'lg'}>Book Online </Button>
                       </div>
                     </Fade>
             </section>
@@ -531,7 +531,7 @@ export default function HomePage() {
 
             {/* Call to Action */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a href="tel:717-745-2700" className="inline-flex items-center justify-center gap-3 bg-white text-primary font-semibold py-4 px-8 rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg hover:shadow-xl w-full sm:w-auto min-w-[200px] h-[56px]">
+              <a href="tel:+1 (201) 479-2100" className="inline-flex items-center justify-center gap-3 bg-white text-primary font-semibold py-4 px-8 rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg hover:shadow-xl w-full sm:w-auto min-w-[200px] h-[56px]">
                 <Phone className="w-5 h-5" />
                 Call Now
               </a>
@@ -544,7 +544,7 @@ export default function HomePage() {
         </div>
 </section>
 <section className="w-full bg-gradient-to-br from-white to-sky-50 relative overflow-hidden py-10 md:py-20">
-                <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-20 px-6 md:px-8">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 md:gap-20 px-6 md:px-8">
 
                     {/* Left Side - Image */}
                     <Slide direction="right" className="w-full md:w-1/2 h-64 md:h-80">

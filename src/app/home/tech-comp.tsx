@@ -38,7 +38,7 @@ const tech = [
   const duplicatedLogos = [...tech, ...tech];
 
   return (
-    <section className="w-full bg-gray-50 py-16 mt-4">
+    <section className="w-full bg-gray-50 py-4 md:py-16 mt-4">
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">

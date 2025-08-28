@@ -10,7 +10,7 @@ export default function Footer() {
         {/* Left: Logo & About */}
         <div className="space-y-4 col-span-1">
           <div className="flex items-center gap-2 mb-2">
-            <Image src="/Images/urban-dental-2048x609.webp" alt="urban Dental Logo" width={160} height={100} className="w-32 sm:w-40 md:w-48 h-auto" />
+            <Image src="/Images/urban dental.braces - bluewhite.png" alt="urban Dental Logo" width={160} height={100} className="w-32 sm:w-40 md:w-48 h-auto" />
           </div>
           <p className="text-xs sm:text-sm text-gray-200">
             Urban Dental & Braces is your trusted dentist in Bayonne, NJ, delivering personalized family, cosmetic, and restorative dental care. From preventive checkups, cleanings, and fillings to advanced services like teeth whitening, veneers, dental implants, orthodontics, and same-day emergency dentistry, our team is here to keep your smile healthy and confident. Conveniently located at 393 Avenue C, Bayonne, NJ 07002, we proudly care for patients from Bayonne (07002), Greenville (07305), and nearby communities. With modern technology, gentle techniques, and compassionate service, Urban Dental & Braces makes every visit comfortable and stress-free.
