@@ -44,7 +44,7 @@ const banners = [
         image2: '/Images/Banner3.webp',
     },
     {
-        image: '/Images/banners/banner-4.webp',
+        image: '/Images/banners/teeth-whitening-bayonne-nj.webp',
         title: 'Professional Teeth Whitening - Only $299',
         subtitle: 'Brighten your smile with our limited-time in-office whitening treatment.',
         image2: '/Images/young-surprised-woman-with-hand-her-face.webp',

@@ -23,6 +23,7 @@ const StepContactInfo = ({ nextStep, prevStep, formData, setFormData }: any) => 
   const [isPoliciesAgreed, setisPoliciesAgreed] = useState(formData.isPoliciesAgreed || false);
   const [isMessagesAgreed, setisMessagesAgreed] = useState(formData.isMessagesAgreed || false);
   const [isLoading, setIsLoading] = useState(false);
+  const isValidEmail = (email:any) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 
   // Update local state when formData changes (when navigating back to this step)
   useEffect(() => {
@@ -194,6 +195,11 @@ const StepContactInfo = ({ nextStep, prevStep, formData, setFormData }: any) => 
               onChange={(e) => handleChange('email', e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-teal-500 focus:border-teal-500"
             />
+                    {contactData.email && !isValidEmail(contactData.email) && (
+          <p className="text-red-500 text-xs mt-1">
+            Please enter a valid email address
+          </p>
+        )}
           </div>
 
           <div>
@@ -285,7 +291,7 @@ const StepContactInfo = ({ nextStep, prevStep, formData, setFormData }: any) => 
           </Button>
           <Button
             onClick={handleNext}
-            disabled={!contactData.firstName || !contactData.lastName || !contactData.email || !contactData.phone || !isPoliciesAgreed || !isMessagesAgreed}
+            disabled={!contactData.firstName || !contactData.lastName || !contactData.email ||!isValidEmail(contactData.email)|| !contactData.phone || !isPoliciesAgreed || !isMessagesAgreed}
             className="bg-teal-600 hover:bg-teal-700 text-white px-4 sm:px-6 py-2 sm:py-3 text-sm font-medium disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Next
