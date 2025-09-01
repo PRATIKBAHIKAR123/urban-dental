@@ -26,13 +26,13 @@ import TechCompanies from './tech-comp';
 
 const banners = [
     {
-        image: '/Images/banners/banner-1.webp',
+        image: '/Images/banners/WelcometoUrbanDentalBayonne-NJ.webp',
         title: 'Welcome to Urban Dental Bayonne',
         subtitle: 'Your Local Dentist in Bayonne, NJ for Healthy & Beautiful Smiles',
         image2: '/Images/Banner1.jpg',
     },
     {
-        image: '/Images/banners/banner-2.webp',
+        image: '/Images/banners/Emergency-Dental-Visit.webp',
         title: 'Emergency Dental Visit - Just $55',
         subtitle: 'Fast relief for toothaches or dental pain - includes exam & X-ray, no insurance needed.',
         image2: '/Images/Emergency Dentistry.jpg',
