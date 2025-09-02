@@ -340,14 +340,14 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
                   </option>
                 ))
               )}
-              
+              <option value="other">Other</option>
             </select>
             {validationErrors.insuranceId && (
               <p className="text-red-500 text-xs mt-1">Please select an insurance provider</p>
             )}
           </div>
 
-          <div>
+         {insuranceData.insuranceId === 'other' && (<div>
               <label className="block text-sm text-gray-600 mb-1">
                 Other
               </label>
@@ -365,7 +365,7 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
                 <p className="text-red-500 text-xs mt-1">Please enter Other Company</p>
               )}
             </div>
-
+)}
             <div>
               <label className="block text-sm text-gray-600 mb-1">
                 Member ID
