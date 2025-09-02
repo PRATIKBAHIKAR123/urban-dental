@@ -13,6 +13,7 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
     insuranceId: formData.insuranceId || null, // Add insurance ID
     memberId: formData.memberId || '',
     groupNumber: formData.groupNumber || '',
+        othercomp: formData.othercomp || '',
     ...formData
   });
   const [insuranceList, setInsuranceList] = useState<Insurance[]>([]);
@@ -32,6 +33,7 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
       insuranceId: formData.insuranceId || null,
       memberId: formData.memberId || '',
       groupNumber: formData.groupNumber || '',
+      othercomp: formData.othercomp || '',
       ...formData
     });
   }, [formData]);
@@ -65,7 +67,8 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
         insuranceId: null,
         insuranceProvider: '',
         memberId: '',
-        groupNumber: ''
+        groupNumber: '',
+        othercomp:''
       };
     }
     
@@ -108,15 +111,15 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
     const errors: {[key: string]: boolean} = {};
     
     if (insuranceData.hasInsurance === 'yes') {
-      if (!insuranceData.insuranceId) {
-        errors.insuranceId = true;
-      }
-      if (!insuranceData.memberId.trim()) {
-        errors.memberId = true;
-      }
-      if (!insuranceData.groupNumber.trim()) {
-        errors.groupNumber = true;
-      }
+      // if (!insuranceData.insuranceId) {
+      //   errors.insuranceId = true;
+      // }
+      // if (!insuranceData.memberId.trim()) {
+      //   errors.memberId = true;
+      // }
+      // if (!insuranceData.groupNumber.trim()) {
+      //   errors.groupNumber = true;
+      // }
     }
     
     setValidationErrors(errors);
@@ -141,7 +144,8 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
         provider: insuranceData.insuranceProvider,
         providerId: insuranceData.insuranceId, // Add the insurance ID
         memberId: insuranceData.memberId,
-        groupNumber: insuranceData.groupNumber
+        groupNumber: insuranceData.groupNumber,
+        othercomp: insuranceData.othercomp
       } : undefined;
 
       // Ensure insuranceId is null when no insurance
@@ -313,7 +317,7 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
           <>
             <div>
             <label className="block text-sm text-gray-600 mb-1">
-              Insurance <span className="text-gray-500">*</span>
+              Insurance
             </label>
             <select
               value={insuranceData.insuranceId}
@@ -343,9 +347,28 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
             )}
           </div>
 
+          <div>
+              <label className="block text-sm text-gray-600 mb-1">
+                Other
+              </label>
+              <input
+                type="text"
+                value={insuranceData.othercomp}
+                onChange={(e) => handleChange('othercomp', e.target.value)}
+                className={`w-full px-3 py-2 border rounded text-sm focus:outline-none focus:ring-1 focus:ring-teal-500 focus:border-teal-500 ${
+                  validationErrors.othercomp 
+                    ? 'border-red-500 ring-1 ring-red-500' 
+                    : 'border-gray-300'
+                }`}
+              />
+              {validationErrors.othercomp && (
+                <p className="text-red-500 text-xs mt-1">Please enter Other Company</p>
+              )}
+            </div>
+
             <div>
               <label className="block text-sm text-gray-600 mb-1">
-                Member ID <span className="text-gray-500">*</span>
+                Member ID
               </label>
               <input
                 type="text"
@@ -364,7 +387,7 @@ const StepInsuranceInfo = ({ prevStep, formData, setFormData, onComplete }: any)
 
             <div>
               <label className="block text-sm text-gray-600 mb-1">
-                Group Number <span className="text-gray-500">*</span>
+                Group Number
               </label>
               <input
                 type="text"

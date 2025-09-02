@@ -26,7 +26,7 @@ import TechCompanies from './tech-comp';
 
 const banners = [
     {
-        image: '/Images/banners/WelcometoUrbanDentalBayonne-NJ.webp',
+        image: '/Images/banners/Urban-Dental-Bayonne-NJ.webp',
         title: 'Welcome to Urban Dental Bayonne',
         subtitle: 'Your Local Dentist in Bayonne, NJ for Healthy & Beautiful Smiles',
         image2: '/Images/Banner1.jpg',
@@ -384,7 +384,7 @@ export default function HomePage() {
                     {/* Left Side - Image */}
                     <Slide direction="right" className="w-full md:w-1/2 h-64 md:h-120">
                         <img
-                            src="/Images/banners/about-us.webp"
+                            src="/Images/banners/Urban-outside.webp"
                             alt="dental-banner"
                             className="rounded-md md:rounded-xl w-full h-full object-cover shadow-md"
                         />
