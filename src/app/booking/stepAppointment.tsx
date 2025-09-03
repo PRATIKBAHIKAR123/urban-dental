@@ -867,7 +867,7 @@ const StepAppointment = ({ nextStep, formData, setFormData, dailyTimeSlots, load
                   }`}
               >
                 {loading ? <div className="flex justify-center items-center">
-          <div className="animate-spin rounded-full h-4 w-4 border-t-2 border-secondary"></div>
+          <div className="animate-spin rounded-full h-4 w-4  border-t-2 border-secondary"></div>
         </div> : null}
                 <span className="text-xs font-medium">{dateObj.day}</span>
                 <span className="font-semibold">{dateObj.date}</span>
